@@ -1,0 +1,111 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "value": 1,
+            "name": "事故",
+            "eventLevel": [
+                {
+                    "value": 101,
+                    "name": "危急",
+                    "desc": null
+                },
+                {
+                    "value": 102,
+                    "name": "严重",
+                    "desc": null
+                },
+                {
+                    "value": 103,
+                    "name": "一般",
+                    "desc": null
+                }
+            ]
+        },
+        {
+            "value": 2,
+            "name": "异常",
+            "eventLevel": [
+                {
+                    "value": 201,
+                    "name": "危急",
+                    "desc": null
+                },
+                {
+                    "value": 202,
+                    "name": "严重",
+                    "desc": null
+                },
+                {
+                    "value": 203,
+                    "name": "一般",
+                    "desc": null
+                }
+            ]
+        },
+        {
+            "value": 3,
+            "name": "越限",
+            "eventLevel": [
+                {
+                    "value": 301,
+                    "name": "危急",
+                    "desc": null
+                },
+                {
+                    "value": 302,
+                    "name": "严重",
+                    "desc": null
+                },
+                {
+                    "value": 303,
+                    "name": "一般",
+                    "desc": null
+                }
+            ]
+        },
+        {
+            "value": 4,
+            "name": "变位",
+            "eventLevel": [
+                {
+                    "value": 401,
+                    "name": "危急",
+                    "desc": null
+                },
+                {
+                    "value": 402,
+                    "name": "严重",
+                    "desc": null
+                },
+                {
+                    "value": 403,
+                    "name": "一般",
+                    "desc": null
+                }
+            ]
+        },
+        {
+            "value": 5,
+            "name": "告知",
+            "eventLevel": [
+                {
+                    "value": 501,
+                    "name": "危急",
+                    "desc": null
+                },
+                {
+                    "value": 502,
+                    "name": "严重",
+                    "desc": null
+                },
+                {
+                    "value": 503,
+                    "name": "一般",
+                    "desc": null
+                }
+            ]
+        }
+    ]
+}

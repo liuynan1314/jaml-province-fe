@@ -1,0 +1,137 @@
+{
+    "code": 200,
+    "msg": "",
+    "data": [
+        {
+            "actualValue": null,
+            "displayValue": "断路器",
+            "displayPinyin": null,
+            "children": [
+                {
+                    "actualValue": 0,
+                    "todayCnt": 2,
+                    "children": [],
+                    "displayValue": "断路器等设备三相电流严重不平衡"
+                },
+                {
+                    "actualValue": 1,
+                    "todayCnt": 3,
+                    "children": [],
+                    "displayValue": "断路器储能机构异常"
+                },
+                {
+                    "actualValue": 2,
+                    "todayCnt": 2,
+                    "children": [],
+                    "displayValue": "断路器分合闸位置不正确"
+                },
+                {
+                    "actualValue": 3,
+                    "todayCnt": 1,
+                    "children": [],
+                    "displayValue": "断路器动作后弹簧储能异常"
+                },
+                {
+                    "actualValue": 4,
+                    "todayCnt": 6,
+                    "children": [],
+                    "displayValue": "断路器分合闸严重不同期"
+                },
+                {
+                    "actualValue": 14,
+                    "todayCnt": 1,
+                    "children": [],
+                    "displayValue": "隔离开关、断路器未变位时间统计"
+                },
+                {
+                    "actualValue": 15,
+                    "todayCnt": 0,
+                    "children": [],
+                    "displayValue": "断路器开断短路电流次数及累计电流值统计"
+                },
+                {
+                    "actualValue": 16,
+                    "todayCnt": 4,
+                    "children": [],
+                    "displayValue": "断路器开合次数分类自动统计"
+                }
+            ]
+        },
+        {
+            "actualValue": null,
+            "displayValue": "变压器",
+            "displayPinyin": null,
+            "children": [
+                {
+                    "actualValue": 5,
+                    "todayCnt": 0,
+                    "children": [],
+                    "displayValue": "变压器油温及绕组温度异常"
+                },
+                {
+                    "actualValue": 6,
+                    "todayCnt": 2,
+                    "children": [],
+                    "displayValue": "并列运行主变分接开关实际电压比不一致"
+                },
+                {
+                    "actualValue": 7,
+                    "todayCnt": 2,
+                    "children": [],
+                    "displayValue": "空载站用变高压侧断线"
+                },
+                {
+                    "actualValue": 13,
+                    "todayCnt": 1,
+                    "children": [],
+                    "displayValue": "主变承受短路电流次数及累计电流值统计"
+                }
+            ]
+        },
+
+        {
+            "actualValue": null,
+            "displayValue": "母线",
+            "displayPinyin": null,
+            "children": [
+                {
+                    "actualValue": 8,
+                    "todayCnt": 4,
+                    "children": [],
+                    "displayValue": "GIS母线双跨隔离开关分合不到位"
+                },
+                {
+                    "actualValue": 9,
+                    "todayCnt": 2,
+                    "children": [],
+                    "displayValue": "500千伏主变低压侧小电流接地系统单相接地"
+                },
+                {
+                    "actualValue": 10,
+                    "todayCnt": 3,
+                    "children": [],
+                    "displayValue": "电容式电压互感器（CVT）电压异常"
+                }
+            ]
+        },
+        {
+            "actualValue": null,
+            "displayValue": "公共",
+            "displayPinyin": null,
+            "children": [
+                {
+                    "actualValue": 11,
+                    "todayCnt": 5,
+                    "children": [],
+                    "displayValue": "测控装置死机"
+                },
+                {
+                    "actualValue": 12,
+                    "todayCnt": 2,
+                    "children": [],
+                    "displayValue": "变电站至集控主站数据异常"
+                }
+            ]
+        }
+    ]
+}

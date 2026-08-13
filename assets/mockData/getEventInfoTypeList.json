@@ -1,0 +1,30 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "type": 0,
+            "typeName": "未分类"
+        },
+        {
+            "type": 1,
+            "typeName": "事故"
+        },
+        {
+            "type": 2,
+            "typeName": "异常"
+        },
+        {
+            "type": 3,
+            "typeName": "越限"
+        },
+        {
+            "type": 4,
+            "typeName": "变位"
+        },
+        {
+            "type": 5,
+            "typeName": "告知1"
+        }
+    ]
+}

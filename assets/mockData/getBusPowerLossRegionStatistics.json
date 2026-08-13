@@ -1,0 +1,19 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        { "regionId": 100, "regionName": "南京", "total": 0 },
+        { "regionId": 101, "regionName": "苏州", "total": 4 },
+        { "regionId": 102, "regionName": "徐州", "total": 0 },
+        { "regionId": 103, "regionName": "无锡", "total": 2 },
+        { "regionId": 104, "regionName": "常州", "total": 1 },
+        { "regionId": 105, "regionName": "镇江", "total": 0 },
+        { "regionId": 106, "regionName": "扬州", "total": 8 },
+        { "regionId": 107, "regionName": "泰州", "total": 0 },
+        { "regionId": 108, "regionName": "南通", "total": 4 },
+        { "regionId": 109, "regionName": "盐城", "total": 2 },
+        { "regionId": 110, "regionName": "淮安", "total": 0 },
+        { "regionId": 111, "regionName": "宿迁", "total": 5 },
+        { "regionId": 112, "regionName": "连云港", "total": 1 }
+    ]
+}

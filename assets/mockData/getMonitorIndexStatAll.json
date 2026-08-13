@@ -1,0 +1,38 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "regionId": -1,
+        "regionName": "全局",
+        "channel": {
+            "type": "channel",
+            "abnormal": "1220.3 分",
+            "total": "2880 分",
+            "rate": 0.5762
+        },
+        "accident": {
+            "type": "accident",
+            "abnormal": "1",
+            "total": "1 个",
+            "rate": 0.0
+        },
+        "yxYcMatch": {
+            "type": "yxYcMatch",
+            "abnormal": "1",
+            "total": "1 个",
+            "rate": 0.0
+        },
+        "dataCompleteness": {
+            "type": "dataCompleteness",
+            "abnormal": "3",
+            "total": "3 个",
+            "rate": 0.0
+        },
+        "dataValid": {
+            "type": "dataValid",
+            "abnormal": "2",
+            "total": "2 个",
+            "rate": 0.0
+        }
+    }
+}

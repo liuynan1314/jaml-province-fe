@@ -1,0 +1,66 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 208,
+            "regionName": "tianjin",
+            "regionNameChn": "208"
+        },
+        {
+            "regionId": 12,
+            "regionName": "tianjin",
+            "regionNameChn": "高压"
+        },
+        {
+            "regionId": 98,
+            "regionName": "binghai",
+            "regionNameChn": "滨海"
+        },
+        {
+            "regionId": 96,
+            "regionName": "chengnan",
+            "regionNameChn": "城南"
+        },
+        {
+            "regionId": 99,
+            "regionName": "chengxi",
+            "regionNameChn": "城西"
+        },
+        {
+            "regionId": 97,
+            "regionName": "chengdong",
+            "regionNameChn": "城东"
+        },
+        {
+            "regionId": 95,
+            "regionName": "dongli",
+            "regionNameChn": "东丽"
+        },
+        {
+            "regionId": 93,
+            "regionName": "baodi",
+            "regionNameChn": "宝坻"
+        },
+        {
+            "regionId": 92,
+            "regionName": "jinghai",
+            "regionNameChn": "静海"
+        },
+        {
+            "regionId": 91,
+            "regionName": "ninghe",
+            "regionNameChn": "宁河"
+        },
+        {
+            "regionId": 94,
+            "regionName": "jizhou",
+            "regionNameChn": "蓟州"
+        },
+        {
+            "regionId": 90,
+            "regionName": "wuqing",
+            "regionNameChn": "武清"
+        }
+    ]
+}

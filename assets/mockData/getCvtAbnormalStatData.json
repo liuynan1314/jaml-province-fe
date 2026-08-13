@@ -1,0 +1,13 @@
+{
+    "code": 0,
+    "msg": "",
+    "data": [
+        {
+            "areaId": "",
+            "areaName": "",
+            "abnormal": 0,
+            "normal": 0,
+            "total": 0
+        }
+    ]
+}

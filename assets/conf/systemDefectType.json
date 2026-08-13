@@ -1,0 +1,46 @@
+{
+    "typeData": [
+        {
+            "name": "人机界面缺陷",
+            "value": 1
+        },
+        {
+            "name": "软件缺陷",
+            "value": 2
+        },
+        {
+            "name": "硬件缺陷",
+            "value": 3
+        },
+        {
+            "name": "告警信息缺陷",
+            "value": 4
+        },
+        {
+            "name": "其他类型缺陷",
+            "value": 5
+        }
+    ],
+    "statusData": [
+        {
+            "name": "待分配",
+            "value": 1
+        },
+        {
+            "name": "已确认",
+            "value": 2
+        },
+        {
+            "name": "处理中",
+            "value": 3
+        },
+        {
+            "name": "已解决",
+            "value": 4
+        },
+        {
+            "name": "已归档",
+            "value": 5
+        }
+    ]
+}

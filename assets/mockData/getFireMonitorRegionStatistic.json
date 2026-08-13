@@ -1,0 +1,94 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 12,
+            "regionName": "高压",
+            "signalCnt": 1,
+            "gasCnt": 20,
+            "smokeCnt": 20,
+            "lightingCnt": 20
+        },
+        {
+            "regionId": 98,
+            "regionName": "滨海",
+            "signalCnt": 20,
+            "gasCnt": 20,
+            "smokeCnt": 20,
+            "lightingCnt": 20
+        },
+        {
+            "regionId": 96,
+            "regionName": "城南",
+            "signalCnt": 20,
+            "gasCnt": 20,
+            "smokeCnt": 3,
+            "lightingCnt": 20
+        },
+        {
+            "regionId": 99,
+            "regionName": "城西",
+            "signalCnt": 20,
+            "gasCnt": 20,
+            "smokeCnt": 20,
+            "lightingCnt": 20
+        },
+        {
+            "regionId": 97,
+            "regionName": "城东",
+            "signalCnt": 4,
+            "gasCnt": 20,
+            "smokeCnt": 20,
+            "lightingCnt": 5
+        },
+        {
+            "regionId": 95,
+            "regionName": "东丽",
+            "signalCnt": 20,
+            "gasCnt": 20,
+            "smokeCnt": 20,
+            "lightingCnt": 7
+        },
+        {
+            "regionId": 93,
+            "regionName": "宝坻",
+            "signalCnt": 20,
+            "gasCnt": 20,
+            "smokeCnt": 20,
+            "lightingCnt": 41
+        },
+        {
+            "regionId": 92,
+            "regionName": "静海",
+            "signalCnt": 20,
+            "gasCnt": 20,
+            "smokeCnt": 20,
+            "lightingCnt": 14
+        },
+        {
+            "regionId": 91,
+            "regionName": "宁河",
+            "signalCnt": 20,
+            "gasCnt": 20,
+            "smokeCnt": 20,
+            "lightingCnt": 32
+        },
+        {
+            "regionId": 94,
+            "regionName": "蓟州",
+            "signalCnt": 20,
+            "gasCnt": 21,
+            "smokeCnt": 20,
+            "lightingCnt": 20
+        },
+        {
+            "regionId": 90,
+            "regionName": "武清",
+            "signalCnt": 45,
+            "gasCnt": 20,
+            "smokeCnt": 32,
+            "lightingCnt": 20
+        }
+    ]
+}

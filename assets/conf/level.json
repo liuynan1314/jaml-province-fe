@@ -1,0 +1,297 @@
+{
+    "1001": {
+        "name": "1000kV",
+        "filter": false,
+        "color": 32698
+    },
+    "1002": {
+        "name": "750kV",
+        "filter": false,
+        "color": 16416265
+    },
+    "1003": {
+        "name": "500kV",
+        "filter": false,
+        "color": 16711680
+    },
+    "1004": {
+        "name": "330kV",
+        "filter": false,
+        "color": 2003711
+    },
+    "1005": {
+        "name": "220kV",
+        "filter": false,
+        "color": 12648641
+    },
+    "1006": {
+        "name": "110kV",
+        "filter": false,
+        "color": 16755455
+    },
+    "1007": {
+        "name": "66kV",
+        "filter": false,
+        "color": 16514816
+    },
+    "1008": {
+        "name": "35kV",
+        "filter": false,
+        "color": 65535
+    },
+    "1009": {
+        "name": "20kV",
+        "filter": false,
+        "color": 16755200
+    },
+    "1010": {
+        "name": "10kV",
+        "filter": false,
+        "color": 16776960
+    },
+    "1011": {
+        "name": "6kV",
+        "filter": false,
+        "color": 5635965
+    },
+    "1012": {
+        "name": "3kV",
+        "filter": false,
+        "color": 11206655
+    },
+    "1013": {
+        "name": "0.4kV",
+        "filter": false,
+        "color": 255
+    },
+    "1014": {
+        "name": "220V",
+        "filter": false,
+        "color": 0
+    },
+    "1099": {
+        "name": "中性点",
+        "filter": false,
+        "color": 20000
+    },
+    "2000": {
+        "name": "±1100kV",
+        "filter": false,
+        "color": 608961
+    },
+    "2001": {
+        "name": "±1000kV",
+        "filter": false,
+        "color": 32698
+    },
+    "2002": {
+        "name": "±800kV",
+        "filter": false,
+        "color": 608961
+    },
+    "2003": {
+        "name": "±660kV",
+        "filter": false,
+        "color": 15112448
+    },
+    "2004": {
+        "name": "±500kV",
+        "filter": false,
+        "color": 16711680
+    },
+    "2005": {
+        "name": "±400kV",
+        "filter": false,
+        "color": 16711680
+    },
+    "2006": {
+        "name": "±167kV",
+        "filter": false,
+        "color": 16384000
+    },
+    "2007": {
+        "name": "±125kV",
+        "filter": false,
+        "color": 16384000
+    },
+    "2008": {
+        "name": "±120kV",
+        "filter": false,
+        "color": 16384000
+    },
+    "2099": {
+        "name": "0V(直流接地)",
+        "filter": false,
+        "color": 8355711
+    },
+    "2009": {
+        "name": "±200kV",
+        "filter": false,
+        "color": 16711680
+    },
+    "3001": {
+        "name": "15.75kV",
+        "filter": false,
+        "color": 32768
+    },
+    "3002": {
+        "name": "15kV",
+        "filter": false,
+        "color": 32768
+    },
+    "3003": {
+        "name": "23kV",
+        "filter": false,
+        "color": 16755327
+    },
+    "3004": {
+        "name": "19kV",
+        "filter": false,
+        "color": 16755327
+    },
+    "3005": {
+        "name": "27kV",
+        "filter": false,
+        "color": 16755327
+    },
+    "3006": {
+        "name": "60kV",
+        "filter": false,
+        "color": 16776960
+    },
+    "2010": {
+        "name": "±50kV",
+        "filter": false,
+        "color": 16711680
+    },
+    "3007": {
+        "name": "10.5kV",
+        "filter": false,
+        "color": 16776960
+    },
+    "3008": {
+        "name": "13kV",
+        "filter": false,
+        "color": 53760
+    },
+    "3009": {
+        "name": "13.8kV",
+        "filter": false,
+        "color": 65535
+    },
+    "3011": {
+        "name": "18kV",
+        "filter": false,
+        "color": 16755200
+    },
+    "3012": {
+        "name": "22kV",
+        "filter": false,
+        "color": 16755200
+    },
+    "3013": {
+        "name": "24kV",
+        "filter": false,
+        "color": 16755327
+    },
+    "3014": {
+        "name": "33kV",
+        "filter": false,
+        "color": 16711935
+    },
+    "3015": {
+        "name": "25kV",
+        "filter": false,
+        "color": 5505151
+    },
+    "3016": {
+        "name": "0.69kV",
+        "filter": false,
+        "color": 0
+    },
+    "2011": {
+        "name": "±420kV",
+        "filter": false,
+        "color": 16711680
+    },
+    "3017": {
+        "name": "11.5kV",
+        "filter": false,
+        "color": 16776960
+    },
+    "3018": {
+        "name": "21.5kV",
+        "filter": false,
+        "color": 16776960
+    },
+    "4001": {
+        "name": "30kV",
+        "filter": false,
+        "color": 16755327
+    },
+    "2012": {
+        "name": "±150kV",
+        "filter": false,
+        "color": 0
+    },
+    "2013": {
+        "name": "±40kV",
+        "filter": false,
+        "color": 0
+    },
+    "2014": {
+        "name": "±100kV",
+        "filter": false,
+        "color": 16711680
+    },
+    "2015": {
+        "name": "±95kV",
+        "filter": false,
+        "color": 0
+    },
+    "2100": {
+        "name": "****",
+        "filter": false,
+        "color": 0
+    },
+    "3010": {
+        "name": "15kV",
+        "filter": false,
+        "color": 32768
+    },
+    "5001": {
+        "name": "50kV",
+        "filter": false,
+        "color": 0
+    },
+    "5002": {
+        "name": "70kV",
+        "filter": false,
+        "color": 0
+    },
+    "5003": {
+        "name": "167kV",
+        "filter": false,
+        "color": 16711680
+    },
+    "5004": {
+        "name": "200kV",
+        "filter": false,
+        "color": 0
+    },
+    "5005": {
+        "name": "280kV",
+        "filter": false,
+        "color": 0
+    },
+    "2016": {
+        "name": "±320kV",
+        "filter": false,
+        "color": 0
+    },
+    "3019": {
+        "name": "6.3kV",
+        "filter": false,
+        "color": 0
+    }
+}

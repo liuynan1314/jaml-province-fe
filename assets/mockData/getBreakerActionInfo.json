@@ -1,0 +1,1819 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "pageSize": 50,
+        "pageIndex": 1,
+        "pageCount": 17,
+        "pojoTotalCount": 809,
+        "list": [
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": null,
+                "groupName": null,
+                "bvId": "112871465677750279",
+                "bvName": "220kV",
+                "stId": "113997365769142862",
+                "stName": null,
+                "devId": "114560315722577628",
+                "devName": "天津.风顺/220kV.2222开关A相",
+                "breakBw": 9,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:24:06",
+                        "content": "2023年11月08日  11:24:06       天津.风顺/220kV.2222开关A相      合闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:20:46",
+                        "content": "2023年11月08日  11:20:46       天津.风顺/220kV.2222开关A相      分闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:17:31",
+                        "content": "2023年11月08日  11:17:31       天津.风顺/220kV.2222开关A相      合闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:13:09",
+                        "content": "2023年11月08日  11:13:09       天津.风顺/220kV.2222开关A相      分闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:08:46",
+                        "content": "2023年11月08日  11:08:46       天津.风顺/220kV.2222开关A相      合闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:06:28",
+                        "content": "2023年11月08日  11:06:28       天津.风顺/220kV.2222开关A相      分闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:03:01",
+                        "content": "2023年11月08日  11:03:01       天津.风顺/220kV.2222开关A相      合闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 10:55:51",
+                        "content": "2023年11月08日  10:55:51       天津.风顺/220kV.2222开关A相      分闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 10:54:10",
+                        "content": "2023年11月08日  10:54:10       天津.风顺/220kV.2222开关A相      合闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-10-16 16:37:51",
+                        "content": "2023年10月16日  16:37:51       天津.风顺/220kV.2222开关A相      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": null,
+                "groupName": null,
+                "bvId": "112871465677750279",
+                "bvName": "220kV",
+                "stId": "113997365769142862",
+                "stName": null,
+                "devId": "114560315722577629",
+                "devName": "天津.风顺/220kV.2222开关B相",
+                "breakBw": 9,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:24:06",
+                        "content": "2023年11月08日  11:24:06       天津.风顺/220kV.2222开关B相      合闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:20:46",
+                        "content": "2023年11月08日  11:20:46       天津.风顺/220kV.2222开关B相      分闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:17:31",
+                        "content": "2023年11月08日  11:17:31       天津.风顺/220kV.2222开关B相      合闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:13:09",
+                        "content": "2023年11月08日  11:13:09       天津.风顺/220kV.2222开关B相      分闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:08:46",
+                        "content": "2023年11月08日  11:08:46       天津.风顺/220kV.2222开关B相      合闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:06:28",
+                        "content": "2023年11月08日  11:06:28       天津.风顺/220kV.2222开关B相      分闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:03:01",
+                        "content": "2023年11月08日  11:03:01       天津.风顺/220kV.2222开关B相      合闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 10:55:51",
+                        "content": "2023年11月08日  10:55:51       天津.风顺/220kV.2222开关B相      分闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 10:54:10",
+                        "content": "2023年11月08日  10:54:10       天津.风顺/220kV.2222开关B相      合闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-10-16 16:37:51",
+                        "content": "2023年10月16日  16:37:51       天津.风顺/220kV.2222开关B相      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": null,
+                "groupName": null,
+                "bvId": "112871465677750279",
+                "bvName": "220kV",
+                "stId": "113997365769142862",
+                "stName": null,
+                "devId": "114560315722577630",
+                "devName": "天津.风顺/220kV.2222开关C相",
+                "breakBw": 9,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:24:06",
+                        "content": "2023年11月08日  11:24:06       天津.风顺/220kV.2222开关C相      合闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:20:46",
+                        "content": "2023年11月08日  11:20:46       天津.风顺/220kV.2222开关C相      分闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:17:31",
+                        "content": "2023年11月08日  11:17:31       天津.风顺/220kV.2222开关C相      合闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:13:09",
+                        "content": "2023年11月08日  11:13:09       天津.风顺/220kV.2222开关C相      分闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:08:46",
+                        "content": "2023年11月08日  11:08:46       天津.风顺/220kV.2222开关C相      合闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:06:28",
+                        "content": "2023年11月08日  11:06:28       天津.风顺/220kV.2222开关C相      分闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 11:03:01",
+                        "content": "2023年11月08日  11:03:01       天津.风顺/220kV.2222开关C相      合闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 10:55:51",
+                        "content": "2023年11月08日  10:55:51       天津.风顺/220kV.2222开关C相      分闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-11-08 10:54:10",
+                        "content": "2023年11月08日  10:54:10       天津.风顺/220kV.2222开关C相      合闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": null,
+                        "stId": "113997365769142862",
+                        "occurTime": "2023-10-16 16:37:51",
+                        "content": "2023年10月16日  16:37:51       天津.风顺/220kV.2222开关C相      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294853",
+                "groupName": "变电运维十六班",
+                "bvId": "112871465677750279",
+                "bvName": "220kV",
+                "stId": "113997365769142822",
+                "stName": "张贵庄",
+                "devId": "114560315722576578",
+                "devName": "天津.张贵庄/220kV.2219开关",
+                "breakBw": 2,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "张贵庄",
+                        "stId": "113997365769142822",
+                        "occurTime": "2023-11-08 10:58:21",
+                        "content": "2023年11月08日  10:58:21       天津.张贵庄/220kV.2219开关      合闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "张贵庄",
+                        "stId": "113997365769142822",
+                        "occurTime": "2023-11-08 10:58:20",
+                        "content": "2023年11月08日  10:58:20       天津.张贵庄/220kV.2219开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 2,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "张贵庄",
+                        "stId": "113997365769142822",
+                        "occurTime": "2023-11-08 10:58:21",
+                        "content": "2023年11月08日  10:58:21       天津.张贵庄/220kV.2219开关      事故分闸"
+                    },
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "张贵庄",
+                        "stId": "113997365769142822",
+                        "occurTime": "2023-11-08 10:58:20",
+                        "content": "2023年11月08日  10:58:20       天津.张贵庄/220kV.2219开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142600",
+                "stName": "津奥",
+                "devId": "114560315722569295",
+                "devName": "天津.津奥/35kV.3052开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "津奥",
+                        "stId": "113997365769142600",
+                        "occurTime": "2023-11-08 13:30:52",
+                        "content": "2023年11月08日  13:30:52       天津.津奥/35kV.3052开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "津奥",
+                        "stId": "113997365769142600",
+                        "occurTime": "2023-06-01 10:41:11",
+                        "content": "2023年06月01日  10:41:11       天津.津奥 天津.津奥/35kV.3052开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294849",
+                "groupName": "变电运维四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142755",
+                "stName": "武清",
+                "devId": "114560315722574435",
+                "devName": "天津.武清/35kV.3071开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "武清",
+                        "stId": "113997365769142755",
+                        "occurTime": "2023-11-08 11:15:46",
+                        "content": "2023年11月08日  11:15:46       天津.武清/35kV.3071开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 0,
+                "brakerTripBwDetails": null
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294853",
+                "groupName": "变电运维十六班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142690",
+                "stName": "瑞江南",
+                "devId": "114560315722572000",
+                "devName": "天津.瑞江南/35kV.3054开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "瑞江南",
+                        "stId": "113997365769142690",
+                        "occurTime": "2023-11-08 13:05:48",
+                        "content": "2023年11月08日  13:05:48       天津.瑞江南/35kV.3054开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 4,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "瑞江南",
+                        "stId": "113997365769142690",
+                        "occurTime": "2023-07-14 12:03:01",
+                        "content": "2023年07月14日  12:03:01       天津.瑞江南 天津.瑞江南/35kV.3054开关      事故分闸"
+                    },
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "瑞江南",
+                        "stId": "113997365769142690",
+                        "occurTime": "2023-07-14 11:45:31",
+                        "content": "2023年07月14日  11:45:31       天津.瑞江南 天津.瑞江南/35kV.3054开关      事故分闸"
+                    },
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "瑞江南",
+                        "stId": "113997365769142690",
+                        "occurTime": "2023-07-14 11:30:48",
+                        "content": "2023年07月14日  11:30:48       天津.瑞江南 天津.瑞江南/35kV.3054开关      事故分闸"
+                    },
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "瑞江南",
+                        "stId": "113997365769142690",
+                        "occurTime": "2023-07-14 11:18:35",
+                        "content": "2023年07月14日  11:18:35       天津.瑞江南 天津.瑞江南/35kV.3054开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294851",
+                "groupName": "变电运维七班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142784",
+                "stName": "新杨柳青",
+                "devId": "114560315722575161",
+                "devName": "天津.新杨柳青/35kV.3051开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "新杨柳青",
+                        "stId": "113997365769142784",
+                        "occurTime": "2023-11-08 13:30:52",
+                        "content": "2023年11月08日  13:30:52       天津.新杨柳青/35kV.3051开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 0,
+                "brakerTripBwDetails": null
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294849",
+                "groupName": "变电运维四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142816",
+                "stName": "渔阳",
+                "devId": "114560315722576290",
+                "devName": "天津.渔阳/35kV.320开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "渔阳",
+                        "stId": "113997365769142816",
+                        "occurTime": "2023-11-08 10:57:45",
+                        "content": "2023年11月08日  10:57:45       天津.渔阳/35kV.320开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 0,
+                "brakerTripBwDetails": null
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294856",
+                "groupName": "特高压变电运维班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142809",
+                "stName": "迎丰",
+                "devId": "114560315722576039",
+                "devName": "天津.迎丰/35kV.3069开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "迎丰",
+                        "stId": "113997365769142809",
+                        "occurTime": "2023-11-08 11:31:13",
+                        "content": "2023年11月08日  11:31:13       天津.迎丰/35kV.3069开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 0,
+                "brakerTripBwDetails": null
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294856",
+                "groupName": "特高压变电运维班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142809",
+                "stName": "迎丰",
+                "devId": "114560315722576036",
+                "devName": "天津.迎丰/35kV.3066开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "迎丰",
+                        "stId": "113997365769142809",
+                        "occurTime": "2023-11-08 11:30:51",
+                        "content": "2023年11月08日  11:30:51       天津.迎丰/35kV.3066开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 0,
+                "brakerTripBwDetails": null
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142678",
+                "stName": "青凝侯",
+                "devId": "114560315722571480",
+                "devName": "天津.青凝侯/35kV.3054开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "青凝侯",
+                        "stId": "113997365769142678",
+                        "occurTime": "2023-11-08 13:30:48",
+                        "content": "2023年11月08日  13:30:48       天津.青凝侯/35kV.3054开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 0,
+                "brakerTripBwDetails": null
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294856",
+                "groupName": "特高压变电运维班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142674",
+                "stName": "乾隆湖",
+                "devId": "114560315722571293",
+                "devName": "天津.乾隆湖/35kV.3072乙开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "乾隆湖",
+                        "stId": "113997365769142674",
+                        "occurTime": "2023-11-08 11:30:51",
+                        "content": "2023年11月08日  11:30:51       天津.乾隆湖/35kV.3072乙开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 0,
+                "brakerTripBwDetails": null
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142301",
+                "stName": "吴庄",
+                "devId": "114560315722564519",
+                "devName": "华北.吴庄/35kV.351开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "吴庄",
+                        "stId": "113997365769142301",
+                        "occurTime": "2023-11-08 13:11:31",
+                        "content": "2023年11月08日  13:11:31       华北.吴庄/35kV.351开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 0,
+                "brakerTripBwDetails": null
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294855",
+                "groupName": "变电运维二十六班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142827",
+                "stName": "中船东",
+                "devId": "114560315722576717",
+                "devName": "天津.中船东/35kV.3063开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "中船东",
+                        "stId": "113997365769142827",
+                        "occurTime": "2023-11-08 11:35:48",
+                        "content": "2023年11月08日  11:35:48       天津.中船东/35kV.3063开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 2,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "中船东",
+                        "stId": "113997365769142827",
+                        "occurTime": "2023-07-18 15:59:16",
+                        "content": "2023年07月18日  15:59:16       天津.中船东 天津.中船东/35kV.3063开关      事故分闸"
+                    },
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "中船东",
+                        "stId": "113997365769142827",
+                        "occurTime": "2023-07-18 13:01:48",
+                        "content": "2023年07月18日  13:01:48       天津.中船东 天津.中船东/35kV.3063开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294850",
+                "groupName": "变电运维六班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142754",
+                "stName": "卫国道",
+                "devId": "114560315722574341",
+                "devName": "天津.卫国道/35kV.3051开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "卫国道",
+                        "stId": "113997365769142754",
+                        "occurTime": "2023-11-08 10:58:26",
+                        "content": "2023年11月08日  10:58:26       天津.卫国道/35kV.3051开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 2,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "卫国道",
+                        "stId": "113997365769142754",
+                        "occurTime": "2023-11-08 10:58:26",
+                        "content": "2023年11月08日  10:58:26       天津.卫国道/35kV.3051开关      事故分闸"
+                    },
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "卫国道",
+                        "stId": "113997365769142754",
+                        "occurTime": "2023-05-12 09:37:25",
+                        "content": "2023年05月12日  09:37:25       天津.卫国道 天津.卫国道/35kV.3051开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294849",
+                "groupName": "变电运维四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142706",
+                "stName": "石各庄",
+                "devId": "114560315722573067",
+                "devName": "天津.石各庄/35kV.3073乙开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "石各庄",
+                        "stId": "113997365769142706",
+                        "occurTime": "2023-11-08 12:00:46",
+                        "content": "2023年11月08日  12:00:46       天津.石各庄/35kV.3073乙开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 0,
+                "brakerTripBwDetails": null
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294855",
+                "groupName": "变电运维二十六班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142562",
+                "stName": "海门",
+                "devId": "114560315722567854",
+                "devName": "天津.海门/35kV.3063开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "海门",
+                        "stId": "113997365769142562",
+                        "occurTime": "2023-11-08 12:15:44",
+                        "content": "2023年11月08日  12:15:44       天津.海门/35kV.3063开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 0,
+                "brakerTripBwDetails": null
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294853",
+                "groupName": "变电运维十六班",
+                "bvId": "112871465677750279",
+                "bvName": "220kV",
+                "stId": "113997365769142442",
+                "stName": "白塘口",
+                "devId": "114560315722565048",
+                "devName": "天津.白塘口/220kV.2216开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "白塘口",
+                        "stId": "113997365769142442",
+                        "occurTime": "2023-11-08 10:58:20",
+                        "content": "2023年11月08日  10:58:20       天津.白塘口/220kV.2216开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "白塘口",
+                        "stId": "113997365769142442",
+                        "occurTime": "2023-11-08 10:58:20",
+                        "content": "2023年11月08日  10:58:20       天津.白塘口/220kV.2216开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": 12,
+                "regionName": "高压",
+                "groupId": "3757972414265294854",
+                "groupName": "变电运维二十五班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142836",
+                "stName": "鄱阳路",
+                "devId": "114560315722577027",
+                "devName": "天津.鄱阳路/35kV.3067开关",
+                "breakBw": 1,
+                "breakBwDetails": [
+                    {
+                        "regionName": "高压",
+                        "regionId": 12,
+                        "stName": "鄱阳路",
+                        "stId": "113997365769142836",
+                        "occurTime": "2023-11-08 12:15:44",
+                        "content": "2023年11月08日  12:15:44       天津.鄱阳路/35kV.3067开关      分闸"
+                    }
+                ],
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 0,
+                "brakerTripBwDetails": null
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564831",
+                "devName": "天津.八里台/35kV.315开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:29:37",
+                        "content": "2023年07月18日  16:29:37       天津.八里台 天津.八里台/35kV.315开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564832",
+                "devName": "天津.八里台/35kV.316开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:29:48",
+                        "content": "2023年07月18日  16:29:48       天津.八里台 天津.八里台/35kV.316开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564830",
+                "devName": "天津.八里台/35kV.314开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:29:25",
+                        "content": "2023年07月18日  16:29:25       天津.八里台 天津.八里台/35kV.314开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": 93,
+                "regionName": "宝坻",
+                "groupId": "3757972415624249347",
+                "groupName": "宝坻.变电运维二班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997367128096772",
+                "stName": "八门城站",
+                "devId": "114560317081518128",
+                "devName": "宝坻.八门城站/35kV.315小车开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 9,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-13 15:30:10",
+                        "content": "2023年10月13日  15:30:10       宝坻.八门城站/35kV.315小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-13 15:23:03",
+                        "content": "2023年10月13日  15:23:03       宝坻.八门城站/35kV.315小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-13 15:18:19",
+                        "content": "2023年10月13日  15:18:19       宝坻.八门城站/35kV.315小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-13 15:16:02",
+                        "content": "2023年10月13日  15:16:02       宝坻.八门城站/35kV.315小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-13 15:14:09",
+                        "content": "2023年10月13日  15:14:09       宝坻.八门城站/35kV.315小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-12 15:37:10",
+                        "content": "2023年10月12日  15:37:10       宝坻.八门城站/35kV.315小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-12 15:36:23",
+                        "content": "2023年10月12日  15:36:23       宝坻.八门城站/35kV.315小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-12 15:35:40",
+                        "content": "2023年10月12日  15:35:40       宝坻.八门城站/35kV.315小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-12 15:33:47",
+                        "content": "2023年10月12日  15:33:47       宝坻.八门城站/35kV.315小车开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": 93,
+                "regionName": "宝坻",
+                "groupId": "3757972415624249347",
+                "groupName": "宝坻.变电运维二班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997367128096772",
+                "stName": "八门城站",
+                "devId": "114560317081518129",
+                "devName": "宝坻.八门城站/35kV.345小车开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 9,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-13 15:21:02",
+                        "content": "2023年10月13日  15:21:02       宝坻.八门城站/35kV.345小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-13 15:18:22",
+                        "content": "2023年10月13日  15:18:22       宝坻.八门城站/35kV.345小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-13 15:16:02",
+                        "content": "2023年10月13日  15:16:02       宝坻.八门城站/35kV.345小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-13 15:14:10",
+                        "content": "2023年10月13日  15:14:10       宝坻.八门城站/35kV.345小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-12 15:37:10",
+                        "content": "2023年10月12日  15:37:10       宝坻.八门城站/35kV.345小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-12 15:36:26",
+                        "content": "2023年10月12日  15:36:26       宝坻.八门城站/35kV.345小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-12 15:35:41",
+                        "content": "2023年10月12日  15:35:41       宝坻.八门城站/35kV.345小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-12 15:33:59",
+                        "content": "2023年10月12日  15:33:59       宝坻.八门城站/35kV.345小车开关      事故分闸"
+                    },
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-09 16:09:11",
+                        "content": "2023年10月09日  16:09:11       宝坻.八门城站/35kV.345小车开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": 93,
+                "regionName": "宝坻",
+                "groupId": "3757972415624249347",
+                "groupName": "宝坻.变电运维二班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997367128096772",
+                "stName": "八门城站",
+                "devId": "114560317081518127",
+                "devName": "宝坻.八门城站/35kV.314小车开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": "八门城站",
+                        "stId": "113997367128096772",
+                        "occurTime": "2023-10-09 16:24:53",
+                        "content": "2023年10月09日  16:24:53       宝坻.八门城站/35kV.314小车开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142600",
+                "stName": "津奥",
+                "devId": "114560315722569294",
+                "devName": "天津.津奥/35kV.3051开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "津奥",
+                        "stId": "113997365769142600",
+                        "occurTime": "2023-06-01 10:41:05",
+                        "content": "2023年06月01日  10:41:05       天津.津奥 天津.津奥/35kV.3051开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142600",
+                "stName": "津奥",
+                "devId": "114560315722569296",
+                "devName": "天津.津奥/35kV.3053开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "津奥",
+                        "stId": "113997365769142600",
+                        "occurTime": "2023-06-01 10:41:17",
+                        "content": "2023年06月01日  10:41:17       天津.津奥 天津.津奥/35kV.3053开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142600",
+                "stName": "津奥",
+                "devId": "114560315722569297",
+                "devName": "天津.津奥/35kV.3054开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "津奥",
+                        "stId": "113997365769142600",
+                        "occurTime": "2023-06-01 10:41:24",
+                        "content": "2023年06月01日  10:41:24       天津.津奥 天津.津奥/35kV.3054开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": 93,
+                "regionName": "宝坻",
+                "groupId": null,
+                "groupName": null,
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997367128096853",
+                "stName": null,
+                "devId": "114560317081520447",
+                "devName": "301",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": "宝坻",
+                        "regionId": 93,
+                        "stName": null,
+                        "stId": "113997367128096853",
+                        "occurTime": "2023-10-09 09:53:19",
+                        "content": "2023年10月09日  09:53:19       宝坻.阎皮站/35kV.301开关      事故分闸(模拟)"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564828",
+                "devName": "天津.八里台/35kV.312开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:29:03",
+                        "content": "2023年07月18日  16:29:03       天津.八里台 天津.八里台/35kV.312开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": null,
+                "groupName": null,
+                "bvId": null,
+                "bvName": null,
+                "stId": "113997367362977855",
+                "stName": "220kV螺丝岗变",
+                "devId": "114560317316400273",
+                "devName": "160",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 1,
+                "remoteOperationDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "220kV螺丝岗变",
+                        "stId": "113997367362977855",
+                        "occurTime": "2024-04-26 17:51:28",
+                        "content": "2024年04月26日  17:51:28       广安.陈家站 10kV2#电容器926开关 控分成功 scga1-ys1 操作员xiaoyx(肖玉祥) 监护员yangyt(杨雅婷)"
+                    }
+                ],
+                "brakerTripBw": 0,
+                "brakerTripBwDetails": null
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564829",
+                "devName": "天津.八里台/35kV.313开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:29:14",
+                        "content": "2023年07月18日  16:29:14       天津.八里台 天津.八里台/35kV.313开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564826",
+                "devName": "天津.八里台/35kV.3066开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:34:41",
+                        "content": "2023年07月18日  16:34:41       天津.八里台 天津.八里台/35kV.3066开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564827",
+                "devName": "天津.八里台/35kV.311开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:28:51",
+                        "content": "2023年07月18日  16:28:51       天津.八里台 天津.八里台/35kV.311开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564824",
+                "devName": "天津.八里台/35kV.3064开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:34:21",
+                        "content": "2023年07月18日  16:34:21       天津.八里台 天津.八里台/35kV.3064开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564825",
+                "devName": "天津.八里台/35kV.3065开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:34:31",
+                        "content": "2023年07月18日  16:34:31       天津.八里台 天津.八里台/35kV.3065开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564822",
+                "devName": "天津.八里台/35kV.3062开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:34:00",
+                        "content": "2023年07月18日  16:34:00       天津.八里台 天津.八里台/35kV.3062开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564823",
+                "devName": "天津.八里台/35kV.3063开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:34:11",
+                        "content": "2023年07月18日  16:34:11       天津.八里台 天津.八里台/35kV.3063开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564842",
+                "devName": "天津.八里台/35kV.326开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:31:42",
+                        "content": "2023年07月18日  16:31:42       天津.八里台 天津.八里台/35kV.326开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564843",
+                "devName": "天津.八里台/35kV.327开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:31:54",
+                        "content": "2023年07月18日  16:31:54       天津.八里台 天津.八里台/35kV.327开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564840",
+                "devName": "天津.八里台/35kV.324开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:31:20",
+                        "content": "2023年07月18日  16:31:20       天津.八里台 天津.八里台/35kV.324开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294852",
+                "groupName": "变电运维十四班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142438",
+                "stName": "八里台",
+                "devId": "114560315722564841",
+                "devName": "天津.八里台/35kV.325开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "八里台",
+                        "stId": "113997365769142438",
+                        "occurTime": "2023-07-18 16:31:31",
+                        "content": "2023年07月18日  16:31:31       天津.八里台 天津.八里台/35kV.325开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294850",
+                "groupName": "变电运维六班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142570",
+                "stName": "航空",
+                "devId": "114560315722568190",
+                "devName": "天津.航空/35kV.314开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "航空",
+                        "stId": "113997365769142570",
+                        "occurTime": "2023-05-16 14:24:44",
+                        "content": "2023年05月16日  14:24:44       天津.航空 天津.航空/35kV.314开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294850",
+                "groupName": "变电运维六班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142570",
+                "stName": "航空",
+                "devId": "114560315722568191",
+                "devName": "天津.航空/35kV.315开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "航空",
+                        "stId": "113997365769142570",
+                        "occurTime": "2023-05-16 14:24:49",
+                        "content": "2023年05月16日  14:24:49       天津.航空 天津.航空/35kV.315开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294850",
+                "groupName": "变电运维六班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142570",
+                "stName": "航空",
+                "devId": "114560315722568192",
+                "devName": "天津.航空/35kV.316开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "航空",
+                        "stId": "113997365769142570",
+                        "occurTime": "2023-05-16 14:24:54",
+                        "content": "2023年05月16日  14:24:54       天津.航空 天津.航空/35kV.316开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294850",
+                "groupName": "变电运维六班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142632",
+                "stName": "利民道",
+                "devId": "114560315722570029",
+                "devName": "天津.利民道/35kV.319开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "利民道",
+                        "stId": "113997365769142632",
+                        "occurTime": "2023-07-06 18:36:23",
+                        "content": "2023年07月06日  18:36:23       天津.利民道 天津.利民道/35kV.319开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294850",
+                "groupName": "变电运维六班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142570",
+                "stName": "航空",
+                "devId": "114560315722568193",
+                "devName": "天津.航空/35kV.317开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "航空",
+                        "stId": "113997365769142570",
+                        "occurTime": "2023-05-16 14:24:58",
+                        "content": "2023年05月16日  14:24:58       天津.航空 天津.航空/35kV.317开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294850",
+                "groupName": "变电运维六班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142570",
+                "stName": "航空",
+                "devId": "114560315722568194",
+                "devName": "天津.航空/35kV.318开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "航空",
+                        "stId": "113997365769142570",
+                        "occurTime": "2023-05-16 14:25:03",
+                        "content": "2023年05月16日  14:25:03       天津.航空 天津.航空/35kV.318开关      事故分闸"
+                    }
+                ]
+            },
+            {
+                "regionId": null,
+                "regionName": null,
+                "groupId": "3757972414265294850",
+                "groupName": "变电运维六班",
+                "bvId": "112871465677750275",
+                "bvName": "35kV",
+                "stId": "113997365769142570",
+                "stName": "航空",
+                "devId": "114560315722568195",
+                "devName": "天津.航空/35kV.319开关",
+                "breakBw": 0,
+                "breakBwDetails": null,
+                "remoteOperation": 0,
+                "remoteOperationDetails": null,
+                "brakerTripBw": 1,
+                "brakerTripBwDetails": [
+                    {
+                        "regionName": null,
+                        "regionId": null,
+                        "stName": "航空",
+                        "stId": "113997365769142570",
+                        "occurTime": "2023-05-16 14:25:08",
+                        "content": "2023年05月16日  14:25:08       天津.航空 天津.航空/35kV.319开关      事故分闸"
+                    }
+                ]
+            }
+        ]
+    }
+}

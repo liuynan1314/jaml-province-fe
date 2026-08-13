@@ -1,0 +1,15 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "xqfk": 0,   
+        "xtwt": {
+            "total": 18,   
+            "rjjmqx": 4,  
+            "rjqx": 4,  
+            "yjqx": 1,  
+            "gjxxqx": 9,  
+            "qtlqx": 0  
+        }
+    }
+}

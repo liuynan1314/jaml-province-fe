@@ -1,0 +1,112 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "pageSize": 10,
+        "pageIndex": 1,
+        "pageCount": 106,
+        "pojoTotalCount": 1054,
+        "list": [
+            {
+                "regionId": 111,
+                "regionName": null,
+                "devId": "3771764689785061390",
+                "devName": "",
+                "stId": "113997367430086676",
+                "stName": "安徽.普庆变",
+                "devType": 52,
+                "gmtUpdateTime": "2024-02-19 06:36:02"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "devId": "3771764689785061390",
+                "devName": "",
+                "stId": "113997367430086676",
+                "stName": "安徽.普庆变",
+                "devType": 52,
+                "gmtUpdateTime": "2024-02-20 14:36:34"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "devId": "3771764689785061390",
+                "devName": "消防",
+                "stId": "113997367430086676",
+                "stName": "安徽.普庆变",
+                "devType": 52,
+                "gmtUpdateTime": "2024-02-20 15:36:35"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "devId": "3771764689785061390",
+                "devName": "消防",
+                "stId": "113997367430086676",
+                "stName": "安徽.普庆变",
+                "devType": 52,
+                "gmtUpdateTime": "2024-02-21 04:36:48"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "devId": "3771764689785061390",
+                "devName": "消防",
+                "stId": "113997367430086676",
+                "stName": "安徽.普庆变",
+                "devType": 52,
+                "gmtUpdateTime": "2024-02-21 13:36:57"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "devId": "3771764689785061390",
+                "devName": "消防",
+                "stId": "113997367430086676",
+                "stName": "安徽.普庆变",
+                "devType": 52,
+                "gmtUpdateTime": "2024-02-23 04:37:36"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "devId": "3771764689785061390",
+                "devName": "消防",
+                "stId": "113997367430086676",
+                "stName": "安徽.普庆变",
+                "devType": 52,
+                "gmtUpdateTime": "2024-02-24 09:38:05"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "devId": "3771764689785061390",
+                "devName": "消防",
+                "stId": "113997367430086676",
+                "stName": "安徽.普庆变",
+                "devType": 52,
+                "gmtUpdateTime": "2024-02-25 19:38:39"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "devId": "3771764689785061390",
+                "devName": "消防",
+                "stId": "113997367430086676",
+                "stName": "安徽.普庆变",
+                "devType": 52,
+                "gmtUpdateTime": "2024-02-26 17:39:01"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "devId": "3771764689785061390",
+                "devName": "消防",
+                "stId": "113997367430086676",
+                "stName": "安徽.普庆变",
+                "devType": 52,
+                "gmtUpdateTime": "2024-02-26 19:39:03"
+            }
+        ]
+    }
+}

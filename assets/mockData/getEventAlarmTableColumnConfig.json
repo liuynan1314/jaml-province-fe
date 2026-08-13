@@ -1,0 +1,25 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "columns": {
+            "devBvName": false,
+            "devType": false,
+            "bvName": true,
+            "sendToBpTime": true,
+            "regionName": false,
+            "occurTime": true,
+            "confirmReason": false,
+            "stName": true,
+            "confirmTime": false,
+            "eventType": true,
+            "devName": true,
+            "confirmed": false,
+            "content": true,
+            "sendTime": true,
+            "eventLevel": true,
+            "sendStatus": true,
+            "sendToBpStatus": true
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "eventLevel": "1",
+            "eventLevelName": "危急",
+            "count": 746
+        },
+        {
+            "eventLevel": "5",
+            "eventLevelName": null,
+            "count": 23
+        },
+        {
+            "eventLevel": "3",
+            "eventLevelName": "一般",
+            "count": 47
+        },
+        {
+            "eventLevel": "2",
+            "eventLevelName": "严重",
+            "count": 67
+        },
+        {
+            "eventLevel": "4",
+            "eventLevelName": null,
+            "count": 14
+        }
+    ]
+}

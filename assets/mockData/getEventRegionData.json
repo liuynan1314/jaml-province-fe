@@ -1,0 +1,87 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+      {
+        "regionId": 100,
+        "regionName": "南京",
+        "list": [
+          {
+            "name": "故障",
+            "value": "1",
+            "num": null
+          },
+          {
+            "name": "跳闸",
+            "value": "2",
+            "num": 10
+          },
+          {
+            "name": "调档",
+            "value": "6",
+            "num": 74
+          },
+          {
+            "name": "传动",
+            "value": "7",
+            "num": 458
+          },
+          {
+            "name": "通道",
+            "value": "8",
+            "num": null
+          }
+        ]
+      },
+      {
+        "regionId": 101,
+        "regionName": "苏州",
+        "list": null
+      },
+      {
+        "regionId": 102,
+        "regionName": "徐州",
+        "list": null
+      },
+      {
+        "regionId": 103,
+        "regionName": "无锡",
+        "list": null
+      },
+      {
+        "regionId": 104,
+        "regionName": "常州",
+        "list": null
+      },
+      {
+        "regionId": 105,
+        "regionName": "镇江",
+        "list": null
+      },
+      {
+        "regionId": 106,
+        "regionName": "扬州",
+        "list": null
+      },
+      {
+        "regionId": 107,
+        "regionName": "泰州",
+        "list": null
+      },
+      {
+        "regionId": 108,
+        "regionName": "南通",
+        "list": null
+      },
+      {
+        "regionId": 109,
+        "regionName": "盐城",
+        "list": null
+      },
+      {
+        "regionId": 110,
+        "regionName": "淮安",
+        "list": null
+      }
+    ]
+  }

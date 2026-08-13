@@ -1,0 +1,13 @@
+{
+    "code": 200,
+    "data": {
+        "criticalCnt": 20,
+        "generalCnt": 50,
+        "seriousCnt": 30,
+        "thisWeekAddCnt": 1,
+        "thisWeekOverCnt": 2,
+        "todayOverCnt": 1,
+        "thisWeekOverCnt": 0
+    },
+    "msg": "成功"
+}

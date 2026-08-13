@@ -1,0 +1,28 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "list": [
+            {
+                "stId": "st001",
+                "stName": "变电站A",
+                "branchId": "117093826534834329",
+                "branchName": "剩余电流 加热支路1",
+                "duration": "2小时15分",
+                "updateTime": "2026-07-08 14:30:00",
+                "abnormalBeginTime": "2026-07-08 12:00:00",
+                "abnormalEndTime": "2026-07-08 14:15:00"
+            },
+            {
+                "stId": "st001",
+                "stName": "变电站A",
+                "branchId": "117093835124768921",
+                "branchName": "剩余电流 加热支路2",
+                "duration": "45分",
+                "updateTime": "2026-07-08 10:20:00",
+                "abnormalBeginTime": "2026-07-08 09:35:00",
+                "abnormalEndTime": "2026-07-08 10:20:00"
+            }
+        ]
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 12,
+            "regionName": "高压",
+            "sfCnt": 1,
+            "oilCnt": 20,
+            "tempCnt": 20,
+            "batteryCnt": 20
+        },
+        {
+            "regionId": 98,
+            "regionName": "滨海",
+            "sfCnt": 20,
+            "oilCnt": 20,
+            "tempCnt": 20,
+            "batteryCnt": 20
+        },
+        {
+            "regionId": 96,
+            "regionName": "城南",
+            "sfCnt": 20,
+            "oilCnt": 20,
+            "tempCnt": 3,
+            "batteryCnt": 20
+        },
+        {
+            "regionId": 99,
+            "regionName": "城西",
+            "sfCnt": 20,
+            "oilCnt": 20,
+            "tempCnt": 20,
+            "batteryCnt": 20
+        },
+        {
+            "regionId": 97,
+            "regionName": "城东",
+            "sfCnt": 4,
+            "oilCnt": 20,
+            "tempCnt": 20,
+            "batteryCnt": 5
+        },
+        {
+            "regionId": 95,
+            "regionName": "东丽",
+            "sfCnt": 20,
+            "oilCnt": 20,
+            "tempCnt": 20,
+            "batteryCnt": 7
+        },
+        {
+            "regionId": 93,
+            "regionName": "宝坻",
+            "sfCnt": 20,
+            "oilCnt": 20,
+            "tempCnt": 20,
+            "batteryCnt": 41
+        },
+        {
+            "regionId": 92,
+            "regionName": "静海",
+            "sfCnt": 20,
+            "oilCnt": 20,
+            "tempCnt": 20,
+            "batteryCnt": 14
+        },
+        {
+            "regionId": 91,
+            "regionName": "宁河",
+            "sfCnt": 20,
+            "oilCnt": 20,
+            "tempCnt": 20,
+            "batteryCnt": 32
+        },
+        {
+            "regionId": 94,
+            "regionName": "蓟州",
+            "sfCnt": 20,
+            "oilCnt": 21,
+            "tempCnt": 20,
+            "batteryCnt": 20
+        },
+        {
+            "regionId": 90,
+            "regionName": "武清",
+            "sfCnt": 45,
+            "oilCnt": 20,
+            "tempCnt": 32,
+            "batteryCnt": 20
+        }
+    ]
+}

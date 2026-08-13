@@ -1,0 +1,56 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 98,
+            "regionName": "滨海",
+            "total": 0
+        },
+        {
+            "regionId": 96,
+            "regionName": "城南",
+            "total": 0
+        },
+        {
+            "regionId": 99,
+            "regionName": "城西",
+            "total": 1
+        },
+        {
+            "regionId": 97,
+            "regionName": "城东",
+            "total": 0
+        },
+        {
+            "regionId": 95,
+            "regionName": "东丽",
+            "total": 1
+        },
+        {
+            "regionId": 93,
+            "regionName": "宝坻",
+            "total": 0
+        },
+        {
+            "regionId": 92,
+            "regionName": "静海",
+            "total": 1
+        },
+        {
+            "regionId": 91,
+            "regionName": "宁河",
+            "total": 1
+        },
+        {
+            "regionId": 94,
+            "regionName": "蓟州",
+            "total": 0
+        },
+        {
+            "regionId": 90,
+            "regionName": "武清",
+            "total": 0
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "code": 200,
+    "msg": "",
+    "data": {
+        "pageSize": 0,
+        "pageIndex": 0,
+        "pageCount": 0,
+        "pojoTotalCount": 2,
+        "list": [
+            {
+                "id": "123",
+                "regionId": 0,
+                "regionName": "",
+                "devTypeName": "断路器",
+                "tableName": "",
+                "summonTime": "2025-11-14 00:00:00",
+                "stIdList": "xx站1,xx站2,xx站3,xx站4",
+                "stNameList": "xx站1,xx站2,xx站3,xx站4",
+                "fields": "xx1,xx2,xx3,xx4,xx5",
+                "consistentRate": 1,
+                "regionModelCnt": 1,
+                "provinceModelCnt": 2,
+                "inconsistentCnt": 3,
+                "regionLack": 3,
+                "provinceLack": 4,
+                "status": 0
+            },
+            {
+                "id": "123",
+                "regionId": 0,
+                "regionName": "",
+                "devTypeName": "断路器",
+                "tableName": "",
+                "summonTime": "2025-11-14 00:00:00",
+                "stIdList": "xx站1,xx站2,xx站3,xx站4",
+                "stNameList": "xx站1,xx站2,xx站3,xx站4",
+                "fields": "xx1,xx2,xx3,xx4,xx5",
+                "consistentRate": 0.88,
+                "regionModelCnt": 1,
+                "provinceModelCnt": 2,
+                "inconsistentCnt": 3,
+                "regionLack": 3,
+                "provinceLack": 4,
+                "status": 0
+            }
+        ]
+    }
+}

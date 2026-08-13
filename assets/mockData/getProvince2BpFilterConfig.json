@@ -1,0 +1,57 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "upload2PmsEnable": true,
+        "autoSendEnable": true,
+        "filterList": [
+            {
+                "id": 1,
+                "filterDesc": "1",
+                "eventTypeLevelList": [101],
+                "bvNameList": ["220kV"],
+                "stNameList": [],
+                "stNameBlackList": [],
+                "keywordBlackList": [],
+                "devTypeList": [
+                    {
+                        "devTypeName": "线路",
+                        "tableNo": null,
+                        "psrType": "xl,dkx"
+                    }
+                ],
+                "devBvNameList": []
+            },
+            {
+                "id": 2,
+                "filterDesc": "2",
+                "eventTypeLevelList": null,
+                "bvNameList": ["1000kV"],
+                "stNameList": ["白银.强鑫铁合金"],
+                "stNameBlackList": ["白银.岷漳分布式光伏电站"],
+                "keywordBlackList": [],
+                "devTypeList": [
+                    {
+                        "devTypeName": "母线",
+                        "tableNo": null,
+                        "psrType": "0311"
+                    }
+                ],
+                "devBvNameList": ["1000kV"]
+            },
+            {
+                "id": 3,
+                "filterDesc": "3",
+                "eventTypeLevelList": [101],
+                "bvNameList": ["110kV", "500kV"],
+                "stNameList": ["110kV�к��", "DL476变电站1"],
+                "stNameBlackList": ["DL476变电站3", "�ǳǱ�"],
+                "keywordBlackList": ["1", "2", "3"],
+                "devTypeList": [null],
+                "devBvNameList": ["1000kV"]
+            }
+        ],
+        "toTelBvNameList": ["1000kV", "110kV", "220kV", "500kV"],
+        "toTelBvNameFilterEnabled": false
+    }
+}

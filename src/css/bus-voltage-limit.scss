@@ -1,0 +1,145 @@
+:root {
+    --1000kV-clr: #fd7783;
+    --500kV-clr: rgb(96, 127, 229);
+    --220kV-clr: rgb(255, 0, 0);
+    --110kV-clr: rgb(72, 194, 255);
+    --35kV-clr: rgb(90, 146, 70);
+    --10kV-clr: #f6c81e;
+}
+.bus-voltage-limit {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .echarts-wrapper {
+        width: 33%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+
+        .limit-title {
+            height: 1rem !important;
+            font-family: YouSheBiaoTiHei, serif;
+            font-size: 1.375rem;
+            font-weight: 200;
+            font-style: italic;
+        }
+
+        .chart-box {
+            width: 100%;
+            height: calc(100% - 1rem);
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .pieCharts-box,
+        .pie-legend {
+            width: 50%;
+            height: 100%;
+        }
+
+        .column-flex {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pie-legend > ul {
+            height: 100%;
+            justify-content: center;
+            gap: 0.2rem;
+            list-style: none;
+        }
+
+        .pie-legend > ul > li {
+            position: relative;
+            padding-left: 2rem;
+            height: 1.625rem;
+            line-height: 1.625rem;
+            background-image: url(../../assets/images/pie_lenged_bg.png);
+            background-position: 0 center;
+            text-wrap: nowrap;
+        }
+
+        .pie-legend > ul > li::before {
+            display: inline-block;
+            content: '';
+            width: 0.675rem;
+            height: 0.675rem;
+            background-color: var(--li-clr);
+            position: absolute;
+            left: 0.85rem;
+            top: 0.475rem;
+        }
+
+        .pie-legend > ul > li > span {
+            display: inline-block;
+            min-width: 5ch;
+            color: var(--li-clr);
+        }
+
+        .pie-legend > ul > li > span:first-child {
+            color: #e9f3fe;
+            width: 7ch;
+        }
+
+        .staicesItem {
+            width: 50%;
+            height: 50%;
+            .staticsIndicator {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                span[slot='cap'],
+                span[slot='value'] {
+                    display: flex;
+                    justify-content: center;
+                    width: 50%;
+                    height: 100%;
+                    text-align: center;
+                    background: url(../../assets/images/text-bg.png) no-repeat;
+                    background-position: center 60%;
+                }
+                span[slot='value'] {
+                    align-items: center;
+                    background: url(../../assets/images/base.png) no-repeat;
+                    font-size: 2.25rem;
+                    font-family: 'DIN-Bold';
+                    background-position: center 60%;
+                }
+            }
+        }
+    }
+
+    .table_box {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        .form-item {
+            width: 50%;
+            height: 25%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            .select_style {
+                width: 5rem;
+            }
+        }
+        .longArea {
+            width: 100%;
+        }
+        .table-item {
+            width: 100%;
+            height: 75%;
+            display: flex;
+            flex-direction: column;
+            span[slot='cap'] {
+                font-size: 1rem;
+            }
+        }
+    }
+}

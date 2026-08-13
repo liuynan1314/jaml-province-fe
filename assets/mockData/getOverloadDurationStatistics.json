@@ -1,0 +1,36 @@
+{
+    "code": 200,
+    "msg": "",
+    "data": {
+        "minRangeList": [
+            {
+                "startLimit": 0,
+                "endLimit": 30,
+                "count": 0,
+                "overCnt": 7,
+                "heavyCnt": 5
+            },
+            {
+                "startLimit": 30,
+                "endLimit": 60,
+                "count": 0,
+                "overCnt": 6,
+                "heavyCnt": 5
+            },
+            {
+                "startLimit": 60,
+                "endLimit": 120,
+                "count": 0,
+                "overCnt": 6,
+                "heavyCnt": 4
+            },
+            {
+                "startLimit": 120,
+                "endLimit": null,
+                "count": 0,
+                "overCnt": 7,
+                "heavyCnt": 8
+            }
+        ]
+    }
+}

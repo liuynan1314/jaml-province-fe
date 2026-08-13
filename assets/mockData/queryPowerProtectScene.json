@@ -1,0 +1,646 @@
+{
+    "code": 200,
+    "msg": "",
+    "data": [
+        {
+            "id": "",
+            "name": "用户2",
+            "type": 1,
+            "subType": "医院",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "110kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "新城2号12H",
+                    "brkState": 1,
+                    "ivalue": 200
+                },
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "110kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "新城2号12H",
+                    "brkState": 0,
+                    "ivalue": 200
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户3",
+            "type": 1,
+            "subType": "医院",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "35kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器3",
+                    "brkState": 0,
+                    "ivalue": 300
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户3",
+            "type": 1,
+            "subType": "医院",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "35kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器3",
+                    "brkState": 0,
+                    "ivalue": 300
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户3",
+            "type": 1,
+            "subType": "医院",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "35kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器3",
+                    "brkState": 1,
+                    "ivalue": 300
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户3",
+            "type": 1,
+            "subType": "医院",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "35kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器3",
+                    "brkState": 1,
+                    "ivalue": 300
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户3",
+            "type": 1,
+            "subType": "医院",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "35kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器3",
+                    "brkState": 1,
+                    "ivalue": 300
+                }
+            ]
+        },
+
+        {
+            "id": "",
+            "name": "用户3",
+            "type": 1,
+            "subType": "医院",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "35kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器3",
+                    "brkState": 1,
+                    "ivalue": 300
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户3",
+            "type": 1,
+            "subType": "医院",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "35kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器3",
+                    "brkState": 1,
+                    "ivalue": 300
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户3",
+            "type": 1,
+            "subType": "医院",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "35kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器3",
+                    "brkState": 1,
+                    "ivalue": 300
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户3",
+            "type": 1,
+            "subType": "医院",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "35kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器3",
+                    "brkState": 1,
+                    "ivalue": 300
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户3",
+            "type": 1,
+            "subType": "医院",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "35kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器3",
+                    "brkState": 1,
+                    "ivalue": 300
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户2",
+            "type": 1,
+            "subType": "车站",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "110kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器2",
+                    "brkState": 0,
+                    "ivalue": 200
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户4",
+            "type": 1,
+            "subType": "医院",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "10kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器4",
+                    "brkState": 1,
+                    "ivalue": 400
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户1",
+            "type": 1,
+            "subType": "政府",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "220kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器1",
+                    "brkState": 0,
+                    "ivalue": 100
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户2",
+            "type": 1,
+            "subType": "政府",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "110kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器2",
+                    "brkState": 1,
+                    "ivalue": 200
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户3",
+            "type": 1,
+            "subType": "政府",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "35kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器3",
+                    "brkState": 0,
+                    "ivalue": 300
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户1",
+            "type": 1,
+            "subType": "医院",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "220kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器1",
+                    "brkState": 1,
+                    "ivalue": 100
+                }
+            ]
+        },
+
+        {
+            "id": "",
+            "name": "用户1",
+            "type": 1,
+            "subType": "机场",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "220kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器1",
+                    "brkState": 0,
+                    "ivalue": 100
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户2",
+            "type": 1,
+            "subType": "机场",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "110kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器2",
+                    "brkState": 0,
+                    "ivalue": 200
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户3",
+            "type": 1,
+            "subType": "机场",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "35kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器3",
+                    "brkState": 0,
+                    "ivalue": 300
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户4",
+            "type": 1,
+            "subType": "机场",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "10kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器4",
+                    "brkState": 0,
+                    "ivalue": 400
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户1",
+            "type": 1,
+            "subType": "车站",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "220kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器1",
+                    "brkState": 0,
+                    "ivalue": 100
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户4",
+            "type": 1,
+            "subType": "政府",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "10kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器4",
+                    "brkState": 0,
+                    "ivalue": 400
+                }
+            ]
+        },
+
+        {
+            "id": "",
+            "name": "用户3",
+            "type": 1,
+            "subType": "车站",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "35kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器3",
+                    "brkState": 0,
+                    "ivalue": 300
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "用户4",
+            "type": 1,
+            "subType": "车站",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "bvName": "10kV",
+                    "bvId": "",
+                    "fhName": "新城1号线",
+                    "brkId": "",
+                    "brkName": "断路器4",
+                    "brkState": 0,
+                    "ivalue": 400
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 100,
+            "regionName": "南京",
+            "shouldStNum": 274,
+            "finishStNum": 274,
+            "switchStNum": 274,
+            "realizeDevNum": 14382,
+            "blacklistDevNum": 603,
+            "dealBlacklistDevNum": null,
+            "whitelistDevNum": 1516,
+            "dealWhitelistDevNum": null
+        },
+        {
+            "regionId": 101,
+            "regionName": "苏州",
+            "shouldStNum": 1,
+            "finishStNum": 2,
+            "switchStNum": 3,
+            "realizeDevNum": 1598,
+            "blacklistDevNum": 2,
+            "dealBlacklistDevNum": 4,
+            "whitelistDevNum": 465,
+            "dealWhitelistDevNum": 5
+        }
+    ]
+}

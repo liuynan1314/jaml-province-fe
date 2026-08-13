@@ -1,0 +1,1154 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "occurTime": "2025-08-05 00:00:00",
+            "sampleValue": 33.43
+        },
+        {
+            "occurTime": "2025-08-05 00:05:00",
+            "sampleValue": 37.79
+        },
+        {
+            "occurTime": "2025-08-05 00:10:00",
+            "sampleValue": 8.99
+        },
+        {
+            "occurTime": "2025-08-05 00:15:00",
+            "sampleValue": 32.51
+        },
+        {
+            "occurTime": "2025-08-05 00:20:00",
+            "sampleValue": 14.05
+        },
+        {
+            "occurTime": "2025-08-05 00:25:00",
+            "sampleValue": 11.41
+        },
+        {
+            "occurTime": "2025-08-05 00:30:00",
+            "sampleValue": 27.66
+        },
+        {
+            "occurTime": "2025-08-05 00:35:00",
+            "sampleValue": 19.17
+        },
+        {
+            "occurTime": "2025-08-05 00:40:00",
+            "sampleValue": 31.6
+        },
+        {
+            "occurTime": "2025-08-05 00:45:00",
+            "sampleValue": 11.15
+        },
+        {
+            "occurTime": "2025-08-05 00:50:00",
+            "sampleValue": 14.01
+        },
+        {
+            "occurTime": "2025-08-05 00:55:00",
+            "sampleValue": 12.84
+        },
+        {
+            "occurTime": "2025-08-05 01:00:00",
+            "sampleValue": 40.29
+        },
+        {
+            "occurTime": "2025-08-05 01:05:00",
+            "sampleValue": 8.02
+        },
+        {
+            "occurTime": "2025-08-05 01:10:00",
+            "sampleValue": 13.85
+        },
+        {
+            "occurTime": "2025-08-05 01:15:00",
+            "sampleValue": 29.0
+        },
+        {
+            "occurTime": "2025-08-05 01:20:00",
+            "sampleValue": 1.09
+        },
+        {
+            "occurTime": "2025-08-05 01:25:00",
+            "sampleValue": 14.22
+        },
+        {
+            "occurTime": "2025-08-05 01:30:00",
+            "sampleValue": 26.17
+        },
+        {
+            "occurTime": "2025-08-05 01:35:00",
+            "sampleValue": 54.63
+        },
+        {
+            "occurTime": "2025-08-05 01:40:00",
+            "sampleValue": 34.13
+        },
+        {
+            "occurTime": "2025-08-05 01:45:00",
+            "sampleValue": 21.7
+        },
+        {
+            "occurTime": "2025-08-05 01:50:00",
+            "sampleValue": 50.38
+        },
+        {
+            "occurTime": "2025-08-05 01:55:00",
+            "sampleValue": 8.77
+        },
+        {
+            "occurTime": "2025-08-05 02:00:00",
+            "sampleValue": 45.25
+        },
+        {
+            "occurTime": "2025-08-05 02:05:00",
+            "sampleValue": 43.23
+        },
+        {
+            "occurTime": "2025-08-05 02:10:00",
+            "sampleValue": 20.04
+        },
+        {
+            "occurTime": "2025-08-05 02:15:00",
+            "sampleValue": 8.77
+        },
+        {
+            "occurTime": "2025-08-05 02:20:00",
+            "sampleValue": 22.76
+        },
+        {
+            "occurTime": "2025-08-05 02:25:00",
+            "sampleValue": 19.81
+        },
+        {
+            "occurTime": "2025-08-05 02:30:00",
+            "sampleValue": 47.06
+        },
+        {
+            "occurTime": "2025-08-05 02:35:00",
+            "sampleValue": 55.19
+        },
+        {
+            "occurTime": "2025-08-05 02:40:00",
+            "sampleValue": 56.6
+        },
+        {
+            "occurTime": "2025-08-05 02:45:00",
+            "sampleValue": 55.05
+        },
+        {
+            "occurTime": "2025-08-05 02:50:00",
+            "sampleValue": 27.7
+        },
+        {
+            "occurTime": "2025-08-05 02:55:00",
+            "sampleValue": 10.65
+        },
+        {
+            "occurTime": "2025-08-05 03:00:00",
+            "sampleValue": 6.46
+        },
+        {
+            "occurTime": "2025-08-05 03:05:00",
+            "sampleValue": 54.36
+        },
+        {
+            "occurTime": "2025-08-05 03:10:00",
+            "sampleValue": 28.82
+        },
+        {
+            "occurTime": "2025-08-05 03:15:00",
+            "sampleValue": 37.06
+        },
+        {
+            "occurTime": "2025-08-05 03:20:00",
+            "sampleValue": 5.52
+        },
+        {
+            "occurTime": "2025-08-05 03:25:00",
+            "sampleValue": 41.82
+        },
+        {
+            "occurTime": "2025-08-05 03:30:00",
+            "sampleValue": 48.9
+        },
+        {
+            "occurTime": "2025-08-05 03:35:00",
+            "sampleValue": 44.81
+        },
+        {
+            "occurTime": "2025-08-05 03:40:00",
+            "sampleValue": 48.84
+        },
+        {
+            "occurTime": "2025-08-05 03:45:00",
+            "sampleValue": 2.75
+        },
+        {
+            "occurTime": "2025-08-05 03:50:00",
+            "sampleValue": 13.81
+        },
+        {
+            "occurTime": "2025-08-05 03:55:00",
+            "sampleValue": 48.94
+        },
+        {
+            "occurTime": "2025-08-05 04:00:00",
+            "sampleValue": 15.97
+        },
+        {
+            "occurTime": "2025-08-05 04:05:00",
+            "sampleValue": 38.98
+        },
+        {
+            "occurTime": "2025-08-05 04:10:00",
+            "sampleValue": 43.57
+        },
+        {
+            "occurTime": "2025-08-05 04:15:00",
+            "sampleValue": 49.1
+        },
+        {
+            "occurTime": "2025-08-05 04:20:00",
+            "sampleValue": 59.68
+        },
+        {
+            "occurTime": "2025-08-05 04:25:00",
+            "sampleValue": 33.95
+        },
+        {
+            "occurTime": "2025-08-05 04:30:00",
+            "sampleValue": 56.87
+        },
+        {
+            "occurTime": "2025-08-05 04:35:00",
+            "sampleValue": 44.93
+        },
+        {
+            "occurTime": "2025-08-05 04:40:00",
+            "sampleValue": 17.18
+        },
+        {
+            "occurTime": "2025-08-05 04:45:00",
+            "sampleValue": 16.91
+        },
+        {
+            "occurTime": "2025-08-05 04:50:00",
+            "sampleValue": 52.7
+        },
+        {
+            "occurTime": "2025-08-05 04:55:00",
+            "sampleValue": 38.94
+        },
+        {
+            "occurTime": "2025-08-05 05:00:00",
+            "sampleValue": 35.72
+        },
+        {
+            "occurTime": "2025-08-05 05:05:00",
+            "sampleValue": 39.76
+        },
+        {
+            "occurTime": "2025-08-05 05:10:00",
+            "sampleValue": 34.13
+        },
+        {
+            "occurTime": "2025-08-05 05:15:00",
+            "sampleValue": 32.32
+        },
+        {
+            "occurTime": "2025-08-05 05:20:00",
+            "sampleValue": 34.81
+        },
+        {
+            "occurTime": "2025-08-05 05:25:00",
+            "sampleValue": 1.83
+        },
+        {
+            "occurTime": "2025-08-05 05:30:00",
+            "sampleValue": 41.97
+        },
+        {
+            "occurTime": "2025-08-05 05:35:00",
+            "sampleValue": 40.27
+        },
+        {
+            "occurTime": "2025-08-05 05:40:00",
+            "sampleValue": 55.2
+        },
+        {
+            "occurTime": "2025-08-05 05:45:00",
+            "sampleValue": 10.78
+        },
+        {
+            "occurTime": "2025-08-05 05:50:00",
+            "sampleValue": 17.33
+        },
+        {
+            "occurTime": "2025-08-05 05:55:00",
+            "sampleValue": 59.71
+        },
+        {
+            "occurTime": "2025-08-05 06:00:00",
+            "sampleValue": 51.61
+        },
+        {
+            "occurTime": "2025-08-05 06:05:00",
+            "sampleValue": 6.23
+        },
+        {
+            "occurTime": "2025-08-05 06:10:00",
+            "sampleValue": 44.52
+        },
+        {
+            "occurTime": "2025-08-05 06:15:00",
+            "sampleValue": 40.45
+        },
+        {
+            "occurTime": "2025-08-05 06:20:00",
+            "sampleValue": 7.99
+        },
+        {
+            "occurTime": "2025-08-05 06:25:00",
+            "sampleValue": 57.33
+        },
+        {
+            "occurTime": "2025-08-05 06:30:00",
+            "sampleValue": 29.39
+        },
+        {
+            "occurTime": "2025-08-05 06:35:00",
+            "sampleValue": 22.96
+        },
+        {
+            "occurTime": "2025-08-05 06:40:00",
+            "sampleValue": 36.31
+        },
+        {
+            "occurTime": "2025-08-05 06:45:00",
+            "sampleValue": 12.96
+        },
+        {
+            "occurTime": "2025-08-05 06:50:00",
+            "sampleValue": 12.06
+        },
+        {
+            "occurTime": "2025-08-05 06:55:00",
+            "sampleValue": 35.99
+        },
+        {
+            "occurTime": "2025-08-05 07:00:00",
+            "sampleValue": 45.91
+        },
+        {
+            "occurTime": "2025-08-05 07:05:00",
+            "sampleValue": 8.92
+        },
+        {
+            "occurTime": "2025-08-05 07:10:00",
+            "sampleValue": 20.92
+        },
+        {
+            "occurTime": "2025-08-05 07:15:00",
+            "sampleValue": 3.08
+        },
+        {
+            "occurTime": "2025-08-05 07:20:00",
+            "sampleValue": 24.83
+        },
+        {
+            "occurTime": "2025-08-05 07:25:00",
+            "sampleValue": 13.62
+        },
+        {
+            "occurTime": "2025-08-05 07:30:00",
+            "sampleValue": 41.02
+        },
+        {
+            "occurTime": "2025-08-05 07:35:00",
+            "sampleValue": 59.55
+        },
+        {
+            "occurTime": "2025-08-05 07:40:00",
+            "sampleValue": 52.38
+        },
+        {
+            "occurTime": "2025-08-05 07:45:00",
+            "sampleValue": 15.15
+        },
+        {
+            "occurTime": "2025-08-05 07:50:00",
+            "sampleValue": 31.87
+        },
+        {
+            "occurTime": "2025-08-05 07:55:00",
+            "sampleValue": 27.19
+        },
+        {
+            "occurTime": "2025-08-05 08:00:00",
+            "sampleValue": 15.98
+        },
+        {
+            "occurTime": "2025-08-05 08:05:00",
+            "sampleValue": 13.83
+        },
+        {
+            "occurTime": "2025-08-05 08:10:00",
+            "sampleValue": 7.46
+        },
+        {
+            "occurTime": "2025-08-05 08:15:00",
+            "sampleValue": 11.18
+        },
+        {
+            "occurTime": "2025-08-05 08:20:00",
+            "sampleValue": 23.62
+        },
+        {
+            "occurTime": "2025-08-05 08:25:00",
+            "sampleValue": 23.79
+        },
+        {
+            "occurTime": "2025-08-05 08:30:00",
+            "sampleValue": 10.89
+        },
+        {
+            "occurTime": "2025-08-05 08:35:00",
+            "sampleValue": 15.22
+        },
+        {
+            "occurTime": "2025-08-05 08:40:00",
+            "sampleValue": 29.03
+        },
+        {
+            "occurTime": "2025-08-05 08:45:00",
+            "sampleValue": 54.41
+        },
+        {
+            "occurTime": "2025-08-05 08:50:00",
+            "sampleValue": 54.68
+        },
+        {
+            "occurTime": "2025-08-05 08:55:00",
+            "sampleValue": 36.01
+        },
+        {
+            "occurTime": "2025-08-05 09:05:00",
+            "sampleValue": 51.74
+        },
+        {
+            "occurTime": "2025-08-05 09:10:00",
+            "sampleValue": 24.07
+        },
+        {
+            "occurTime": "2025-08-05 09:15:00",
+            "sampleValue": 57.97
+        },
+        {
+            "occurTime": "2025-08-05 09:20:00",
+            "sampleValue": 28.05
+        },
+        {
+            "occurTime": "2025-08-05 09:25:00",
+            "sampleValue": 36.03
+        },
+        {
+            "occurTime": "2025-08-05 09:30:00",
+            "sampleValue": 10.03
+        },
+        {
+            "occurTime": "2025-08-05 09:35:00",
+            "sampleValue": 4.04
+        },
+        {
+            "occurTime": "2025-08-05 09:40:00",
+            "sampleValue": 21.94
+        },
+        {
+            "occurTime": "2025-08-05 09:45:00",
+            "sampleValue": 17.95
+        },
+        {
+            "occurTime": "2025-08-05 09:50:00",
+            "sampleValue": 23.96
+        },
+        {
+            "occurTime": "2025-08-05 09:55:00",
+            "sampleValue": 24.02
+        },
+        {
+            "occurTime": "2025-08-05 10:00:00",
+            "sampleValue": 41.78
+        },
+        {
+            "occurTime": "2025-08-05 10:05:00",
+            "sampleValue": 36.58
+        },
+        {
+            "occurTime": "2025-08-05 10:10:00",
+            "sampleValue": 5.04
+        },
+        {
+            "occurTime": "2025-08-05 10:15:00",
+            "sampleValue": 41.33
+        },
+        {
+            "occurTime": "2025-08-05 10:20:00",
+            "sampleValue": 28.96
+        },
+        {
+            "occurTime": "2025-08-05 10:25:00",
+            "sampleValue": 19.19
+        },
+        {
+            "occurTime": "2025-08-05 10:30:00",
+            "sampleValue": 13.2
+        },
+        {
+            "occurTime": "2025-08-05 10:35:00",
+            "sampleValue": 55.15
+        },
+        {
+            "occurTime": "2025-08-05 10:40:00",
+            "sampleValue": 34.17
+        },
+        {
+            "occurTime": "2025-08-05 10:45:00",
+            "sampleValue": 26.03
+        },
+        {
+            "occurTime": "2025-08-05 10:50:00",
+            "sampleValue": 2.61
+        },
+        {
+            "occurTime": "2025-08-05 10:55:00",
+            "sampleValue": 44.35
+        },
+        {
+            "occurTime": "2025-08-05 11:00:00",
+            "sampleValue": 48.65
+        },
+        {
+            "occurTime": "2025-08-05 11:05:00",
+            "sampleValue": 25.4
+        },
+        {
+            "occurTime": "2025-08-05 11:10:00",
+            "sampleValue": 54.24
+        },
+        {
+            "occurTime": "2025-08-05 11:15:00",
+            "sampleValue": 3.87
+        },
+        {
+            "occurTime": "2025-08-05 11:20:00",
+            "sampleValue": 53.43
+        },
+        {
+            "occurTime": "2025-08-05 11:25:00",
+            "sampleValue": 48.66
+        },
+        {
+            "occurTime": "2025-08-05 11:30:00",
+            "sampleValue": 57.55
+        },
+        {
+            "occurTime": "2025-08-05 11:35:00",
+            "sampleValue": 29.44
+        },
+        {
+            "occurTime": "2025-08-05 11:40:00",
+            "sampleValue": 40.4
+        },
+        {
+            "occurTime": "2025-08-05 11:45:00",
+            "sampleValue": 21.61
+        },
+        {
+            "occurTime": "2025-08-05 11:50:00",
+            "sampleValue": 27.42
+        },
+        {
+            "occurTime": "2025-08-05 11:55:00",
+            "sampleValue": 8.45
+        },
+        {
+            "occurTime": "2025-08-05 12:00:00",
+            "sampleValue": 56.64
+        },
+        {
+            "occurTime": "2025-08-05 12:05:00",
+            "sampleValue": 36.45
+        },
+        {
+            "occurTime": "2025-08-05 12:10:00",
+            "sampleValue": 11.5
+        },
+        {
+            "occurTime": "2025-08-05 12:15:00",
+            "sampleValue": 18.58
+        },
+        {
+            "occurTime": "2025-08-05 12:20:00",
+            "sampleValue": 53.4
+        },
+        {
+            "occurTime": "2025-08-05 12:25:00",
+            "sampleValue": 34.46
+        },
+        {
+            "occurTime": "2025-08-05 12:30:00",
+            "sampleValue": 41.59
+        },
+        {
+            "occurTime": "2025-08-05 12:35:00",
+            "sampleValue": 35.18
+        },
+        {
+            "occurTime": "2025-08-05 12:40:00",
+            "sampleValue": 11.04
+        },
+        {
+            "occurTime": "2025-08-05 12:45:00",
+            "sampleValue": 45.63
+        },
+        {
+            "occurTime": "2025-08-05 12:50:00",
+            "sampleValue": 16.51
+        },
+        {
+            "occurTime": "2025-08-05 12:55:00",
+            "sampleValue": 39.0
+        },
+        {
+            "occurTime": "2025-08-05 13:00:00",
+            "sampleValue": 4.82
+        },
+        {
+            "occurTime": "2025-08-05 13:05:00",
+            "sampleValue": 28.71
+        },
+        {
+            "occurTime": "2025-08-05 13:10:00",
+            "sampleValue": 34.15
+        },
+        {
+            "occurTime": "2025-08-05 13:15:00",
+            "sampleValue": 37.99
+        },
+        {
+            "occurTime": "2025-08-05 13:20:00",
+            "sampleValue": 53.74
+        },
+        {
+            "occurTime": "2025-08-05 13:25:00",
+            "sampleValue": 35.77
+        },
+        {
+            "occurTime": "2025-08-05 13:30:00",
+            "sampleValue": 22.35
+        },
+        {
+            "occurTime": "2025-08-05 13:35:00",
+            "sampleValue": 42.38
+        },
+        {
+            "occurTime": "2025-08-05 13:40:00",
+            "sampleValue": 1.17
+        },
+        {
+            "occurTime": "2025-08-05 13:45:00",
+            "sampleValue": 16.59
+        },
+        {
+            "occurTime": "2025-08-05 13:50:00",
+            "sampleValue": 45.25
+        },
+        {
+            "occurTime": "2025-08-05 13:55:00",
+            "sampleValue": 53.6
+        },
+        {
+            "occurTime": "2025-08-05 14:00:00",
+            "sampleValue": 5.25
+        },
+        {
+            "occurTime": "2025-08-05 14:05:00",
+            "sampleValue": 42.8
+        },
+        {
+            "occurTime": "2025-08-05 14:10:00",
+            "sampleValue": 23.05
+        },
+        {
+            "occurTime": "2025-08-05 14:15:00",
+            "sampleValue": 44.65
+        },
+        {
+            "occurTime": "2025-08-05 14:20:00",
+            "sampleValue": 4.42
+        },
+        {
+            "occurTime": "2025-08-05 14:25:00",
+            "sampleValue": 49.46
+        },
+        {
+            "occurTime": "2025-08-05 14:30:00",
+            "sampleValue": 52.11
+        },
+        {
+            "occurTime": "2025-08-05 14:35:00",
+            "sampleValue": 1.06
+        },
+        {
+            "occurTime": "2025-08-05 14:40:00",
+            "sampleValue": 25.91
+        },
+        {
+            "occurTime": "2025-08-05 14:45:00",
+            "sampleValue": 3.6
+        },
+        {
+            "occurTime": "2025-08-05 14:50:00",
+            "sampleValue": 18.64
+        },
+        {
+            "occurTime": "2025-08-05 14:55:00",
+            "sampleValue": 19.31
+        },
+        {
+            "occurTime": "2025-08-05 15:00:00",
+            "sampleValue": 37.06
+        },
+        {
+            "occurTime": "2025-08-05 15:05:00",
+            "sampleValue": 59.23
+        },
+        {
+            "occurTime": "2025-08-05 15:10:00",
+            "sampleValue": 53.49
+        },
+        {
+            "occurTime": "2025-08-05 15:15:00",
+            "sampleValue": 47.1
+        },
+        {
+            "occurTime": "2025-08-05 15:20:00",
+            "sampleValue": 44.86
+        },
+        {
+            "occurTime": "2025-08-05 15:25:00",
+            "sampleValue": 10.01
+        },
+        {
+            "occurTime": "2025-08-05 15:30:00",
+            "sampleValue": 26.11
+        },
+        {
+            "occurTime": "2025-08-05 15:35:00",
+            "sampleValue": 48.69
+        },
+        {
+            "occurTime": "2025-08-05 15:40:00",
+            "sampleValue": 37.72
+        },
+        {
+            "occurTime": "2025-08-05 15:45:00",
+            "sampleValue": 59.26
+        },
+        {
+            "occurTime": "2025-08-05 15:50:00",
+            "sampleValue": 26.68
+        },
+        {
+            "occurTime": "2025-08-05 15:55:00",
+            "sampleValue": 31.45
+        },
+        {
+            "occurTime": "2025-08-05 16:00:00",
+            "sampleValue": 35.03
+        },
+        {
+            "occurTime": "2025-08-05 16:05:00",
+            "sampleValue": 48.03
+        },
+        {
+            "occurTime": "2025-08-05 16:10:00",
+            "sampleValue": 13.84
+        },
+        {
+            "occurTime": "2025-08-05 16:15:00",
+            "sampleValue": 35.2
+        },
+        {
+            "occurTime": "2025-08-05 16:20:00",
+            "sampleValue": 4.62
+        },
+        {
+            "occurTime": "2025-08-05 16:25:00",
+            "sampleValue": 58.09
+        },
+        {
+            "occurTime": "2025-08-05 16:30:00",
+            "sampleValue": 28.8
+        },
+        {
+            "occurTime": "2025-08-05 16:35:00",
+            "sampleValue": 8.87
+        },
+        {
+            "occurTime": "2025-08-05 16:40:00",
+            "sampleValue": 40.89
+        },
+        {
+            "occurTime": "2025-08-05 16:45:00",
+            "sampleValue": 50.85
+        },
+        {
+            "occurTime": "2025-08-05 16:50:00",
+            "sampleValue": 52.52
+        },
+        {
+            "occurTime": "2025-08-05 16:55:00",
+            "sampleValue": 44.31
+        },
+        {
+            "occurTime": "2025-08-05 17:00:00",
+            "sampleValue": 40.31
+        },
+        {
+            "occurTime": "2025-08-05 17:05:00",
+            "sampleValue": 44.62
+        },
+        {
+            "occurTime": "2025-08-05 17:10:00",
+            "sampleValue": 44.37
+        },
+        {
+            "occurTime": "2025-08-05 17:15:00",
+            "sampleValue": 6.22
+        },
+        {
+            "occurTime": "2025-08-05 17:20:00",
+            "sampleValue": 47.23
+        },
+        {
+            "occurTime": "2025-08-05 17:25:00",
+            "sampleValue": 3.0
+        },
+        {
+            "occurTime": "2025-08-05 17:30:00",
+            "sampleValue": 24.53
+        },
+        {
+            "occurTime": "2025-08-05 17:35:00",
+            "sampleValue": 24.29
+        },
+        {
+            "occurTime": "2025-08-05 17:40:00",
+            "sampleValue": 2.23
+        },
+        {
+            "occurTime": "2025-08-05 17:45:00",
+            "sampleValue": 18.03
+        },
+        {
+            "occurTime": "2025-08-05 17:50:00",
+            "sampleValue": 11.39
+        },
+        {
+            "occurTime": "2025-08-05 17:55:00",
+            "sampleValue": 46.1
+        },
+        {
+            "occurTime": "2025-08-05 18:00:00",
+            "sampleValue": 27.04
+        },
+        {
+            "occurTime": "2025-08-05 18:05:00",
+            "sampleValue": 36.5
+        },
+        {
+            "occurTime": "2025-08-05 18:10:00",
+            "sampleValue": 34.78
+        },
+        {
+            "occurTime": "2025-08-05 18:15:00",
+            "sampleValue": 4.75
+        },
+        {
+            "occurTime": "2025-08-05 18:20:00",
+            "sampleValue": 35.76
+        },
+        {
+            "occurTime": "2025-08-05 18:25:00",
+            "sampleValue": 1.46
+        },
+        {
+            "occurTime": "2025-08-05 18:30:00",
+            "sampleValue": 35.21
+        },
+        {
+            "occurTime": "2025-08-05 18:35:00",
+            "sampleValue": 10.79
+        },
+        {
+            "occurTime": "2025-08-05 18:40:00",
+            "sampleValue": 48.49
+        },
+        {
+            "occurTime": "2025-08-05 18:45:00",
+            "sampleValue": 48.05
+        },
+        {
+            "occurTime": "2025-08-05 18:50:00",
+            "sampleValue": 44.99
+        },
+        {
+            "occurTime": "2025-08-05 18:55:00",
+            "sampleValue": 52.11
+        },
+        {
+            "occurTime": "2025-08-05 19:00:00",
+            "sampleValue": 46.14
+        },
+        {
+            "occurTime": "2025-08-05 19:05:00",
+            "sampleValue": 13.79
+        },
+        {
+            "occurTime": "2025-08-05 19:10:00",
+            "sampleValue": 59.97
+        },
+        {
+            "occurTime": "2025-08-05 19:15:00",
+            "sampleValue": 27.03
+        },
+        {
+            "occurTime": "2025-08-05 19:20:00",
+            "sampleValue": 4.64
+        },
+        {
+            "occurTime": "2025-08-05 19:25:00",
+            "sampleValue": 52.49
+        },
+        {
+            "occurTime": "2025-08-05 19:30:00",
+            "sampleValue": 11.34
+        },
+        {
+            "occurTime": "2025-08-05 19:35:00",
+            "sampleValue": 43.95
+        },
+        {
+            "occurTime": "2025-08-05 19:40:00",
+            "sampleValue": 37.12
+        },
+        {
+            "occurTime": "2025-08-05 19:45:00",
+            "sampleValue": 54.7
+        },
+        {
+            "occurTime": "2025-08-05 19:50:00",
+            "sampleValue": 49.17
+        },
+        {
+            "occurTime": "2025-08-05 19:55:00",
+            "sampleValue": 24.34
+        },
+        {
+            "occurTime": "2025-08-05 20:00:00",
+            "sampleValue": 56.7
+        },
+        {
+            "occurTime": "2025-08-05 20:05:00",
+            "sampleValue": 13.71
+        },
+        {
+            "occurTime": "2025-08-05 20:10:00",
+            "sampleValue": 47.63
+        },
+        {
+            "occurTime": "2025-08-05 20:15:00",
+            "sampleValue": 57.94
+        },
+        {
+            "occurTime": "2025-08-05 20:20:00",
+            "sampleValue": 30.74
+        },
+        {
+            "occurTime": "2025-08-05 20:25:00",
+            "sampleValue": 58.02
+        },
+        {
+            "occurTime": "2025-08-05 20:30:00",
+            "sampleValue": 44.03
+        },
+        {
+            "occurTime": "2025-08-05 20:35:00",
+            "sampleValue": 56.77
+        },
+        {
+            "occurTime": "2025-08-05 20:40:00",
+            "sampleValue": 34.52
+        },
+        {
+            "occurTime": "2025-08-05 20:45:00",
+            "sampleValue": 18.82
+        },
+        {
+            "occurTime": "2025-08-05 20:50:00",
+            "sampleValue": 1.53
+        },
+        {
+            "occurTime": "2025-08-05 20:55:00",
+            "sampleValue": 10.28
+        },
+        {
+            "occurTime": "2025-08-05 21:00:00",
+            "sampleValue": 19.28
+        },
+        {
+            "occurTime": "2025-08-05 21:05:00",
+            "sampleValue": 35.74
+        },
+        {
+            "occurTime": "2025-08-05 21:10:00",
+            "sampleValue": 20.08
+        },
+        {
+            "occurTime": "2025-08-05 21:15:00",
+            "sampleValue": 7.77
+        },
+        {
+            "occurTime": "2025-08-05 21:20:00",
+            "sampleValue": 23.78
+        },
+        {
+            "occurTime": "2025-08-05 21:25:00",
+            "sampleValue": 5.07
+        },
+        {
+            "occurTime": "2025-08-05 21:30:00",
+            "sampleValue": 58.88
+        },
+        {
+            "occurTime": "2025-08-05 21:35:00",
+            "sampleValue": 9.92
+        },
+        {
+            "occurTime": "2025-08-05 21:40:00",
+            "sampleValue": 17.86
+        },
+        {
+            "occurTime": "2025-08-05 21:45:00",
+            "sampleValue": 58.85
+        },
+        {
+            "occurTime": "2025-08-05 21:50:00",
+            "sampleValue": 35.95
+        },
+        {
+            "occurTime": "2025-08-05 21:55:00",
+            "sampleValue": 21.5
+        },
+        {
+            "occurTime": "2025-08-05 22:00:00",
+            "sampleValue": 51.35
+        },
+        {
+            "occurTime": "2025-08-05 22:05:00",
+            "sampleValue": 46.29
+        },
+        {
+            "occurTime": "2025-08-05 22:10:00",
+            "sampleValue": 5.45
+        },
+        {
+            "occurTime": "2025-08-05 22:15:00",
+            "sampleValue": 28.46
+        },
+        {
+            "occurTime": "2025-08-05 22:20:00",
+            "sampleValue": 40.99
+        },
+        {
+            "occurTime": "2025-08-05 22:25:00",
+            "sampleValue": 53.62
+        },
+        {
+            "occurTime": "2025-08-05 22:30:00",
+            "sampleValue": 51.8
+        },
+        {
+            "occurTime": "2025-08-05 22:35:00",
+            "sampleValue": 37.7
+        },
+        {
+            "occurTime": "2025-08-05 22:40:00",
+            "sampleValue": 7.33
+        },
+        {
+            "occurTime": "2025-08-05 22:45:00",
+            "sampleValue": 39.43
+        },
+        {
+            "occurTime": "2025-08-05 22:50:00",
+            "sampleValue": 35.63
+        },
+        {
+            "occurTime": "2025-08-05 22:55:00",
+            "sampleValue": 37.07
+        },
+        {
+            "occurTime": "2025-08-05 23:00:00",
+            "sampleValue": 37.46
+        },
+        {
+            "occurTime": "2025-08-05 23:05:00",
+            "sampleValue": 19.67
+        },
+        {
+            "occurTime": "2025-08-05 23:10:00",
+            "sampleValue": 33.84
+        },
+        {
+            "occurTime": "2025-08-05 23:15:00",
+            "sampleValue": 11.98
+        },
+        {
+            "occurTime": "2025-08-05 23:20:00",
+            "sampleValue": 37.48
+        },
+        {
+            "occurTime": "2025-08-05 23:25:00",
+            "sampleValue": 34.37
+        },
+        {
+            "occurTime": "2025-08-05 23:30:00",
+            "sampleValue": 21.26
+        },
+        {
+            "occurTime": "2025-08-05 23:35:00",
+            "sampleValue": 55.77
+        },
+        {
+            "occurTime": "2025-08-05 23:40:00",
+            "sampleValue": 10.1
+        },
+        {
+            "occurTime": "2025-08-05 23:45:00",
+            "sampleValue": 40.34
+        },
+        {
+            "occurTime": "2025-08-05 23:50:00",
+            "sampleValue": 3.54
+        },
+        {
+            "occurTime": "2025-08-05 23:55:00",
+            "sampleValue": 32.89
+        }
+    ]
+}

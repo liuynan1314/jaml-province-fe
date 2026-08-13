@@ -1,0 +1,18 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "actualValue": "1",
+            "displayValue": "危急"
+        },
+        {
+            "actualValue": "2",
+            "displayValue": "严重"
+        },
+        {
+            "actualValue": "3",
+            "displayValue": "一般"
+        }
+    ]
+}

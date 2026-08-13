@@ -1,0 +1,61 @@
+{
+    "code": 200,
+    "msg": "操作成功",
+    "data": [
+        {
+            "id": "3757972414063968257",
+            "name": "运维班1",
+            "operatorPhone": null
+        },
+        {
+            "id": "3757972414063968258",
+            "name": "运维班2",
+            "operatorPhone": null
+        },
+        {
+            "id": "3757972415775244289",
+            "name": "银城集控站运维1班",
+            "operatorPhone": null
+        },
+        {
+            "id": "3757972415775244290",
+            "name": "沙河集控站运维1班",
+            "operatorPhone": null
+        },
+        {
+            "id": "3757972415775244291",
+            "name": "石城集控站运维2班",
+            "operatorPhone": null
+        },
+        {
+            "id": "3757972415775244292",
+            "name": "皋兰运检班",
+            "operatorPhone": null
+        },
+        {
+            "id": "3757972415775244293",
+            "name": "会宁运检班",
+            "operatorPhone": null
+        },
+        {
+            "id": "3757972415775244294",
+            "name": "景泰运检班",
+            "operatorPhone": null
+        },
+        {
+            "id": "3757972415775244295",
+            "name": "靖远运检班",
+            "operatorPhone": null
+        },
+        {
+            "id": "3757972415775244296",
+            "name": "平川运检班",
+            "operatorPhone": null
+        },
+        {
+            "id": "3757972415775244297",
+            "name": "其他",
+            "operatorPhone": null
+        }
+    ]
+}

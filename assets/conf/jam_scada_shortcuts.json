@@ -1,0 +1,232 @@
+{
+    "devInfo": {
+        "comment": "信通设备卡片",
+        "icon": "<i class=\"fa-solid fa-address-card\"></i>",
+        "1201.*": {
+            "graph": "dev_line_card.sys.pic.g?line_id=${DEV_ID}",
+            "comment": "线路卡片"
+        },
+        "1210.*": {
+            "graph": "dev_lineend_card.sys.pic.g?lineend_id=${DEV_ID}",
+            "comment": "线端卡片"
+        },
+        "1311.*": {
+            "graph": "dev_pwrtransfm_card.sys.pic.g?pwrtransfm_id=${DEV_ID}",
+            "comment": "变压器卡片"
+        },
+        "1312.*": {
+            "graph": "dev_transfmwd_card.sys.pic.g?transfmwd_id=${DEV_ID}",
+            "comment": "变压器绕组卡片"
+        },
+        "1301.*": {
+            "graph": "dev_busbar_card.sys.pic.g?busbar_id=${DEV_ID}",
+            "comment": "母线卡片"
+        },
+        "1101.*": {
+            "graph": "dev_generator_card.sys.pic.g?generator_id=${DEV_ID}",
+            "comment": "发电机卡片"
+        },
+        "0111.*": {
+            "graph": "plant_card.sys.pic.g?st_id=${ST_ID}",
+            "comment": "发电厂卡片"
+        },
+        "0112.*": {
+            "graph": "substation_card.sys.pic.g?st_id=${ST_ID}",
+            "comment": "变电站卡片"
+        }
+    },
+    "yx": {
+        "icon": "<i class=\"fa-solid fa-database\"></i>",
+        ".*": {
+            "graph": "yx_para_card.sys.pic.g?yx_id=${MEAS_ID}",
+            "comment": "遥信卡片"
+        }
+    },
+    "yc": {
+        "icon": "<i class=\"fa-solid fa-database\"></i>",
+        ".*": {
+            "graph": "yc_para_card.sys.pic.g?yc_id=${MEAS_ID}",
+            "comment": "遥测卡片"
+        }
+    },
+
+    "region": {
+        ".*": {
+            "graph": "JS.total.ovh.pic.g?locateIds=${DEV_ID}",
+            "comment": "电网一张图",
+            "newTab": true
+        }
+    },
+    "hisCurve": {
+        "icon": "<i class=\"fa-solid fa-chart-line\"></i>",
+        "comment": "今日曲线卡片",
+        "(011|123).*": {
+            "cmd": "GCurve -app_key_id realtime:1:scada:1/${TAB_NO}:${DEV_NO}0021/0 -IP ${HOST} -sessionID '${SESSION_ID}'",
+            "comment": "今日曲线",
+            "pos": {
+                "w": 1200,
+                "h": 800
+            }
+        },
+        ".*": {
+            "cmd": "GCurve -app_key_id realtime:1:scada:1/${TAB_NO}:${DEV_NO}${COL_NO}/0 -IP ${HOST} -sessionID '${SESSION_ID}'",
+            "comment": "今日曲线",
+            "pos": {
+                "w": 1200,
+                "h": 800
+            }
+        }
+    },
+    "stGraph": {
+        "icon": "<i class=\"fa-solid fa-palette\"></i>",
+        "comment": "厂站接线图",
+        "(011|123|113).*": {
+            "url": "stGraph"
+        }
+    },
+    "transparentStation": {
+        "icon": "<i class=\"fa-solid fa-transformer-bolt\"></i>",
+        "comment": "打开透明站",
+        ".*": {
+            "url": "transparentStation",
+            "comment": "透明站"
+        }
+    },
+    "balance": {
+        "icon": "<i class=\"fa-solid fa-scale-balanced\"></i>",
+        "(011|123).*": {
+            "comment": "厂站",
+            "graph": "substation_balance_card.sys.pic.g?st_id=${ST_ID}"
+        },
+        "1301.*": {
+            "comment": "母线",
+            "graph": "busbar_balance_card.sys.pic.g?dev_id=${DEV_ID}"
+        },
+        "1311.*": {
+            "comment": "变压器",
+            "graph": "transfm_balance_card.sys.pic.g?dev_id=${DEV_ID}"
+        },
+        "0410.*": null,
+        "1201.*": {
+            "comment": "线路",
+            "graph": "line_balance_card.sys.pic.g?dev_id=${DEV_ID}"
+        }
+    },
+    "transload": {
+        "icon": "<i class=\"fa-solid fa-bezier-curve\"></i>",
+        "1311.*": {
+            "comment": "负荷转供",
+            "graph": "pas_overloadtrans_card17.sys.pic.g?sceneName=realtime&sceneInst=1&subSceneName=scada&subSceneInst=1&subSceneNo=100000&ana_trans_dev=${DEV_ID}&event_value=45.02",
+            "pos": {
+                "w": 1600,
+                "h": 950
+            }
+        }
+    },
+    "reverse": {
+        "icon": "<i class=\"fa-solid fa-arrows-rotate\"></i>",
+        "1311.*": {
+            "comment": "反向重载详情",
+            "graph": "dev_pwrtransfm_reverse.sys.pic.g?dev_id=${DEV_ID}"
+        }
+    },
+    "opDev": {
+        "icon": "<i class=\"fa-solid fa-lock\"></i>",
+        "1301.*": {
+            "comment": "母线",
+            "cmd": "SCADACALLBACK -key_id ${MEAS_ID} -st_id ${ST_ID} -scn_name realtime -subscn_name scada -user_name ${USER_NAME} -node_name ${nodeName} -domain ${DOMAIN} -resp ${RESP_ID} -sessionId ${SESSION_ID} -graph_name   -scn_inst 1 -subscn_inst 1 -op_id ${opId} -app_id 100000 -obj_type 30",
+            "group": {
+                "key": "opId",
+                "option": [
+                    { "comment": "参数检索", "value": "5019", "icon": "<i class=\"fa-solid fa-magnifying-glass-plus\"></i>" },
+                    { "comment": "平衡分量信息", "value": "5010", "icon": "<i class=\"fa-solid fa-scale-balanced\"></i>" },
+                    { "comment": "设置标志牌", "value": "8001", "icon": "<i class=\"fa-solid fa-cards-blank\"></i>" },
+                    { "comment": "抑制告警", "value": "700", "icon": "<i class=\"fa-solid fa-sensor-on\"></i>" },
+                    { "comment": "恢复告警", "value": "701", "icon": "<i class=\"fa-solid fa-repeat\"></i>" },
+                    { "comment": "间隔抑制告警", "value": "400", "icon": "<i class=\"fa-light fa-light-emergency-on\"></i>" },
+                    { "comment": "间隔恢复告警", "value": "401", "icon": "<i class=\"fa-light fa-recycle\"></i>" },
+                    { "comment": "间隔参数检索", "value": "5001", "icon": "<i class=\"fa-solid fa-print-magnifying-glass\"></i>" },
+                    { "comment": "设备越限", "value": "119", "icon": "<i class=\"fa-solid fa-gauge-simple-max\"></i>", "vaild": false }
+                ]
+            }
+        },
+        "1201.*": {
+            "comment": "线路",
+            "cmd": "SCADACALLBACK -key_id ${MEAS_ID} -st_id ${ST_ID} -scn_name realtime -subscn_name scada -user_name ${USER_NAME} -node_name ${nodeName} -domain ${DOMAIN} -resp ${RESP_ID} -sessionId ${SESSION_ID} -graph_name   -scn_inst 1 -subscn_inst 1 -op_id ${opId} -app_id 100000 -obj_type 31",
+            "group": {
+                "key": "opId",
+                "option": [
+                    { "comment": "参数检索", "value": "5013", "icon": "<i class=\"fa-solid fa-magnifying-glass-plus\"></i>" },
+                    { "comment": "设置标志牌", "value": "8001", "icon": "<i class=\"fa-solid fa-cards-blank\"></i>", "vaild": false },
+                    { "comment": "抑制告警", "value": "700", "icon": "<i class=\"fa-solid fa-sensor-on\"></i>", "vaild": false },
+                    { "comment": "恢复告警", "value": "701", "icon": "<i class=\"fa-solid fa-repeat\"></i>", "vaild": false },
+                    { "comment": "间隔抑制告警", "value": "400", "icon": "<i class=\"fa-light fa-light-emergency-on\"></i>", "vaild": false },
+                    { "comment": "间隔恢复告警", "value": "401", "icon": "<i class=\"fa-light fa-recycle\"></i>", "vaild": false },
+                    { "comment": "设备越限", "value": "119", "icon": "<i class=\"fa-solid fa-gauge-simple-max\"></i>", "vaild": false }
+                ]
+            }
+        },
+        "1210.*": {
+            "comment": "线端设备",
+            "cmd": "SCADACALLBACK -key_id ${MEAS_ID} -st_id ${ST_ID} -scn_name realtime -subscn_name scada -user_name ${USER_NAME} -node_name ${nodeName} -domain ${DOMAIN} -resp ${RESP_ID} -sessionId ${SESSION_ID} -graph_name   -scn_inst 1 -subscn_inst 1 -op_id ${opId} -app_id 100000 -obj_type 36",
+            "group": {
+                "key": "opId",
+                "option": [
+                    { "comment": "参数检索", "value": "5013", "icon": "<i class=\"fa-solid fa-magnifying-glass-plus\"></i>" },
+                    { "comment": "设置标志牌", "value": "8001", "icon": "<i class=\"fa-solid fa-cards-blank\"></i>", "vaild": false },
+                    { "comment": "抑制告警", "value": "700", "icon": "<i class=\"fa-solid fa-sensor-on\"></i>" },
+                    { "comment": "恢复告警", "value": "701", "icon": "<i class=\"fa-solid fa-repeat\"></i>" },
+                    { "comment": "间隔抑制告警", "value": "400", "icon": "<i class=\"fa-light fa-light-emergency-on\"></i>" },
+                    { "comment": "间隔恢复告警", "value": "401", "icon": "<i class=\"fa-light fa-recycle\"></i>" },
+                    { "comment": "间隔参数检索", "value": "5001", "icon": "<i class=\"fa-solid fa-print-magnifying-glass\"></i>" },
+                    { "comment": "设备越限", "value": "6000", "icon": "<i class=\"fa-solid fa-gauge-simple-max\"></i>", "vaild": false }
+                ]
+            }
+        },
+        "1311.*": {
+            "comment": "变压器",
+            "cmd": "SCADACALLBACK -key_id ${MEAS_ID} -st_id ${ST_ID} -scn_name realtime -subscn_name scada -user_name ${USER_NAME} -node_name ${nodeName} -domain ${DOMAIN} -resp ${RESP_ID} -sessionId ${SESSION_ID} -graph_name   -scn_inst 1 -subscn_inst 1 -op_id ${opId} -app_id 100000 -obj_type 2",
+            "group": {
+                "key": "opId",
+                "option": [
+                    { "comment": "变压器参数检索", "value": "5015", "icon": "<i class=\"fa-solid fa-magnifying-glass-plus\"></i>" },
+                    { "comment": "高端绕组参数检索", "value": "5016", "icon": "<i class=\"fa-sharp fa-solid fa-1\"></i>", "vaild": false },
+                    { "comment": "中端绕组参数检索", "value": "5017", "icon": "<i class=\"fa-sharp fa-solid fa-2\"></i>", "vaild": false },
+                    { "comment": "低端绕组参数检索", "value": "5018", "icon": "<i class=\"fa-sharp fa-solid fa-3\"></i>", "vaild": false },
+                    { "comment": "设置标志牌", "value": "8001", "icon": "<i class=\"fa-solid fa-cards-blank\"></i>", "vaild": false },
+                    { "comment": "抑制告警", "value": "700", "icon": "<i class=\"fa-solid fa-sensor-on\"></i>", "vaild": false },
+                    { "comment": "恢复告警", "value": "701", "icon": "<i class=\"fa-solid fa-repeat\"></i>", "vaild": false },
+                    { "comment": "调档操作", "value": "619", "icon": "<i class=\"fa-solid fa-sliders-up\"></i>", "vaild": false },
+                    { "comment": "设备越限", "value": "119", "icon": "<i class=\"fa-solid fa-gauge-simple-max\"></i>", "vaild": false }
+                ]
+            }
+        },
+        "1101.*": {
+            "comment": "发电机",
+            "cmd": "SCADACALLBACK -key_id ${MEAS_ID} -st_id ${ST_ID} -scn_name realtime -subscn_name scada -user_name ${USER_NAME} -node_name ${nodeName} -domain ${DOMAIN} -resp ${RESP_ID} -sessionId ${SESSION_ID} -graph_name   -scn_inst 1 -subscn_inst 1 -op_id ${opId} -app_id 100000 -obj_type 4",
+            "group": {
+                "key": "opId",
+                "option": [
+                    { "comment": "参数检索", "value": "5020", "icon": "<i class=\"fa-solid fa-magnifying-glass-plus\"></i>" },
+                    { "comment": "设置标志牌", "value": "8001", "icon": "<i class=\"fa-solid fa-cards-blank\"></i>", "vaild": false },
+                    { "comment": "抑制告警", "value": "700", "icon": "<i class=\"fa-solid fa-sensor-on\"></i>" },
+                    { "comment": "恢复告警", "value": "701", "icon": "<i class=\"fa-solid fa-repeat\"></i>" },
+                    { "comment": "间隔抑制告警", "value": "400", "icon": "<i class=\"fa-light fa-light-emergency-on\"></i>" },
+                    { "comment": "间隔恢复告警", "value": "401", "icon": "<i class=\"fa-light fa-recycle\"></i>" },
+                    { "comment": "间隔参数检索", "value": "5001", "icon": "<i class=\"fa-solid fa-print-magnifying-glass\"></i>" },
+                    { "comment": "设备越限", "value": "119", "icon": "<i class=\"fa-solid fa-gauge-simple-max\"></i>", "vaild": false },
+                    { "comment": "停机受阻原因封锁", "value": "708", "vaild": false, "icon": "<i class=\"fa-solid fa-circle-parking\"></i>" },
+                    { "comment": "停机受阻原因解封锁", "value": "709", "icon": "<i class=\"fa-solid fa-circle-parking-slash\"></i>", "vaild": false },
+                    { "comment": "停机受阻原因置数", "value": "710", "icon": "<i class=\"fa-solid fa-circle-parking-slash\"></i>", "vaild": false }
+                ]
+            }
+        }
+    },
+    "overload": {
+        "icon": "<i class=\"fa-solid fa-gauge-simple-max\"></i>",
+        "(1301|1201|1210|1311|1101).*": {
+            "comment": "设备越限",
+            "cmd": "Alarm_query -templet 设备越限 -key_id ${MEAS_ID} -ip ${HOST} -user ${USER_NAME} -sessionID '${SESSION_ID}'"
+        }
+    }
+}

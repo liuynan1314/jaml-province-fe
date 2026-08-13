@@ -1,0 +1,82 @@
+[
+    {
+        "path": "/power-outage-statistics",
+        "name": "power-outage-statistics",
+        "resources": ["modules/powerOutageStatistics.mjs"]
+    },
+    {
+        "path": "/event-driven-monitoring-analytics",
+        "name": "event-driven-monitoring-analytics",
+        "resources": ["modules/eventDrivenMonitoringAnalytics.mjs"]
+    },
+    {
+        "path": "/equipment-early-warning-statistics",
+        "name": "equipment-early-warning-statistics",
+        "resources": ["modules/equipmentEarlyWarningStatistics.mjs"]
+    },
+    {
+        "path": "/auto-system-statistics",
+        "name": "auto-system-statistics",
+        "resources": ["modules/autoSystemStatistics.mjs"]
+    },
+    {
+        "path": "/bus-voltage-limit",
+        "name": "bus-voltage-limit",
+        "resources": ["modules/busVoltageLimit.mjs"]
+    },
+    {
+        "path": "/dev-num-statistics",
+        "name": "dev-num-statistics",
+        "resources": ["modules/mainAuxDevNumStatistics.mjs"]
+    },
+    {
+        "path": "/power-outage-statistics",
+        "name": "power-outage-statistics",
+        "resources": ["modules/powerOutageStatistics.mjs"]
+    },
+    {
+        "path": "/import-user",
+        "name": "import-user",
+        "resources": ["modules/importUser.mjs"]
+    },
+    {
+        "path": "/load-limit",
+        "name": "load-limit",
+        "resources": ["modules/loadLimit.mjs"]
+    },
+    {
+        "path": "/remote-inspection",
+        "name": "remote-inspection",
+        "resources": ["modules/remoteInspection.mjs"]
+    },
+    {
+        "path": "/remote-inspection-info",
+        "name": "remote-inspection-info",
+        "resources": ["modules/remoteInspectionInfo.mjs"]
+    },
+    {
+        "path": "/device-load-rate-byDay",
+        "name": "device-load-rate-byDay",
+        "resources": ["modules/deviceLoadRateByDay.mjs"]
+    },
+    {
+        "path": "/device-load-rate-minmax",
+        "name": "device-load-rate-minmax",
+        "resources": ["modules/deviceLoadRateMinmax.mjs"]
+    },
+    {
+        "path": "/device-load-rate-threshold",
+        "name": "device-load-rate-threshold",
+        "resources": ["modules/deviceLoadRateThreshold.mjs"]
+    },
+    {
+        "path": "/system-defect-management",
+        "name": "system-defect-management",
+        "resources": ["modules/systemDefectManagement.mjs"]
+    },
+    {
+        "path": "/system-operating-records",
+        "name": "system-operating-records",
+        "resources": ["modules/systemOperatingRecords.mjs"]
+    }
+]

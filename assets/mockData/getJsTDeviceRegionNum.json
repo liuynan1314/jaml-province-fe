@@ -1,0 +1,71 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 12,
+            "regionName": "天津",
+            "count": null
+        },
+        {
+            "regionId": 98,
+            "regionName": "滨海",
+            "count": null
+        },
+        {
+            "regionId": 96,
+            "regionName": "城南",
+            "count": null
+        },
+        {
+            "regionId": 99,
+            "regionName": "城西",
+            "count": null
+        },
+        {
+            "regionId": 97,
+            "regionName": "城东",
+            "count": null
+        },
+        {
+            "regionId": 95,
+            "regionName": "东丽",
+            "count": null
+        },
+        {
+            "regionId": 93,
+            "regionName": "宝坻",
+            "count": null
+        },
+        {
+            "regionId": 92,
+            "regionName": "静海",
+            "count": null
+        },
+        {
+            "regionId": 91,
+            "regionName": "宁河",
+            "count": null
+        },
+        {
+            "regionId": 94,
+            "regionName": "蓟州",
+            "count": null
+        },
+        {
+            "regionId": 90,
+            "regionName": "武清",
+            "count": null
+        },
+        {
+            "regionId": 100,
+            "regionName": "南京",
+            "count": 189
+        },
+        {
+            "regionId": 101,
+            "regionName": "苏州",
+            "count": 62
+        }
+    ]
+}

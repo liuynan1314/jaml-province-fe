@@ -1,0 +1,51 @@
+{
+    "systemOperatingRecords": [
+        {
+            "size": [16, 15],
+            "gap": 1,
+            "elements": [
+                {
+                    "id": "maintenancePersonnel",
+                    "pos": {
+                        "left": 1,
+                        "top": 1,
+                        "height": 15,
+                        "width": 16
+                    }
+                }
+            ]
+        },
+        {
+            "size": [16, 10],
+            "gap": 1,
+            "elements": [
+                {
+                    "id": "operatingRecords",
+                    "pos": {
+                        "left": 1,
+                        "top": 1,
+                        "height": 10,
+                        "width": 16
+                    }
+                }
+            ]
+        },
+        {
+            "size": [16, 10],
+            "gap": 1,
+            "elements": [
+                {
+                    "id": "maintenanceLog",
+                    "pos": {
+                        "left": 1,
+                        "top": 1,
+                        "height": 10,
+                        "width": 16
+                    }
+                }
+            ]
+        }
+    ]
+ 
+   
+}

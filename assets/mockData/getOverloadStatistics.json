@@ -1,0 +1,16 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "ptrCnt": {
+            "overloadCnt": 24,
+            "heavyLoadCnt": 0,
+            "heavyOverloadCnt": 24
+        },
+        "lineCnt": {
+            "overloadCnt": 0,
+            "heavyLoadCnt": 0,
+            "heavyOverloadCnt": 0
+        }
+    }
+}

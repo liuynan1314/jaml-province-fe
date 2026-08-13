@@ -1,0 +1,48 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "stId": "113997365567816260",
+            "stName": null,
+            "overCnt": 1,
+            "normalCnt": 0
+        },
+        {
+            "stId": "113997365567816768",
+            "stName": null,
+            "overCnt": 0,
+            "normalCnt": 1
+        },
+        {
+            "stId": "113997365567815681",
+            "stName": "220kV测试站1",
+            "overCnt": 0,
+            "normalCnt": 1
+        },
+        {
+            "stId": "113997365567817025",
+            "stName": null,
+            "overCnt": 0,
+            "normalCnt": 1
+        },
+        {
+            "stId": "113997365567816266",
+            "stName": null,
+            "overCnt": 0,
+            "normalCnt": 2
+        },
+        {
+            "stId": "113997365567817059",
+            "stName": null,
+            "overCnt": 0,
+            "normalCnt": 2
+        },
+        {
+            "stId": "113997365567816267",
+            "stName": null,
+            "overCnt": 0,
+            "normalCnt": 2
+        }
+    ]
+}

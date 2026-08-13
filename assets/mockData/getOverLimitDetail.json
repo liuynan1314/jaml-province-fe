@@ -1,0 +1,36 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 0,
+            "regionName": "头屯河",
+            "total": 3
+        },
+        {
+            "regionId": 10,
+            "regionName": "芨芨槽子",
+            "total": 0
+        },
+        {
+            "regionId": 11,
+            "regionName": "老满城",
+            "total": 0
+        },
+        {
+            "regionId": 12,
+            "regionName": "米泉",
+            "total": 0
+        },
+        {
+            "regionId": 13,
+            "regionName": "五家渠",
+            "total": 0
+        },
+        {
+            "regionId": 14,
+            "regionName": "三宫",
+            "total": 0
+        }
+    ]
+}

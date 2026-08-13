@@ -1,0 +1,114 @@
+{
+    "code": 200,
+    "msg": "操作成功",
+    "data": [
+        {
+            "regionName": "红桥区",
+            "bvName": "220kV",
+            "stName": "勤俭道变电站",
+            "devName": "主变",
+            "curLoad": "150%",
+            "startTime": "2023-10-11",
+            "totalTime": "150min"
+        },
+        {
+            "regionName": "红桥区",
+            "bvName": "220kV",
+            "stName": "勤俭道变电站",
+            "devName": "主变",
+            "curLoad": "150%",
+            "startTime": "2023-10-11",
+            "totalTime": "150min"
+        },
+        {
+            "regionName": "红桥区",
+            "bvName": "220kV",
+            "stName": "勤俭道变电站",
+            "devName": "主变",
+            "curLoad": "150%",
+            "startTime": "2023-10-11",
+            "totalTime": "150min"
+        },
+        {
+            "regionName": "红桥区",
+            "bvName": "220kV",
+            "stName": "勤俭道变电站",
+            "devName": "主变",
+            "curLoad": "150%",
+            "startTime": "2023-10-11",
+            "totalTime": "150min"
+        },
+        {
+            "regionName": "红桥区",
+            "bvName": "220kV",
+            "stName": "勤俭道变电站",
+            "devName": "主变",
+            "curLoad": "150%",
+            "startTime": "2023-10-11",
+            "totalTime": "150min"
+        },
+        {
+            "regionName": "红桥区",
+            "bvName": "220kV",
+            "stName": "勤俭道变电站",
+            "devName": "主变",
+            "curLoad": "150%",
+            "startTime": "2023-10-11",
+            "totalTime": "150min"
+        },
+        {
+            "regionName": "红桥区",
+            "bvName": "220kV",
+            "stName": "勤俭道变电站",
+            "devName": "主变",
+            "curLoad": "150%",
+            "startTime": "2023-10-11",
+            "totalTime": "150min"
+        },
+        {
+            "regionName": "红桥区",
+            "bvName": "220kV",
+            "stName": "勤俭道变电站",
+            "devName": "主变",
+            "curLoad": "150%",
+            "startTime": "2023-10-11",
+            "totalTime": "150min"
+        },
+        {
+            "regionName": "红桥区",
+            "bvName": "220kV",
+            "stName": "勤俭道变电站",
+            "devName": "主变",
+            "curLoad": "150%",
+            "startTime": "2023-10-11",
+            "totalTime": "150min"
+        },
+        {
+            "regionName": "红桥区",
+            "bvName": "220kV",
+            "stName": "勤俭道变电站",
+            "devName": "主变",
+            "curLoad": "150%",
+            "startTime": "2023-10-11",
+            "totalTime": "150min"
+        },
+        {
+            "regionName": "红桥区",
+            "bvName": "220kV",
+            "stName": "勤俭道变电站",
+            "devName": "主变",
+            "curLoad": "150%",
+            "startTime": "2023-10-11",
+            "totalTime": "150min"
+        },
+        {
+            "regionName": "红桥区",
+            "bvName": "220kV",
+            "stName": "勤俭道变电站",
+            "devName": "主变",
+            "curLoad": "150%",
+            "startTime": "2023-10-11",
+            "totalTime": "150min"
+        }
+    ]
+}

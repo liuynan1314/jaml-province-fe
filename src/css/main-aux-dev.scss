@@ -1,0 +1,19 @@
+.main-aux-dev {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .buttonList {
+        height: 3rem;
+    }
+    .chart_content {
+        width: 100%;
+        height: calc(100% - 3rem);
+        display: flex;
+        .chart-box {
+            width: 50%;
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,498 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "pageSize": 100000,
+        "pageIndex": 1,
+        "pageCount": 1,
+        "pojoTotalCount": 54,
+        "list": [
+            {
+                "defectId": "4e835be6-6e2e-11ee-bec1-047bcb4f9080",
+                "occurTime": "2023-10-19 11:19:18",
+                "content": "2023年10月15日16时42分43秒      500kV公共测试站 消防监控终端 消防监控终端火灾报警主机火灾总告警      动作",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "消防监控终端",
+                "bayName": null
+            },
+            {
+                "defectId": "e38e1ec6-6738-11ee-a811-047bcb4f9080",
+                "occurTime": "2023-10-10 14:46:55",
+                "content": "263开关异常跳闸的短发短发",
+                "note": "水电费水电费",
+                "stName": "500kV公共测试站",
+                "devName": "263开关",
+                "bayName": "263开关间隔"
+            },
+            {
+                "defectId": "c34710dc-6738-11ee-adf5-047bcb4f9080",
+                "occurTime": "2023-10-10 14:46:15",
+                "content": "2023年10月10日  14:05:00       220kV测试站1 10kV母线777 线电压   0.00 越下限4 20.000",
+                "note": "备注信息四区",
+                "stName": "220kV测试站1",
+                "devName": "10kV母线777",
+                "bayName": "10kV母线1"
+            },
+            {
+                "defectId": "ee72d2b0-6714-11ee-a927-047bcb4f8f41",
+                "occurTime": "2023-10-10 10:29:51",
+                "content": "test1010",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "PTR2",
+                "bayName": "2号主变"
+            },
+            {
+                "defectId": "f50a5b96-668a-11ee-9c90-047bcb4f9051",
+                "occurTime": "2023-10-09 18:02:10",
+                "content": "test111",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "PTR2",
+                "bayName": "2号主变"
+            },
+            {
+                "defectId": "17c78fc4-666c-11ee-aac5-047bcb4f9080",
+                "occurTime": "2023-10-09 14:21:20",
+                "content": "2023年10月08日  16:21:34       220kV测试站1 1#电容器_GOOSE开入检修不一致      动作",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": null,
+                "bayName": "10kV电容器1"
+            },
+            {
+                "defectId": "992c4574-666b-11ee-9fdf-047bcb4f9080",
+                "occurTime": "2023-10-09 14:17:51",
+                "content": "2023年10月09日  14:05:00       220kV测试站1 10kV母线777 线电压   0.00 越下限4 20.000",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "10kV母线777",
+                "bayName": "10kV母线1"
+            },
+            {
+                "defectId": "63e01bca-666b-11ee-8ef2-047bcb4f9080",
+                "occurTime": "2023-10-09 14:16:03",
+                "content": "2023年10月08日19时43分12秒      500kV公共测试站 消防监控终端 消防监控终端火灾报警主机火灾总告警      动作",
+                "note": "ceshi1111",
+                "stName": "500kV公共测试站",
+                "devName": "消防监控终端",
+                "bayName": null
+            },
+            {
+                "defectId": "5ff7959a-6645-11ee-8ec0-bc16954a47fc",
+                "occurTime": "2023-10-09 09:44:17",
+                "content": "2023年10月09日  09:42:12       点表管理测试站 5033开关      合闸",
+                "note": null,
+                "stName": "点表管理测试站",
+                "devName": "5033开关",
+                "bayName": "5033开关间隔"
+            },
+            {
+                "defectId": "94bd3bee-6588-11ee-afd4-047bcb4f905e",
+                "occurTime": "2023-10-08 11:12:53",
+                "content": "2023-10-08 11:11:26      220kV测试站3 220kV线路1 线路永久故障（重合失败）",
+                "note": null,
+                "stName": "220kV测试站3",
+                "devName": "IFL1",
+                "bayName": "220kV线路1"
+            },
+            {
+                "defectId": "e5bc92c0-6578-11ee-acde-047bcb4f9080",
+                "occurTime": "2023-10-08 09:20:28",
+                "content": "263kaiguan",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "263开关",
+                "bayName": "263开关间隔"
+            },
+            {
+                "defectId": "9673b090-6578-11ee-a43e-047bcb4f9080",
+                "occurTime": "2023-10-08 09:18:15",
+                "content": "2023年10月08日  09:18:11       500kV公共测试站 500kV公共测试站-虚拟站 IFLceshi1X 投入运行",
+                "note": null,
+                "stName": null,
+                "devName": null,
+                "bayName": null
+            },
+            {
+                "defectId": "b0e9168e-6575-11ee-923d-047bcb4f8f41",
+                "occurTime": "2023-10-08 08:57:34",
+                "content": "2023年10月07日  14:05:00       500kV公共测试站 500kVⅠ段母线 C相电压幅值   0.00 越下限1 20.000",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "500kVⅠ段母线",
+                "bayName": "500kVⅠ段母线间隔"
+            },
+            {
+                "defectId": "a2bf9e82-5b7c-11ee-9db0-047bcb4f8f41",
+                "occurTime": "2023-09-25 16:22:01",
+                "content": "qqqq",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "264开关",
+                "bayName": "264开关间隔"
+            },
+            {
+                "defectId": "6acfb2c8-59f1-11ee-80a1-047bcb4f905e",
+                "occurTime": "2023-09-23 17:12:57",
+                "content": "2023年09月22日16时16分27秒       500kVpublic 微气象传感器 站区气象监测温度测量值 越限恢复 50.00",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "微气象传感器",
+                "bayName": null
+            },
+            {
+                "defectId": "89eba7f2-56b3-11ee-88f9-047bcb4f8f41",
+                "occurTime": "2023-09-19 14:12:20",
+                "content": "2023年09月18日  18:43:39       500kV公共测试站 220kV263线路1保护A套_保护跳闸      动作(常亮)",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": null,
+                "bayName": "263开关间隔"
+            },
+            {
+                "defectId": "04215a1e-56b2-11ee-9d27-047bcb4f8f41",
+                "occurTime": "2023-09-19 14:00:54",
+                "content": "2023年09月19日  13:42:13       500kV公共测试站 2928母线隔刀      合闸  站端有问题",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "2928母线隔刀",
+                "bayName": "220kVⅡ段母线间隔"
+            },
+            {
+                "defectId": "c26d1266-56b1-11ee-8a3f-047bcb4f8f41",
+                "occurTime": "2023-09-19 13:59:51",
+                "content": "2023年09月19日  13:42:29       500kV公共测试站 2928母线隔刀      分闸",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "2928母线隔刀",
+                "bayName": "220kVⅡ段母线间隔"
+            },
+            {
+                "defectId": "a00f4a18-56b1-11ee-b54c-047bcb4f8f41",
+                "occurTime": "2023-09-19 13:58:35",
+                "content": "2023年09月19日  13:43:22       220kV测试站1 CBR221      分闸(封锁)",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "CBR221",
+                "bayName": "220kV线路1"
+            },
+            {
+                "defectId": "29d2207a-55f6-11ee-b31c-047bcb4f8f41",
+                "occurTime": "2023-09-18 15:36:55",
+                "content": "2023年09月18日  15:33:59       点表管理测试站 263开关      合闸",
+                "note": null,
+                "stName": "点表管理测试站",
+                "devName": "263开关",
+                "bayName": "263开关间隔"
+            },
+            {
+                "defectId": "f4320918-55f4-11ee-b5ea-047bcb4f8f41",
+                "occurTime": "2023-09-18 15:28:13",
+                "content": "2023年09月18日  15:27:23       500kV公共测试站 电容器321开关      合闸(模拟)",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "电容器321开关",
+                "bayName": "电容器321开关间隔"
+            },
+            {
+                "defectId": "7e9370c0-55f4-11ee-be8b-047bcb4f8f41",
+                "occurTime": "2023-09-18 15:25:01",
+                "content": "2023年09月18日  14:40:50       220kV测试站1 220kV线路2保护A套_保护动作      动作",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": null,
+                "bayName": "220kV线路2"
+            },
+            {
+                "defectId": "13978bc0-55f0-11ee-8377-047bcb4f8f41",
+                "occurTime": "2023-09-18 14:53:21",
+                "content": "2023年09月18日  14:40:50       220kV测试站1 220kV线路2保护A套_保护动作      动作",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": null,
+                "bayName": "220kV线路2"
+            },
+            {
+                "defectId": "9ed2a886-55ec-11ee-8eaf-047bcb4f8f41",
+                "occurTime": "2023-09-18 14:28:32",
+                "content": "66",
+                "note": "777",
+                "stName": "500kV公共测试站",
+                "devName": "2P0开关",
+                "bayName": "2P0开关间隔"
+            },
+            {
+                "defectId": "8d33c146-55ec-11ee-aa83-047bcb4f8f41",
+                "occurTime": "2023-09-18 14:28:04",
+                "content": "111",
+                "note": "33",
+                "stName": "500kV公共测试站",
+                "devName": "267开关",
+                "bayName": "267开关间隔"
+            },
+            {
+                "defectId": "7acf92aa-55ec-11ee-8ac8-047bcb4f8f41",
+                "occurTime": "2023-09-18 14:27:37",
+                "content": null,
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "264开关",
+                "bayName": "264开关间隔"
+            },
+            {
+                "defectId": "eef13bfe-55ea-11ee-821a-047bcb4f9080",
+                "occurTime": "2023-09-18 14:16:14",
+                "content": "2023年09月18日  14:15:58       500kV公共测试站 母联212开关      分闸(封锁)(模拟)",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "母联212开关",
+                "bayName": "母联212开关间隔"
+            },
+            {
+                "defectId": "c4faeaac-55ea-11ee-ab0d-047bcb4f9080",
+                "occurTime": "2023-09-18 13:58:13",
+                "content": "2023年09月18日  13:53:35       500kV公共测试站 母联212开关      分闸(封锁)(模拟)",
+                "note": "222222",
+                "stName": "500kV公共测试站",
+                "devName": "母联212开关",
+                "bayName": "母联212开关间隔"
+            },
+            {
+                "defectId": "f9f7eb0e-55e7-11ee-81ce-047bcb4f9080",
+                "occurTime": "2023-09-18 13:53:48",
+                "content": "2023年09月18日  13:53:35       500kV公共测试站 母联212开关      分闸(封锁)(模拟)",
+                "note": "4444",
+                "stName": "500kV公共测试站",
+                "devName": "母联212开关",
+                "bayName": "母联212开关间隔"
+            },
+            {
+                "defectId": "75e0de98-55e7-11ee-940a-047bcb4f9080",
+                "occurTime": "2023-09-18 13:50:53",
+                "content": "213开关一场",
+                "note": "四区备注",
+                "stName": "500kV公共测试站",
+                "devName": "分段213开关",
+                "bayName": "分段213开关间隔"
+            },
+            {
+                "defectId": "f02ffafe-54fb-11ee-8c48-047bcb4f9080",
+                "occurTime": "2023-09-17 09:45:42",
+                "content": "2023-09-17 09:42:54       jksj1-jk5(192.10.10.25)的总控台上发生用户登录, 登录用户为<d5000> ",
+                "note": null,
+                "stName": null,
+                "devName": null,
+                "bayName": null
+            },
+            {
+                "defectId": "74c57238-5378-11ee-acbb-047bcb4f9051",
+                "occurTime": "2023-09-15 11:32:02",
+                "content": "test",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "PTR2",
+                "bayName": "2号主变"
+            },
+            {
+                "defectId": "61ff6b40-5378-11ee-a442-047bcb4f9051",
+                "occurTime": "2023-09-15 11:31:30",
+                "content": "test",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "110kV母线1",
+                "bayName": "110kV母线1"
+            },
+            {
+                "defectId": "62278932-5368-11ee-89f9-047bcb4f8f41",
+                "occurTime": "2023-09-15 09:36:38",
+                "content": "2023年09月15日  08:47:18       点表管理测试站 263开关      分闸",
+                "note": null,
+                "stName": "点表管理测试站",
+                "devName": "263开关",
+                "bayName": "263开关间隔"
+            },
+            {
+                "defectId": "4b581104-5368-11ee-b936-047bcb4f8f41",
+                "occurTime": "2023-09-15 09:35:52",
+                "content": "2023年09月15日  08:47:18       500kV公共测试站 263开关      分闸(封锁)",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "263开关",
+                "bayName": "263开关间隔"
+            },
+            {
+                "defectId": "30d6ec56-5368-11ee-ab55-047bcb4f8f41",
+                "occurTime": "2023-09-15 09:35:12",
+                "content": "2023年09月15日  08:49:52       220kV测试站1 CBR221      分闸(封锁)",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "CBR221",
+                "bayName": "220kV线路1"
+            },
+            {
+                "defectId": "17d1d7b6-5368-11ee-af79-047bcb4f8f41",
+                "occurTime": "2023-09-15 09:34:23",
+                "content": "2023年09月15日  08:50:47       220kV测试站1 CBR221      分闸(封锁)",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "CBR221",
+                "bayName": "220kV线路1"
+            },
+            {
+                "defectId": "f5f33dba-5367-11ee-864a-047bcb4f8f41",
+                "occurTime": "2023-09-15 09:33:29",
+                "content": "2023年09月15日  08:51:20       500kV公共测试站 #2主变-高 功率正常",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "#2主变-高",
+                "bayName": "#2主变间隔"
+            },
+            {
+                "defectId": "c7f5a7cc-5367-11ee-8a87-047bcb4f8f41",
+                "occurTime": "2023-09-15 09:32:24",
+                "content": "2023年09月15日  08:50:50       220kV测试站1 110kV母线2 线电压  60.00 越下限1 71.000",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "110kV母线2",
+                "bayName": "110kV母线2"
+            },
+            {
+                "defectId": "b18dd3a6-5367-11ee-b601-047bcb4f8f41",
+                "occurTime": "2023-09-15 09:31:37",
+                "content": "2023年09月15日  08:50:45       220kV测试站1 110kV母线2 线电压  90.00 正常 ",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "110kV母线2",
+                "bayName": "110kV母线2"
+            },
+            {
+                "defectId": "96cb843c-5367-11ee-b74e-047bcb4f8f41",
+                "occurTime": "2023-09-15 09:31:00",
+                "content": "2023年09月15日  08:49:55       220kV测试站1 110kV母线2 线电压  60.00 越下限1 71.000",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "110kV母线2",
+                "bayName": "110kV母线2"
+            },
+            {
+                "defectId": "72ef26f4-5367-11ee-9534-047bcb4f8f41",
+                "occurTime": "2023-09-15 09:29:48",
+                "content": "2023年09月15日  08:05:00       500kV公共测试站 500kVⅠ段母线 C相电压幅值  10.00 越下限2 20.000",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "500kVⅠ段母线",
+                "bayName": "500kVⅠ段母线间隔"
+            },
+            {
+                "defectId": "80cbca5c-5367-11ee-8d8f-047bcb4f8f41",
+                "occurTime": "2023-09-15 09:29:30",
+                "content": "2023年09月15日  08:49:50       220kV测试站1 110kV母线2 线电压  90.00 正常 ",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "110kV母线2",
+                "bayName": "110kV母线2"
+            },
+            {
+                "defectId": "2875553a-5367-11ee-b599-047bcb4f8f41",
+                "occurTime": "2023-09-15 09:27:21",
+                "content": "2023年09月15日  08:05:00       220kV测试站1 10kV母线777 线电压   0.00 越下限3 30.000",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "10kV母线777",
+                "bayName": "10kV母线1"
+            },
+            {
+                "defectId": "419aa1a0-5367-11ee-86d8-047bcb4f8f41",
+                "occurTime": "2023-09-15 09:27:19",
+                "content": "2023年09月15日  09:20:46       220kV测试站3 CBR212 重要设备当前负载15.000000,当前限值20.000000,当前状态为正常, 越限起始时间为：2023-09-15 09:15:16,越限结束时间为：2023-09-15 09:20:46",
+                "note": null,
+                "stName": "220kV测试站3",
+                "devName": "CBR212",
+                "bayName": "220kV母联"
+            },
+            {
+                "defectId": "b9beeb92-5208-11ee-943a-047bcb4f8f41",
+                "occurTime": "2023-09-13 15:39:47",
+                "content": "2023年09月13日  15:10:33       500kV公共测试站 2633刀闸      合闸",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "2633刀闸",
+                "bayName": "263开关间隔"
+            },
+            {
+                "defectId": "58e04c6c-5208-11ee-b2a1-047bcb4f8f41",
+                "occurTime": "2023-09-13 15:36:50",
+                "content": "2023年09月13日  15:14:38       500kV公共测试站 2633刀闸      分闸",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "2633刀闸",
+                "bayName": "263开关间隔"
+            },
+            {
+                "defectId": "42a1a540-514a-11ee-88b1-047bcb4f9080",
+                "occurTime": "2023-09-12 16:56:09",
+                "content": "test111",
+                "note": null,
+                "stName": "220kV测试站3",
+                "devName": "CBR213",
+                "bayName": "110kV线路2"
+            },
+            {
+                "defectId": "d64465ce-5084-11ee-85eb-047bcb4f8f41",
+                "occurTime": "2023-09-11 17:22:43",
+                "content": "2023-09-11 17:21:13      220kV测试站3 220kV线路1 线路永久故障（重合失败）",
+                "note": "12",
+                "stName": "220kV测试站3",
+                "devName": "线路1电抗器",
+                "bayName": "220kV线路1"
+            },
+            {
+                "defectId": "e835140e-4f80-11ee-8ad9-047bcb4f8f41",
+                "occurTime": "2023-09-10 10:22:17",
+                "content": "#2主变低压侧302开关 test",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "#2主变低压侧302开关",
+                "bayName": "#2主变低压侧302开关间隔"
+            },
+            {
+                "defectId": "98d4be3c-4f12-11ee-aece-047bcb4f8f41",
+                "occurTime": "2023-09-09 21:12:45",
+                "content": "2023年09月09日  21:04:35       500kV公共测试站 2121刀闸      分闸",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": "2121刀闸",
+                "bayName": "母联212开关间隔"
+            },
+            {
+                "defectId": "193f95de-4f12-11ee-aa12-047bcb4f8f41",
+                "occurTime": "2023-09-09 21:09:08",
+                "content": "2023年09月09日  21:03:50       220kV测试站1 110kV母线2 线电压  60.00 越下限1 71.000",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "110kV母线2",
+                "bayName": "110kV母线2"
+            },
+            {
+                "defectId": "04cabcaa-4f12-11ee-93cb-047bcb4f8f41",
+                "occurTime": "2023-09-09 21:08:37",
+                "content": "2023年09月09日  20:26:18       500kV公共测试站 C_B5011X对象10      动作",
+                "note": null,
+                "stName": "500kV公共测试站",
+                "devName": null,
+                "bayName": "5051开关间隔"
+            },
+            {
+                "defectId": "e21d5ed8-4f11-11ee-8901-047bcb4f8f41",
+                "occurTime": "2023-09-09 21:07:33",
+                "content": "2023年09月09日  21:07:24       220kV测试站1 CBR732      事故分闸",
+                "note": null,
+                "stName": "220kV测试站1",
+                "devName": "CBR732",
+                "bayName": "2号所用变"
+            }
+        ]
+    }
+}

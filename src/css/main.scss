@@ -1,0 +1,149 @@
+:root {
+    --jam-ui-color-accent: hsl(205, 100%, 67%);
+    --10kV-clr: hsl(2.7, 51.7%, 65.9%);
+    --35kV-clr: hsl(60, 91.7%, 76.5%);
+    --66kV-clr: hsl(48, 100%, 50%);
+    --110kV-clr: hsl(199.3, 100%, 59.2%);
+    --220kV-clr: hsl(300, 52.2%, 59%);
+    --330kV-clr: hsl(91.2, 63.4%, 48.2%);
+    --500kV-clr: hsl(354.8, 100%, 63.9%);
+    --660kV-clr: hsl(29.3, 90.5%, 49.6%);
+    --750kV-clr: hsl(29.5, 95.5%, 35.1%);
+    --800kV-clr: hsl(240, 100%, 65.1%);
+    --1000kV-clr: hsl(240, 100%, 50%);
+}
+
+body {
+    // font-size: 1.5vh;
+    position: relative;
+    overflow: hidden;
+    --h: 0.5;
+
+    jam-notify {
+        font-size: 1.2rem;
+        z-index: 9999;
+    }
+}
+
+.jam-card-title-hover {
+    cursor: pointer;
+
+    &:hover {
+        color: hsl(var(--jam-ac-h), var(--jam-ac-s), calc(var(--jam-ac-l) * 1.5)) !important;
+    }
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .header,.tsHeader {
+        height: 4rem;
+        z-index: 1;
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            min-height: 1rem;
+            margin-left: 1rem;
+            min-width: 3rem;
+        }
+
+        .header-title {
+            height: 100%;
+            background-size: 100% 100%;
+        }
+
+        .composable-action {
+            margin-right: 0.5rem;
+
+            [slot='cap'] {
+                width: max-content;
+            }
+        }
+        // background-color: var(--jam-ac-color);
+        // background-image: linear-gradient(rgba(0, 0, 0, .05), transparent .4rem, transparent calc(100% - .6rem), rgba(0, 0, 0, .12));
+
+        --jam-icon-font-size: 1.2rem;
+
+    }
+
+    .search-btn {
+        margin-right: 0.5rem;
+    }
+}
+
+#sidebar-wrapper {
+    transition: width 400ms;
+    z-index: 1;
+    width: 15rem;
+    min-width: 0px;
+    flex: 1 1 0%;
+    overflow: hidden;
+    white-space: nowrap;
+
+    .sidebar-name {
+        padding: 0.2rem 0.5rem;
+        margin: 0.2rem 0;
+        cursor: pointer;
+        font-size: 1.05rem;
+    }
+}
+
+@keyframes shake-top {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 50% 0;
+    }
+
+    10% {
+        transform: rotate(2deg);
+    }
+
+    20% {
+        transform: rotate(-4deg);
+    }
+
+    30% {
+        transform: rotate(4deg);
+    }
+
+    40% {
+        transform: rotate(-4deg);
+    }
+
+    40% {
+        transform: rotate(4deg);
+    }
+
+    60% {
+        transform: rotate(-4deg);
+    }
+
+    70% {
+        transform: rotate(4deg);
+    }
+
+    80% {
+        transform: rotate(-2deg);
+    }
+
+    90% {
+        transform: rotate(2deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 50% 0;
+    }
+}
+
+// 给组态化嵌入的iframe卡片card的border去掉
+[id*="iframeCard_"] {
+    border: none;
+}

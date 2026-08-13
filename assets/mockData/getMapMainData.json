@@ -1,0 +1,432 @@
+{
+	"substationList": [
+		{
+			"id": "",
+			"name": "盘山",
+			"substationType": 4,
+			"voltageLevel": "",
+			"location": [
+				117.563195,
+				40.220999
+			]
+		},
+		{
+			"id": "113997367144873993",
+			"name": "安定",
+			"voltageLevel": "",
+			"substationType": 3,
+			"location": [
+				116.703743,
+				39.728216
+			]
+		},
+		{
+			"id": "",
+			"name": "廊坊",
+			"voltageLevel": "",
+			"substationType": 3,
+			"location": [
+				116.703743,
+				39.003603
+			]
+		},
+		{
+			"id": "",
+			"name": "保定",
+			"voltageLevel": "",
+			"substationType": 3,
+			"location": [
+				116.653743,
+				38.903603
+			]
+		},
+		{
+			"id": "",
+			"name": "新航城",
+			"voltageLevel": "",
+			"substationType": 3,
+			"location": [
+				116.743743,
+				39.503603
+			]
+		},
+		{
+			"id": "113997365769142296",
+			"name": "渠阳",
+			"substationType": 2,
+			"voltageLevel": "500kV",
+			"location": [
+				117.413725,
+				39.772590
+			]
+		},
+		{
+			"id": "113997365769142295",
+			"name": "南蔡",
+			"substationType": 2,
+			"voltageLevel": "500kV",
+			"location": [
+				117.145146,
+				39.616113
+			]
+		},
+		{
+			"id": "113997365769142291",
+			"name": "北郊",
+			"substationType": 2,
+			"voltageLevel": "500kV",
+			"location": [
+				117.271261,
+				39.419934
+			]
+		},
+		{
+			"id": "113997365769142305",
+			"name": "正德",
+			"substationType": 2,
+			"voltageLevel": "500kV",
+			"location": [
+				116.965315,
+				39.296154
+			]
+		},
+		{
+			"id": "113997365769142284",
+			"name": "东丽",
+			"substationType": 2,
+			"voltageLevel": "500kV",
+			"location": [
+				117.31428,
+				39.08652
+			]
+		},
+		{
+			"id": "113997365769142294",
+			"name": "芦台",
+			"substationType": 2,
+			"voltageLevel": "500kV",
+			"location": [
+				117.738355,
+				39.525030
+			]
+		},
+		{
+			"id": "113997365769142283",
+			"name": "滨海",
+			"substationType": 2,
+			"voltageLevel": "500kV",
+			"location": [
+				117.71071,
+				39.0032
+			]
+		},
+		{
+			"id": "",
+			"name": "北疆电厂",
+			"substationType": 4,
+			"voltageLevel": "",
+			"location": [
+				117.843451,
+				39.291483
+			]
+		},
+		{
+			"id": "",
+			"name": "裕丰",
+			"substationType": 3,
+			"voltageLevel": "",
+			"location": [
+				117.927528,
+				39.823970
+			]
+		},
+		{
+			"id": "113997365769142301",
+			"name": "吴庄",
+			"substationType": 2,
+			"voltageLevel": "500kV",
+			"location": [
+				117.126465,
+				39.153691
+			]
+		},
+		{
+			"id": "113997365769142279",
+			"name": "板桥",
+			"substationType": 2,
+			"voltageLevel": "500kV",
+			"location": [
+				117.348332,
+				39.029911
+			]
+		},
+		{
+			"id": "",
+			"name": "孝彩",
+			"substationType": 3,
+			"voltageLevel": "",
+			"location": [
+				116.715420,
+				38.693603
+			]
+		},
+		{
+			"id": "",
+			"name": "黄骅",
+			"substationType": 3,
+			"voltageLevel": "",
+			"location": [
+				117.191645,
+				38.578571
+			]
+		},
+		{
+			"id": "",
+			"name": "泉城",
+			"substationType": 3,
+			"voltageLevel": "",
+			"location": [
+				117.481645,
+				38.558571
+			]
+		},
+		{
+			"id": "113997365769142286",
+			"name": "海河",
+			"substationType": 1,
+			"voltageLevel": "1000kV",
+			"location": [
+				117.276491,
+				38.839893
+			]
+		},
+		{
+			"id": "113997365769142292",
+			"name": "静海",
+			"substationType": 2,
+			"voltageLevel": "500kV",
+			"location": [
+				116.98002794726564,
+				38.77409910941436
+			]
+		}
+	],
+	"substationLineList": [
+		{
+			"lineId": "",
+			"startStName": "海河",
+			"endStName": "廊坊",
+			"lineType": 3,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "海河",
+			"endStName": "泉城",
+			"lineType": 3,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "保定",
+			"endStName": "海河",
+			"lineType": 3,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "新航城",
+			"endStName": "南蔡",
+			"lineType": 3,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "盘山",
+			"endStName": "安定",
+			"lineType": 3,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "盘山",
+			"endStName": "渠阳",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "渠阳",
+			"endStName": "南蔡",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "南蔡",
+			"endStName": "北郊",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "芦台",
+			"endStName": "渠阳",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "裕丰",
+			"endStName": "芦台",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "北郊",
+			"endStName": "东丽",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "北郊",
+			"endStName": "正德",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "正德",
+			"endStName": "吴庄",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "吴庄",
+			"endStName": "板桥",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "板桥",
+			"endStName": "滨海",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "海河",
+			"endStName": "板桥",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "海河",
+			"endStName": "静海",
+			"lineType": 1,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "静海",
+			"endStName": "吴庄",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "黄骅",
+			"endStName": "静海",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "孝彩",
+			"endStName": "吴庄",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "滨海",
+			"endStName": "芦台",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "北疆电厂",
+			"endStName": "芦台",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "北疆电厂",
+			"endStName": "滨海",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "滨海",
+			"endStName": "东丽",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		}
+	]
+}

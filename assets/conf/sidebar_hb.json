@@ -1,0 +1,677 @@
+[
+    {
+        "path": "/",
+        "name": "系统首页",
+        "gap": 1,
+        "icon": "home",
+        "group": "dashboard",
+        "size": [46, 50],
+        "cards": [
+            {
+                "id": "mapDevelopment",
+                "coord": [13, 1, 22, 34],
+                "resource": "modules/mainMap.mjs"
+            },
+
+            {
+                "id": "weather",
+                "cap": "今日天气",
+                "coord": [35, 1, 12, 17],
+                "resource": "modules/todayWeather.mjs"
+            },
+            {
+                "id": "substationScale",
+                "cap": "变电站规模",
+                "coord": [1, 1, 12, 17],
+                "resource": "modules/substationScale.mjs"
+            },
+            {
+                "id": "oilTemperatureCharts",
+                "cap": "主变油温",
+                "coord": [1, 18, 12, 17],
+                "resource": "modules/mainTransOilTemp.mjs"
+            },
+            {
+                "id": "eventPushTable",
+                "cap": "缺陷统计",
+                "coord": [1, 35, 12, 16],
+                "resource": "modules/defectManagement.mjs"
+            },
+            {
+                "id": "defectStatistics",
+                "cap": "跳闸信息",
+                "coord": [13, 35, 11, 16],
+                "resource": "modules/tripStatistics.mjs"
+            },
+            {
+                "id": "day5WarnStatics",
+                "cap": "今日五类告警数量统计",
+                "coord": [24, 35, 11, 16],
+                "resource": "modules/mainAndAuxiliaryAlarmStatistics.mjs"
+            },
+            {
+                "id": "overloadDeviceRadarChart",
+                "cap": "设备重过载",
+                "coord": [35, 18, 12, 17],
+                "resource": "modules/devOverLoad.mjs"
+            },
+            {
+                "id": "riskInfo",
+                "cap": "电网风险",
+                "coord": [35, 35, 12, 16],
+                "resource": "modules/riskInfo.mjs"
+            }
+        ]
+    },
+    {
+        "name": "全景展示",
+        "icon": "globe",
+        "group": "overview",
+        "pages": [
+            {
+                "name": "差异化监视",
+                "group": "overview",
+                "icon": "bell",
+                "pages": [
+                    {
+                        "name": "重大保电",
+                        "group": "overview",
+                        "path": "/major-power-outage",
+                        "resources": ["modules/majorPowerOutage.mjs"]
+                    },
+                    {
+                        "name": "重要用户",
+                        "group": "overview",
+                        "path": "/important-user",
+                        "resources": ["modules/importantUser.mjs"]
+                    },
+                    {
+                        "name": "重要活动",
+                        "path": "/important-activity-protection",
+                        "id": "importantActivityProtection",
+                        "resources": ["modules/importantActivityProtection.mjs"]
+                    }
+                ]
+            },
+            {
+                "name": "主网结构图",
+                "group": "maingraph",
+                "icon": "chart-network",
+                "pages": [
+                    {
+                        "path": "/main-graph-500",
+                        "name": "500kV结构图",
+                        "size": [46, 50],
+                        "group": "overview",
+                        "gap": 1,
+                        "cards": [
+                            {
+                                "id": "main-graph",
+                                "coord": [1, 1, 46, 50],
+                                "src": "https://22.54.252.71:8443/osp/GraphPub/Navigator.html?graph=HB.500kV结构图.ln.pic.g;toolbarshow=0;menubarshow=0;"
+                            }
+                        ]
+                    },
+                    {
+                        "path": "/main-graph-220",
+                        "name": "220kV结构图",
+                        "size": [46, 50],
+                        "group": "overview",
+                        "gap": 1,
+                        "cards": [
+                            {
+                                "id": "main-graph",
+                                "coord": [1, 1, 46, 50],
+                                "src": "https://22.54.252.71:8443/osp/GraphPub/Navigator.html?graph=HB.220kV结构图.ln.pic.g;toolbarshow=0;menubarshow=0;"
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "path": "/substationIndex_songjian-screen",
+                "name": "厂站目录",
+                "size": [46, 50],
+                "group": "overview",
+                "gap": 1,
+                "icon": "transformer-bolt",
+                "cards": [
+                    {
+                        "id": "substationIndex_songjian-screen",
+                        "coord": [1, 1, 46, 50],
+                        "resource": "modules/substationIndex.mjs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "统计分析",
+        "gap": 1,
+        "icon": "magnifying-glass-chart",
+        "group": "statistic",
+        "pages": [
+            {
+                "path": "/system-scale",
+                "name": "系统规模",
+                "group": "statistic",
+                "size": [46, 50],
+                "gap": 1,
+                "cards": [
+                    {
+                        "id": "operationNumBar",
+                        "cap": "运维班监控数量统计",
+                        "coord": [1, 1, 23, 25],
+                        "src": "../../infovis-provincial-platform/html/2DChart.html?id=operationNumBar"
+                    },
+                    {
+                        "id": "mainEquipment",
+                        "coord": [24, 1, 23, 25],
+                        "cap": "主要设备数量统计",
+                        "src": "../../infovis-provincial-platform/html/devNumStatistics.html?id=mainEquipment&fontSize=3.8vh"
+                    },
+                    {
+                        "id": "accessBar",
+                        "coord": [1, 26, 23, 25],
+                        "cap": "厂站接入率统计",
+                        "src": "../../infovis-provincial-platform/html/2DChart.html?id=accessBar"
+                    },
+                    {
+                        "id": "stationStatics",
+                        "coord": [24, 26, 23, 25],
+                        "cap": "变电站数量统计",
+                        "src": "../../infovis-provincial-platform/html/stationNumStatistics.html?id=stationStatics&fontSize=4.8vh"
+                    }
+                ],
+                "hide": true
+            },
+            {
+                "path": "/overload",
+                "group": "statistic",
+                "name": "设备重过载",
+                "size": [3, 2],
+                "gap": 1,
+                "hide": true,
+                "cards": [
+                    {
+                        "id": "devOverLoad",
+                        "coord": [1, 1, 1, 1],
+                        "cap": "实时重过载数量统计",
+                        "resource": "modules/devOverLoad.mjs"
+                    },
+                    {
+                        "id": "overloadDetail",
+                        "coord": [2, 2, 2, 1],
+                        "cap": "实时重过载详情",
+                        "resource": "modules/overloadDetail.mjs"
+                    },
+                    {
+                        "id": "overloadDurationStatistics",
+                        "coord": [3, 1, 1, 1],
+                        "cap": "实时重过载时长统计",
+                        "resource": "modules/overloadDurationStatistics.mjs"
+                    },
+                    {
+                        "id": "overloadRuntimeStatistics",
+                        "coord": [1, 2, 1, 1],
+                        "cap": "实时重过载分类统计",
+                        "resource": "modules/overloadRuntimeStatistics.mjs"
+                    },
+                    {
+                        "id": "overloadTrendStatistics",
+                        "coord": [2, 1, 1, 1],
+                        "cap": "历史重过载趋势统计",
+                        "resource": "modules/overloadTrendStatistics.mjs"
+                    }
+                ]
+            },
+            {
+                "path": "/overload_songjian",
+                "group": "statistic",
+                "name": "设备重过载",
+                "size": [3, 20],
+                "gap": 1,
+                "cards": [
+                    {
+                        "id": "overloadFilter",
+                        "coord": [1, 1, 3, 1],
+                        "cap": "重过载过滤",
+                        "resource": "modules/overloadFilter.mjs"
+                    },
+                    {
+                        "id": "devOverLoad",
+                        "coord": [1, 2, 1, 10],
+                        "cap": "实时重过载数量统计",
+                        "resource": "modules/devOverLoad.mjs"
+                    },
+                    {
+                        "id": "overloadTrendStatistics",
+                        "coord": [2, 2, 1, 10],
+                        "cap": "历史重过载趋势统计",
+                        "resource": "modules/overloadTrendStatistics.mjs"
+                    },
+                    {
+                        "id": "overloadDurationStatistics",
+                        "coord": [3, 2, 1, 10],
+                        "cap": "实时重过载时长统计",
+                        "resource": "modules/overloadDurationStatistics.mjs"
+                    },
+                    {
+                        "id": "overloadRuntimeStatistics",
+                        "coord": [1, 12, 1, 9],
+                        "cap": "实时重过载分类统计",
+                        "resource": "modules/overloadRuntimeStatistics.mjs"
+                    },
+                    {
+                        "id": "overloadDetail",
+                        "coord": [2, 12, 2, 9],
+                        "cap": "实时重过载详情",
+                        "resource": "modules/overloadDetail.mjs"
+                    }
+                ]
+            },
+            {
+                "path": "/overload_js",
+                "group": "statistic",
+                "name": "设备重过载",
+                "size": [3, 2],
+                "gap": 1,
+                "hide": true,
+                "cards": [
+                    {
+                        "id": "devOverLoad",
+                        "coord": [1, 1, 1, 1],
+                        "cap": "实时重过载数量统计",
+                        "resource": "modules/devOverLoad.mjs"
+                    },
+                    {
+                        "id": "overloadRuntimeStatistics",
+                        "coord": [2, 1, 1, 1],
+                        "cap": "实时重过载分类统计",
+                        "resource": "modules/overloadRuntimeStatistics_js.mjs"
+                    },
+                    {
+                        "id": "loadRate",
+                        "coord": [3, 1, 1, 1],
+                        "cap": "实时负载率(重过载)",
+                        "resource": "modules/loadRate.mjs"
+                    },
+                    {
+                        "id": "overloadDurationStatistics",
+                        "coord": [1, 2, 1, 1],
+                        "cap": "实时重过载时长统计",
+                        "resource": "modules/overloadDurationStatistics.mjs"
+                    },
+                    {
+                        "id": "overloadDetail",
+                        "coord": [2, 2, 2, 1],
+                        "cap": "实时重过载详情",
+                        "resource": "modules/overloadDetail.mjs"
+                    }
+                ]
+            },
+            {
+                "path": "/oilTemperatureAnalysis-screen",
+                "group": "statistic",
+                "name": "主变油温统计",
+                "size": [46, 50],
+                "gap": 1,
+                "hide": true,
+                "cards": [
+                    {
+                        "id": "oilTemperatureAnalysis",
+                        "coord": [1, 1, 46, 50],
+                        "src": "../../infovis-provincial-platform/html/mainTransformerOilTemperatureStatistics.html?id=mainTransformerOilTemperatureStatistics&fontSize=1.8vh&city=tainjin"
+                    }
+                ]
+            },
+            {
+                "path": "/oilTemperatureAnalysis_songjian-screen",
+                "group": "statistic_sj",
+                "name": "主变油温统计",
+                "size": [46, 50],
+                "gap": 1,
+                "cards": [
+                    {
+                        "id": "oilTemperatureAnalysis_songjian",
+                        "coord": [1, 1, 46, 50],
+                        "src": "../../infovis-provincial-platform/html/mainTransformerOilTemperatureStatistics.html?id=mainTransformerOilTemperatureStatisticsSj&fontSize=1.8vh&city=tianjin"
+                    }
+                ]
+            },
+            {
+                "path": "/switch-actions-count",
+                "group": "statistic",
+                "name": "开关动作次数",
+                "size": [46, 50],
+                "gap": 1,
+                "cards": [
+                    {
+                        "id": "switchNumber",
+                        "coord": [1, 1, 46, 50],
+                        "src": "../../infovis-provincial-platform/html/switchNumber.html?id=switchNumber&fontSize=2vh"
+                    }
+                ]
+            },
+            {
+                "path": "/operation-statistics",
+                "name": "操作实用化指标",
+                "resources": ["modules/operationStatistics.mjs"]
+            },
+            {
+                "path": "/five-class-alarm",
+                "group": "statistic",
+                "name": "五类告警统计",
+                "size": [46, 50],
+                "gap": 1,
+                "cards": [
+                    {
+                        "id": "alarmNumberStatistics",
+                        "coord": [1, 1, 46, 50],
+                        "src": "../../infovis-provincial-platform/html/alarmNumberStatistics.html?id=alarmNumberStatistics&fontSize=1.6vh&via=sendForInspection"
+                    }
+                ]
+            },
+            {
+                "path": "/dev-over-limit",
+                "group": "statistic",
+                "name": "遥测越限统计",
+                "size": [46, 50],
+                "gap": 1,
+                "cards": [
+                    {
+                        "id": "devicesExceedLimitStatistics",
+                        "coord": [1, 1, 46, 50],
+                        "src": "../../infovis-provincial-platform/html/devicesExceedLimitStatistics.html?id=devicesExceedLimitStatistics&fontSize=1.6vh&via=sendForInspection"
+                    }
+                ]
+            },
+            {
+                "path": "/dev-alarm-analysis",
+                "name": "设备预警统计",
+                "group": "statistic",
+                "resources": ["modules/equipmentEarlyWarningStatistics.mjs"]
+            },
+            {
+                "path": "/event-monitor-analysis",
+                "group": "statistic",
+                "name": "事件化监控分析",
+                "resources": ["modules/eventDrivenMonitoringAnalytics.mjs"]
+            },
+            {
+                "path": "/secondary-voltage-analysis",
+                "group": "statistic",
+                "hide": true,
+                "name": "CVT二次电压",
+                "resources": ["modules/secondaryVoltageAnalytics.mjs"]
+            }
+        ]
+    },
+    {
+        "name": "系统运维管理",
+        "gap": 1,
+        "icon": "rocket-launch",
+        "group": "maintenance",
+        "size": [24, 12],
+        "pages": [
+            {
+                "path": "/data-control",
+                "group": "maintenance",
+                "name": "数据安全管控",
+                "size": [1, 1],
+                "cards": [
+                    {
+                        "id": "iframeCard_dataControl_region",
+                        "coord": [1, 1, 1, 1],
+                        "src": "../../?confPath=common-songjian&param=_scn,dataControl_region-scene"
+                    }
+                ]
+            },
+            {
+                "path": "/system-run-control-new",
+                "group": "maintenance",
+                "name": "系统运行管控",
+                "resources": ["modules/systemRunningManagement.mjs"]
+            },
+            {
+                "path": "/data-quality-control-new",
+                "group": "maintenance",
+                "name": "数据质量管控",
+                "resources": ["modules/dataQualityManagement.mjs"]
+            },
+            {
+                "path": "/system-run-record",
+                "group": "maintenance",
+                "name": "系统运维记录",
+                "resources": ["modules/systemOperatingRecords.mjs"]
+            },
+            {
+                "path": "/system-defect-management",
+                "group": "maintenance",
+                "name": "系统缺陷管理",
+                "resources": ["modules/systemDefectManagement.mjs"]
+            },
+            {
+                "path": "/city-access-analysis",
+                "name": "系统规模管理",
+                "group": "maintenance",
+                "resources": ["modules/systemProgressCityAccess.mjs"]
+            },
+            {
+                "path": "/diagram-model-update",
+                "name": "图模更新历史详情",
+                "group": "maintenance",
+                "resources": ["modules/diagramModelUpdate.mjs"],
+                "hide": true
+            },
+            {
+                "path": "/event-rule-manage",
+                "name": "事件化规则管理",
+                "group": "maintenance",
+                "size": [1, 1],
+                "hide": true,
+                "cards": [
+                    {
+                        "id": "eventRuleManagement",
+                        "coord": [1, 1, 1, 1],
+                        "src": "../../event-auto-check/#/event-rule-info"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "数据上送",
+        "gap": 1,
+        "icon": "folder",
+        "group": "maintenance",
+        "size": [24, 12],
+        "pages": [
+            {
+                "path": "/event-based-submission",
+                "group": "statistic",
+                "name": "事件化上送",
+                "resources": ["modules/eventBasedSubmission.mjs"]
+            },
+            {
+                "path": "/overload-management",
+                "group": "statistic",
+                "name": "重过载上送",
+                "resources": ["modules/overloadManagement.mjs"]
+            }
+        ]
+    },
+    {
+        "name": "故障录波",
+        "path": "/fault-record",
+        "icon": "wave-sine",
+        "size": [1, 1],
+        "gap": 1,
+        "newWindow": true,
+        "src": "https://22.54.252.71:8443/faultRecordWave"
+    },
+    {
+        "name": "统一告警",
+        "path": "/uniform-alarm",
+        "icon": "fire-alt",
+        "size": [1, 1],
+        "gap": 1,
+        "newWindow": true,
+        "src": "https://22.54.252.71:8443/alarm/realtime/?showAll=true&skinFlag=false"
+    },
+    {
+        "name": "系统运行监视",
+        "path": "/sys-running-mon",
+        "icon": "eye",
+        "size": [1, 1],
+        "gap": 1,
+        "newWindow": true,
+        "src": "https://22.54.252.71:8443/monitor/#/dashboard"
+    },
+
+    {
+        "name": "监控信息",
+        "path": "/monitor-info",
+        "icon": "rocket-launch",
+        "size": [1, 1],
+        "gap": 1,
+        "cards": [
+            {
+                "id": "monitorInfo",
+                "coord": [1, 1, 1, 1],
+                "src": "https://10.10.1.5:9183"
+            }
+        ],
+        "hide": true
+    },
+    {
+        "hide": true,
+        "path": "/transform-overload",
+        "name": "变压器重过载",
+        "size": [9, 2],
+        "gap": 1,
+        "cards": [
+            {
+                "id": "heavyloadTransformData",
+                "cap": "重载变压器",
+                "coord": [1, 1, 5, 1],
+                "resource": "modules/heavyloadTransformData.mjs"
+            },
+            {
+                "id": "overloadTransformData",
+                "cap": "过载变压器",
+                "coord": [1, 2, 5, 1],
+                "resource": "modules/overloadTransformData.mjs"
+            },
+            {
+                "id": "normalTransformData",
+                "cap": "正常变压器基础数据",
+                "coord": [6, 1, 4, 2],
+                "resource": "modules/normalTransformData.mjs"
+            }
+        ]
+    },
+    {
+        "hide": true,
+        "path": "/load-limit",
+        "name": "load-limit",
+        "resources": ["modules/loadLimit.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/remote-inspection",
+        "name": "remote-inspection",
+        "resources": ["modules/remoteInspection.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/power-outage-statistics",
+        "name": "power-outage-statistics",
+        "resources": ["modules/powerOutageStatistics.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/bus-voltage-limit",
+        "name": "bus-voltage-limit",
+        "resources": ["modules/busVoltageLimit.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/device-load-rate-byDay",
+        "name": "device-load-rate-byDay",
+        "resources": ["modules/deviceLoadRateByDay.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/device-load-rate-minmax",
+        "name": "device-load-rate-minmax",
+        "resources": ["modules/deviceLoadRateMinmax.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/device-load-rate-threshold",
+        "name": "device-load-rate-threshold",
+        "resources": ["modules/deviceLoadRateThreshold.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/event-driven-monitoring-analytics",
+        "name": "event-driven-monitoring-analytics",
+        "resources": ["modules/eventDrivenMonitoringAnalytics.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/equipment-early-warning-statistics",
+        "name": "equipment-early-warning-statistics",
+        "resources": ["modules/equipmentEarlyWarningStatistics.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/auto-system-statistics",
+        "name": "auto-system-statistics",
+        "resources": ["modules/autoSystemStatistics.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/history-fault",
+        "name": "history-fault",
+        "resources": ["modules/historyFault.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/busbar-voltage-loss",
+        "name": "busbar-voltage-loss",
+        "resources": ["modules/busbarVoltageLoss.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/remote-inspection-info",
+        "name": "remote-inspection-info",
+        "resources": ["modules/remoteInspectionInfo.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/dev-num-statistics",
+        "name": "dev-num-statistics",
+        "resources": ["modules/mainAuxDevNumStatistics.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/system-operating-records",
+        "name": "system-operating-records",
+        "resources": ["modules/systemOperatingRecords.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/online-monitoring-yc",
+        "name": "online-monitoring-yc",
+        "resources": ["modules/onlineMonitoringYc.mjs"]
+    },
+    {
+        "hide": true,
+        "path": "/defect-management",
+        "name": "defect-management",
+        "resources": ["modules/defectManagement.mjs"]
+    }
+]

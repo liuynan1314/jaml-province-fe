@@ -1,0 +1,31 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+      {
+        "name": "故障",
+        "value": "1",
+        "num": null
+      },
+      {
+        "name": "跳闸",
+        "value": "2",
+        "num": null
+      },
+      {
+        "name": "调档",
+        "value": "6",
+        "num": null
+      },
+      {
+        "name": "传动",
+        "value": "7",
+        "num": null
+      },
+      {
+        "name": "通道",
+        "value": "8",
+        "num": null
+      }
+    ]
+  }

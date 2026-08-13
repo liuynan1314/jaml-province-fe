@@ -1,0 +1,110 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": "100",
+            "regionName": "nanjing",
+            "localFlag": "1",
+            "regionNameChn": "南京",
+            "modifyFlag": "0",
+            "acronym": "NJ"
+        },
+        {
+            "regionId": "101",
+            "regionName": "suzhou",
+            "localFlag": "1",
+            "regionNameChn": "苏州",
+            "modifyFlag": "0",
+            "acronym": "SZ"
+        },
+        {
+            "regionId": "102",
+            "regionName": "xuzhou",
+            "localFlag": "1",
+            "regionNameChn": "徐州",
+            "modifyFlag": "0",
+            "acronym": "XZ"
+        },
+        {
+            "regionId": "103",
+            "regionName": "wuxi",
+            "localFlag": "1",
+            "regionNameChn": "无锡",
+            "modifyFlag": "0",
+            "acronym": "WX"
+        },
+        {
+            "regionId": "104",
+            "regionName": "changzhou",
+            "localFlag": "1",
+            "regionNameChn": "常州",
+            "modifyFlag": "0",
+            "acronym": "CZ"
+        },
+        {
+            "regionId": "105",
+            "regionName": "zhenjiang",
+            "localFlag": "1",
+            "regionNameChn": "镇江",
+            "modifyFlag": "0",
+            "acronym": "ZHJ"
+        },
+        {
+            "regionId": "106",
+            "regionName": "yangzhou",
+            "localFlag": "1",
+            "regionNameChn": "扬州",
+            "modifyFlag": "0",
+            "acronym": "YZ"
+        },
+        {
+            "regionId": "107",
+            "regionName": "taizhou",
+            "localFlag": "1",
+            "regionNameChn": "泰州",
+            "modifyFlag": "0",
+            "acronym": "TZ"
+        },
+        {
+            "regionId": "108",
+            "regionName": "nantong",
+            "localFlag": "1",
+            "regionNameChn": "南通",
+            "modifyFlag": "0",
+            "acronym": "NT"
+        },
+        {
+            "regionId": "109",
+            "regionName": "yancheng",
+            "localFlag": "1",
+            "regionNameChn": "盐城",
+            "modifyFlag": "0",
+            "acronym": "YC"
+        },
+        {
+            "regionId": "110",
+            "regionName": "huaian",
+            "localFlag": "1",
+            "regionNameChn": "淮安",
+            "modifyFlag": "0",
+            "acronym": "HA"
+        },
+        {
+            "regionId": "111",
+            "regionName": "suqian",
+            "localFlag": "1",
+            "regionNameChn": "宿迁",
+            "modifyFlag": "0",
+            "acronym": "SQ"
+        },
+        {
+            "regionId": "112",
+            "regionName": "lianyungang",
+            "localFlag": "1",
+            "regionNameChn": "连云港",
+            "modifyFlag": "0",
+            "acronym": "LYG"
+        }
+    ]
+}

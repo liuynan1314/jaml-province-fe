@@ -1,0 +1,11 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 101,
+            "regionName": "苏州",
+            "num": 20
+        }
+    ]
+}

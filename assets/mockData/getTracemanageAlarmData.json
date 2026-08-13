@@ -1,0 +1,112 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "pageSize": 15,
+        "pageIndex": 1,
+        "pageCount": 1,
+        "pojoTotalCount": 10,
+        "list": [
+            {
+                "uuid": "d348ba1c-cf50-11f0-a0f0-e8611f352213",
+                "occurTime": "2025-12-02 15:30:49.000000",
+                "regionId": 91,
+                "regionName": "宁河",
+                "opTask": "断面比对",
+                "opName": "sca_cmp_jk_dd",
+                "content": "2025年12月02日 15:30:49      用户wjl在wxjk1-jk13机器上对江苏.拈花变站进行了模型比较(间隔表)，一致率:85.71%",
+                "graphName": "NULL"
+            },
+            {
+                "uuid": "d348ba1c-cf50-11f0-a0f0-e8611f352213",
+                "occurTime": "2025-12-02 15:30:49.000000",
+                "regionId": 91,
+                "regionName": "宁河",
+                "opTask": "断面比对",
+                "opName": "sca_cmp_jk_dd",
+                "content": "2025年12月02日 15:30:49      用户wjl在wxjk1-jk13机器上对江苏.拈花变站进行了模型比较(间隔表)，一致率:85.71%",
+                "graphName": "NULL"
+            },
+            {
+                "uuid": "481a33f2-cf51-11f0-a0f0-e8611f352213",
+                "occurTime": "2025-12-02 15:34:05.000000",
+                "regionId": 95,
+                "regionName": "东丽",
+                "opTask": "断面比对",
+                "opName": "sca_cmp_jk_dd",
+                "content": "2025年12月02日 15:34:05      用户wjl在wxjk1-jk13机器上对江苏.拈花变站进行了模型比较(断路器表)，一致率:88.10%",
+                "graphName": "NULL"
+            },
+            {
+                "uuid": "481a33f2-cf51-11f0-a0f0-e8611f352213",
+                "occurTime": "2025-12-02 15:34:05.000000",
+                "regionId": 95,
+                "regionName": "东丽",
+                "opTask": "断面比对",
+                "opName": "sca_cmp_jk_dd",
+                "content": "2025年12月02日 15:34:05      用户wjl在wxjk1-jk13机器上对江苏.拈花变站进行了模型比较(断路器表)，一致率:88.10%",
+                "graphName": "NULL"
+            },
+            {
+                "uuid": "4913a950-cf51-11f0-a0f0-e8611f352213",
+                "occurTime": "2025-12-02 15:34:07.000000",
+                "regionId": 93,
+                "regionName": "宝坻",
+                "opTask": "断面比对",
+                "opName": "sca_cmp_jk_dd",
+                "content": "2025年12月02日 15:34:07      用户wjl在wxjk1-jk13机器上对江苏.拈花变站进行了模型比较(刀闸表)，一致率:68.18%",
+                "graphName": "NULL"
+            },
+            {
+                "uuid": "c07fccdc-cf54-11f0-a0f0-e8611f352213",
+                "occurTime": "2025-12-02 15:58:56.000000",
+                "regionId": 90,
+                "regionName": "武清",
+                "opTask": "断面比对",
+                "opName": "sca_cmp_jk_dd",
+                "content": "2025年12月02日 15:58:56      用户wjl在wxjk1-jk13机器上对江苏.拈花变站进行了模型比较(母线表)，一致率:0.00%",
+                "graphName": "NULL"
+            },
+            {
+                "uuid": "87c36d5c-cf65-11f0-a0f0-e8611f352213",
+                "occurTime": "2025-12-02 17:59:02.000000",
+                "regionId": 92,
+                "regionName": "静海",
+                "opTask": "断面比对",
+                "opName": "sca_cmp_jk_dd",
+                "content": "2025年12月02日 17:59:02      用户wjl在wxjk1-jk13机器上对江苏.曙光变站进行了模型比较(间隔表)，一致率:100.00%",
+                "graphName": "NULL"
+            },
+            {
+                "uuid": "89cc5dca-cf65-11f0-a0f0-e8611f352213",
+                "occurTime": "2025-12-02 17:59:05.000000",
+                "regionId": 97,
+                "regionName": "城东",
+                "opTask": "断面比对",
+                "opName": "sca_cmp_jk_dd",
+                "content": "2025年12月02日 17:59:05      用户wjl在wxjk1-jk13机器上对江苏.曙光变站进行了模型比较(断路器表)，一致率:100.00%",
+                "graphName": "NULL"
+            },
+            {
+                "uuid": "8e8f1d52-cf65-11f0-a0f0-e8611f352213",
+                "occurTime": "2025-12-02 17:59:13.000000",
+                "regionId": 94,
+                "regionName": "蓟州",
+                "opTask": "断面比对",
+                "opName": "sca_cmp_jk_dd",
+                "content": "2025年12月02日 17:59:13      用户wjl在wxjk1-jk13机器上对江苏.曙光变站进行了模型比较(刀闸表)，一致率:82.00%",
+                "graphName": "NULL"
+            },
+            {
+                "uuid": "8e8f1d52-cf65-11f0-a0f0-e8611f352213",
+                "occurTime": "2025-12-02 17:59:13.000000",
+                "regionId": 94,
+                "regionName": "蓟州",
+                "opTask": "断面比对",
+                "opName": "sca_cmp_jk_dd",
+                "content": "2025年12月02日 17:59:13      用户wjl在wxjk1-jk13机器上对江苏.曙光变站进行了模型比较(刀闸表)，一致率:82.00%",
+                "graphName": "NULL"
+            }
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 12,
+            "regionName": "天津",
+            "count": 1,
+            "failCount": 2
+        },
+        {
+            "regionId": 98,
+            "regionName": "滨海",
+            "count": 3,
+            "failCount": 4
+        },
+        {
+            "regionId": 96,
+            "regionName": "城南",
+            "count": 5,
+            "failCount": 5
+        },
+        {
+            "regionId": 99,
+            "regionName": "城西",
+            "count": 1,
+            "failCount": 1
+        },
+        {
+            "regionId": 97,
+            "regionName": "城东",
+            "count": 0,
+            "failCount": 0
+        },
+        {
+            "regionId": 95,
+            "regionName": "东丽",
+            "count": 0,
+            "failCount": 0
+        },
+        {
+            "regionId": 93,
+            "regionName": "宝坻",
+            "count": 0,
+            "failCount": 0
+        },
+        {
+            "regionId": 92,
+            "regionName": "静海",
+            "count": 0,
+            "failCount": 0
+        },
+        {
+            "regionId": 91,
+            "regionName": "宁河",
+            "count": 0,
+            "failCount": 0
+        },
+        {
+            "regionId": 94,
+            "regionName": "蓟州",
+            "count": 0,
+            "failCount": 0
+        },
+        {
+            "regionId": 90,
+            "regionName": "武清",
+            "count": 0,
+            "failCount": 0
+        }
+    ]
+}

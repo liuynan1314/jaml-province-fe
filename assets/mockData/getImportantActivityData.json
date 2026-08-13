@@ -1,0 +1,81 @@
+{
+    "code": 200,
+    "msg": "",
+    "data": [
+        {
+            "id": "123123",
+            "name": "春节保供电",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "2025-08-03 00:00:00",
+            "endTime": "2025-08-15 00:00:00",
+            "level": "二级",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "123124",
+            "name": "两会保电",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "2025-08-12 00:00:00",
+            "endTime": "2025-08-17 00:00:00",
+            "level": "特级",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "123125",
+            "name": "三会保电",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "2025-08-10 00:00:00",
+            "endTime": "2025-08-13 00:00:00",
+            "level": "一级",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        }
+    ]
+}

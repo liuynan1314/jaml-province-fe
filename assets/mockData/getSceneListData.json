@@ -1,0 +1,456 @@
+{
+    "code": 200,
+    "msg": "查询场景列表数据成功",
+    "data": [
+        {
+            "id": "1",
+            "name": "场景一",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "场景二",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "场景三",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "场景四",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "场景五",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "场景六",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": "场景七",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "name": "场景八",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "name": "场景九",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "name": "场景十",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "name": "场景十一",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "name": "场景十二",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "name": "场景十三",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "name": "场景十四",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "name": "场景十五",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "name": "场景十六",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "name": "场景十七",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "name": "场景十八",
+            "type": 0,
+            "subType": "",
+            "regionId": 0,
+            "regionName": "",
+            "beginTime": "",
+            "endTime": "",
+            "level": "",
+            "fhList": [
+                {
+                    "stId": "",
+                    "stName": "",
+                    "fhId": "",
+                    "fhName": "",
+                    "bvId": "",
+                    "bvName": "",
+                    "brkId": "",
+                    "brkName": "",
+                    "brkState": 0,
+                    "ivalue": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+import { hslaToJamAc } from '../../utils/Constants.js';
+import { ajaxCall } from '../../common.js';
+
+export default function (props) {
+    let _model, _msgr;
+    return {
+        type: 'wrapper',
+        styles: ['size.fullsize', 'flex(direction:column)'],
+        childStyles: [
+            'padding(0.5rem)',
+            'labelslot.text(size:1.125rem;weight:bold)',
+            Styles.stylesheet({
+                '&>[slot=label]': {
+                    position: 'sticky',
+                    top: 0,
+                    height: '1.6875rem',
+                    paddingLeft: '1.375rem',
+                    color: 'transparent',
+                    backgroundImage: `linear-gradient(180deg, ${hslaToJamAc('hsl(220, 60%, 99%)')} 10%,${hslaToJamAc(' hsl(204.1, 40.6%, 60.4%)')} 90%,${hslaToJamAc(' hsl(204.1, 40.6%, 60.4%)')} 100%)`,
+                    '-webkit-background-clip': 'text',
+                    backgroundClip: 'text',
+                    position: 'relative',
+                    '&::before': {
+                        content: '""',
+                        width: '100%',
+                        height: '100%',
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        zIndex: -1,
+                        backgroundImage: 'url(./assets/images/window_title.png)',
+                        backgroundSize: 'auto 1.875rem',
+                        backgroundRepeat: 'no-repeat'
+                    }
+                }
+            })
+        ],
+        onmount: function () {
+            _model = this.model;
+            _msgr = this.model.msgr;
+        },
+        onafterrender: function () {
+            initData();
+        },
+        components: [
+            {
+                type: 'wrapper',
+                // label: '运行数据',
+                styles: ['size(width:100%)', 'flex(flex:1;direction:column)'],
+                components: [
+                    {
+                        type: 'wrapper',
+                        components: [
+                            { type: 'datepicker', value: '{{beginDate}}', max: '{{endDate}}', cap: '查询时间：' },
+                            { type: 'datepicker', value: '{{endDate}}', min: '{{beginDate}}', cap: '-', styles: ['padding(left:0)', 'size(width:9.2rem;)', Styles.stylesheet({ ':scope': { minWidth: '0!important' } })] }
+                        ]
+                    },
+                    {
+                        type: 'chart-line',
+                        colorSet: [' #3B86FF', '#4BC796', '#5C7090'],
+                        styles: ['size.fullsize', 'echarts.line.gradientBg', 'echarts.line(smooth:false)', 'echarts.grid(bottom:1%)', 'echarts.legend(show:true)'],
+                        data: '{{timingInfoSampleData}}'
+                    }
+                ]
+            }
+            // {
+            //     type: 'wrapper',
+            //     label: '告警记录',
+            //     styles: [
+            //         'size(width:100%;height:48%)',
+            //         'layout(overflow:auto)',
+            //         'flex(direction:column)',
+            //         Styles.stylesheet({
+            //             'jam-label:first-child': {
+            //                 marginTop: '.875rem'
+            //             },
+            //             '.empty::after': {
+            //                 content: '无告警记录'
+            //             }
+            //         })
+            //     ],
+            //     components: [
+            //         {
+            //             buildFor: 'item in warnDetailList',
+            //             type: 'label',
+            //             cap: '{{item.content}}',
+            //             styles: [
+            //                 //
+            //                 'size(width:100%;height:1.625rem)',
+            //                 'padding(left:1rem)',
+            //                 'border(width:0px;style:dashed;color: rgba(94,94,94,1);bottomWidth:1px)',
+            //                 `color(${COLOR_SET.secondarytextclr})`
+            //             ]
+            //         }
+            //     ]
+            // }
+        ]
+    };
+    function initData() {
+        ajaxCall('getPhaseVoltageData', {
+            params: {
+                ids: props.ids
+            },
+            // useMock: true,
+            type: 'get',
+            success(data) {
+                try {
+                    const result = [['时间']];
+                    data.forEach((item, i) => {
+                        result[0].push(item.sampleName);
+                        item.sampleList.forEach((sampleItem, j) => {
+                            i ? result[j + 1].push(sampleItem.sampleValue) : result.push([sampleItem.occurTime?.slice(-8) || '--:--:--', sampleItem.sampleValue]);
+                        });
+                    });
+                    _model.vars.timingInfoSampleData = result;
+                } catch (error) {
+                    console.error(error);
+                }
+            }
+        });
+    }
+}

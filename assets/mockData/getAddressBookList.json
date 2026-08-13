@@ -1,0 +1,56 @@
+{
+    "code": 200,
+    "message": "获取通讯录信息列表成功",
+    "data": {
+        "pageNum": 1,
+        "pageSize": 100,
+        "pages": 1,
+        "total": 2,
+        "list": [
+            {
+                "id": "1",
+                "createTime": null,
+                "createBy": null,
+                "createUserName": null,
+                "updateTime": null,
+                "updateBy": null,
+                "updateUserName": null,
+                "remarks": null,
+                "name": "王坤",
+                "phone": "183****6597",
+                "completePhone": "18362966597",
+                "departmentId": null,
+                "departmentName": null,
+                "groupId": null,
+                "groupName": null,
+                "iscUserId": null,
+                "wkCallPrefix": null,
+                "otherUserId": null,
+                "respAreaValue": null,
+                "respAreaName": null
+            },
+            {
+                "id": "2",
+                "createTime": null,
+                "createBy": null,
+                "createUserName": null,
+                "updateTime": null,
+                "updateBy": null,
+                "updateUserName": null,
+                "remarks": null,
+                "name": "王舒安",
+                "phone": "173****1664",
+                "completePhone": "17364091664",
+                "departmentId": null,
+                "departmentName": null,
+                "groupId": null,
+                "groupName": null,
+                "iscUserId": null,
+                "wkCallPrefix": null,
+                "otherUserId": null,
+                "respAreaValue": null,
+                "respAreaName": null
+            }
+        ]
+    }
+}

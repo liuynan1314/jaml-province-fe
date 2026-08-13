@@ -1,0 +1,58 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "pageSize": 10,
+        "pageIndex": 1,
+        "pageCount": 1,
+        "pojoTotalCount": 2,
+        "list": [
+            {
+                "id": 1945660481710637057,
+                "regionId": 101,
+                "content": "日志内容22",
+                "feedbackType": 1,
+                "defectType": 2,
+                "status": 1,
+                "ownerId": "40208a81862496140186249d490e0004",
+                "tel": null,
+                "describe": null,
+                "gmtCreateTime": "2025-07-19 11:29:02",
+                "createUserId": null,
+                "gmtUpdateTime": "2025-07-19 11:29:02",
+                "updateUserId": null,
+                "idStr": "1945660481710637057",
+                "feedbackTypeName": "系统问题",
+                "defectTypeName": "软件缺陷",
+                "statusName": "待分配",
+                "ownerName": "测试人员",
+                "regionName": "苏州",
+                "createUserName": null,
+                "files": null
+            },
+            {
+                "id": 1945660481710637056,
+                "regionId": 100,
+                "content": "日志内容11",
+                "feedbackType": 1,
+                "defectType": 1,
+                "status": 1,
+                "ownerId": "40208a81862496140186249d490e0004",
+                "tel": null,
+                "describe": null,
+                "gmtCreateTime": "2025-07-18 09:43:02",
+                "createUserId": null,
+                "gmtUpdateTime": "2025-07-18 09:43:48",
+                "updateUserId": null,
+                "idStr": "1945660481710637056",
+                "feedbackTypeName": "系统问题",
+                "defectTypeName": "人机界面缺陷",
+                "statusName": "待分配",
+                "ownerName": "测试人员",
+                "regionName": "南京",
+                "createUserName": null,
+                "files": null
+            }
+        ]
+    }
+}

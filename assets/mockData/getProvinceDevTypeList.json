@@ -1,0 +1,21 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "devTypeName": "母线",
+            "tableNo": null,
+            "psrType": "0311"
+        },
+        {
+            "devTypeName": "线路",
+            "tableNo": null,
+            "psrType": "xl,dkx"
+        },
+        {
+            "devTypeName": "变压器",
+            "tableNo": null,
+            "psrType": "0301,0303"
+        }
+    ]
+}

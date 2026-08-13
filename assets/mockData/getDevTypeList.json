@@ -1,0 +1,156 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "tableNo": 405,
+            "tableName": "substation",
+            "devType": "变电站表",
+            "devTypePy": "biandianzhanbiao,bdzb"
+        },
+        {
+            "tableNo": 406,
+            "tableName": "bay",
+            "devType": "间隔表",
+            "devTypePy": "jiangebiao,jgb"
+        },
+        {
+            "tableNo": 407,
+            "tableName": "breaker",
+            "devType": "断路器表",
+            "devTypePy": "duanluqibiao,dlqb"
+        },
+        {
+            "tableNo": 408,
+            "tableName": "disconnector",
+            "devType": "刀闸表",
+            "devTypePy": "daozhabiao,dzb"
+        },
+        {
+            "tableNo": 409,
+            "tableName": "grounddisconnector",
+            "devType": "接地刀闸表",
+            "devTypePy": "jiedidaozhabiao,jddzb"
+        },
+        {
+            "tableNo": 410,
+            "tableName": "busbarsection",
+            "devType": "母线表",
+            "devTypePy": "muxianbiao,mxb"
+        },
+        {
+            "tableNo": 411,
+            "tableName": "generatingunit",
+            "devType": "发电机组表",
+            "devTypePy": "fadianjizubiao,fdjzb"
+        },
+        {
+            "tableNo": 412,
+            "tableName": "energyconsumer",
+            "devType": "负荷表",
+            "devTypePy": "fuhebiao,fhb"
+        },
+        {
+            "tableNo": 413,
+            "tableName": "acline",
+            "devType": "T交流线路表",
+            "devTypePy": "Tjiaoliuxianlubiao,Tjlxlb"
+        },
+        {
+            "tableNo": 414,
+            "tableName": "aclinesegment",
+            "devType": "交流线段表",
+            "devTypePy": "jiaoliuxianduanbiao,jlxdb"
+        },
+        {
+            "tableNo": 415,
+            "tableName": "aclineend",
+            "devType": "交流线段端点表",
+            "devTypePy": "jiaoliuxianduanduandianbiao,jlxdddb"
+        },
+        {
+            "tableNo": 416,
+            "tableName": "powertransformer",
+            "devType": "变压器表",
+            "devTypePy": "bianyaqibiao,byqb"
+        },
+        {
+            "tableNo": 417,
+            "tableName": "transformerwinding",
+            "devType": "变压器绕组表",
+            "devTypePy": "bianyaqiraozubiao,byqrzb"
+        },
+        {
+            "tableNo": 419,
+            "tableName": "compensator_p",
+            "devType": "并联电容/电抗器表",
+            "devTypePy": "bingliandianrong/diankangqibiao,bldr/dkqb"
+        },
+        {
+            "tableNo": 420,
+            "tableName": "compensator_s",
+            "devType": "串联补偿器表",
+            "devTypePy": "chuanlianbuchangqibiao,clbcqb"
+        },
+        {
+            "tableNo": 421,
+            "tableName": "singleterm",
+            "devType": "单端元件表",
+            "devTypePy": "danduanyuanjianbiao,ddyjb"
+        },
+        {
+            "tableNo": 433,
+            "tableName": "calcpoint",
+            "devType": "计算点表",
+            "devTypePy": "jisuandianbiao,jsdb"
+        },
+        {
+            "tableNo": 434,
+            "tableName": "relaysig",
+            "devType": "保护信号表",
+            "devTypePy": "baohuxinhaobiao,bhxhb"
+        },
+        {
+            "tableNo": 435,
+            "tableName": "signal",
+            "devType": "其他遥信量表",
+            "devTypePy": "qitayaoxinliangbiao,qtyxlb"
+        },
+        {
+            "tableNo": 436,
+            "tableName": "measure",
+            "devType": "其他遥测量表",
+            "devTypePy": "qitayaoceliangbiao,qtyclb"
+        },
+        {
+            "tableNo": 462,
+            "tableName": "transformer_c",
+            "devType": "电流互感器表",
+            "devTypePy": "dianliuhuganqibiao,dlhgqb"
+        },
+        {
+            "tableNo": 463,
+            "tableName": "transformer_v",
+            "devType": "电压互感器表",
+            "devTypePy": "dianyahuganqibiao,dyhgqb"
+        },
+        {
+            "tableNo": 13400,
+            "tableName": "auxiliary_device",
+            "devType": "辅助设备表",
+            "devTypePy": "fuzhushebeibiao,fzsbb"
+        },
+        {
+            "tableNo": 13401,
+            "tableName": "auxiliary_yx",
+            "devType": "辅助遥信表",
+            "devTypePy": "fuzhuyaoxinbiao,fzyxb"
+        },
+        {
+            "tableNo": 13402,
+            "tableName": "auxiliary_yc",
+            "devType": "辅助遥测表",
+            "devTypePy": "fuzhuyaocebiao,fzycb"
+        }
+    ]
+}

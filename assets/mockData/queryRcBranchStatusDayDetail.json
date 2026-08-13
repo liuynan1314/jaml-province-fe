@@ -1,0 +1,57 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "pageSize": 20,
+        "pageIndex": 1,
+        "pageCount": 1,
+        "pojoTotalCount": 3,
+        "list": [
+            {
+                "regionId": "320100",
+                "regionName": "城南",
+                "statisticsDay": "2026-07-08",
+                "stId": "st001",
+                "stName": "城南变",
+                "branchId": "117093826534834329",
+                "branchName": "剩余电流 加热支路1",
+                "status": 0,
+                "statusStr": "正常",
+                "whiteFlag": 0,
+                "rcValue": 120,
+                "upLimitValue": 300,
+                "updateTime": "2026-07-08 14:30:00"
+            },
+            {
+                "regionId": "320100",
+                "regionName": "城南",
+                "statisticsDay": "2026-07-08",
+                "stId": "st001",
+                "stName": "城南变",
+                "branchId": "117093835124768921",
+                "branchName": "剩余电流 加热支路2",
+                "status": 1,
+                "statusStr": "异常",
+                "whiteFlag": 0,
+                "rcValue": 350,
+                "upLimitValue": 300,
+                "updateTime": "2026-07-08 10:20:00"
+            },
+            {
+                "regionId": "320100",
+                "regionName": "城南",
+                "statisticsDay": "2026-07-08",
+                "stId": "st001",
+                "stName": "城南变",
+                "branchId": "117093835124768922",
+                "branchName": "剩余电流 加热支路3",
+                "status": 0,
+                "statusStr": "正常",
+                "whiteFlag": 0,
+                "rcValue": 85,
+                "upLimitValue": 300,
+                "updateTime": "2026-07-08 09:15:00"
+            }
+        ]
+    }
+}

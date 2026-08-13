@@ -1,0 +1,380 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 12,
+            "regionName": "高压",
+            "channel": {
+                "type": "channel",
+                "abnormal": "1220.3 分",
+                "total": "2880 分",
+                "rate": 0.5762
+            },
+            "accident": {
+                "type": "accident",
+                "abnormal": "1",
+                "total": "1 个",
+                "rate": 0.2323
+            },
+            "yxYcMatch": {
+                "type": "yxYcMatch",
+                "abnormal": "1",
+                "total": "1 个",
+                "rate": 0.0
+            },
+            "dataCompleteness": {
+                "type": "dataCompleteness",
+                "abnormal": "500",
+                "total": "500 个",
+                "rate": 0.0
+            },
+            "dataValid": {
+                "type": "dataValid",
+                "abnormal": "522",
+                "total": "522 个",
+                "rate": 0.0
+            }
+        },
+        {
+            "regionId": 98,
+            "regionName": "滨海",
+            "channel": {
+                "type": "channel",
+                "abnormal": "0 秒",
+                "total": "0 秒",
+                "rate": 0.6782
+            },
+            "accident": {
+                "type": "accident",
+                "abnormal": "1",
+                "total": "1 个",
+                "rate": 0.9075
+            },
+            "yxYcMatch": {
+                "type": "yxYcMatch",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataCompleteness": {
+                "type": "dataCompleteness",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataValid": {
+                "type": "dataValid",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            }
+        },
+        {
+            "regionId": 96,
+            "regionName": "城南",
+            "channel": {
+                "type": "channel",
+                "abnormal": "0 秒",
+                "total": "0 秒",
+                "rate": 0.2123
+            },
+            "accident": {
+                "type": "accident",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.5796
+            },
+            "yxYcMatch": {
+                "type": "yxYcMatch",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataCompleteness": {
+                "type": "dataCompleteness",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataValid": {
+                "type": "dataValid",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            }
+        },
+        {
+            "regionId": 99,
+            "regionName": "城西",
+            "channel": {
+                "type": "channel",
+                "abnormal": "0 秒",
+                "total": "0 秒",
+                "rate": 0.9845
+            },
+            "accident": {
+                "type": "accident",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.5687
+            },
+            "yxYcMatch": {
+                "type": "yxYcMatch",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataCompleteness": {
+                "type": "dataCompleteness",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataValid": {
+                "type": "dataValid",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            }
+        },
+        {
+            "regionId": 97,
+            "regionName": "城东",
+            "channel": {
+                "type": "channel",
+                "abnormal": "0 秒",
+                "total": "0 秒",
+                "rate": 0.8689
+            },
+            "accident": {
+                "type": "accident",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "yxYcMatch": {
+                "type": "yxYcMatch",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataCompleteness": {
+                "type": "dataCompleteness",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataValid": {
+                "type": "dataValid",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            }
+        },
+        {
+            "regionId": 95,
+            "regionName": "东丽",
+            "channel": {
+                "type": "channel",
+                "abnormal": "0 秒",
+                "total": "0 秒",
+                "rate": 0.3322
+            },
+            "accident": {
+                "type": "accident",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "yxYcMatch": {
+                "type": "yxYcMatch",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataCompleteness": {
+                "type": "dataCompleteness",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataValid": {
+                "type": "dataValid",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            }
+        },
+        {
+            "regionId": 93,
+            "regionName": "宝坻",
+            "channel": {
+                "type": "channel",
+                "abnormal": "0 秒",
+                "total": "0 秒",
+                "rate": 0.1232
+            },
+            "accident": {
+                "type": "accident",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "yxYcMatch": {
+                "type": "yxYcMatch",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataCompleteness": {
+                "type": "dataCompleteness",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataValid": {
+                "type": "dataValid",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            }
+        },
+        {
+            "regionId": 92,
+            "regionName": "静海",
+            "channel": {
+                "type": "channel",
+                "abnormal": "0 秒",
+                "total": "0 秒",
+                "rate": 0.6936
+            },
+            "accident": {
+                "type": "accident",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "yxYcMatch": {
+                "type": "yxYcMatch",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataCompleteness": {
+                "type": "dataCompleteness",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataValid": {
+                "type": "dataValid",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            }
+        },
+        {
+            "regionId": 91,
+            "regionName": "宁河",
+            "channel": {
+                "type": "channel",
+                "abnormal": "0 秒",
+                "total": "0 秒",
+                "rate": 0.3453
+            },
+            "accident": {
+                "type": "accident",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "yxYcMatch": {
+                "type": "yxYcMatch",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataCompleteness": {
+                "type": "dataCompleteness",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataValid": {
+                "type": "dataValid",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            }
+        },
+        {
+            "regionId": 94,
+            "regionName": "蓟州",
+            "channel": {
+                "type": "channel",
+                "abnormal": "0 秒",
+                "total": "0 秒",
+                "rate": 0.8098
+            },
+            "accident": {
+                "type": "accident",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "yxYcMatch": {
+                "type": "yxYcMatch",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataCompleteness": {
+                "type": "dataCompleteness",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataValid": {
+                "type": "dataValid",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            }
+        },
+        {
+            "regionId": 90,
+            "regionName": "武清",
+            "channel": {
+                "type": "channel",
+                "abnormal": "0 秒",
+                "total": "0 秒",
+                "rate": 0.0
+            },
+            "accident": {
+                "type": "accident",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "yxYcMatch": {
+                "type": "yxYcMatch",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataCompleteness": {
+                "type": "dataCompleteness",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            },
+            "dataValid": {
+                "type": "dataValid",
+                "abnormal": "0",
+                "total": "0 个",
+                "rate": 0.0
+            }
+        }
+    ]
+}

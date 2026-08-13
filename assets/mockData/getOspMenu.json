@@ -1,0 +1,72 @@
+{
+    "msg": "业务请求成功",
+    "code": "00000",
+    "data": [
+        {
+            "id": "40811bb8877a43c701877b06be8b9527",
+            "fid": "",
+            "ordernum": 1,
+            "name": "系统首页"
+        },
+        {
+            "id": "40811bb8877a43c701877b06be8b001b",
+            "fid": "",
+            "ordernum": 2,
+            "name": "全景展示"
+        },
+        {
+            "id": "40811bb8877a43c701877b028c49000c",
+            "fid": "",
+            "ordernum": 3,
+            "name": "统计分析"
+        },
+        {
+            "id": "40811bb8877a43c701877b0343550011",
+            "fid": "",
+            "ordernum": 4,
+            "name": "系统运维管理"
+        },
+
+        {
+            "id": "40811bb8877a43c701877b06be80530",
+            "fid": "40811bb8877a43c701877b06be8b001b",
+            "ordernum": 1,
+            "name": "差异化监视"
+        },
+        {
+            "id": "40811bb8877a43c701877b094a68002f",
+            "fid": "40811bb8877a43c701877b06be8b001b",
+            "ordernum": 2,
+            "name": "厂站目录"
+        },
+
+        {
+            "id": "40811bb8877a43c701877b0777d80020",
+            "fid": "40811bb8877a43c701877b06be80530",
+            "ordernum": 1,
+            "name": "重大保电场景",
+            "route": "/major-power-outage"
+        },
+        {
+            "id": "40811bb8877a43c701877b08291a0025",
+            "fid": "40811bb8877a43c701877b06be80530",
+            "ordernum": 2,
+            "name": "重要用户",
+            "route": "/important-user"
+        },
+        {
+            "id": "40811bb8877a43c701877b08b5c0002a",
+            "fid": "40811bb8877a43c701877b06be80530",
+            "ordernum": 3,
+            "name": "重要活动保电",
+            "route": "/important-activity-protection"
+        },
+
+        {
+            "id": "40811bb8877a43c701877b0777d80020",
+            "fid": "40811bb8877a43c701877b028c49000c",
+            "ordernum": 1,
+            "name": "系统规模"
+        }
+    ]
+}

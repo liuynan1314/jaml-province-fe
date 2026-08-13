@@ -1,0 +1,67 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "upload2PmsEnable": true,
+        "autoSendEnable": true,
+        "filterList": [
+            {
+                "id": 1,
+                "filterDesc": "1",
+                "eventTypeLevelList": [],
+                "bvNameList": [],
+                "stNameList": [],
+                "stNameBlackList": [],
+                "keywordBlackList": [],
+                "devTypeList": [],
+                "devBvNameList": []
+            },
+            {
+                "id": 2,
+                "filterDesc": "2",
+                "eventTypeLevelList": [301],
+                "bvNameList": [],
+                "stNameList": [],
+                "stNameBlackList": [],
+                "keywordBlackList": [],
+                "devTypeList": [],
+                "devBvNameList": []
+            },
+            {
+                "id": 3,
+                "filterDesc": "3",
+                "eventTypeLevelList": [501],
+                "bvNameList": [],
+                "stNameList": [],
+                "stNameBlackList": ["DL476变电站3"],
+                "keywordBlackList": [],
+                "devTypeList": [],
+                "devBvNameList": []
+            },
+            {
+                "id": 4,
+                "filterDesc": "4",
+                "eventTypeLevelList": [301],
+                "bvNameList": [],
+                "stNameList": [],
+                "stNameBlackList": ["白银.虚拟站"],
+                "keywordBlackList": [],
+                "devTypeList": [null],
+                "devBvNameList": []
+            },
+            {
+                "id": 5,
+                "filterDesc": "5",
+                "eventTypeLevelList": [301],
+                "bvNameList": ["1000kV", "110kV"],
+                "stNameList": [],
+                "stNameBlackList": [],
+                "keywordBlackList": [],
+                "devTypeList": [],
+                "devBvNameList": []
+            }
+        ],
+        "toTelBvNameList": [],
+        "toTelBvNameFilterEnabled": false
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "id": 1948922368502050816,
+        "name": "ccscscsccscs",
+        "tel": "11111111",
+        "iscId": null,
+        "gmtCreateTime": "2025-07-26 09:44:36",
+        "createUserId": null,
+        "gmtUpdateTime": "2025-07-26 09:55:14",
+        "updateUserId": null,
+        "idStr": "1948922368502050816"
+    }
+}

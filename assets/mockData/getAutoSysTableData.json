@@ -1,0 +1,1012 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "pageSize": 100,
+        "pageIndex": 1,
+        "pageCount": 1,
+        "pojoTotalCount": 100,
+        "list": [
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "data_srv",
+                "nodeName": "njjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "file_serv",
+                "nodeName": "njjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-fes3",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk1-fes3",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "fes",
+                "nodeName": "njjk1-fes3",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-fes4",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk1-fes4",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "fes",
+                "nodeName": "njjk1-fes4",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "scada",
+                "nodeName": "njjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "data_srv",
+                "nodeName": "njjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "file_serv",
+                "nodeName": "njjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "scada",
+                "nodeName": "njjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-fes1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk1-fes1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "fes",
+                "nodeName": "njjk1-fes1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk2-aux1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-fes2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk1-fes2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "scada_relay",
+                "nodeName": "njjk2-aux1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "fes",
+                "nodeName": "njjk1-fes2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk2-fes1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk2-fes2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk2-aux2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "scada_relay",
+                "nodeName": "njjk2-aux2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "scada_sim",
+                "nodeName": "njjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "scada_sim",
+                "nodeName": "njjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "data_srv",
+                "nodeName": "njjk1-fes1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "file_serv",
+                "nodeName": "njjk1-fes1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_sec",
+                "nodeName": "njjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_sec",
+                "nodeName": "njjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 6,
+                "statusName": "断网",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "pas_model",
+                "nodeName": "njjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "pas_model",
+                "nodeName": "njjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_sec",
+                "nodeName": "njjk1-fes2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_sec",
+                "nodeName": "njjk1-fes1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "file_serv",
+                "nodeName": "njjk1-fes2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "data_srv",
+                "nodeName": "njjk1-fes2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "fes_relay",
+                "nodeName": "njjk2-fes2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-agent1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 6,
+                "statusName": "断网",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk1-agent1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-agent2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 6,
+                "statusName": "断网",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk1-agent2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 1,
+                "statusName": "启动",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "fes_relay",
+                "nodeName": "njjk2-fes1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_proxy",
+                "nodeName": "njjk1-fes3",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_proxy",
+                "nodeName": "njjk1-fes4",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 6,
+                "statusName": "断网",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-fes5",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk1-fes5",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "fes",
+                "nodeName": "njjk1-fes5",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-fes8",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk1-fes8",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "fes",
+                "nodeName": "njjk1-fes8",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-fes7",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk1-fes7",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "fes",
+                "nodeName": "njjk1-fes7",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public",
+                "nodeName": "njjk1-fes6",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk1-fes6",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "fes",
+                "nodeName": "njjk1-fes6",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "scada_relay",
+                "nodeName": "njjk2-fes1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 1,
+                "statusName": "启动",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "scada_relay",
+                "nodeName": "njjk2-fes2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "pas_risk",
+                "nodeName": "njjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "scada_isw",
+                "nodeName": "njjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "scada_ifa",
+                "nodeName": "njjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "scada_ifa",
+                "nodeName": "njjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "scada_isw",
+                "nodeName": "njjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk2-aux1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "pas_risk",
+                "nodeName": "njjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "avc",
+                "nodeName": "njjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "avc",
+                "nodeName": "njjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk2-fes1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk2-fes2",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 1,
+                "statusName": "启动",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "fes_relay",
+                "nodeName": "njjk2-aux1",
+                "bobName": null
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:58:57",
+                "appName": "public_msgfwd",
+                "nodeName": "njjk2-aux2",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "public",
+                "nodeName": "szjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "public",
+                "nodeName": "szjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "public",
+                "nodeName": "szjk1-fes1",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "scada",
+                "nodeName": "szjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "public",
+                "nodeName": "szjk1-fes2",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "fes",
+                "nodeName": "szjk1-fes2",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "public",
+                "nodeName": "szjk1-fes3",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "fes",
+                "nodeName": "szjk1-fes3",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "public",
+                "nodeName": "szjk1-fes4",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "fes",
+                "nodeName": "szjk1-fes4",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "fes",
+                "nodeName": "szjk1-fes1",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "public_msgfwd",
+                "nodeName": "szjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "data_srv",
+                "nodeName": "szjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "file_serv",
+                "nodeName": "szjk1-sca2",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "public_msgfwd",
+                "nodeName": "szjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "data_srv",
+                "nodeName": "szjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "file_serv",
+                "nodeName": "szjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 3,
+                "statusName": "主机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "scada",
+                "nodeName": "szjk1-sca1",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "public_msgfwd",
+                "nodeName": "szjk1-fes1",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "public",
+                "nodeName": "szjk2-aux1",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 1,
+                "statusName": "启动",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "fes_relay",
+                "nodeName": "szjk2-aux1",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "public",
+                "nodeName": "szjk2-aux2",
+                "bobName": null
+            },
+            {
+                "regionId": 101,
+                "regionName": "苏州",
+                "status": 2,
+                "statusName": "备机",
+                "updTime": "2025-07-03 14:59:51",
+                "appName": "scada_relay",
+                "nodeName": "szjk2-aux2",
+                "bobName": null
+            }
+        ]
+    }
+}

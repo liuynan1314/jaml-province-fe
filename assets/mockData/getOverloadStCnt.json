@@ -1,0 +1,741 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "stId": "113997365769142284",
+            "stName": "华北.东丽",
+            "normalCnt": 1,
+            "overCnt": 0,
+            "hevCnt": 1
+        },
+        {
+            "stId": "113997365769142438",
+            "stName": "天津.八里台",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 1
+        },
+        {
+            "stId": "113997365769142283",
+            "stName": "华北.滨海",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142682",
+            "stName": "天津.屈店",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142561",
+            "stName": "天津.海光寺",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142440",
+            "stName": "天津.白庙",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142562",
+            "stName": "天津.海门",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142684",
+            "stName": "天津.仁和营",
+            "normalCnt": 4,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142442",
+            "stName": "天津.白塘口",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142565",
+            "stName": "天津.韩庄",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142720",
+            "stName": "天津.泰保",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142566",
+            "stName": "天津.汉沽",
+            "normalCnt": 4,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142445",
+            "stName": "天津.宝坻",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142600",
+            "stName": "天津.津奥",
+            "normalCnt": 4,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142689",
+            "stName": "天津.如京",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142723",
+            "stName": "天津.腾飞路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142609",
+            "stName": "天津.景顺路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142291",
+            "stName": "华北.北郊",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142292",
+            "stName": "华北.静海",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142690",
+            "stName": "天津.瑞江南",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142294",
+            "stName": "华北.芦台",
+            "normalCnt": 4,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142570",
+            "stName": "天津.航空",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142295",
+            "stName": "华北.南蔡",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142296",
+            "stName": "华北.渠阳",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142572",
+            "stName": "天津.红旗路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142575",
+            "stName": "天津.华苑",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142577",
+            "stName": "天津.环保园",
+            "normalCnt": 4,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142699",
+            "stName": "天津.上古林",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142854",
+            "stName": "天津.津霸路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142579",
+            "stName": "天津.黄河道",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142780",
+            "stName": "天津.新开河",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142661",
+            "stName": "天津.南河",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142540",
+            "stName": "天津.洞庭路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142784",
+            "stName": "天津.杨柳青",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142663",
+            "stName": "天津.宁河",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142543",
+            "stName": "天津.范庄",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142301",
+            "stName": "华北.吴庄",
+            "normalCnt": 4,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142821",
+            "stName": "天津.张岗铺",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142822",
+            "stName": "天津.张贵庄",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142789",
+            "stName": "天津.幸福路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142547",
+            "stName": "天津.港西",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142305",
+            "stName": "华北.正德",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142702",
+            "stName": "天津.神舟",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142548",
+            "stName": "天津.高场",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142705",
+            "stName": "天津.盛塘路",
+            "normalCnt": 4,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142827",
+            "stName": "天津.中船东",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142706",
+            "stName": "天津.石各庄",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142792",
+            "stName": "天津.学府路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142550",
+            "stName": "天津.葛沽",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142793",
+            "stName": "天津.延吉道",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142794",
+            "stName": "天津.延寿里",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142673",
+            "stName": "天津.千米桥",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142795",
+            "stName": "天津.燕山",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142674",
+            "stName": "天津.乾隆湖",
+            "normalCnt": 4,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142553",
+            "stName": "天津.光明桥",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142796",
+            "stName": "天津.杨北路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142675",
+            "stName": "天津.勤俭道",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142279",
+            "stName": "华北.板桥",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142831",
+            "stName": "天津.中心桥",
+            "normalCnt": 4,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142678",
+            "stName": "天津.青凝侯",
+            "normalCnt": 4,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142714",
+            "stName": "天津.首驿",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142836",
+            "stName": "天津.鄱阳路",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142719",
+            "stName": "天津.顺达路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142881",
+            "stName": "天津.服新",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142642",
+            "stName": "天津.吕官屯",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142765",
+            "stName": "天津.务本",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142648",
+            "stName": "天津.孟港后",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142809",
+            "stName": "天津.迎丰",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142491",
+            "stName": "天津.楚雄道",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142492",
+            "stName": "天津.创业",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142493",
+            "stName": "天津.春华路",
+            "normalCnt": 4,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142652",
+            "stName": "天津.米兰",
+            "normalCnt": 4,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142499",
+            "stName": "天津.大沽",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142655",
+            "stName": "天津.民生村",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142810",
+            "stName": "天津.永定河",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142811",
+            "stName": "天津.永济渠",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142779",
+            "stName": "天津.新华路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142816",
+            "stName": "天津.渔阳",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142817",
+            "stName": "天津.玉润",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142582",
+            "stName": "天津.黄岩路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142463",
+            "stName": "天津.博览",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142585",
+            "stName": "天津.吉林路",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142586",
+            "stName": "天津.蓟县",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142862",
+            "stName": "天津.风顺",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142863",
+            "stName": "华北.宁岸",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142468",
+            "stName": "天津.曹庄子",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142624",
+            "stName": "天津.科技城",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142503",
+            "stName": "天津.大孟庄",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142627",
+            "stName": "天津.昆纬路",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142749",
+            "stName": "天津.万汇路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142592",
+            "stName": "天津.济源路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142594",
+            "stName": "天津.嘉华路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142473",
+            "stName": "天津.辰远路",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142474",
+            "stName": "天津.陈甫",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142751",
+            "stName": "天津.万年桥",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142630",
+            "stName": "天津.兰清道",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142597",
+            "stName": "天津.芥园道",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142753",
+            "stName": "天津.王稳庄",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142632",
+            "stName": "天津.利民道",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142599",
+            "stName": "天津.金角西",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142754",
+            "stName": "天津.卫国道",
+            "normalCnt": 4,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142479",
+            "stName": "天津.陈塘庄",
+            "normalCnt": 3,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142755",
+            "stName": "天津.武清",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142877",
+            "stName": "天津.双港",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        },
+        {
+            "stId": "113997365769142879",
+            "stName": "天津.进步道",
+            "normalCnt": 2,
+            "overCnt": 0,
+            "hevCnt": 0
+        }
+    ]
+}

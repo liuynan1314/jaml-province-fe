@@ -1,0 +1,579 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 12,
+            "regionName": "高压",
+            "valList": [
+                {
+                    "statName": "1000kV总数_四区统计",
+                    "resultVal": 12
+                },
+                {
+                    "statName": "500kV总数_四区统计",
+                    "resultVal": 33
+                },
+                {
+                    "statName": "220kV总数_四区统计",
+                    "resultVal": 46
+                },
+                {
+                    "statName": "220kV接入数量_四区统计",
+                    "resultVal": 15
+                },
+                {
+                    "statName": "<50℃",
+                    "resultVal": 5
+                },
+                {
+                    "statName": "50-70℃",
+                    "resultVal": 1
+                },
+                {
+                    "statName": "≥70℃",
+                    "resultVal": 6
+                },
+                {
+                    "statName": "温度异常",
+                    "resultVal": 2
+                },
+                {
+                    "statName": "双通道百分比",
+                    "resultVal": 98.57
+                },
+                {
+                    "statName": "单通道百分比",
+                    "resultVal": 1.43
+                },
+                {
+                    "statName": "离线通道百分比",
+                    "resultVal": 100.0
+                },
+                {
+                    "statName": "今日越限",
+                    "resultVal": 827.0
+                },
+                {
+                    "statName": "今日事故",
+                    "resultVal": 2023.0
+                },
+                {
+                    "statName": "今日异常",
+                    "resultVal": 3990.0
+                },
+                {
+                    "statName": "今日变位",
+                    "resultVal": 1237.0
+                },
+                {
+                    "statName": "今日告知",
+                    "resultVal": 975.0
+                },
+                {
+                    "statName": "消防设备总数",
+                    "resultVal": 1.0
+                },
+                {
+                    "statName": "安防设备总数",
+                    "resultVal": 1.0
+                },
+                {
+                    "statName": "动环设备总数",
+                    "resultVal": 270.0
+                },
+                {
+                    "statName": "在线监测设备总数",
+                    "resultVal": 604.0
+                },
+                {
+                    "statName": "辅设备总数",
+                    "resultVal": 876.0
+                },
+                {
+                    "statName": "辅遥信总数",
+                    "resultVal": 40645.0
+                },
+                {
+                    "statName": "辅遥测总数",
+                    "resultVal": 35765.0
+                },
+                {
+                    "statName": "主设备总数",
+                    "resultVal": 27246.0
+                },
+                {
+                    "statName": "变压器总数",
+                    "resultVal": 368.0
+                },
+                {
+                    "statName": "断路器总数",
+                    "resultVal": 3665.0
+                },
+                {
+                    "statName": "普通刀闸总数",
+                    "resultVal": 11009.0
+                },
+                {
+                    "statName": "接地刀闸总数",
+                    "resultVal": 8870.0
+                },
+                {
+                    "statName": "母线总数",
+                    "resultVal": 767.0
+                },
+                {
+                    "statName": "负荷总数",
+                    "resultVal": 1.0
+                },
+                {
+                    "statName": "交流线段总数",
+                    "resultVal": 1175.0
+                },
+                {
+                    "statName": "并联电容器总数",
+                    "resultVal": 695.0
+                },
+                {
+                    "statName": "并联电抗器总数",
+                    "resultVal": 695.0
+                },
+                {
+                    "statName": "串联补偿器总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "电流互感器总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "电压互感器总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "避雷器总数",
+                    "resultVal": 1.0
+                },
+                {
+                    "statName": "接地桩总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "主遥测总数",
+                    "resultVal": 57570.0
+                },
+                {
+                    "statName": "主遥信总数",
+                    "resultVal": 283836.0
+                },
+                {
+                    "statName": "一般缺陷总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "危急缺陷总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "严重缺陷总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "本周新增一般缺陷数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "遗留一般缺陷数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "本周新增严重缺陷数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "遗留严重缺陷数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "本周新增危急缺陷数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "遗留危急缺陷数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "事件化线路跳闸数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "事件化母线跳闸数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "事件化主变跳闸数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "事件化配网跳闸数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "远方操作开关遥控数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "远方操作软压板投退数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "远方操作一键顺控数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "远方操作遥调档位次数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "主设备主变告警数",
+                    "resultVal": 1.0
+                },
+                {
+                    "statName": "主设备母线告警数",
+                    "resultVal": 1.0
+                },
+                {
+                    "statName": "主设备开关告警数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "主设备线路告警数",
+                    "resultVal": 12.0
+                },
+                {
+                    "statName": "主设备其他告警数",
+                    "resultVal": 7.0
+                },
+                {
+                    "statName": "昨日主设备主变告警数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "昨日主设备母线告警数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "昨日主设备开关告警数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "昨日主设备线路告警数",
+                    "resultVal": 1.0
+                },
+                {
+                    "statName": "昨日主设备其他告警数",
+                    "resultVal": 9.0
+                },
+                {
+                    "statName": "设备告警主设备事故数",
+                    "resultVal": 52.0
+                },
+                {
+                    "statName": "设备告警主设备异常数",
+                    "resultVal": 6322.0
+                },
+                {
+                    "statName": "设备告警主设备越限数",
+                    "resultVal": 8130.0
+                },
+                {
+                    "statName": "设备告警主设备变位数",
+                    "resultVal": 5705.0
+                },
+                {
+                    "statName": "设备告警主设备告知数",
+                    "resultVal": 1319.0
+                },
+                {
+                    "statName": "昨日设备告警主设备事故数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "昨日设备告警主设备异常数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "昨日设备告警主设备越限数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "昨日设备告警主设备变位数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "昨日设备告警主设备告知数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "设备告警辅设备事故数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "设备告警辅设备异常数",
+                    "resultVal": 96.0
+                },
+                {
+                    "statName": "设备告警辅设备越限数",
+                    "resultVal": 6.0
+                },
+                {
+                    "statName": "设备告警辅设备变位数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "设备告警辅设备告知数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "昨日设备告警辅设备事故数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "昨日设备告警辅设备异常数",
+                    "resultVal": 96.0
+                },
+                {
+                    "statName": "昨日设备告警辅设备越限数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "昨日设备告警辅设备变位数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "昨日设备告警辅设备告知数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "变压器超重载统计档位1数量",
+                    "resultVal": 481.0
+                },
+                {
+                    "statName": "变压器超重载统计档位2数量",
+                    "resultVal": 1.0
+                },
+                {
+                    "statName": "变压器超重载统计档位3数量",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "线路超重载统计档位1数量",
+                    "resultVal": 944.0
+                },
+                {
+                    "statName": "线路超重载统计档位2数量",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "线路超重载统计档位3数量",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "主变油温统计档位1数量",
+                    "resultVal": 62.0
+                },
+                {
+                    "statName": "主变油温统计档位2数量",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "主变油温统计档位3数量",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "主变油温统计异常档位数量",
+                    "resultVal": 139.0
+                },
+                {
+                    "statName": "双通道厂站总数",
+                    "resultVal": 69.0
+                },
+                {
+                    "statName": "单通道厂站总数",
+                    "resultVal": 1.0
+                },
+                {
+                    "statName": "离线通道厂站总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "1000kV总数",
+                    "resultVal": 1.0
+                },
+                {
+                    "statName": "500kV总数",
+                    "resultVal": 13.0
+                },
+                {
+                    "statName": "220kV总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "110kV总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "35kV总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "1000kV接入数量",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "500kV接入数量",
+                    "resultVal": 4.0
+                },
+                {
+                    "statName": "220kV接入数量",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "110kV接入数量",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "35kV接入数量",
+                    "resultVal": 0.0
+                }
+            ]
+        },
+        {
+            "regionId": 98,
+            "regionName": "滨海",
+            "valList": []
+        },
+        {
+            "regionId": 96,
+            "regionName": "城南",
+            "valList": []
+        },
+        {
+            "regionId": 99,
+            "regionName": "城西",
+            "valList": []
+        },
+        {
+            "regionId": 97,
+            "regionName": "城东",
+            "valList": []
+        },
+        {
+            "regionId": 95,
+            "regionName": "东丽",
+            "valList": []
+        },
+        {
+            "regionId": 93,
+            "regionName": "宝坻",
+            "valList": []
+        },
+        {
+            "regionId": 92,
+            "regionName": "静海",
+            "valList": [
+                {
+                    "statName": "双通道百分比",
+                    "resultVal": 97.5
+                },
+                {
+                    "statName": "单通道百分比",
+                    "resultVal": 2.5
+                },
+                {
+                    "statName": "离线通道百分比",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "辅设备总数",
+                    "resultVal": 90.0
+                },
+                {
+                    "statName": "辅遥信总数",
+                    "resultVal": 6746.0
+                },
+                {
+                    "statName": "辅遥测总数",
+                    "resultVal": 2115.0
+                },
+                {
+                    "statName": "主设备总数",
+                    "resultVal": 12494.0
+                },
+                {
+                    "statName": "主遥测总数",
+                    "resultVal": 27220.0
+                },
+                {
+                    "statName": "主遥信总数",
+                    "resultVal": 140994.0
+                },
+                {
+                    "statName": "1000kV总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "500kV总数",
+                    "resultVal": 40.0
+                },
+                {
+                    "statName": "220kV总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "110kV总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "35kV总数",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "1000kV接入数量",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "500kV接入数量",
+                    "resultVal": 40.0
+                },
+                {
+                    "statName": "220kV接入数量",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "110kV接入数量",
+                    "resultVal": 0.0
+                },
+                {
+                    "statName": "35kV接入数量",
+                    "resultVal": 0.0
+                }
+            ]
+        },
+        {
+            "regionId": 91,
+            "regionName": "宁河",
+            "valList": []
+        },
+        {
+            "regionId": 94,
+            "regionName": "蓟州",
+            "valList": []
+        },
+        {
+            "regionId": 90,
+            "regionName": "武清",
+            "valList": []
+        }
+    ]
+}

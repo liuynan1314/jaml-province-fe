@@ -1,0 +1,710 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 208,
+            "regionName": "208",
+            "node": {
+                "normal": 18,
+                "total": 33,
+                "rate": 54.5,
+                "abnormal": 15
+            },
+            "app": {
+                "normal": 63,
+                "total": 74,
+                "details": [
+                    {
+                        "normal": 10,
+                        "total": 11,
+                        "nodeName": "ntjk1-sca2",
+                        "appName": null,
+                        "rate": 90.9,
+                        "abnormal": 1
+                    },
+                    {
+                        "normal": 6,
+                        "total": 6,
+                        "nodeName": "ntjk2-aux2",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 4,
+                        "total": 4,
+                        "nodeName": "ntjk2-fes2",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 7,
+                        "total": 15,
+                        "nodeName": "ntjk1-sca1",
+                        "appName": null,
+                        "rate": 46.7,
+                        "abnormal": 8
+                    },
+                    {
+                        "normal": 4,
+                        "total": 4,
+                        "nodeName": "ntjk2-fes1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 5,
+                        "total": 5,
+                        "nodeName": "ntjk1-fes5",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 5,
+                        "total": 6,
+                        "nodeName": "ntjk1-fes4",
+                        "appName": null,
+                        "rate": 83.3,
+                        "abnormal": 1
+                    },
+                    {
+                        "normal": 5,
+                        "total": 6,
+                        "nodeName": "ntjk1-fes3",
+                        "appName": null,
+                        "rate": 83.3,
+                        "abnormal": 1
+                    },
+                    {
+                        "normal": 5,
+                        "total": 5,
+                        "nodeName": "ntjk2-aux1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 6,
+                        "total": 6,
+                        "nodeName": "ntjk1-fes2",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 6,
+                        "total": 6,
+                        "nodeName": "ntjk1-fes1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    }
+                ],
+                "rate": 85.1,
+                "abnormal": 11
+            },
+            "proc": {
+                "normal": 0,
+                "total": 0,
+                "details": [],
+                "rate": 0,
+                "abnormal": 0
+            }
+        },
+        {
+            "regionId": 32,
+            "regionName": "32",
+            "node": {
+                "normal": 2,
+                "total": 5,
+                "rate": 40,
+                "abnormal": 3
+            },
+            "app": {
+                "normal": 11,
+                "total": 12,
+                "details": [
+                    {
+                        "normal": 6,
+                        "total": 6,
+                        "nodeName": "jssj-sca1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 5,
+                        "total": 6,
+                        "nodeName": "jssj-web1",
+                        "appName": null,
+                        "rate": 83.3,
+                        "abnormal": 1
+                    }
+                ],
+                "rate": 91.7,
+                "abnormal": 1
+            },
+            "proc": {
+                "normal": 99,
+                "total": 308,
+                "details": [
+                    {
+                        "normal": 21,
+                        "total": 38,
+                        "nodeName": "jssj-web1",
+                        "appName": "public",
+                        "rate": 55.3,
+                        "abnormal": 17
+                    },
+                    {
+                        "normal": 1,
+                        "total": 3,
+                        "nodeName": "jssj-web1",
+                        "appName": "public_msgfwd",
+                        "rate": 33.3,
+                        "abnormal": 2
+                    },
+                    {
+                        "normal": 3,
+                        "total": 53,
+                        "nodeName": "jssj-web1",
+                        "appName": "scada",
+                        "rate": 5.7,
+                        "abnormal": 50
+                    },
+                    {
+                        "normal": 23,
+                        "total": 30,
+                        "nodeName": "jssj-web1",
+                        "appName": "data_srv",
+                        "rate": 76.7,
+                        "abnormal": 7
+                    },
+                    {
+                        "normal": 0,
+                        "total": 28,
+                        "nodeName": "jssj-web1",
+                        "appName": "fes",
+                        "rate": 0,
+                        "abnormal": 28
+                    }
+                ],
+                "rate": 32.1,
+                "abnormal": 209
+            }
+        },
+        {
+            "regionId": 209,
+            "regionName": "209",
+            "node": {
+                "normal": 28,
+                "total": 47,
+                "rate": 59.6,
+                "abnormal": 19
+            },
+            "app": {
+                "normal": 59,
+                "total": 80,
+                "details": [
+                    {
+                        "normal": 3,
+                        "total": 4,
+                        "nodeName": "ycjk2-fes1",
+                        "appName": null,
+                        "rate": 75,
+                        "abnormal": 1
+                    },
+                    {
+                        "normal": 4,
+                        "total": 4,
+                        "nodeName": "ycjk2-fes2",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 3,
+                        "total": 3,
+                        "nodeName": "ycjk1-hdfes1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 6,
+                        "total": 8,
+                        "nodeName": "ycjk1-fes1",
+                        "appName": null,
+                        "rate": 75,
+                        "abnormal": 2
+                    },
+                    {
+                        "normal": 4,
+                        "total": 6,
+                        "nodeName": "ycjk1-fes2",
+                        "appName": null,
+                        "rate": 66.7,
+                        "abnormal": 2
+                    },
+                    {
+                        "normal": 4,
+                        "total": 4,
+                        "nodeName": "ycjk1-fes3",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 4,
+                        "total": 4,
+                        "nodeName": "ycjk1-fes4",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 4,
+                        "total": 4,
+                        "nodeName": "ycjk2-aux2",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 0,
+                        "total": 11,
+                        "nodeName": "ycjk1-db1",
+                        "appName": null,
+                        "rate": 0,
+                        "abnormal": 11
+                    },
+                    {
+                        "normal": 4,
+                        "total": 4,
+                        "nodeName": "ycjk2-aux1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 10,
+                        "total": 11,
+                        "nodeName": "ycjk1-app2",
+                        "appName": null,
+                        "rate": 90.9,
+                        "abnormal": 1
+                    },
+                    {
+                        "normal": 10,
+                        "total": 13,
+                        "nodeName": "ycjk1-app1",
+                        "appName": null,
+                        "rate": 76.9,
+                        "abnormal": 3
+                    },
+                    {
+                        "normal": 3,
+                        "total": 4,
+                        "nodeName": "ycjk1-sdfes1",
+                        "appName": null,
+                        "rate": 75,
+                        "abnormal": 1
+                    }
+                ],
+                "rate": 73.8,
+                "abnormal": 21
+            },
+            "proc": {
+                "normal": 0,
+                "total": 0,
+                "details": [],
+                "rate": 0,
+                "abnormal": 0
+            }
+        },
+        {
+            "regionId": 200,
+            "regionName": "200",
+            "node": {
+                "normal": 48,
+                "total": 84,
+                "rate": 57.1,
+                "abnormal": 36
+            },
+            "app": {
+                "normal": 81,
+                "total": 85,
+                "details": [
+                    {
+                        "normal": 5,
+                        "total": 5,
+                        "nodeName": "njjk2-fes1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 5,
+                        "total": 5,
+                        "nodeName": "njjk2-fes2",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 14,
+                        "total": 15,
+                        "nodeName": "njjk1-sca1",
+                        "appName": null,
+                        "rate": 93.3,
+                        "abnormal": 1
+                    },
+                    {
+                        "normal": 3,
+                        "total": 3,
+                        "nodeName": "njjk2-aux2",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 14,
+                        "total": 15,
+                        "nodeName": "njjk1-sca2",
+                        "appName": null,
+                        "rate": 93.3,
+                        "abnormal": 1
+                    },
+                    {
+                        "normal": 6,
+                        "total": 6,
+                        "nodeName": "njjk2-aux1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 6,
+                        "total": 6,
+                        "nodeName": "njjk1-fes2",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 6,
+                        "total": 6,
+                        "nodeName": "njjk1-fes1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 1,
+                        "total": 2,
+                        "nodeName": "njjk1-agent1",
+                        "appName": null,
+                        "rate": 50,
+                        "abnormal": 1
+                    },
+                    {
+                        "normal": 3,
+                        "total": 3,
+                        "nodeName": "njjk1-fes6",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 3,
+                        "total": 3,
+                        "nodeName": "njjk1-fes5",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 4,
+                        "total": 4,
+                        "nodeName": "njjk1-fes4",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 4,
+                        "total": 4,
+                        "nodeName": "njjk1-fes3",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 1,
+                        "total": 2,
+                        "nodeName": "njjk1-agent2",
+                        "appName": null,
+                        "rate": 50,
+                        "abnormal": 1
+                    },
+                    {
+                        "normal": 3,
+                        "total": 3,
+                        "nodeName": "njjk1-fes8",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 3,
+                        "total": 3,
+                        "nodeName": "njjk1-fes7",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    }
+                ],
+                "rate": 95.3,
+                "abnormal": 4
+            },
+            "proc": {
+                "normal": 11247,
+                "total": 20000,
+                "details": [
+                    {
+                        "normal": 31,
+                        "total": 38,
+                        "nodeName": "njjk1-fes8",
+                        "appName": "public",
+                        "rate": 81.6,
+                        "abnormal": 7
+                    },
+                    {
+                        "normal": 3,
+                        "total": 3,
+                        "nodeName": "njjk1-fes8",
+                        "appName": "public_msgfwd",
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 24,
+                        "total": 29,
+                        "nodeName": "njjk1-fes8",
+                        "appName": "fes",
+                        "rate": 82.8,
+                        "abnormal": 5
+                    }
+                ],
+                "rate": 62.3,
+                "abnormal": 753
+            }
+        },
+        {
+            "regionId": 201,
+            "regionName": "201",
+            "node": {
+                "normal": 32,
+                "total": 89,
+                "rate": 36,
+                "abnormal": 57
+            },
+            "app": {
+                "normal": 64,
+                "total": 83,
+                "details": [
+                    {
+                        "normal": 5,
+                        "total": 5,
+                        "nodeName": "szjk2-fes1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 0,
+                        "total": 11,
+                        "nodeName": "szjk1-db1",
+                        "appName": null,
+                        "rate": 0,
+                        "abnormal": 11
+                    },
+                    {
+                        "normal": 4,
+                        "total": 4,
+                        "nodeName": "szjk2-fes2",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 6,
+                        "total": 6,
+                        "nodeName": "szjk1-avc1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 5,
+                        "total": 5,
+                        "nodeName": "szjk1-fes1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 7,
+                        "total": 7,
+                        "nodeName": "szjk1-sca2",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 3,
+                        "total": 4,
+                        "nodeName": "szjk1-fes3",
+                        "appName": null,
+                        "rate": 75,
+                        "abnormal": 1
+                    },
+                    {
+                        "normal": 7,
+                        "total": 7,
+                        "nodeName": "szjk1-sca1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 5,
+                        "total": 5,
+                        "nodeName": "szjk1-fes2",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 3,
+                        "total": 6,
+                        "nodeName": "szjk1-fes5",
+                        "appName": null,
+                        "rate": 50,
+                        "abnormal": 3
+                    },
+                    {
+                        "normal": 5,
+                        "total": 5,
+                        "nodeName": "szjk2-aux1",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 3,
+                        "total": 3,
+                        "nodeName": "szjk1-fes4",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 5,
+                        "total": 5,
+                        "nodeName": "szjk2-aux2",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 3,
+                        "total": 3,
+                        "nodeName": "szjk1-fes6",
+                        "appName": null,
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 3,
+                        "total": 7,
+                        "nodeName": "szjk1-avc2",
+                        "appName": null,
+                        "rate": 42.9,
+                        "abnormal": 4
+                    }
+                ],
+                "rate": 77.1,
+                "abnormal": 19
+            },
+            "proc": {
+                "normal": 740,
+                "total": 1393,
+                "details": [
+                    {
+                        "normal": 0,
+                        "total": 6,
+                        "nodeName": "szjk1-avc2",
+                        "appName": "scada_isw",
+                        "rate": 0,
+                        "abnormal": 6
+                    },
+                    {
+                        "normal": 47,
+                        "total": 71,
+                        "nodeName": "szjk1-avc2",
+                        "appName": "scada",
+                        "rate": 66.2,
+                        "abnormal": 24
+                    },
+                    {
+                        "normal": 0,
+                        "total": 6,
+                        "nodeName": "szjk1-avc2",
+                        "appName": "scada_ifa",
+                        "rate": 0,
+                        "abnormal": 6
+                    },
+                    {
+                        "normal": 0,
+                        "total": 1,
+                        "nodeName": "szjk1-avc2",
+                        "appName": "pas_model",
+                        "rate": 0,
+                        "abnormal": 1
+                    },
+                    {
+                        "normal": 32,
+                        "total": 38,
+                        "nodeName": "szjk1-avc2",
+                        "appName": "public",
+                        "rate": 84.2,
+                        "abnormal": 6
+                    },
+                    {
+                        "normal": 3,
+                        "total": 3,
+                        "nodeName": "szjk1-avc2",
+                        "appName": "public_msgfwd",
+                        "rate": 100,
+                        "abnormal": 0
+                    },
+                    {
+                        "normal": 0,
+                        "total": 10,
+                        "nodeName": "szjk1-avc2",
+                        "appName": "avc",
+                        "rate": 0,
+                        "abnormal": 10
+                    }
+                ],
+                "rate": 53.1,
+                "abnormal": 653
+            }
+        }
+    ]
+}

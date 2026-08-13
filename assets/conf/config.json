@@ -1,0 +1,12 @@
+{
+    "sysTitle": "省级大数据监视平台",
+    "bvList": ["1000", "500", "220", "110", "35", "10"],
+    "bvListJs": ["500", "220", "110", "35"],
+    "ospPort": 8443,
+    "ospMenuCheck": false,
+    "zxVideoPrefix": "videoPreview",
+    "redirectUrl": "https://192.1.103.101:8443/osp/jkz_portal/login.jsp?redirect=https://192.1.103.101:8008/jaml-platform",
+    "isTest": false,
+    "isShow3DMap": true,
+    "isShowClock": true
+}

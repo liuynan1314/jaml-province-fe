@@ -1,0 +1,33 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "pageSize": 10,
+        "pageIndex": 1,
+        "pageCount": 1,
+        "pojoTotalCount": 1,
+        "list": [
+            {
+                "regionId": 0,
+                "regionName": "超高压",
+                "staticsTime": "2025-07-28 00:00:00",
+                "dataSource": "南京",
+                "devId": "122160141687592918",
+                "devName": "全站事故总信号111",
+                "respArea": 9,
+                "areaId": 113715890591105032,
+                "groupId": 3757972414063968277,
+                "groupName": null,
+                "stId": "113997367362977801",
+                "stName": null,
+                "bayId": null,
+                "bayName": null,
+                "bvId": "112871465677750279",
+                "bvName": "220kV",
+                "facAccidentNoMatch": 1,
+                "facAccidentTotal": 1,
+                "accidentNormalRate": 0.0
+            }
+        ]
+    }
+}

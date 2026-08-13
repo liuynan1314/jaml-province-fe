@@ -1,0 +1,62 @@
+{
+    "code": 1,
+    "msg": "操作成功",
+    "data": [
+        {
+            "cntType": 1,
+            "cntId": 1,
+            "cntName": "一般",
+            "totalCnt": 10,
+            "dealCnt": 5,
+            "todoCnt": 5
+        },
+        {
+            "cntType": 1,
+            "cntId": 2,
+            "cntName": "危急",
+            "totalCnt": 7,
+            "dealCnt": 5,
+            "todoCnt": 2
+        },
+        {
+            "cntType": 1,
+            "cntId": 3,
+            "cntName": "严重",
+            "totalCnt": 15,
+            "dealCnt": 5,
+            "todoCnt": 10
+        },
+        {
+            "cntType": 2,
+            "cntId": 1,
+            "cntName": "系统缺陷",
+            "totalCnt": 10,
+            "dealCnt": 5,
+            "todoCnt": 5
+        },
+        {
+            "cntType": 2,
+            "cntId": 2,
+            "cntName": "设备缺陷",
+            "totalCnt": 8,
+            "dealCnt": 3,
+            "todoCnt": 5
+        },
+        {
+            "cntType": 2,
+            "cntId": 3,
+            "cntName": "数据缺陷",
+            "totalCnt": 12,
+            "dealCnt": 1,
+            "todoCnt": 11
+        },
+        {
+            "cntType": 2,
+            "cntId": 4,
+            "cntName": "功能缺陷",
+            "totalCnt": 28,
+            "dealCnt": 8,
+            "todoCnt": 20
+        }
+    ]
+}

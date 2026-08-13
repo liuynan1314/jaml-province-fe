@@ -1,0 +1,146 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "menuName": "网络状态",
+            "menu": [
+                {
+                    "actualValue": "0",
+                    "displayValue": "中断",
+                    "type": "0"
+                },
+                {
+                    "actualValue": "1",
+                    "displayValue": "正常",
+                    "type": "1"
+                }
+            ]
+        },
+        {
+            "menuName": "节点工作状态信息",
+            "menu": [
+                {
+                    "actualValue": "0",
+                    "displayValue": "离线",
+                    "type": "0"
+                },
+                {
+                    "actualValue": "1",
+                    "displayValue": "在线",
+                    "type": "1"
+                },
+                {
+                    "actualValue": "2",
+                    "displayValue": "应用异常",
+                    "type": "0"
+                },
+                {
+                    "actualValue": "3",
+                    "displayValue": "所有应用异常",
+                    "type": "0"
+                },
+                {
+                    "actualValue": "4",
+                    "displayValue": "值班",
+                    "type": "1"
+                },
+                {
+                    "actualValue": "5",
+                    "displayValue": "备用",
+                    "type": "1"
+                }
+            ]
+        },
+        {
+            "menuName": "应用工况状态",
+            "menu": [
+                {
+                    "actualValue": "1",
+                    "displayValue": "启动",
+                    "type": "1"
+                },
+                {
+                    "actualValue": "2",
+                    "displayValue": "备机",
+                    "type": "1"
+                },
+                {
+                    "actualValue": "3",
+                    "displayValue": "主机",
+                    "type": "1"
+                },
+                {
+                    "actualValue": "4",
+                    "displayValue": "强制备机",
+                    "type": "1"
+                },
+                {
+                    "actualValue": "5",
+                    "displayValue": "强制主机",
+                    "type": "1"
+                },
+                {
+                    "actualValue": "6",
+                    "displayValue": "断网",
+                    "type": "0"
+                },
+                {
+                    "actualValue": "7",
+                    "displayValue": "故障",
+                    "type": "0"
+                },
+                {
+                    "actualValue": "8",
+                    "displayValue": "退出",
+                    "type": "0"
+                },
+                {
+                    "actualValue": "9",
+                    "displayValue": "系统启动",
+                    "type": "1"
+                },
+                {
+                    "actualValue": "10",
+                    "displayValue": "系统停止",
+                    "type": "0"
+                },
+                {
+                    "actualValue": "11",
+                    "displayValue": "节点离线",
+                    "type": "0"
+                },
+                {
+                    "actualValue": "12",
+                    "displayValue": "节点恢复",
+                    "type": "1"
+                }
+            ]
+        },
+        {
+            "menuName": "进程工作状态",
+            "menu": [
+                {
+                    "actualValue": "0",
+                    "displayValue": "离线",
+                    "type": "0"
+                },
+                {
+                    "actualValue": "1",
+                    "displayValue": "在线",
+                    "type": "1"
+                },
+                {
+                    "actualValue": "2",
+                    "displayValue": "挂起",
+                    "type": "0"
+                },
+                {
+                    "actualValue": "5",
+                    "displayValue": "故障",
+                    "type": "0"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "bvId": "112871465677750285",
+            "bvName": "1000kV",
+            "overloadCnt": 0,
+            "heavyLoadCnt": 0,
+            "heavyOverloadCnt": 0
+        },
+        {
+            "bvId": "112871465677750274",
+            "bvName": "500kV",
+            "overloadCnt": 0,
+            "heavyLoadCnt": 1,
+            "heavyOverloadCnt": 1
+        },
+        {
+            "bvId": "112871465677750279",
+            "bvName": "220kV",
+            "overloadCnt": 0,
+            "heavyLoadCnt": 1,
+            "heavyOverloadCnt": 1
+        },
+        {
+            "bvId": "112871465677750280",
+            "bvName": "110kV",
+            "overloadCnt": 0,
+            "heavyLoadCnt": 0,
+            "heavyOverloadCnt": 0
+        },
+        {
+            "bvId": "112871465677750275",
+            "bvName": "35kV",
+            "overloadCnt": 0,
+            "heavyLoadCnt": 0,
+            "heavyOverloadCnt": 0
+        },
+        {
+            "bvId": "112871465677750278",
+            "bvName": "10kV",
+            "overloadCnt": 0,
+            "heavyLoadCnt": 0,
+            "heavyOverloadCnt": 0
+        }
+    ]
+}

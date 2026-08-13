@@ -1,0 +1,192 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "pageSize": 15,
+        "pageIndex": 1,
+        "pageCount": 67,
+        "pojoTotalCount": 993,
+        "list": [
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "Ⅳ区数据库服务器njjk4-db1",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk4-db1",
+                "updateTime": "2025-11-05 23:10:15"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "Ⅱ区应用服务器njjk2-aux2",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk2-aux2",
+                "updateTime": "2025-11-06 00:09:16"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "Ⅱ区前置服务器njjk2-fes2",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk2-fes2",
+                "updateTime": "2025-11-06 00:09:15"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "Ⅱ区应用服务器njjk2-aux1",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk2-aux1",
+                "updateTime": "2025-11-06 00:09:13"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "Ⅱ区前置服务器njjk2-fes1",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk2-fes1",
+                "updateTime": "2025-11-06 00:09:12"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "硬件资源监测装置njjk2-yjzyjc1",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk2-yjzyjc1",
+                "updateTime": "2025-11-06 00:09:10"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "I 区前置服务器njjk1-fes1",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk1-fes1",
+                "updateTime": "2025-11-06 00:09:09"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "I 区应用服务器njjk1-sca1",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk1-sca1",
+                "updateTime": "2025-11-06 00:09:07"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "I 区数据库服务器njjk1-db1",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk1-db1",
+                "updateTime": "2025-11-06 00:09:06"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "I 区前置服务器njjk1-fes2",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk1-fes2",
+                "updateTime": "2025-11-06 00:09:04"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "I 区应用服务器njjk1-sca2",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk1-sca2",
+                "updateTime": "2025-11-06 00:09:03"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "I 区数据库服务器njjk1-db2",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk1-db2",
+                "updateTime": "2025-11-06 00:09:01"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "I 区前置服务器njjk1-fes4",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk1-fes4",
+                "updateTime": "2025-11-06 00:09:00"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "I 区前置服务器njjk1-fes3",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk1-fes3",
+                "updateTime": "2025-11-06 00:08:58"
+            },
+            {
+                "regionId": 100,
+                "regionName": "南京",
+                "name": "I 区代理服务器njjk1-agent1",
+                "value": "服务器",
+                "companyName": "南京市供电分公司",
+                "machineRoomName": "五楼集控机房",
+                "brandModel": "I840-G30",
+                "brand": "曙光",
+                "serialNumber": "njjk1-agent1",
+                "updateTime": "2025-11-06 00:08:57"
+            }
+        ]
+    }
+}

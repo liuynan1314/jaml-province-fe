@@ -1,0 +1,518 @@
+{
+	"substationList": [
+    {
+      "id": "113997366272458753",
+      "name": "斗笠站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_斗笠.fac.pic.g",
+      "location": [112.26, 30.92]
+    },
+    {
+      "id": "113997366272458754",
+      "name": "编钟站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_编钟站.fac.pic.g",
+      "location": [113.28, 31.76]
+    },
+    {
+      "id": "113997366272458755",
+      "name": "樊城站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_樊城.fac.pic.g",
+      "location": [112.26, 31.96]
+    },
+    {
+      "id": "113997366272458756",
+      "name": "十堰站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_十堰变.fac.pic.g",
+      "location": [110.70, 32.54]
+    },
+    {
+      "id": "113997366272458757",
+      "name": "卧龙站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_卧龙.fac.pic.g",
+      "location": [112.24, 32.29]
+    },
+    {
+      "id": "113997366272458758",
+      "name": "柏泉站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB接线图模板.fac.pic.g",
+      "location": [114.14, 30.69]
+    },
+    {
+      "id": "113997366272458759",
+      "name": "仙女山站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_仙女山.fac.pic.g",
+      "location": [113.71, 30.79]
+    },
+    {
+      "id": "113997366272458760",
+      "name": "孝感站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_孝感.fac.pic.g",
+      "location": [113.94, 30.90]
+    },
+    {
+      "id": "113997366272458761",
+      "name": "木兰站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_木兰.fac.pic.g",
+      "location": [114.38, 31.24]
+    },
+    {
+      "id": "113997366272458762",
+      "name": "玉贤站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_玉贤站.fac.pic.g",
+      "location": [113.98, 30.51]
+    },
+    {
+      "id": "113997366272458763",
+      "name": "仙桃站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_仙桃.fac.pic.g",
+      "location": [113.42, 30.33]
+    },
+    {
+      "id": "113997366272458764",
+      "name": "兴隆站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_兴隆变.fac.pic.g",
+      "location": [113.31, 30.37]
+    },
+    {
+      "id": "113997366272458765",
+      "name": "咸宁站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_咸宁变.fac.pic.g",
+      "location": [114.57, 29.62]
+    },
+    {
+      "id": "113997366272458766",
+      "name": "渔峡站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_渔峡.fac.pic.g",
+      "location": [110.12, 30.20]
+    },
+    {
+      "id": "113997366272458767",
+      "name": "孱陵站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_孱陵变.fac.pic.g",
+      "location": [112.96, 29.92]
+    },
+    {
+      "id": "113997366272458768",
+      "name": "恩施站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_恩施.fac.pic.g",
+      "location": [109.23, 29.90]
+    },
+    {
+      "id": "113997366272458769",
+      "name": "建始站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_建始.fac.pic.g",
+      "location": [109.72, 30.40]
+    },
+    {
+      "id": "113997366272458770",
+      "name": "大吉站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_大吉.fac.pic.g",
+      "location": [115.07, 30.50]
+    },
+    {
+      "id": "113997366272458771",
+      "name": "道观河站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_道观河.fac.pic.g",
+      "location": [115.00, 30.87]
+    },
+    {
+      "id": "113997366272458772",
+      "name": "磁湖站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_磁湖变.fac.pic.g",
+      "location": [115.05, 30.20]
+    },
+    {
+      "id": "113997366272458773",
+      "name": "广济站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_广济.fac.pic.g",
+      "location": [115.54, 30.20]
+    },
+    {
+      "id": "113997366272458774",
+      "name": "吴都站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_吴都.fac.pic.g",
+      "location": [114.89, 30.40]
+    },
+    {
+      "id": "113997366272458775",
+      "name": "双河站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_双河.fac.pic.g",
+      "location": [112.28, 31.28]
+    },
+    {
+      "id": "113997366272458776",
+      "name": "朝阳站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_朝阳变.fac.pic.g",
+      "location": [111.34, 30.78]
+    },
+    {
+      "id": "113997366272458777",
+      "name": "凤凰山站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_凤凰山.fac.pic.g",
+      "location": [110.98, 30.82]
+    },
+    {
+      "id": "113997366272458778",
+      "name": "钢都站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_钢都变.fac.pic.g",
+      "location": [114.37, 30.60]
+    },
+    {
+      "id": "113997366272458779",
+      "name": "光谷站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_光谷变.fac.pic.g",
+      "location": [114.41, 30.49]
+    },
+    {
+      "id": "113997366272458780",
+      "name": "江夏站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_江夏.fac.pic.g",
+      "location": [0.00, 30.10]
+    },
+    {
+      "id": "113997366272458781",
+      "name": "军山站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_军山.fac.pic.g",
+      "location": [114.25, 30.33]
+    },
+    {
+      "id": "113997366272458782",
+      "name": "安福站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_安福变.fac.pic.g",
+      "location": [110.50, 30.30]
+    },
+    {
+      "id": "113997366272458783",
+      "name": "荆门特高压站",
+      "substationType": 1,
+      "voltageLevel": "1000kV",
+      "graphName": "HB.HB_荆门特高压.fac.pic.g",
+      "location": [0.00, 0.00]
+    },
+    {
+      "id": "113997366272458790",
+      "name": "黄石特高压",
+      "substationType": 1,
+      "voltageLevel": "1000kV",
+      "graphName": "HB.HB_黄石特高压.fac.pic.g",
+      "location": [114.93, 29.88]
+    },
+    {
+      "id": "113997366272458791",
+      "name": "松石站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_松石变.fac.pic.g",
+      "location": [110.24, 32.20]
+    },
+    {
+      "id": "113997366272458792",
+      "name": "赤壁站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_赤壁变.fac.pic.g",
+      "location": [114.00, 29.66]
+    },
+    {
+      "id": "113997366272458914",
+      "name": "铜都站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_铜都.fac.pic.g",
+      "location": [114.25, 30.33]
+    },
+    {
+      "id": "113997366272459068",
+      "name": "高新站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_高新.fac.pic.g",
+      "location": [114.37, 30.60]
+    },
+    {
+      "id": "113997366272459069",
+      "name": "金银湖站",
+      "substationType": 2,
+      "voltageLevel": "500kV",
+      "graphName": "HB.HB_金银湖.fac.pic.g",
+      "location": [0.00, 0.00]
+    }
+  ],
+	"substationLineList": [
+		{
+			"lineId": "",
+			"startStName": "海河",
+			"endStName": "廊坊",
+			"lineType": 3,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "海河",
+			"endStName": "泉城",
+			"lineType": 3,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "保定",
+			"endStName": "海河",
+			"lineType": 3,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "新航城",
+			"endStName": "南蔡",
+			"lineType": 3,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "盘山",
+			"endStName": "安定",
+			"lineType": 3,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "盘山",
+			"endStName": "渠阳",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "渠阳",
+			"endStName": "南蔡",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "南蔡",
+			"endStName": "北郊",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "芦台",
+			"endStName": "渠阳",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "裕丰",
+			"endStName": "芦台",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "北郊",
+			"endStName": "东丽",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "北郊",
+			"endStName": "正德",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "正德",
+			"endStName": "吴庄",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "吴庄",
+			"endStName": "板桥",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "板桥",
+			"endStName": "滨海",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "海河",
+			"endStName": "板桥",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "海河",
+			"endStName": "静海",
+			"lineType": 1,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "静海",
+			"endStName": "吴庄",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "黄骅",
+			"endStName": "静海",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "孝彩",
+			"endStName": "吴庄",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "滨海",
+			"endStName": "芦台",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "北疆电厂",
+			"endStName": "芦台",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "北疆电厂",
+			"endStName": "滨海",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		},
+		{
+			"lineId": "",
+			"startStName": "滨海",
+			"endStName": "东丽",
+			"lineType": 2,
+			"lineVoltageType": "",
+			"lineName": "",
+			"lineLocation": []
+		}
+	]
+}

@@ -1,0 +1,112 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "pageSize": 10,
+        "pageIndex": 1,
+        "pageCount": 358,
+        "pojoTotalCount": 3573,
+        "list": [
+            {
+                "regionId": 111,
+                "regionName": null,
+                "keyId": "3773453539645325313",
+                "signalName": "#1主变油色谱_绝缘气体告警",
+                "stId": "113997367430086666",
+                "stName": "安徽.鸠江变",
+                "signalType": 0,
+                "gmtUpdateTime": "2024-02-23 13:37:45"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "keyId": "3773453539645325313",
+                "signalName": "#1主变油色谱_绝缘气体告警",
+                "stId": "113997367430086666",
+                "stName": "安徽.鸠江变",
+                "signalType": 0,
+                "gmtUpdateTime": "2024-02-25 13:38:33"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "keyId": "3773453539645325313",
+                "signalName": "#1主变油色谱_绝缘气体告警",
+                "stId": "113997367430086666",
+                "stName": "安徽.鸠江变",
+                "signalType": 0,
+                "gmtUpdateTime": "2024-02-27 13:39:21"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "keyId": "3773453539645325313",
+                "signalName": "#1主变油色谱_绝缘气体告警",
+                "stId": "113997367430086666",
+                "stName": "安徽.鸠江变",
+                "signalType": 0,
+                "gmtUpdateTime": "2024-02-29 13:40:09"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "keyId": "3773453539645325313",
+                "signalName": "#1主变油色谱_绝缘气体告警",
+                "stId": "113997367430086666",
+                "stName": "安徽.鸠江变",
+                "signalType": 0,
+                "gmtUpdateTime": "2024-03-02 13:40:57"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "keyId": "3773453539645325313",
+                "signalName": "#1主变油色谱_绝缘气体告警",
+                "stId": "113997367430086666",
+                "stName": "安徽.鸠江变",
+                "signalType": 0,
+                "gmtUpdateTime": "2024-03-04 13:41:45"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "keyId": "3773453539645325313",
+                "signalName": "#1主变油色谱_绝缘气体告警",
+                "stId": "113997367430086666",
+                "stName": "安徽.鸠江变",
+                "signalType": 0,
+                "gmtUpdateTime": "2024-03-06 13:42:33"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "keyId": "3773453539645325313",
+                "signalName": "#1主变油色谱_绝缘气体告警",
+                "stId": "113997367430086666",
+                "stName": "安徽.鸠江变",
+                "signalType": 0,
+                "gmtUpdateTime": "2024-03-08 13:43:21"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "keyId": "3773453539645325313",
+                "signalName": "#1主变油色谱_绝缘气体告警",
+                "stId": "113997367430086666",
+                "stName": "安徽.鸠江变",
+                "signalType": 0,
+                "gmtUpdateTime": "2024-03-10 13:44:09"
+            },
+            {
+                "regionId": 111,
+                "regionName": null,
+                "keyId": "3773453539645325313",
+                "signalName": "#1主变油色谱_绝缘气体告警",
+                "stId": "113997367430086666",
+                "stName": "安徽.鸠江变",
+                "signalType": 0,
+                "gmtUpdateTime": "2024-03-12 10:44:54"
+            }
+        ]
+    }
+}

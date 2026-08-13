@@ -1,0 +1,74 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "pageSize": 10,
+        "pageIndex": 1,
+        "pageCount": 1,
+        "pojoTotalCount": 1,
+        "list": [
+            {
+                "regionId": "-1",
+                "regionName": "-1",
+                "bvId": "112871465677750279",
+                "bvName": "220kV",
+                "stId": "113997365567815681",
+                "stName": "220kV测试站1",
+                "devId": "117375065288343553",
+                "devName": "PTR1-#1高",
+                "hasAclineend": false,
+                "ycId": "117375808317685761",
+                "loadRate1": "59.92%",
+                "loadTime1": "2025-07-16 17:06:00",
+                "loadRate2": "59.92%",
+                "loadTime2": "2025-07-15 17:06:00",
+                "loadDiff": 0.0,
+                "mapBvIdAndLines": [
+                    {
+                        "bvId": "1",
+                        "bvName": "1",
+                        "lineendId": "1",
+                        "lineendName": "1",
+                        "lineAndWindRate1": "1",
+                        "lineAndWindRate2": "1",
+                        "lineAndWindVariation": "1",
+                        "rate1": "59.92%",
+                        "rate2": "59.2%",
+                        "rateVariation": "1"
+                    }
+                ]
+            },
+            {
+                "regionId": "-1",
+                "regionName": "-1",
+                "bvId": "112871465677750279",
+                "bvName": "220kV",
+                "stId": "113997365567815681",
+                "stName": "220kV测试站1",
+                "devId": "117375065288343553",
+                "devName": "PTR1-#2高",
+                "hasAclineend": true,
+                "ycId": "117375808317685761",
+                "loadRate1": "59.92%",
+                "loadTime1": "2025-07-16 17:06:00",
+                "loadRate2": "59.92%",
+                "loadTime2": "2025-07-15 17:06:00",
+                "loadDiff": 0.0,
+                "mapBvIdAndLines": [
+                    {
+                        "bvId": "2",
+                        "bvName": "2",
+                        "lineendId": "2",
+                        "lineendName": "2",
+                        "lineAndWindRate1": "2",
+                        "lineAndWindRate2": "2",
+                        "lineAndWindVariation": "2",
+                        "rate1": "59.92%",
+                        "rate2": "59.2%",
+                        "rateVariation": "2"
+                    }
+                ]
+            }
+        ]
+    }
+}

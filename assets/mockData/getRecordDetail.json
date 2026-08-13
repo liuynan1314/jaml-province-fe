@@ -1,0 +1,27 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "id": 1950467622820671488,
+        "regionId": null,
+        "content": "dsgfdhfdghfd",
+        "feedbackType": 1,
+        "defectType": 4,
+        "status": 1,
+        "ownerId": "4081f2dd761de7a001761dfd14ed003b",
+        "tel": "15150542124",
+        "describe": "2023年10月08日19时43分12秒      500kV公共测试站 消防监控终端 消防监控终端火灾报警主机火灾总告警      动作,ceshi1111",
+        "gmtCreateTime": "2025-07-30 16:04:53",
+        "createUserId": null,
+        "gmtUpdateTime": null,
+        "updateUserId": null,
+        "idStr": "1950467622820671488",
+        "feedbackTypeName": "系统问题",
+        "defectTypeName": "告警信息缺陷",
+        "statusName": "待分配",
+        "ownerName": "xtgly",
+        "regionName": null,
+        "createUserName": null,
+        "files": []
+    }
+}

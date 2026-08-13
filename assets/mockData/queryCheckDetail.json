@@ -1,0 +1,356 @@
+{
+    "code": 200,
+    "msg": "",
+    "data": {
+        "pageSize": 20,
+        "pageIndex": 1,
+        "pageCount": 2,
+        "pojoTotalCount": 30,
+        "list": [
+            {
+                "id": "",
+                "devType": "",
+                "devTypeName": "变压器",
+                "tableName": "",
+                "regionId": 0,
+                "regionName": "江苏",
+                "devId": "",
+                "rdfId": "",
+                "devName": "",
+                "diffType": 0,
+                "stId": "",
+                "stName": "xx站",
+                "columnDetail": [
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "0",
+                        "province": "名称1",
+                        "region": "名称1",
+                        "columnName": "name",
+                        "columnNameChn": "名称"
+                    }
+                ]
+            },
+            {
+                "id": "",
+                "devType": "",
+                "devTypeName": "变压器",
+                "tableName": "",
+                "regionId": 0,
+                "regionName": "江苏",
+                "devId": "",
+                "rdfId": "",
+                "devName": "",
+                "diffType": 1,
+                "stId": "",
+                "stName": "xx站",
+                "columnDetail": [
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "0",
+                        "province": "名称1",
+                        "region": "名称1",
+                        "columnName": "name",
+                        "columnNameChn": "名称"
+                    }
+                ]
+            },
+            {
+                "id": "",
+                "devType": "",
+                "devTypeName": "变压器",
+                "tableName": "",
+                "regionId": 0,
+                "regionName": "江苏",
+                "devId": "",
+                "rdfId": "",
+                "devName": "",
+                "diffType": 2,
+                "stId": "",
+                "stName": "xx站",
+                "columnDetail": [
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "0",
+                        "province": "名称1",
+                        "region": "名称1",
+                        "columnName": "name",
+                        "columnNameChn": "名称"
+                    }
+                ]
+            },
+            {
+                "id": "",
+                "devType": "",
+                "devTypeName": "变压器",
+                "tableName": "",
+                "regionId": 0,
+                "regionName": "江苏",
+                "devId": "",
+                "rdfId": "",
+                "devName": "",
+                "diffType": 3,
+                "stId": "",
+                "stName": "xx站",
+                "columnDetail": [
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "3",
+                        "province": "123",
+                        "region": "234",
+                        "columnName": "id",
+                        "columnNameChn": "标识"
+                    },
+                    {
+                        "diffType": "0",
+                        "province": "名称1",
+                        "region": "名称1",
+                        "columnName": "name",
+                        "columnNameChn": "名称"
+                    }
+                ]
+            }
+        ]
+    }
+}

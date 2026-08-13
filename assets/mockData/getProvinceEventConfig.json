@@ -1,0 +1,8 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "upload2bpEnabled": true,
+        "provinceSendButtonAuthEnabled": true
+    }
+}

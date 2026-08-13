@@ -1,0 +1,3276 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "devType": "PTR",
+            "devTypeDesc": "主变",
+            "totalCnt": 30,
+            "regionBvList": [
+                {
+                    "regionId": 98,
+                    "regionName": "滨海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 10
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 10
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 10
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 96,
+                    "regionName": "城南",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 99,
+                    "regionName": "城西",
+                    "totalCnt": 20,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 10
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 10
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 97,
+                    "regionName": "城东",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 95,
+                    "regionName": "东丽",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 93,
+                    "regionName": "宝坻",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 92,
+                    "regionName": "静海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 91,
+                    "regionName": "宁河",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 94,
+                    "regionName": "蓟州",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 90,
+                    "regionName": "武清",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "devType": "CBR",
+            "devTypeDesc": "断路器",
+            "totalCnt": 0,
+            "regionBvList": [
+                {
+                    "regionId": 98,
+                    "regionName": "滨海",
+                    "totalCnt": 50,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 10
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 10
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 10
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 10
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 10
+                        }
+                    ]
+                },
+                {
+                    "regionId": 96,
+                    "regionName": "城南",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 99,
+                    "regionName": "城西",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 97,
+                    "regionName": "城东",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 95,
+                    "regionName": "东丽",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 93,
+                    "regionName": "宝坻",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 92,
+                    "regionName": "静海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 91,
+                    "regionName": "宁河",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 94,
+                    "regionName": "蓟州",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 90,
+                    "regionName": "武清",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "devType": "EBus",
+            "devTypeDesc": "母线",
+            "totalCnt": 0,
+            "regionBvList": [
+                {
+                    "regionId": 98,
+                    "regionName": "滨海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 96,
+                    "regionName": "城南",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 99,
+                    "regionName": "城西",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 97,
+                    "regionName": "城东",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 95,
+                    "regionName": "东丽",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 93,
+                    "regionName": "宝坻",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 92,
+                    "regionName": "静海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 91,
+                    "regionName": "宁河",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 94,
+                    "regionName": "蓟州",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 90,
+                    "regionName": "武清",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "devType": "FH",
+            "devTypeDesc": "负荷",
+            "totalCnt": 0,
+            "regionBvList": [
+                {
+                    "regionId": 98,
+                    "regionName": "滨海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 96,
+                    "regionName": "城南",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 99,
+                    "regionName": "城西",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 97,
+                    "regionName": "城东",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 95,
+                    "regionName": "东丽",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 93,
+                    "regionName": "宝坻",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 92,
+                    "regionName": "静海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 91,
+                    "regionName": "宁河",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 94,
+                    "regionName": "蓟州",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 90,
+                    "regionName": "武清",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "devType": "IFL",
+            "devTypeDesc": "交流线段",
+            "totalCnt": 0,
+            "regionBvList": [
+                {
+                    "regionId": 98,
+                    "regionName": "滨海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 96,
+                    "regionName": "城南",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 99,
+                    "regionName": "城西",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 97,
+                    "regionName": "城东",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 95,
+                    "regionName": "东丽",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 93,
+                    "regionName": "宝坻",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 92,
+                    "regionName": "静海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 91,
+                    "regionName": "宁河",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 94,
+                    "regionName": "蓟州",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 90,
+                    "regionName": "武清",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "devType": "NS",
+            "devTypeDesc": "变压器绕组",
+            "totalCnt": 0,
+            "regionBvList": [
+                {
+                    "regionId": 98,
+                    "regionName": "滨海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 96,
+                    "regionName": "城南",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 99,
+                    "regionName": "城西",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 97,
+                    "regionName": "城东",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 95,
+                    "regionName": "东丽",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 93,
+                    "regionName": "宝坻",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 92,
+                    "regionName": "静海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 91,
+                    "regionName": "宁河",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 94,
+                    "regionName": "蓟州",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 90,
+                    "regionName": "武清",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "devType": "CAP",
+            "devTypeDesc": "电容器",
+            "totalCnt": 0,
+            "regionBvList": [
+                {
+                    "regionId": 98,
+                    "regionName": "滨海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 96,
+                    "regionName": "城南",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 99,
+                    "regionName": "城西",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 97,
+                    "regionName": "城东",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 95,
+                    "regionName": "东丽",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 93,
+                    "regionName": "宝坻",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 92,
+                    "regionName": "静海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 91,
+                    "regionName": "宁河",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 94,
+                    "regionName": "蓟州",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 90,
+                    "regionName": "武清",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "devType": "REA",
+            "devTypeDesc": "电抗器",
+            "totalCnt": 0,
+            "regionBvList": [
+                {
+                    "regionId": 98,
+                    "regionName": "滨海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 96,
+                    "regionName": "城南",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 99,
+                    "regionName": "城西",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 97,
+                    "regionName": "城东",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 95,
+                    "regionName": "东丽",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 93,
+                    "regionName": "宝坻",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 92,
+                    "regionName": "静海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 91,
+                    "regionName": "宁河",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 94,
+                    "regionName": "蓟州",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 90,
+                    "regionName": "武清",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "devType": "CTR",
+            "devTypeDesc": "电流互感器",
+            "totalCnt": 0,
+            "regionBvList": [
+                {
+                    "regionId": 98,
+                    "regionName": "滨海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 96,
+                    "regionName": "城南",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 99,
+                    "regionName": "城西",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 97,
+                    "regionName": "城东",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 95,
+                    "regionName": "东丽",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 93,
+                    "regionName": "宝坻",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 92,
+                    "regionName": "静海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 91,
+                    "regionName": "宁河",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 94,
+                    "regionName": "蓟州",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 90,
+                    "regionName": "武清",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "devType": "VTR",
+            "devTypeDesc": "电压互感器",
+            "totalCnt": 0,
+            "regionBvList": [
+                {
+                    "regionId": 98,
+                    "regionName": "滨海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 96,
+                    "regionName": "城南",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 99,
+                    "regionName": "城西",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 97,
+                    "regionName": "城东",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 95,
+                    "regionName": "东丽",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 93,
+                    "regionName": "宝坻",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 92,
+                    "regionName": "静海",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 91,
+                    "regionName": "宁河",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 94,
+                    "regionName": "蓟州",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                },
+                {
+                    "regionId": 90,
+                    "regionName": "武清",
+                    "totalCnt": 0,
+                    "bvList": [
+                        {
+                            "bvId": "112871465677750285",
+                            "bvName": "1000kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750274",
+                            "bvName": "500kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750279",
+                            "bvName": "220kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750280",
+                            "bvName": "110kV",
+                            "totalCnt": 0
+                        },
+                        {
+                            "bvId": "112871465677750275",
+                            "bvName": "35kV",
+                            "totalCnt": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

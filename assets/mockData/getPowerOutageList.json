@@ -1,0 +1,192 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "pageSize": 15,
+        "pageIndex": 1,
+        "pageCount": 4,
+        "pojoTotalCount": 1000,
+        "list": [
+            {
+                "id": 1,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 2,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 3,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 4,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 5,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 6,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 7,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 8,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 9,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 10,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 11,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 12,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 13,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 14,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 15,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 16,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 17,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 18,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 19,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            },
+            {
+                "id": 20,
+                "regionName": "北京市",
+                "stationName": "北京电力公司",
+                "deviceName": "北京电力公司-1号变电站",
+                "voltageLevel": "110kV",
+                "overContent": "电压过高",
+                "occurTime": "2021-01-01 12:00:00"
+            }
+        ]
+    }
+}

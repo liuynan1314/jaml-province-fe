@@ -1,0 +1,25 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "stId": null,
+        "stName": null,
+        "mainNum": null,
+        "mainRate": null,
+        "auxNum": null,
+        "auxRate": null,
+        "sequentialNum": null,
+        "sequentialRate": null,
+        "regionId": null,
+        "regionName": null,
+        "bvId": null,
+        "bvName": null,
+        "transferNum": null,
+        "transferSucceedNum": null,
+        "transferRate": null,
+        "ykSeparateNum": 21,
+        "ykCombineNum": 12,
+        "tdUpNum": 0,
+        "tdDownNum": 34
+    }
+}

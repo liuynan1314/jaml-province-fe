@@ -1,0 +1,239 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "110",
+            "bayId": null,
+            "regionName": "淮安",
+            "bvId": null,
+            "bvName": null,
+            "groupBvIdCount": null,
+            "groupBvIdRecordType": null,
+            "numList": [
+                { "bvName": null, "count": 29462, "recordType": "1" },
+                { "bvName": null, "count": 1319, "recordType": "2" },
+                { "bvName": null, "count": 1252, "recordType": "3" },
+                { "bvName": null, "count": 580, "recordType": "4" },
+                { "bvName": null, "count": 19, "recordType": "0" }
+            ]
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "111",
+            "bayId": null,
+            "regionName": "宿迁",
+            "bvId": null,
+            "bvName": null,
+            "groupBvIdCount": null,
+            "groupBvIdRecordType": null,
+            "numList": [
+                { "bvName": null, "count": 230, "recordType": "4" },
+                { "bvName": null, "count": 3886, "recordType": "1" },
+                { "bvName": null, "count": 3103, "recordType": "2" },
+                { "bvName": null, "count": 956, "recordType": "3" }
+            ]
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "100",
+            "bayId": null,
+            "regionName": "南京",
+            "bvId": null,
+            "bvName": null,
+            "groupBvIdCount": null,
+            "groupBvIdRecordType": null,
+            "numList": [
+                { "bvName": null, "count": 9972, "recordType": "1" },
+                { "bvName": null, "count": 303, "recordType": "3" },
+                { "bvName": null, "count": 1573, "recordType": "2" },
+                { "bvName": null, "count": 1062, "recordType": "4" },
+                { "bvName": null, "count": 24, "recordType": "0" }
+            ]
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "112",
+            "bayId": null,
+            "regionName": "连云港",
+            "bvId": null,
+            "bvName": null,
+            "groupBvIdCount": null,
+            "groupBvIdRecordType": null,
+            "numList": [
+                { "bvName": null, "count": 1294, "recordType": "2" },
+                { "bvName": null, "count": 2256, "recordType": "1" },
+                { "bvName": null, "count": 131, "recordType": "4" },
+                { "bvName": null, "count": 794, "recordType": "3" },
+                { "bvName": null, "count": 30, "recordType": "0" }
+            ]
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "101",
+            "bayId": null,
+            "regionName": "苏州",
+            "bvId": null,
+            "bvName": null,
+            "groupBvIdCount": null,
+            "groupBvIdRecordType": null,
+            "numList": [
+                { "bvName": null, "count": 1645, "recordType": "2" },
+                { "bvName": null, "count": 937, "recordType": "4" },
+                { "bvName": null, "count": 18929, "recordType": "1" },
+                { "bvName": null, "count": 1100, "recordType": "3" },
+                { "bvName": null, "count": 5037, "recordType": "0" }
+            ]
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "102",
+            "bayId": null,
+            "regionName": "徐州",
+            "bvId": null,
+            "bvName": null,
+            "groupBvIdCount": null,
+            "groupBvIdRecordType": null,
+            "numList": [
+                { "bvName": null, "count": 9796, "recordType": "2" },
+                { "bvName": null, "count": 59078, "recordType": "1" },
+                { "bvName": null, "count": 459, "recordType": "3" },
+                { "bvName": null, "count": 972, "recordType": "4" },
+                { "bvName": null, "count": 151, "recordType": "0" }
+            ]
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "103",
+            "bayId": null,
+            "regionName": "无锡",
+            "bvId": null,
+            "bvName": null,
+            "groupBvIdCount": null,
+            "groupBvIdRecordType": null,
+            "numList": [
+                { "bvName": null, "count": 9334, "recordType": "1" },
+                { "bvName": null, "count": 646, "recordType": "3" },
+                { "bvName": null, "count": 2287, "recordType": "4" },
+                { "bvName": null, "count": 3010, "recordType": "2" },
+                { "bvName": null, "count": 63, "recordType": "0" }
+            ]
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "104",
+            "bayId": null,
+            "regionName": "常州",
+            "bvId": null,
+            "bvName": null,
+            "groupBvIdCount": null,
+            "groupBvIdRecordType": null,
+            "numList": [
+                { "bvName": null, "count": 566, "recordType": "4" },
+                { "bvName": null, "count": 346, "recordType": "3" },
+                { "bvName": null, "count": 339, "recordType": "2" },
+                { "bvName": null, "count": 1474, "recordType": "1" },
+                { "bvName": null, "count": 38, "recordType": "0" }
+            ]
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "105",
+            "bayId": null,
+            "regionName": "镇江",
+            "bvId": null,
+            "bvName": null,
+            "groupBvIdCount": null,
+            "groupBvIdRecordType": null,
+            "numList": [
+                { "bvName": null, "count": 1649, "recordType": "1" },
+                { "bvName": null, "count": 3838, "recordType": "2" },
+                { "bvName": null, "count": 192, "recordType": "4" },
+                { "bvName": null, "count": 161, "recordType": "3" },
+                { "bvName": null, "count": 6, "recordType": "0" }
+            ]
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "106",
+            "bayId": null,
+            "regionName": "扬州",
+            "bvId": null,
+            "bvName": null,
+            "groupBvIdCount": null,
+            "groupBvIdRecordType": null,
+            "numList": [
+                { "bvName": null, "count": 2447, "recordType": "2" },
+                { "bvName": null, "count": 259, "recordType": "3" },
+                { "bvName": null, "count": 6894, "recordType": "1" },
+                { "bvName": null, "count": 159, "recordType": "4" },
+                { "bvName": null, "count": 45, "recordType": "0" }
+            ]
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "107",
+            "bayId": null,
+            "regionName": "泰州",
+            "bvId": null,
+            "bvName": null,
+            "groupBvIdCount": null,
+            "groupBvIdRecordType": null,
+            "numList": [
+                { "bvName": null, "count": 538, "recordType": "4" },
+                { "bvName": null, "count": 6503, "recordType": "1" },
+                { "bvName": null, "count": 327, "recordType": "3" },
+                { "bvName": null, "count": 1235, "recordType": "2" },
+                { "bvName": null, "count": 35584, "recordType": "0" }
+            ]
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "108",
+            "bayId": null,
+            "regionName": "南通",
+            "bvId": null,
+            "bvName": null,
+            "groupBvIdCount": null,
+            "groupBvIdRecordType": null,
+            "numList": [
+                { "bvName": null, "count": 4640, "recordType": "1" },
+                { "bvName": null, "count": 357, "recordType": "3" },
+                { "bvName": null, "count": 84, "recordType": "4" },
+                { "bvName": null, "count": 28, "recordType": "0" },
+                { "bvName": null, "count": 1749, "recordType": "2" }
+            ]
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "109",
+            "bayId": null,
+            "regionName": "盐城",
+            "bvId": null,
+            "bvName": null,
+            "groupBvIdCount": null,
+            "groupBvIdRecordType": null,
+            "numList": [
+                { "bvName": null, "count": 6320, "recordType": "2" },
+                { "bvName": null, "count": 159, "recordType": "3" },
+                { "bvName": null, "count": 129952, "recordType": "1" },
+                { "bvName": null, "count": 5935, "recordType": "4" },
+                { "bvName": null, "count": 128, "recordType": "0" }
+            ]
+        }
+    ]
+}

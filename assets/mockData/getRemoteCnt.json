@@ -1,0 +1,41 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "id": "112871465677750285",
+            "name": "1000kV",
+            "successCount": 0,
+            "failCount": 0,
+            "successRate": 0
+        },
+        {
+            "id": "112871465677750274",
+            "name": "500kV",
+            "successCount": 0,
+            "failCount": 0,
+            "successRate": 0
+        },
+        {
+            "id": "112871465677750279",
+            "name": "220kV",
+            "successCount": 0,
+            "failCount": 1,
+            "successRate": 0
+        },
+        {
+            "id": "112871465677750280",
+            "name": "110kV",
+            "successCount": 0,
+            "failCount": 0,
+            "successRate": 0
+        },
+        {
+            "id": "112871465677750275",
+            "name": "35kV",
+            "successCount": 0,
+            "failCount": 0,
+            "successRate": 0
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 98,
+            "regionName": "滨海",
+            "totalCnt": 100,
+            "normalCnt": 92
+        },
+        {
+            "regionId": 96,
+            "regionName": "城南",
+            "totalCnt": 0,
+            "normalCnt": 0
+        },
+        {
+            "regionId": 99,
+            "regionName": "城西",
+            "totalCnt": 0,
+            "normalCnt": 0
+        },
+        {
+            "regionId": 97,
+            "regionName": "城东",
+            "totalCnt": 0,
+            "normalCnt": 0
+        },
+        {
+            "regionId": 95,
+            "regionName": "东丽",
+            "totalCnt": 0,
+            "normalCnt": 0
+        },
+        {
+            "regionId": 93,
+            "regionName": "宝坻",
+            "totalCnt": 0,
+            "normalCnt": 0
+        },
+        {
+            "regionId": 92,
+            "regionName": "静海",
+            "totalCnt": 0,
+            "normalCnt": 0
+        },
+        {
+            "regionId": 91,
+            "regionName": "宁河",
+            "totalCnt": 0,
+            "normalCnt": 0
+        },
+        {
+            "regionId": 94,
+            "regionName": "蓟州",
+            "totalCnt": 0,
+            "normalCnt": 0
+        },
+        {
+            "regionId": 90,
+            "regionName": "武清",
+            "totalCnt": 0,
+            "normalCnt": 0
+        }
+    ]
+}

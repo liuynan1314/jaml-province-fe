@@ -1,0 +1,302 @@
+{
+    "regionId": {
+        "name": "默认区域id",
+        "value": 12
+    },
+    "adcode": {
+        "name": "adcode",
+        "value": 320100
+    },
+    "earlyWarningType": {
+        "name": "18项预警类型",
+        "value": [
+            {
+                "warnType": 0,
+                "warnName": "断路器等设备三相电流严重不平衡"
+            },
+            {
+                "warnType": 1,
+                "warnName": "断路器储能机构异常"
+            },
+            {
+                "warnType": 2,
+                "warnName": "断路器分合闸位置不正确"
+            },
+            {
+                "warnType": 3,
+                "warnName": "断路器动作后弹簧储能异常"
+            },
+            {
+                "warnType": 4,
+                "warnName": "断路器分合闸严重不同期"
+            },
+            {
+                "warnType": 5,
+                "warnName": "变压器油温及绕组温度异常"
+            },
+            {
+                "warnType": 6,
+                "warnName": "并列运行主变分接开关实际电压比不一致"
+            },
+            {
+                "warnType": 7,
+                "warnName": "空载站用变高压侧断线"
+            },
+            {
+                "warnType": 8,
+                "warnName": "GIS母线双跨隔离开关分合不到位"
+            },
+            {
+                "warnType": 9,
+                "warnName": "500千伏主变低压侧小电流接地系统单相接地"
+            },
+            {
+                "warnType": 10,
+                "warnName": "电容式电压互感器（CVT）电压异常"
+            },
+            {
+                "warnType": 11,
+                "warnName": "测控装置死机"
+            },
+            {
+                "warnType": 12,
+                "warnName": "变电站至集控主站数据异常"
+            },
+            {
+                "warnType": 13,
+                "warnName": "主变承受短路电流次数及累计电流值统计"
+            },
+            {
+                "warnType": 14,
+                "warnName": "隔离开关、断路器未变位时间统计"
+            },
+            {
+                "warnType": 15,
+                "warnName": "断路器开断短路电流次数及累计电流值统计"
+            },
+            {
+                "warnType": 16,
+                "warnName": "断路器开合次数分类自动统计"
+            },
+            {
+                "warnType": 17,
+                "warnName": "集控系统智能运维"
+            }
+        ]
+    },
+    "menuType": {
+        "name": "菜单类型 top/left",
+        "value": "left"
+    },
+    "regionListUserOtherSys": {
+        "name": "区域列表用户其他系统",
+        "value": [90, 13, 106]
+    },
+    "alarmType": {
+        "name": "主设备告警类型",
+        "value": {
+            "1": { "name": "事故", "type": "sg" },
+            "2": { "name": "异常", "type": "yc" },
+            "3": { "name": "越限", "type": "yx" },
+            "4": { "name": "变位", "type": "bw" },
+            "5": { "name": "告知", "type": "gz" }
+        }
+    },
+    "levelList1": {
+        "name": "首页电压等级配置",
+        "value": [
+            {
+                "name": "1000kV",
+                "color": "#0000fd"
+            },
+            {
+                "name": "500kV",
+                "color": "#ff4857"
+            },
+            {
+                "name": "220kV",
+                "color": "#cc60cc"
+            },
+            {
+                "name": "110kV",
+                "color": "#2ebcfe"
+            },
+            {
+                "name": "35kV",
+                "color": "#d4cd2f"
+            }
+        ]
+    },
+    "stList": {
+        "name": "系统规模管理配置",
+        "value": [
+            {
+                "name": "变压器表",
+                "value": 416
+            },
+            {
+                "name": "断路器表",
+                "value": 407
+            },
+            {
+                "name": "刀闸表",
+                "value": 408
+            },
+            {
+                "name": "接地刀闸表",
+                "value": 409
+            },
+            {
+                "name": "母线表",
+                "value": 410
+            },
+            {
+                "name": "负荷表",
+                "value": 412
+            },
+            {
+                "name": "交流线段端点",
+                "value": 415
+            },
+            {
+                "name": "并联电容/电抗器表",
+                "value": 419
+            },
+            {
+                "name": "串联补偿器表",
+                "value": 420
+            },
+            {
+                "name": "电流互感器表",
+                "value": 462
+            },
+            {
+                "name": "电压互感器表",
+                "value": 463
+            },
+            {
+                "name": "避雷器表",
+                "value": 13342
+            },
+            {
+                "name": "接地桩表",
+                "value": 460
+            }
+        ]
+    },
+    "deviceList": {
+        "name": "系统规模管理配置",
+        "value": [
+            {
+                "value": "PTR",
+                "name": "主变"
+            },
+            {
+                "value": "CBR",
+                "name": "断路器"
+            },
+            {
+                "value": "EBus",
+                "name": "母线"
+            },
+            {
+                "value": "FH",
+                "name": "负荷"
+            },
+            {
+                "value": "IFL",
+                "name": "交流线段"
+            },
+            {
+                "value": "NS",
+                "name": "变压器绕组"
+            },
+            {
+                "value": "CAP",
+                "name": "电容器"
+            },
+            {
+                "value": "REA",
+                "name": "电抗器"
+            },
+            {
+                "value": "CTR",
+                "name": "电流互感器"
+            },
+            {
+                "value": "VTR",
+                "name": "电压互感器"
+            }
+        ]
+    },
+    "bvNameList": {
+        "name": "系统规模电压等级配置",
+        "value": ["1000kV", "500kV", "220kV", "110kV", "35kV"]
+    },
+    "maintenanceId": {
+        "name": "运维站id",
+        "value": "3757690939288584193"
+    },
+    "mapConf": {
+        "name": "3D地图配置",
+        "value": {
+            "defaultRegionName": "天津"
+        }
+    },
+    "recordWaveCurveUrl": { "name": "录波曲线页面地址", "value": "/recordWave/html/index.html" },
+    "contentNotLike": "",
+    "useWeatherService": {
+        "name": "是否使用微气象服务",
+        "value": false
+    },
+    "traceOperationTypeList": [
+        {
+            "name": "断面比对",
+            "value": "断面比对"
+        }
+    ],
+    "mapLegend": {
+        "name": "地图图例配置",
+        "value": [
+            {
+                "icon": "<img src=../../assets/images/1000kV.svg>",
+                "value": "1000kV变电站"
+            },
+            {
+                "icon": "<img src=../../assets/images/500kV.svg>",
+                "value": "500kV变电站"
+            },
+            {
+                "icon": "<img src=../../assets/images/icon_outside.svg>",
+                "value": "外网变电站"
+            },
+            {
+                "icon": "<img src=../../assets/images/icon_station.svg>",
+                "value": "发电厂"
+            }
+        ]
+    },
+    "yearList": ["2023", "2024", "2025", "2026"],
+    "devTypeList": {
+        "name": "设备类型",
+        "value": [
+            { "name": "变电站", "value": "405" },
+            { "name": "断路器", "value": "407" },
+            { "name": "刀闸", "value": "408" },
+            { "name": "接地刀闸", "value": "409" },
+            { "name": "负荷", "value": "412" },
+            { "name": "交流线段端点", "value": "415" },
+            { "name": "交流线段", "value": "414" },
+            { "name": "变压器", "value": "416" },
+            { "name": "母线", "value": "410" },
+            { "name": "绕组", "value": "417" },
+            { "name": "并联电容/电抗器表", "value": "419" },
+            { "name": "计算点", "value": "433" }
+        ]
+    },
+    "temperatureList": {
+        "name": "主变油温区间配置",
+        "value": ["<50℃", "50-70℃", "≥70℃", "温度异常"]
+    },
+    "registryCenterShowTypes": ["chart", "card"]
+}

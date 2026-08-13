@@ -1,0 +1,10 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "enabled": true,
+        "regionEnabled": true,
+        "autoGenerateContent": false,
+        "provinceEnabled": true
+    }
+}

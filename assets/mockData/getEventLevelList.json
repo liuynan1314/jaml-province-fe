@@ -1,0 +1,21 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "value": 1,
+            "name": "危急",
+            "desc": null
+        },
+        {
+            "value": 2,
+            "name": "严重",
+            "desc": null
+        },
+        {
+            "value": 3,
+            "name": "一般",
+            "desc": null
+        }
+    ]
+}

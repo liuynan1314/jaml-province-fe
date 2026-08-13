@@ -1,0 +1,57 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "pageSize": 10,
+        "pageIndex": 1,
+        "pageCount": 1,
+        "pojoTotalCount": 3,
+        "list": [
+            {
+                "regionId": 12,
+                "regionName": "头屯河",
+                "stId": "113997365769142301",
+                "stName": "变电站1",
+                "bvId": "112871465677750279",
+                "bvName": "220kV",
+                "devId": "116812115536249860",
+                "devName": "王吴一线",
+                "total": 1,
+                "upLimit1": 1,
+                "downLimit1": 0,
+                "upLimit2": 0,
+                "downLimit2": 0
+            },
+            {
+                "regionId": 12,
+                "regionName": "头屯河",
+                "stId": "113997365769142279",
+                "stName": "变电站2",
+                "bvId": "112871465677750274",
+                "bvName": "500kV",
+                "devId": "116812115536248878",
+                "devName": "500kV.河桥二线",
+                "total": 1,
+                "upLimit1": 1,
+                "downLimit1": 0,
+                "upLimit2": 0,
+                "downLimit2": 0
+            },
+            {
+                "regionId": 12,
+                "regionName": "头屯河",
+                "stId": "113997365769142784",
+                "stName": "变电站3",
+                "bvId": "112871465677750279",
+                "bvName": "220kV",
+                "devId": "116812115536249545",
+                "devName": "220kV.柳海线",
+                "total": 1,
+                "upLimit1": 1,
+                "downLimit1": 0,
+                "upLimit2": 0,
+                "downLimit2": 0
+            }
+        ]
+    }
+}

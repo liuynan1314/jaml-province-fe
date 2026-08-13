@@ -1,0 +1,9 @@
+{
+    "code": 200,
+    "msg": "操作成功",
+    "data": {
+        "userId": 1,
+        "name": "test",
+        "nameCN": "测试"
+    }
+}

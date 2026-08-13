@@ -1,0 +1,86 @@
+{
+    "code": 200,
+    "message": "获取变电站规模成功",
+    "data": [
+        {
+            "channelStatus": null,
+            "bvName": "500kV",
+            "count": 13
+        },
+        {
+            "channelStatus": null,
+            "bvName": "1000kV",
+            "count": 1
+        },
+        {
+            "channelStatus": null,
+            "bvName": "750kV",
+            "count": 1
+        },
+        {
+            "channelStatus": null,
+            "bvName": "110kV",
+            "count": 54
+        },
+        {
+            "channelStatus": null,
+            "bvName": "220kV",
+            "count": 32
+        },
+        {
+            "channelStatus": null,
+            "bvName": "35kV",
+            "count": 68
+        },
+        {
+            "channelStatus": null,
+            "bvName": "330kV",
+            "count": 9
+        },
+        {
+            "channelStatus": null,
+            "bvName": "10kV",
+            "count": 1
+        },
+        {
+            "channelStatus": "1",
+            "bvName": "500kV",
+            "count": 10
+        },
+        {
+            "channelStatus": "1",
+            "bvName": "1000kV",
+            "count": 1
+        },
+        {
+            "channelStatus": "1",
+            "bvName": "750kV",
+            "count": 1
+        },
+        {
+            "channelStatus": "1",
+            "bvName": "110kV",
+            "count": 25
+        },
+        {
+            "channelStatus": "1",
+            "bvName": "220kV",
+            "count": 16
+        },
+        {
+            "channelStatus": "1",
+            "bvName": "35kV",
+            "count": 34
+        },
+        {
+            "channelStatus": "1",
+            "bvName": "330kV",
+            "count": 9
+        },
+        {
+            "channelStatus": "1",
+            "bvName": "10kV",
+            "count": 1
+        }
+    ]
+}

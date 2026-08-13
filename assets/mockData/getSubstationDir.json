@@ -1,0 +1,161 @@
+{
+    "code": 1,
+    "msg": "操作成功",
+    "data": [
+        {
+            "stId": "113997365567815681",
+            "stName": "测试站1",
+            "bvId": "112871465677750279",
+            "bvName": "220kV",
+            "devNamePy": "csz1,ceshizhan1",
+            "graphName": "220kV测试站1.fac.pic.g",
+            "lat": 32.052437,
+            "lng": 118.763284,
+            "status": 4,
+            "subareaName": "南京直属",
+            "chanList": [
+                {
+                    "id": "349310446097924097",
+                    "chanNo": 1,
+                    "chanName": "104通道-jkcs",
+                    "status": 9,
+                    "ifDuty": 1
+                },
+                {
+                    "id": "349310446097924252",
+                    "chanNo": 86,
+                    "chanName": "man-104通道",
+                    "status": 12,
+                    "ifDuty": 1
+                },
+                {
+                    "id": "349310446097924622",
+                    "chanNo": 456,
+                    "chanName": "104rawrpt通道",
+                    "status": 12,
+                    "ifDuty": 2
+                },
+                {
+                    "id": "349310446097924990",
+                    "chanNo": 281,
+                    "chanName": "104通道-C",
+                    "status": 12,
+                    "ifDuty": 2
+                },
+                {
+                    "id": "349310446097924991",
+                    "chanNo": 282,
+                    "chanName": "104通道-D",
+                    "status": 12,
+                    "ifDuty": 2
+                }
+            ],
+            "ifYk": 1,
+            "dutyFesNo": "A机"
+        },
+        {
+            "stId": "113997365567815685",
+            "stName": "保存",
+            "bvId": "112871465677750274",
+            "bvName": "500kV",
+            "devNamePy": "bc,baocun",
+            "graphName": "NJ_江苏_东善桥变.fac.pic.g",
+            "lat": 31.935726,
+            "lng": 118.846219,
+            "status": 4,
+            "subareaName": "溧水",
+            "chanList": [
+                {
+                    "id": "349310446097924101",
+                    "chanNo": 5,
+                    "chanName": "104通道",
+                    "status": 12,
+                    "ifDuty": 1
+                }
+            ],
+            "ifYk": 0,
+            "dutyFesNo": "A机"
+        },
+        {
+            "stId": "113997365567816260",
+            "stName": "公共测试站",
+            "bvId": "112871465677750274",
+            "bvName": "500kV",
+            "devNamePy": "ggcsz,gonggongceshizhan",
+            "graphName": "500kV公共测试站.fac.pic.g",
+            "lat": 31.568274,
+            "lng": 119.145632,
+            "status": 4,
+            "subareaName": "南京直属",
+            "chanList": [
+                {
+                    "id": "349310446097924674",
+                    "chanNo": 15,
+                    "chanName": "四方2平面",
+                    "status": 4,
+                    "ifDuty": 2
+                },
+                {
+                    "id": "349310446097924977",
+                    "chanNo": 275,
+                    "chanName": "四方1平面",
+                    "status": 4,
+                    "ifDuty": 2
+                },
+                {
+                    "id": "349310446097924983",
+                    "chanNo": 277,
+                    "chanName": "自用",
+                    "status": 4,
+                    "ifDuty": 2
+                },
+                {
+                    "id": "349310446097924984",
+                    "chanNo": 278,
+                    "chanName": "备用",
+                    "status": 4,
+                    "ifDuty": 1
+                }
+            ],
+            "ifYk": 1,
+            "dutyFesNo": "A机"
+        },
+        {
+            "stId": "113997365567816268",
+            "stName": "测试站",
+            "bvId": "112871465677750274",
+            "bvName": "500kV",
+            "devNamePy": "csz,ceshizhan",
+            "graphName": "500kV变电站一.fac.pic.g",
+            "lat": 31.987245,
+            "lng": 118.532146,
+            "status": 4,
+            "subareaName": "南京直属",
+            "chanList": [
+                {
+                    "id": "349310446097924683",
+                    "chanNo": 22,
+                    "chanName": "未命名通道",
+                    "status": 12,
+                    "ifDuty": 1
+                },
+                {
+                    "id": "349310446097925267",
+                    "chanNo": 262,
+                    "chanName": "未命名通道-test1",
+                    "status": 12,
+                    "ifDuty": 2
+                },
+                {
+                    "id": "349310446097925268",
+                    "chanNo": 263,
+                    "chanName": "未命名通道-test2",
+                    "status": 12,
+                    "ifDuty": 2
+                }
+            ],
+            "ifYk": 1,
+            "dutyFesNo": "A机"
+        }
+    ]
+}

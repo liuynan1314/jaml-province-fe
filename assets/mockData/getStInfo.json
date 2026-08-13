@@ -1,0 +1,22 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "id": "10080000000491",
+        "name": "110kV曹子里站",
+        "bvId": "112871465677750280",
+        "bvName": "110kV",
+        "stType": 4,
+        "groupId": null,
+        "groupName": null,
+        "regionId": 90,
+        "regionName": "武清",
+        "graphName": "nccs/110kV曹子里站/substation_homepage.fac.pic.g",
+        "stNo": null,
+        "resInt": null,
+        "ifExam": "1",
+        "graphUrl": "http://24.34.0.137:8081/osp/GraphPub/Navigator.html",
+        "xcoor": null,
+        "ycoor": null
+    }
+}

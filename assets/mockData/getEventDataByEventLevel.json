@@ -1,0 +1,61 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 12,
+            "regionName": "高压",
+            "num": null
+        },
+        {
+            "regionId": 98,
+            "regionName": "滨海",
+            "num": null
+        },
+        {
+            "regionId": 96,
+            "regionName": "城南",
+            "num": 1
+        },
+        {
+            "regionId": 99,
+            "regionName": "城西",
+            "num": 10
+        },
+        {
+            "regionId": 97,
+            "regionName": "城东",
+            "num": 21
+        },
+        {
+            "regionId": 95,
+            "regionName": "东丽",
+            "num": 38
+        },
+        {
+            "regionId": 93,
+            "regionName": "宝坻",
+            "num": 2
+        },
+        {
+            "regionId": 92,
+            "regionName": "静海",
+            "num": null
+        },
+        {
+            "regionId": 91,
+            "regionName": "宁河",
+            "num": null
+        },
+        {
+            "regionId": 94,
+            "regionName": "蓟州",
+            "num": 2
+        },
+        {
+            "regionId": 90,
+            "regionName": "武清",
+            "num": null
+        }
+    ]
+}

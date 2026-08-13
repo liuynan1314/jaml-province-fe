@@ -1,0 +1,149 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "110",
+            "bayId": null,
+            "regionName": "淮安",
+            "bvId": null,
+            "bvName": null,
+            "num": 1000,
+            "groupBvIdRecordType": null
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "111",
+            "bayId": null,
+            "regionName": "宿迁",
+            "bvId": null,
+            "bvName": null,
+            "num": 546,
+            "groupBvIdRecordType": null
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "100",
+            "bayId": null,
+            "regionName": "南京",
+            "bvId": null,
+            "bvName": null,
+            "num": 321,
+            "groupBvIdRecordType": null
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "112",
+            "bayId": null,
+            "regionName": "连云港",
+            "bvId": null,
+            "bvName": null,
+            "num": 654,
+            "groupBvIdRecordType": null
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "101",
+            "bayId": null,
+            "regionName": "苏州",
+            "bvId": null,
+            "bvName": null,
+            "num": 786,
+            "groupBvIdRecordType": null
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "102",
+            "bayId": null,
+            "regionName": "徐州",
+            "bvId": null,
+            "bvName": null,
+            "num": 777,
+            "groupBvIdRecordType": null
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "103",
+            "bayId": null,
+            "regionName": "无锡",
+            "bvId": null,
+            "bvName": null,
+            "num": 456,
+            "groupBvIdRecordType": null
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "104",
+            "bayId": null,
+            "regionName": "常州",
+            "bvId": null,
+            "bvName": null,
+            "num": 165,
+            "groupBvIdRecordType": null
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "105",
+            "bayId": null,
+            "regionName": "镇江",
+            "bvId": null,
+            "bvName": null,
+            "num": 888,
+            "groupBvIdRecordType": null
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "106",
+            "bayId": null,
+            "regionName": "扬州",
+            "bvId": null,
+            "bvName": null,
+            "num": 555,
+            "groupBvIdRecordType": null
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "107",
+            "bayId": null,
+            "regionName": "泰州",
+            "bvId": null,
+            "bvName": null,
+            "num": 975,
+            "groupBvIdRecordType": null
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "108",
+            "bayId": null,
+            "regionName": "南通",
+            "bvId": null,
+            "bvName": null,
+            "num": 643,
+            "groupBvIdRecordType": null
+        },
+        {
+            "stId": null,
+            "stName": null,
+            "regionId": "109",
+            "bayId": null,
+            "regionName": "盐城",
+            "bvId": null,
+            "bvName": null,
+            "num": 743,
+            "groupBvIdRecordType": null
+        }
+    ]
+}

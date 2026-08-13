@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        // "checkJs": true,
+        "target": "es6",
+        "module": "commonjs",
+        "baseUrl": "./src",
+        "types": ["@jam/jam-ui"]
+    },
+    "include": ["src", "src/components/modal/remoteVideoAccess.js"],
+    "exclude": ["node_modules", "dist"]
+}

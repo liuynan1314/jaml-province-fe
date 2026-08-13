@@ -1,0 +1,1428 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "columnNo": 1,
+            "columnName": "id",
+            "columnNameChn": "标识",
+            "columnNamePy": "biaoshi,bs"
+        },
+        {
+            "columnNo": 2,
+            "columnName": "code",
+            "columnNameChn": "调度编号",
+            "columnNamePy": "diaodubianhao,ddbh"
+        },
+        {
+            "columnNo": 3,
+            "columnName": "name",
+            "columnNameChn": "中文名称",
+            "columnNamePy": "zhongwenmingcheng,zwmc"
+        },
+        {
+            "columnNo": 4,
+            "columnName": "bv_id",
+            "columnNameChn": "最高电压类型ID",
+            "columnNamePy": "zuigaodianyaleixingID,zgdylxID"
+        },
+        {
+            "columnNo": 5,
+            "columnName": "subarea_id",
+            "columnNameChn": "区域ID",
+            "columnNamePy": "quyuID,qyID"
+        },
+        {
+            "columnNo": 6,
+            "columnName": "st_type",
+            "columnNameChn": "变电站类型",
+            "columnNamePy": "biandianzhanleixing,bdzlx"
+        },
+        {
+            "columnNo": 7,
+            "columnName": "st_no",
+            "columnNameChn": "变电站编号",
+            "columnNamePy": "biandianzhanbianhao,bdzbh"
+        },
+        {
+            "columnNo": 8,
+            "columnName": "status",
+            "columnNameChn": "变电站状态",
+            "columnNamePy": "biandianzhanzhuangtai,bdzzt"
+        },
+        {
+            "columnNo": 9,
+            "columnName": "graph_name",
+            "columnNameChn": "接线图名称",
+            "columnNamePy": "jiexiantumingcheng,jxtmc"
+        },
+        {
+            "columnNo": 10,
+            "columnName": "if_passby",
+            "columnNameChn": "是否自动旁路代",
+            "columnNamePy": "shifouzidongpangludai,sfzdpld"
+        },
+        {
+            "columnNo": 11,
+            "columnName": "if_exam",
+            "columnNameChn": "是否参与考核",
+            "columnNamePy": "shifoucanyukaohe,sfcykh"
+        },
+        {
+            "columnNo": 12,
+            "columnName": "caculate_se",
+            "columnNameChn": "是否参与状态估计",
+            "columnNamePy": "shifoucanyuzhuangtaiguji,sfcyztgj"
+        },
+        {
+            "columnNo": 13,
+            "columnName": "nodes",
+            "columnNameChn": "节点数",
+            "columnNamePy": "jiedianshu,jds"
+        },
+        {
+            "columnNo": 14,
+            "columnName": "islands",
+            "columnNameChn": "岛数",
+            "columnNamePy": "daoshu,ds"
+        },
+        {
+            "columnNo": 15,
+            "columnName": "island",
+            "columnNameChn": "所属岛",
+            "columnNamePy": "suoshudao,ssd"
+        },
+        {
+            "columnNo": 16,
+            "columnName": "record_app",
+            "columnNameChn": "记录所属应用",
+            "columnNamePy": "jilusuoshuyingyong,jlssyy"
+        },
+        {
+            "columnNo": 20,
+            "columnName": "pgen",
+            "columnNameChn": "有功发电",
+            "columnNamePy": "yougongfadian,ygfd"
+        },
+        {
+            "columnNo": 21,
+            "columnName": "pgen_qual",
+            "columnNameChn": "有功发电质量码",
+            "columnNamePy": "yougongfadianzhiliangma,ygfdzlm"
+        },
+        {
+            "columnNo": 25,
+            "columnName": "qgen",
+            "columnNameChn": "无功发电",
+            "columnNamePy": "wugongfadian,wgfd"
+        },
+        {
+            "columnNo": 26,
+            "columnName": "qgen_qual",
+            "columnNameChn": "无功发电质量码",
+            "columnNamePy": "wugongfadianzhiliangma,wgfdzlm"
+        },
+        {
+            "columnNo": 30,
+            "columnName": "pload",
+            "columnNameChn": "有功负荷",
+            "columnNamePy": "yougongfuhe,ygfh"
+        },
+        {
+            "columnNo": 31,
+            "columnName": "pload_qual",
+            "columnNameChn": "有功负荷质量码",
+            "columnNamePy": "yougongfuhezhiliangma,ygfhzlm"
+        },
+        {
+            "columnNo": 35,
+            "columnName": "qload",
+            "columnNameChn": "无功负荷",
+            "columnNamePy": "wugongfuhe,wgfh"
+        },
+        {
+            "columnNo": 36,
+            "columnName": "qload_qual",
+            "columnNameChn": "无功负荷质量码",
+            "columnNamePy": "wugongfuhezhiliangma,wgfhzlm"
+        },
+        {
+            "columnNo": 40,
+            "columnName": "ploss",
+            "columnNameChn": "有功损耗",
+            "columnNamePy": "yougongsunhao,ygsh"
+        },
+        {
+            "columnNo": 41,
+            "columnName": "ploss_qual",
+            "columnNameChn": "有功损耗质量码",
+            "columnNamePy": "yougongsunhaozhiliangma,ygshzlm"
+        },
+        {
+            "columnNo": 45,
+            "columnName": "qloss",
+            "columnNameChn": "无功损耗",
+            "columnNamePy": "wugongsunhao,wgsh"
+        },
+        {
+            "columnNo": 46,
+            "columnName": "qloss_qual",
+            "columnNameChn": "无功损耗质量码",
+            "columnNamePy": "wugongsunhaozhiliangma,wgshzlm"
+        },
+        {
+            "columnNo": 50,
+            "columnName": "paux",
+            "columnNameChn": "有功厂用电",
+            "columnNamePy": "yougongchangyongdian,ygcyd"
+        },
+        {
+            "columnNo": 51,
+            "columnName": "paux_qual",
+            "columnNameChn": "有功厂用电质量码",
+            "columnNamePy": "yougongchangyongdianzhiliangma,ygcydzlm"
+        },
+        {
+            "columnNo": 55,
+            "columnName": "qaux",
+            "columnNameChn": "无功厂用电",
+            "columnNamePy": "wugongchangyongdian,wgcyd"
+        },
+        {
+            "columnNo": 56,
+            "columnName": "qaux_qual",
+            "columnNameChn": "无功厂用电质量码",
+            "columnNamePy": "wugongchangyongdianzhiliangma,wgcydzlm"
+        },
+        {
+            "columnNo": 60,
+            "columnName": "cap",
+            "columnNameChn": "电容器无功",
+            "columnNamePy": "dianrongqiwugong,drqwg"
+        },
+        {
+            "columnNo": 61,
+            "columnName": "cap_qual",
+            "columnNameChn": "电容器无功质量码",
+            "columnNamePy": "dianrongqiwugongzhiliangma,drqwgzlm"
+        },
+        {
+            "columnNo": 65,
+            "columnName": "reac",
+            "columnNameChn": "电抗器无功",
+            "columnNamePy": "diankangqiwugong,dkqwg"
+        },
+        {
+            "columnNo": 66,
+            "columnName": "reac_qual",
+            "columnNameChn": "电抗器无功质量码",
+            "columnNamePy": "diankangqiwugongzhiliangma,dkqwgzlm"
+        },
+        {
+            "columnNo": 70,
+            "columnName": "light_value_1",
+            "columnNameChn": "光字牌值1",
+            "columnNamePy": "guangzipaizhi1,gzpz1"
+        },
+        {
+            "columnNo": 71,
+            "columnName": "light_qual_1",
+            "columnNameChn": "光字牌值质量码1",
+            "columnNamePy": "guangzipaizhizhiliangma1,gzpzzlm1"
+        },
+        {
+            "columnNo": 75,
+            "columnName": "light_value_2",
+            "columnNameChn": "光字牌值2",
+            "columnNamePy": "guangzipaizhi2,gzpz2"
+        },
+        {
+            "columnNo": 76,
+            "columnName": "light_qual_2",
+            "columnNameChn": "光字牌值质量码2",
+            "columnNamePy": "guangzipaizhizhiliangma2,gzpzzlm2"
+        },
+        {
+            "columnNo": 80,
+            "columnName": "oo_voltagelevel",
+            "columnNameChn": "VoltageLevel表首地址",
+            "columnNamePy": "VoltageLevelbiaoshoudizhi,VoltageLevelbsdz"
+        },
+        {
+            "columnNo": 81,
+            "columnName": "oo_powertransformer",
+            "columnNameChn": "PowerTransformer表首地址",
+            "columnNamePy": "PowerTransformerbiaoshoudizhi,PowerTransformerbsdz"
+        },
+        {
+            "columnNo": 82,
+            "columnName": "oo_measpoint",
+            "columnNameChn": "MeasPoint表首地址",
+            "columnNamePy": "MeasPointbiaoshoudizhi,MeasPointbsdz"
+        },
+        {
+            "columnNo": 83,
+            "columnName": "oo_measanolog",
+            "columnNameChn": "MeasAnolog表首地址",
+            "columnNamePy": "MeasAnologbiaoshoudizhi,MeasAnologbsdz"
+        },
+        {
+            "columnNo": 84,
+            "columnName": "rdf_id",
+            "columnNameChn": "rdf标示",
+            "columnNamePy": "rdfbiaoshi,rdfbs"
+        },
+        {
+            "columnNo": 85,
+            "columnName": "x_coor",
+            "columnNameChn": "X坐标",
+            "columnNamePy": "Xzuobiao,Xzb"
+        },
+        {
+            "columnNo": 86,
+            "columnName": "y_coor",
+            "columnNameChn": "Y坐标",
+            "columnNamePy": "Yzuobiao,Yzb"
+        },
+        {
+            "columnNo": 87,
+            "columnName": "aor_value",
+            "columnNameChn": "职责区",
+            "columnNamePy": "zhizequ,zzq"
+        },
+        {
+            "columnNo": 88,
+            "columnName": "last_graph_time",
+            "columnNameChn": "图形最后入库时间",
+            "columnNamePy": "tuxingzuihourukushijian,txzhrksj"
+        },
+        {
+            "columnNo": 89,
+            "columnName": "gnwmx",
+            "columnNameChn": "最大旋转有功出力",
+            "columnNamePy": "zuidaxuanzhuanyougongchuli,zdxzygcl"
+        },
+        {
+            "columnNo": 90,
+            "columnName": "gnwmn",
+            "columnNameChn": "最小旋转有功出力",
+            "columnNamePy": "zuixiaoxuanzhuanyougongchuli,zxxzygcl"
+        },
+        {
+            "columnNo": 91,
+            "columnName": "gnrmx",
+            "columnNameChn": "最大旋转无功出力",
+            "columnNamePy": "zuidaxuanzhuanwugongchuli,zdxzwgcl"
+        },
+        {
+            "columnNo": 92,
+            "columnName": "gnrmn",
+            "columnNameChn": "最小旋转无功出力",
+            "columnNamePy": "zuixiaoxuanzhuanwugongchuli,zxxzwgcl"
+        },
+        {
+            "columnNo": 93,
+            "columnName": "ldwmx",
+            "columnNameChn": "厂站在线最小有功负荷",
+            "columnNamePy": "changzhanzaixianzuixiaoyougongfuhe,czzxzxygfh"
+        },
+        {
+            "columnNo": 94,
+            "columnName": "ldwmn",
+            "columnNameChn": "厂站在线最小有功负荷",
+            "columnNamePy": "changzhanzaixianzuixiaoyougongfuhe,czzxzxygfh"
+        },
+        {
+            "columnNo": 95,
+            "columnName": "ldrmx",
+            "columnNameChn": "厂站在线最大无功负荷",
+            "columnNamePy": "changzhanzaixianzuidawugongfuhe,czzxzdwgfh"
+        },
+        {
+            "columnNo": 96,
+            "columnName": "gnwcold",
+            "columnNameChn": "厂站冷备有功出力",
+            "columnNamePy": "changzhanlengbeiyougongchuli,czlbygcl"
+        },
+        {
+            "columnNo": 97,
+            "columnName": "ldwcold",
+            "columnNameChn": "厂站冷备有功出力",
+            "columnNamePy": "changzhanlengbeiyougongchuli,czlbygcl"
+        },
+        {
+            "columnNo": 98,
+            "columnName": "auxkid",
+            "columnNameChn": "应用附加表kid",
+            "columnNamePy": "yingyongfujiabiaokid,yyfjbkid"
+        },
+        {
+            "columnNo": 99,
+            "columnName": "unrsvwu",
+            "columnNameChn": "有功上旋转备用",
+            "columnNamePy": "yougongshangxuanzhuanbeiyong,ygsxzby"
+        },
+        {
+            "columnNo": 100,
+            "columnName": "unrsvru",
+            "columnNameChn": "无功上旋转备用",
+            "columnNamePy": "wugongshangxuanzhuanbeiyong,wgsxzby"
+        },
+        {
+            "columnNo": 101,
+            "columnName": "unrsvwd",
+            "columnNameChn": "有功下旋转备用",
+            "columnNamePy": "yougongxiaxuanzhuanbeiyong,ygxxzby"
+        },
+        {
+            "columnNo": 102,
+            "columnName": "unrsvrd",
+            "columnNameChn": "无功下旋转备用",
+            "columnNamePy": "wugongxiaxuanzhuanbeiyong,wgxxzby"
+        },
+        {
+            "columnNo": 103,
+            "columnName": "p_up",
+            "columnNameChn": "有功正旋备",
+            "columnNamePy": "yougongzhengxuanbei,ygzxb"
+        },
+        {
+            "columnNo": 104,
+            "columnName": "p_dn",
+            "columnNameChn": "有功负旋备",
+            "columnNamePy": "yougongfuxuanbei,ygfxb"
+        },
+        {
+            "columnNo": 105,
+            "columnName": "q_up",
+            "columnNameChn": "无功正备用",
+            "columnNamePy": "wugongzhengbeiyong,wgzby"
+        },
+        {
+            "columnNo": 106,
+            "columnName": "q_dn",
+            "columnNameChn": "无功负备用",
+            "columnNamePy": "wugongfubeiyong,wgfby"
+        },
+        {
+            "columnNo": 107,
+            "columnName": "p_adjust_up",
+            "columnNameChn": "有功向上调节备用",
+            "columnNamePy": "yougongxiangshangdiaojiebeiyong,ygxsdjby"
+        },
+        {
+            "columnNo": 108,
+            "columnName": "p_adjust_dn",
+            "columnNameChn": "有功向下调节备用",
+            "columnNamePy": "yougongxiangxiadiaojiebeiyong,ygxxdjby"
+        },
+        {
+            "columnNo": 109,
+            "columnName": "p_hurry_up",
+            "columnNameChn": "正快速备用容量",
+            "columnNamePy": "zhengkuaisubeiyongrongliang,zksbyrl"
+        },
+        {
+            "columnNo": 110,
+            "columnName": "p_hurry_dn",
+            "columnNameChn": "负快速备用容量",
+            "columnNamePy": "fukuaisubeiyongrongliang,fksbyrl"
+        },
+        {
+            "columnNo": 111,
+            "columnName": "p_minute_up",
+            "columnNameChn": "正时段备用",
+            "columnNamePy": "zhengshiduanbeiyong,zsdby"
+        },
+        {
+            "columnNo": 112,
+            "columnName": "p_minute_dn",
+            "columnNameChn": "负时段备用",
+            "columnNamePy": "fushiduanbeiyong,fsdby"
+        },
+        {
+            "columnNo": 113,
+            "columnName": "q_lv_rea",
+            "columnNameChn": "低压电抗投入容量",
+            "columnNamePy": "diyadiankangtoururongliang,dydktrrl"
+        },
+        {
+            "columnNo": 114,
+            "columnName": "q_hv_rea",
+            "columnNameChn": "高压电抗投入容量",
+            "columnNamePy": "gaoyadiankangtoururongliang,gydktrrl"
+        },
+        {
+            "columnNo": 115,
+            "columnName": "q_lv_cap",
+            "columnNameChn": "低压电容投入容量",
+            "columnNamePy": "diyadianrongtoururongliang,dydrtrrl"
+        },
+        {
+            "columnNo": 116,
+            "columnName": "p_adjust_max",
+            "columnNameChn": "厂站最大可调出力",
+            "columnNamePy": "changzhanzuidakediaochuli,czzdkdcl"
+        },
+        {
+            "columnNo": 117,
+            "columnName": "p_adjust_min",
+            "columnNameChn": "厂站最小可调出力",
+            "columnNamePy": "changzhanzuixiaokediaochuli,czzxkdcl"
+        },
+        {
+            "columnNo": 118,
+            "columnName": "sgby",
+            "columnNameChn": "事故备用",
+            "columnNamePy": "shigubeiyong,sgby"
+        },
+        {
+            "columnNo": 119,
+            "columnName": "mvarate",
+            "columnNameChn": "额定容量",
+            "columnNamePy": "edingrongliang,edrl"
+        },
+        {
+            "columnNo": 120,
+            "columnName": "subarea_id1",
+            "columnNameChn": "区域ID(省)",
+            "columnNamePy": "quyuID(sheng),qyID(s)"
+        },
+        {
+            "columnNo": 121,
+            "columnName": "localstatistics_flag",
+            "columnNameChn": "是否参与局部统计",
+            "columnNamePy": "shifoucanyujubutongji,sfcyjbtj"
+        },
+        {
+            "columnNo": 122,
+            "columnName": "meas_fg",
+            "columnNameChn": "厂站量测质量",
+            "columnNamePy": "changzhanliangcezhiliang,czlczl"
+        },
+        {
+            "columnNo": 123,
+            "columnName": "p_minute_up2",
+            "columnNameChn": "正时段备用2",
+            "columnNamePy": "zhengshiduanbeiyong2,zsdby2"
+        },
+        {
+            "columnNo": 124,
+            "columnName": "p_minute_dn2",
+            "columnNameChn": "负时段备用2",
+            "columnNamePy": "fushiduanbeiyong2,fsdby2"
+        },
+        {
+            "columnNo": 125,
+            "columnName": "pmin_tech",
+            "columnNameChn": "最小技术出力",
+            "columnNamePy": "zuixiaojishuchuli,zxjscl"
+        },
+        {
+            "columnNo": 126,
+            "columnName": "mode_type",
+            "columnNameChn": "特殊接线方式",
+            "columnNamePy": "teshujiexianfangshi,tsjxfs"
+        },
+        {
+            "columnNo": 127,
+            "columnName": "resp_area",
+            "columnNameChn": "责任区ID",
+            "columnNamePy": "zerenquID,zrqID"
+        },
+        {
+            "columnNo": 128,
+            "columnName": "da_option",
+            "columnNameChn": "量测类型",
+            "columnNamePy": "liangceleixing,lclx"
+        },
+        {
+            "columnNo": 129,
+            "columnName": "lfo_fact",
+            "columnNameChn": "lfo参与因子",
+            "columnNamePy": "lfocanyuyinzi,lfocyyz"
+        },
+        {
+            "columnNo": 130,
+            "columnName": "lfo_clus",
+            "columnNameChn": "lfo所属群",
+            "columnNamePy": "lfosuoshuqun,lfossq"
+        },
+        {
+            "columnNo": 131,
+            "columnName": "is_cntr",
+            "columnNameChn": "lfo是否中心",
+            "columnNamePy": "lfoshifouzhongxin,lfosfzx"
+        },
+        {
+            "columnNo": 132,
+            "columnName": "bfwk",
+            "columnNameChn": "是否安装有FWK",
+            "columnNamePy": "shifouanzhuangyouFWK,sfazyFWK"
+        },
+        {
+            "columnNo": 133,
+            "columnName": "fwk_type",
+            "columnNameChn": "控制站类型",
+            "columnNamePy": "kongzhizhanleixing,kzzlx"
+        },
+        {
+            "columnNo": 134,
+            "columnName": "zone_no",
+            "columnNameChn": "小区号",
+            "columnNamePy": "xiaoquhao,xqh"
+        },
+        {
+            "columnNo": 135,
+            "columnName": "obj_dispidx",
+            "columnNameChn": "序列号",
+            "columnNamePy": "xuliehao,xlh"
+        },
+        {
+            "columnNo": 136,
+            "columnName": "bm",
+            "columnNameChn": "检修编码",
+            "columnNamePy": "jianxiubianma,jxbm"
+        },
+        {
+            "columnNo": 137,
+            "columnName": "ssgs",
+            "columnNameChn": "所属公司",
+            "columnNamePy": "suoshugongsi,ssgs"
+        },
+        {
+            "columnNo": 138,
+            "columnName": "dcdz",
+            "columnNameChn": "电厂地址",
+            "columnNamePy": "dianchangdizhi,dcdz"
+        },
+        {
+            "columnNo": 139,
+            "columnName": "tyrq",
+            "columnNameChn": "投运日期",
+            "columnNamePy": "touyunriqi,tyrq"
+        },
+        {
+            "columnNo": 140,
+            "columnName": "tyrq1",
+            "columnNameChn": "退役日期",
+            "columnNamePy": "tuiyiriqi,tyrq"
+        },
+        {
+            "columnNo": 141,
+            "columnName": "dcyxzt",
+            "columnNameChn": "电厂运行状态",
+            "columnNamePy": "dianchangyunxingzhuangtai,dcyxzt"
+        },
+        {
+            "columnNo": 142,
+            "columnName": "name_py",
+            "columnNameChn": "拼音简称",
+            "columnNamePy": "pinyinjiancheng,pyjc"
+        },
+        {
+            "columnNo": 143,
+            "columnName": "meas_eval_score",
+            "columnNameChn": "量测评分",
+            "columnNamePy": "liangcepingfen,lcpf"
+        },
+        {
+            "columnNo": 144,
+            "columnName": "if_autoaside",
+            "columnNameChn": "是否自动对端代",
+            "columnNamePy": "shifouzidongduiduandai,sfzdddd"
+        },
+        {
+            "columnNo": 145,
+            "columnName": "w_f_val",
+            "columnNameChn": "频率",
+            "columnNamePy": "pinlv,pl"
+        },
+        {
+            "columnNo": 146,
+            "columnName": "w_f_val_qual",
+            "columnNameChn": "频率状态",
+            "columnNamePy": "pinlvzhuangtai,plzt"
+        },
+        {
+            "columnNo": 147,
+            "columnName": "w_f_dft",
+            "columnNameChn": "频率变化率",
+            "columnNamePy": "pinlvbianhualv,plbhl"
+        },
+        {
+            "columnNo": 148,
+            "columnName": "w_f_dft_qual",
+            "columnNameChn": "频率变化率状态",
+            "columnNamePy": "pinlvbianhualvzhuangtai,plbhlzt"
+        },
+        {
+            "columnNo": 158,
+            "columnName": "divarea_id1",
+            "columnNameChn": "分区ID1",
+            "columnNamePy": "fenquID1,fqID1"
+        },
+        {
+            "columnNo": 159,
+            "columnName": "divarea_id2",
+            "columnNameChn": "分区ID2",
+            "columnNamePy": "fenquID2,fqID2"
+        },
+        {
+            "columnNo": 160,
+            "columnName": "over_limit_value",
+            "columnNameChn": "越限光字牌值",
+            "columnNamePy": "yuexianguangzipaizhi,yxgzpz"
+        },
+        {
+            "columnNo": 161,
+            "columnName": "over_limit_qual",
+            "columnNameChn": "越限光字牌状态",
+            "columnNamePy": "yuexianguangzipaizhuangtai,yxgzpzt"
+        },
+        {
+            "columnNo": 162,
+            "columnName": "over_limit_num",
+            "columnNameChn": "越限个数",
+            "columnNamePy": "yuexiangeshu,yxgs"
+        },
+        {
+            "columnNo": 163,
+            "columnName": "abnormal_value",
+            "columnNameChn": "异常光字牌值",
+            "columnNamePy": "yichangguangzipaizhi,ycgzpz"
+        },
+        {
+            "columnNo": 164,
+            "columnName": "abnormal_qual",
+            "columnNameChn": "异常光字牌状态",
+            "columnNamePy": "yichangguangzipaizhuangtai,ycgzpzt"
+        },
+        {
+            "columnNo": 165,
+            "columnName": "abnormal_num",
+            "columnNameChn": "异常个数",
+            "columnNamePy": "yichanggeshu,ycgs"
+        },
+        {
+            "columnNo": 166,
+            "columnName": "accident_value",
+            "columnNameChn": "事故光字牌值",
+            "columnNamePy": "shiguguangzipaizhi,sggzpz"
+        },
+        {
+            "columnNo": 167,
+            "columnName": "accident_qual",
+            "columnNameChn": "事故光字牌状态",
+            "columnNamePy": "shiguguangzipaizhuangtai,sggzpzt"
+        },
+        {
+            "columnNo": 168,
+            "columnName": "accident_num",
+            "columnNameChn": "事故个数",
+            "columnNamePy": "shigugeshu,sggs"
+        },
+        {
+            "columnNo": 169,
+            "columnName": "notify_value",
+            "columnNameChn": "告知光字牌值",
+            "columnNamePy": "gaozhiguangzipaizhi,gzgzpz"
+        },
+        {
+            "columnNo": 170,
+            "columnName": "notify_qual",
+            "columnNameChn": "告知光字牌状态",
+            "columnNamePy": "gaozhiguangzipaizhuangtai,gzgzpzt"
+        },
+        {
+            "columnNo": 171,
+            "columnName": "notify_num",
+            "columnNameChn": "告知个数",
+            "columnNamePy": "gaozhigeshu,gzgs"
+        },
+        {
+            "columnNo": 172,
+            "columnName": "deflection_value",
+            "columnNameChn": "变位光字牌值",
+            "columnNamePy": "bianweiguangzipaizhi,bwgzpz"
+        },
+        {
+            "columnNo": 173,
+            "columnName": "deflection_qual",
+            "columnNameChn": "变位光字牌状态",
+            "columnNamePy": "bianweiguangzipaizhuangtai,bwgzpzt"
+        },
+        {
+            "columnNo": 174,
+            "columnName": "deflection_num",
+            "columnNameChn": "变位个数",
+            "columnNamePy": "bianweigeshu,bwgs"
+        },
+        {
+            "columnNo": 175,
+            "columnName": "alarm_value",
+            "columnNameChn": "五类信号告警值",
+            "columnNamePy": "wuleixinhaogaojingzhi,wlxhgjz"
+        },
+        {
+            "columnNo": 176,
+            "columnName": "alarm_qual",
+            "columnNameChn": "五类信号告警状态",
+            "columnNamePy": "wuleixinhaogaojingzhuangtai,wlxhgjzt"
+        },
+        {
+            "columnNo": 177,
+            "columnName": "chk_lmt",
+            "columnNameChn": "越限检验标志",
+            "columnNamePy": "yuexianjianyanbiaozhi,yxjybz"
+        },
+        {
+            "columnNo": 178,
+            "columnName": "describe",
+            "columnNameChn": "描述",
+            "columnNamePy": "miaoshu,ms"
+        },
+        {
+            "columnNo": 179,
+            "columnName": "region_id",
+            "columnNameChn": "模型所属区域",
+            "columnNamePy": "moxingsuoshuquyu,mxssqy"
+        },
+        {
+            "columnNo": 180,
+            "columnName": "replicate_flag",
+            "columnNameChn": "模型同步标识",
+            "columnNamePy": "moxingtongbubiaoshi,mxtbbs"
+        },
+        {
+            "columnNo": 181,
+            "columnName": "issim",
+            "columnNameChn": "是否加入仿真计算",
+            "columnNamePy": "shifoujiarufangzhenjisuan,sfjrfzjs"
+        },
+        {
+            "columnNo": 182,
+            "columnName": "qgupcold",
+            "columnNameChn": "无功正冷备",
+            "columnNamePy": "wugongzhenglengbei,wgzlb"
+        },
+        {
+            "columnNo": 183,
+            "columnName": "dist_region_id",
+            "columnNameChn": "一体化区域号",
+            "columnNamePy": "yitihuaquyuhao,ythqyh"
+        },
+        {
+            "columnNo": 184,
+            "columnName": "area_name",
+            "columnNameChn": "拼接所属区域",
+            "columnNamePy": "pinjiesuoshuquyu,pjssqy"
+        },
+        {
+            "columnNo": 185,
+            "columnName": "fac_lock_flag",
+            "columnNameChn": "厂站封锁标志",
+            "columnNamePy": "changzhanfengsuobiaozhi,czfsbz"
+        },
+        {
+            "columnNo": 186,
+            "columnName": "download_region",
+            "columnNameChn": "下装分区",
+            "columnNamePy": "xiazhuangfenqu,xzfq"
+        },
+        {
+            "columnNo": 187,
+            "columnName": "p_agc10min_up",
+            "columnNameChn": "10min上调节备用",
+            "columnNamePy": "10minshangdiaojiebeiyong,10minsdjby"
+        },
+        {
+            "columnNo": 188,
+            "columnName": "p_agc10min_dn",
+            "columnNameChn": "10min下调节备用",
+            "columnNamePy": "10minxiadiaojiebeiyong,10minxdjby"
+        },
+        {
+            "columnNo": 189,
+            "columnName": "p_agc30min_up",
+            "columnNameChn": "30min上调节备用",
+            "columnNamePy": "30minshangdiaojiebeiyong,30minsdjby"
+        },
+        {
+            "columnNo": 190,
+            "columnName": "p_agc30min_dn",
+            "columnNameChn": "30min下调节备用",
+            "columnNamePy": "30minxiadiaojiebeiyong,30minxdjby"
+        },
+        {
+            "columnNo": 191,
+            "columnName": "p_op5min_rv",
+            "columnNameChn": "5分钟非旋转备用",
+            "columnNamePy": "5fenzhongfeixuanzhuanbeiyong,5fzfxzby"
+        },
+        {
+            "columnNo": 192,
+            "columnName": "p_op10min_rv",
+            "columnNameChn": "10分钟非旋转备用",
+            "columnNamePy": "10fenzhongfeixuanzhuanbeiyong,10fzfxzby"
+        },
+        {
+            "columnNo": 193,
+            "columnName": "p_op30min_rv",
+            "columnNameChn": "30分钟非旋转备用",
+            "columnNamePy": "30fenzhongfeixuanzhuanbeiyong,30fzfxzby"
+        },
+        {
+            "columnNo": 194,
+            "columnName": "repair_flag",
+            "columnNameChn": "是否检修",
+            "columnNamePy": "shifoujianxiu,sfjx"
+        },
+        {
+            "columnNo": 195,
+            "columnName": "record_app2",
+            "columnNameChn": "记录所属应用2",
+            "columnNamePy": "jilusuoshuyingyong2,jlssyy2"
+        },
+        {
+            "columnNo": 196,
+            "columnName": "record_app3",
+            "columnNameChn": "记录所属应用3",
+            "columnNamePy": "jilusuoshuyingyong3,jlssyy3"
+        },
+        {
+            "columnNo": 197,
+            "columnName": "record_app4",
+            "columnNameChn": "记录所属应用4",
+            "columnNamePy": "jilusuoshuyingyong4,jlssyy4"
+        },
+        {
+            "columnNo": 198,
+            "columnName": "priv_region_id",
+            "columnNameChn": "模型操作权限区域",
+            "columnNamePy": "moxingcaozuoquanxianquyu,mxczqxqy"
+        },
+        {
+            "columnNo": 199,
+            "columnName": "model_fg",
+            "columnNameChn": "是否建模",
+            "columnNamePy": "shifoujianmo,sfjm"
+        },
+        {
+            "columnNo": 200,
+            "columnName": "p_rate",
+            "columnNameChn": "实时负载率",
+            "columnNamePy": "shishifuzailv,ssfzl"
+        },
+        {
+            "columnNo": 201,
+            "columnName": "p_rate_qual",
+            "columnNameChn": "实时负载率质量码",
+            "columnNamePy": "shishifuzailvzhiliangma,ssfzlzlm"
+        },
+        {
+            "columnNo": 202,
+            "columnName": "pw_factor",
+            "columnNameChn": "功率因数",
+            "columnNamePy": "gonglvyinshu,glys"
+        },
+        {
+            "columnNo": 203,
+            "columnName": "pw_factor_qual",
+            "columnNameChn": "功率因数质量码",
+            "columnNamePy": "gonglvyinshuzhiliangma,glyszlm"
+        },
+        {
+            "columnNo": 204,
+            "columnName": "if_push_graph",
+            "columnNameChn": "是否推画面",
+            "columnNamePy": "shifoutuihuamian,sfthm"
+        },
+        {
+            "columnNo": 205,
+            "columnName": "power_energy_qual",
+            "columnNameChn": "火电属性",
+            "columnNamePy": "huodianshuxing,hdsx"
+        },
+        {
+            "columnNo": 206,
+            "columnName": "gas_energy_qual",
+            "columnNameChn": "是否参与派生计算",
+            "columnNamePy": "shifoucanyupaishengjisuan,sfcypsjs"
+        },
+        {
+            "columnNo": 207,
+            "columnName": "tase2_if_translation",
+            "columnNameChn": "五防闭锁标志",
+            "columnNamePy": "wufangbisuobiaozhi,wfbsbz"
+        },
+        {
+            "columnNo": 208,
+            "columnName": "use_zf",
+            "columnNameChn": "启用转发源",
+            "columnNamePy": "qiyongzhuanfayuan,qyzfy"
+        },
+        {
+            "columnNo": 209,
+            "columnName": "p_adjust",
+            "columnNameChn": "可调出力",
+            "columnNamePy": "kediaochuli,kdcl"
+        },
+        {
+            "columnNo": 210,
+            "columnName": "pfr_reserve",
+            "columnNameChn": "一次调频备用容量",
+            "columnNamePy": "yicidiaopinbeiyongrongliang,ycdpbyrl"
+        },
+        {
+            "columnNo": 211,
+            "columnName": "plan_repair_cap",
+            "columnNameChn": "计划检修容量",
+            "columnNamePy": "jihuajianxiurongliang,jhjxrl"
+        },
+        {
+            "columnNo": 212,
+            "columnName": "unplan_repair_cap",
+            "columnNameChn": "非计划检修容量",
+            "columnNamePy": "feijihuajianxiurongliang,fjhjxrl"
+        },
+        {
+            "columnNo": 213,
+            "columnName": "repair_cap",
+            "columnNameChn": "总检修容量",
+            "columnNamePy": "zongjianxiurongliang,zjxrl"
+        },
+        {
+            "columnNo": 214,
+            "columnName": "stop_reserve_cap",
+            "columnNameChn": "停机备用容量",
+            "columnNamePy": "tingjibeiyongrongliang,tjbyrl"
+        },
+        {
+            "columnNo": 215,
+            "columnName": "limit_cap",
+            "columnNameChn": "受限容量",
+            "columnNamePy": "shouxianrongliang,sxrl"
+        },
+        {
+            "columnNo": 216,
+            "columnName": "if_relay_restrain",
+            "columnNameChn": "是否保护信号抑制",
+            "columnNamePy": "shifoubaohuxinhaoyizhi,sfbhxhyz"
+        },
+        {
+            "columnNo": 217,
+            "columnName": "token_flag",
+            "columnNameChn": "置牌状态",
+            "columnNamePy": "zhipaizhuangtai,zpzt"
+        },
+        {
+            "columnNo": 218,
+            "columnName": "token_flag_10kv",
+            "columnNameChn": "10kV置牌状态",
+            "columnNamePy": "zhipaizhuangtai,zpzt"
+        },
+        {
+            "columnNo": 219,
+            "columnName": "token_flag_not10kv",
+            "columnNameChn": "其它电压等级置牌状态",
+            "columnNamePy": "qitadianyadengjizhipaizhuangtai,qtdydjzpzt"
+        },
+        {
+            "columnNo": 220,
+            "columnName": "if_over_load",
+            "columnNameChn": "是否设备重载",
+            "columnNamePy": "shifoushebeizhongzai,sfsbzz"
+        },
+        {
+            "columnNo": 221,
+            "columnName": "if_pqsum_cal",
+            "columnNameChn": "是否PQ总加计算",
+            "columnNamePy": "shifouPQzongjiajisuan,sfPQzjjs"
+        },
+        {
+            "columnNo": 222,
+            "columnName": "group_id",
+            "columnNameChn": "所属运维班组",
+            "columnNamePy": "suoshuyunweibanzu,ssywbz"
+        },
+        {
+            "columnNo": 223,
+            "columnName": "maintenance_id",
+            "columnNameChn": "所属运维站",
+            "columnNamePy": "suoshuyunweizhan,ssywz"
+        },
+        {
+            "columnNo": 224,
+            "columnName": "dh_light_value",
+            "columnNameChn": "动环光字牌值",
+            "columnNamePy": "donghuanguangzipaizhi,dhgzpz"
+        },
+        {
+            "columnNo": 225,
+            "columnName": "dh_light_qual",
+            "columnNameChn": "动环光字牌状态",
+            "columnNamePy": "donghuanguangzipaizhuangtai,dhgzpzt"
+        },
+        {
+            "columnNo": 226,
+            "columnName": "af_light_value",
+            "columnNameChn": "安防光字牌值",
+            "columnNamePy": "anfangguangzipaizhi,afgzpz"
+        },
+        {
+            "columnNo": 227,
+            "columnName": "af_light_qual",
+            "columnNameChn": "安防光字牌状态",
+            "columnNamePy": "anfangguangzipaizhuangtai,afgzpzt"
+        },
+        {
+            "columnNo": 228,
+            "columnName": "xf_light_value",
+            "columnNameChn": "消防光字牌值",
+            "columnNamePy": "xiaofangguangzipaizhi,xfgzpz"
+        },
+        {
+            "columnNo": 229,
+            "columnName": "xf_light_qual",
+            "columnNameChn": "消防光字牌状态",
+            "columnNamePy": "xiaofangguangzipaizhuangtai,xfgzpzt"
+        },
+        {
+            "columnNo": 230,
+            "columnName": "jc_light_value",
+            "columnNameChn": "在线监测光字牌值",
+            "columnNamePy": "zaixianjianceguangzipaizhi,zxjcgzpz"
+        },
+        {
+            "columnNo": 231,
+            "columnName": "jc_light_qual",
+            "columnNameChn": "在线监测光字牌状态",
+            "columnNamePy": "zaixianjianceguangzipaizhuangtai,zxjcgzpzt"
+        },
+        {
+            "columnNo": 232,
+            "columnName": "aux_light_value",
+            "columnNameChn": "辅助设备光字牌值",
+            "columnNamePy": "fuzhushebeiguangzipaizhi,fzsbgzpz"
+        },
+        {
+            "columnNo": 233,
+            "columnName": "aux_light_qual",
+            "columnNameChn": "辅助设备光字牌状态",
+            "columnNamePy": "fuzhushebeiguangzipaizhuangtai,fzsbgzpzt"
+        },
+        {
+            "columnNo": 234,
+            "columnName": "main_light_value",
+            "columnNameChn": "主设备光字牌值",
+            "columnNamePy": "zhushebeiguangzipaizhi,zsbgzpz"
+        },
+        {
+            "columnNo": 235,
+            "columnName": "main_light_qual",
+            "columnNameChn": "主设备光字牌状态",
+            "columnNamePy": "zhushebeiguangzipaizhuangtai,zsbgzpzt"
+        },
+        {
+            "columnNo": 236,
+            "columnName": "ptr_light_value",
+            "columnNameChn": "变压器光字牌值",
+            "columnNamePy": "bianyaqiguangzipaizhi,byqgzpz"
+        },
+        {
+            "columnNo": 237,
+            "columnName": "ptr_light_qual",
+            "columnNameChn": "变压器光字牌状态",
+            "columnNamePy": "bianyaqiguangzipaizhuangtai,byqgzpzt"
+        },
+        {
+            "columnNo": 238,
+            "columnName": "cbr_light_value",
+            "columnNameChn": "断路器光字牌值",
+            "columnNamePy": "duanluqiguangzipaizhi,dlqgzpz"
+        },
+        {
+            "columnNo": 239,
+            "columnName": "cbr_light_qual",
+            "columnNameChn": "断路器光字牌状态",
+            "columnNamePy": "duanluqiguangzipaizhuangtai,dlqgzpzt"
+        },
+        {
+            "columnNo": 240,
+            "columnName": "dis_light_value",
+            "columnNameChn": "刀闸光字牌值",
+            "columnNamePy": "daozhaguangzipaizhi,dzgzpz"
+        },
+        {
+            "columnNo": 241,
+            "columnName": "dis_light_qual",
+            "columnNameChn": "刀闸光字牌状态",
+            "columnNamePy": "daozhaguangzipaizhuangtai,dzgzpzt"
+        },
+        {
+            "columnNo": 242,
+            "columnName": "ebus_light_value",
+            "columnNameChn": "母线光字牌值",
+            "columnNamePy": "muxianguangzipaizhi,mxgzpz"
+        },
+        {
+            "columnNo": 243,
+            "columnName": "ebus_light_qual",
+            "columnNameChn": "母线光字牌状态",
+            "columnNamePy": "muxianguangzipaizhuangtai,mxgzpzt"
+        },
+        {
+            "columnNo": 244,
+            "columnName": "cap_light_value",
+            "columnNameChn": "电容器光字牌值",
+            "columnNamePy": "dianrongqiguangzipaizhi,drqgzpz"
+        },
+        {
+            "columnNo": 245,
+            "columnName": "cap_light_qual",
+            "columnNameChn": "电容器光字牌状态",
+            "columnNamePy": "dianrongqiguangzipaizhuangtai,drqgzpzt"
+        },
+        {
+            "columnNo": 246,
+            "columnName": "ct_ctr_vtr_light_value",
+            "columnNameChn": "电流互感器光字牌值",
+            "columnNamePy": "dianliuhuganqiguangzipaizhi,dlhgqgzpz"
+        },
+        {
+            "columnNo": 247,
+            "columnName": "ct_ctr_vtr_light_qual",
+            "columnNameChn": "电流互感器光字牌状态",
+            "columnNamePy": "dianliuhuganqiguangzipaizhuangtai,dlhgqgzpzt"
+        },
+        {
+            "columnNo": 248,
+            "columnName": "asc_light_value",
+            "columnNameChn": "消弧线圈光字牌值",
+            "columnNamePy": "xiaohuxianquanguangzipaizhi,xhxqgzpz"
+        },
+        {
+            "columnNo": 249,
+            "columnName": "asc_light_qual",
+            "columnNameChn": "消弧线圈光字牌状态",
+            "columnNamePy": "xiaohuxianquanguangzipaizhuangtai,xhxqgzpzt"
+        },
+        {
+            "columnNo": 250,
+            "columnName": "rea_light_value",
+            "columnNameChn": "高抗光字牌值",
+            "columnNamePy": "gaokangguangzipaizhi,gkgzpz"
+        },
+        {
+            "columnNo": 251,
+            "columnName": "rea_light_qual",
+            "columnNameChn": "高抗光字牌状态",
+            "columnNamePy": "gaokangguangzipaizhuangtai,gkgzpzt"
+        },
+        {
+            "columnNo": 252,
+            "columnName": "sar_light_value",
+            "columnNameChn": "避雷器光字牌值",
+            "columnNamePy": "bileiqiguangzipaizhi,blqgzpz"
+        },
+        {
+            "columnNo": 253,
+            "columnName": "sar_light_qual",
+            "columnNameChn": "避雷器光字牌状态",
+            "columnNamePy": "bileiqiguangzipaizhuangtai,blqgzpzt"
+        },
+        {
+            "columnNo": 254,
+            "columnName": "hct_light_value",
+            "columnNameChn": "手车光字牌值",
+            "columnNamePy": "shoucheguangzipaizhi,scgzpz"
+        },
+        {
+            "columnNo": 255,
+            "columnName": "hct_light_qual",
+            "columnNameChn": "手车光字牌状态",
+            "columnNamePy": "shoucheguangzipaizhuangtai,scgzpzt"
+        },
+        {
+            "columnNo": 256,
+            "columnName": "gtr_light_value",
+            "columnNameChn": "接地变光字牌值",
+            "columnNamePy": "jiedibianguangzipaizhi,jdbgzpz"
+        },
+        {
+            "columnNo": 257,
+            "columnName": "gtr_light_qual",
+            "columnNameChn": "接地变光字牌状态",
+            "columnNamePy": "jiedibianguangzipaizhuangtai,jdbgzpzt"
+        },
+        {
+            "columnNo": 258,
+            "columnName": "res_int1",
+            "columnNameChn": "res_int1",
+            "columnNamePy": "res_int1,res_int1"
+        },
+        {
+            "columnNo": 259,
+            "columnName": "pro_light_value_new",
+            "columnNameChn": "保护装置光字牌值",
+            "columnNamePy": "baohuzhuangzhiguangzipaizhi,bhzzgzpz"
+        },
+        {
+            "columnNo": 260,
+            "columnName": "pro_light_qual_new",
+            "columnNameChn": "保护装置光字牌状态",
+            "columnNamePy": "baohuzhuangzhiguangzipaizhuangtai,bhzzgzpzt"
+        },
+        {
+            "columnNo": 261,
+            "columnName": "obs_light_value_new",
+            "columnNameChn": "测控装置光字牌值",
+            "columnNamePy": "cekongzhuangzhiguangzipaizhi,ckzzgzpz"
+        },
+        {
+            "columnNo": 262,
+            "columnName": "obs_light_qual_new",
+            "columnNameChn": "测控装置光字牌状态",
+            "columnNamePy": "cekongzhuangzhiguangzipaizhuangtai,ckzzgzpzt"
+        },
+        {
+            "columnNo": 263,
+            "columnName": "aut_light_value_new",
+            "columnNameChn": "备自投光字牌值",
+            "columnNamePy": "beizitouguangzipaizhi,bztgzpz"
+        },
+        {
+            "columnNo": 264,
+            "columnName": "aut_light_qual_new",
+            "columnNameChn": "备自投光字牌状态",
+            "columnNamePy": "beizitouguangzipaizhuangtai,bztgzpzt"
+        },
+        {
+            "columnNo": 265,
+            "columnName": "pt_ctr_vtr_light_value",
+            "columnNameChn": "电压互感器光字牌值",
+            "columnNamePy": "dianyahuganqiguangzipaizhi,dyhgqgzpz"
+        },
+        {
+            "columnNo": 266,
+            "columnName": "pt_ctr_vtr_light_qual",
+            "columnNameChn": "电压互感器光字牌状态",
+            "columnNamePy": "dianyahuganqiguangzipaizhuangtai,dyhgqgzpzt"
+        },
+        {
+            "columnNo": 267,
+            "columnName": "graph_name_xf",
+            "columnNameChn": "消防图名称",
+            "columnNamePy": "xiaofangtumingcheng,xftmc"
+        },
+        {
+            "columnNo": 268,
+            "columnName": "graph_name_af",
+            "columnNameChn": "安防图名称",
+            "columnNamePy": "anfangtumingcheng,aftmc"
+        },
+        {
+            "columnNo": 269,
+            "columnName": "graph_name_dh",
+            "columnNameChn": "动环图名称",
+            "columnNamePy": "donghuantumingcheng,dhtmc"
+        },
+        {
+            "columnNo": 270,
+            "columnName": "graph_name_jc",
+            "columnNameChn": "在线监测图名称",
+            "columnNamePy": "zaixianjiancetumingcheng,zxjctmc"
+        },
+        {
+            "columnNo": 271,
+            "columnName": "check_area",
+            "columnNameChn": "调试区名称",
+            "columnNamePy": "diaoshiqumingcheng,dsqmc"
+        },
+        {
+            "columnNo": 272,
+            "columnName": "check_area_aux",
+            "columnNameChn": "辅控调试区名称",
+            "columnNamePy": "fukongdiaoshiqumingcheng,fkdsqmc"
+        },
+        {
+            "columnNo": 273,
+            "columnName": "unchange_percent",
+            "columnNameChn": "不变化百分比",
+            "columnNamePy": "bubianhuabaifenbi,bbhbfb"
+        },
+        {
+            "columnNo": 274,
+            "columnName": "dev_light_value1",
+            "columnNameChn": "设备设备光字牌",
+            "columnNamePy": "shebeishebeiguangzipai,sbsbgzp"
+        },
+        {
+            "columnNo": 275,
+            "columnName": "dev_light_qual1",
+            "columnNameChn": "设备设备光字牌状态",
+            "columnNamePy": "shebeishebeiguangzipaizhuangtai,sbsbgzpzt"
+        },
+        {
+            "columnNo": 276,
+            "columnName": "dev_light_value2",
+            "columnNameChn": "设备光字牌值2",
+            "columnNamePy": "shebeiguangzipaizhi2,sbgzpz2"
+        },
+        {
+            "columnNo": 277,
+            "columnName": "dev_light_qual2",
+            "columnNameChn": "设备光字牌状态2",
+            "columnNamePy": "shebeiguangzipaizhuangtai2,sbgzpzt2"
+        },
+        {
+            "columnNo": 278,
+            "columnName": "dev_light_value3",
+            "columnNameChn": "设备光字牌值3",
+            "columnNamePy": "shebeiguangzipaizhi3,sbgzpz3"
+        },
+        {
+            "columnNo": 279,
+            "columnName": "dev_light_qual3",
+            "columnNameChn": "设备光字牌状态3",
+            "columnNamePy": "shebeiguangzipaizhuangtai3,sbgzpzt3"
+        },
+        {
+            "columnNo": 280,
+            "columnName": "dev_light_value4",
+            "columnNameChn": "设备光字牌值4",
+            "columnNamePy": "shebeiguangzipaizhi4,sbgzpz4"
+        },
+        {
+            "columnNo": 281,
+            "columnName": "dev_light_qual4",
+            "columnNameChn": "设备光字牌状态4",
+            "columnNamePy": "shebeiguangzipaizhuangtai4,sbgzpzt4"
+        },
+        {
+            "columnNo": 282,
+            "columnName": "dev_light_value5",
+            "columnNameChn": "设备光字牌值5",
+            "columnNamePy": "shebeiguangzipaizhi5,sbgzpz5"
+        },
+        {
+            "columnNo": 283,
+            "columnName": "dev_light_qual5",
+            "columnNameChn": "设备光字牌状态5",
+            "columnNamePy": "shebeiguangzipaizhuangtai5,sbgzpzt5"
+        },
+        {
+            "columnNo": 284,
+            "columnName": "combine_light_value",
+            "columnNameChn": "总光字牌值",
+            "columnNamePy": "zongguangzipaizhi,zgzpz"
+        },
+        {
+            "columnNo": 285,
+            "columnName": "combine_light_status",
+            "columnNameChn": "总光字牌状态",
+            "columnNamePy": "zongguangzipaizhuangtai,zgzpzt"
+        }
+    ]
+}

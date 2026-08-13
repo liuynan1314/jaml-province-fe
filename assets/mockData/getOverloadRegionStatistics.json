@@ -1,0 +1,72 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "regionId": 12,
+            "regionName": "高压",
+            "overloadCnt": 3,
+            "heavyLoadCnt": 1
+        },
+        {
+            "regionId": 98,
+            "regionName": "滨海",
+            "overloadCnt": 3,
+            "heavyLoadCnt": 2
+        },
+        {
+            "regionId": 96,
+            "regionName": "城南",
+            "overloadCnt": 5,
+            "heavyLoadCnt": 2
+        },
+        {
+            "regionId": 99,
+            "regionName": "城西",
+            "overloadCnt": 6,
+            "heavyLoadCnt": 1
+        },
+        {
+            "regionId": 97,
+            "regionName": "城东",
+            "overloadCnt": 7,
+            "heavyLoadCnt": 5
+        },
+        {
+            "regionId": 95,
+            "regionName": "东丽",
+            "overloadCnt": 2,
+            "heavyLoadCnt": 0
+        },
+        {
+            "regionId": 93,
+            "regionName": "宝坻",
+            "overloadCnt": 1,
+            "heavyLoadCnt": 2
+        },
+        {
+            "regionId": 92,
+            "regionName": "静海",
+            "overloadCnt": 1,
+            "heavyLoadCnt": 7
+        },
+        {
+            "regionId": 91,
+            "regionName": "宁河",
+            "overloadCnt": 3,
+            "heavyLoadCnt": 5
+        },
+        {
+            "regionId": 94,
+            "regionName": "蓟州",
+            "overloadCnt": 2,
+            "heavyLoadCnt": 1
+        },
+        {
+            "regionId": 90,
+            "regionName": "武清",
+            "overloadCnt": 1,
+            "heavyLoadCnt": 1
+        }
+    ]
+}

@@ -1,0 +1,296 @@
+{
+    "code": 200,
+    "message": "重大保电场景-查询重要设备数量统计",
+    "data": [
+        {
+            "stId": "1",
+            "stName": "溧水变电站",
+            "cnt": 0,
+            "stStatus": 1,
+            "stBvName": "220kV",
+            "devTypeList": [
+                {
+                    "devType": "断路器",
+                    "cnt": 20
+                },
+                {
+                    "devType": "负荷",
+                    "cnt": 1
+                },
+                {
+                    "devType": "交流线段端点",
+                    "cnt": 103
+                },
+                {
+                    "devType": "变压器",
+                    "cnt": 1030
+                },
+                {
+                    "devType": "变压器绕组",
+                    "cnt": 0
+                }
+            ]
+        },
+        {
+            "stId": "2",
+            "stName": "东善桥变电站",
+            "cnt": 0,
+            "stStatus": 2,
+            "stBvName": "110kV",
+            "devTypeList": [
+                {
+                    "devType": "断路器",
+                    "cnt": 20
+                },
+                {
+                    "devType": "负荷",
+                    "cnt": 1
+                },
+                {
+                    "devType": "交流线段端点",
+                    "cnt": 103
+                },
+                {
+                    "devType": "主变",
+                    "cnt": 1030
+                },
+                {
+                    "devType": "变压器绕组",
+                    "cnt": 0
+                }
+            ]
+        },
+        {
+            "stId": "1",
+            "stName": "溧水变电站",
+            "cnt": 0,
+            "stStatus": 1,
+            "stBvName": "220kV",
+            "devTypeList": [
+                {
+                    "devType": "断路器",
+                    "cnt": 20
+                },
+                {
+                    "devType": "负荷",
+                    "cnt": 1
+                },
+                {
+                    "devType": "交流线段端点",
+                    "cnt": 103
+                },
+                {
+                    "devType": "变压器",
+                    "cnt": 1030
+                },
+                {
+                    "devType": "变压器绕组",
+                    "cnt": 0
+                }
+            ]
+        },
+        {
+            "stId": "2",
+            "stName": "东善桥变电站",
+            "cnt": 0,
+            "stStatus": 2,
+            "stBvName": "110kV",
+            "devTypeList": [
+                {
+                    "devType": "断路器",
+                    "cnt": 20
+                },
+                {
+                    "devType": "负荷",
+                    "cnt": 1
+                },
+                {
+                    "devType": "交流线段端点",
+                    "cnt": 103
+                },
+                {
+                    "devType": "主变",
+                    "cnt": 1030
+                },
+                {
+                    "devType": "变压器绕组",
+                    "cnt": 0
+                }
+            ]
+        },
+        {
+            "stId": "3",
+            "stName": "大兴桥变电站",
+            "cnt": 0,
+            "stStatus": 4,
+            "stBvName": "330kV",
+            "devTypeList": [
+                {
+                    "devType": "断路器",
+                    "cnt": 20
+                },
+                {
+                    "devType": "负荷",
+                    "cnt": 1
+                },
+                {
+                    "devType": "交流线段端点",
+                    "cnt": 103
+                },
+                {
+                    "devType": "主变",
+                    "cnt": 1030
+                },
+                {
+                    "devType": "变压器绕组",
+                    "cnt": 0
+                }
+            ]
+        },
+        {
+            "stId": "4",
+            "stName": "大行宫变电站",
+            "cnt": 0,
+            "stStatus": 2,
+            "stBvName": "35kV",
+            "devTypeList": [
+                {
+                    "devType": "断路器",
+                    "cnt": 20
+                },
+                {
+                    "devType": "负荷",
+                    "cnt": 1
+                },
+                {
+                    "devType": "交流线段端点",
+                    "cnt": 103
+                },
+                {
+                    "devType": "主变",
+                    "cnt": 1030
+                },
+                {
+                    "devType": "变压器绕组",
+                    "cnt": 0
+                }
+            ]
+        },
+        {
+            "stId": "5",
+            "stName": "大行宫变电站",
+            "cnt": 0,
+            "stStatus": 1,
+            "stBvName": "500kV",
+            "devTypeList": [
+                {
+                    "devType": "断路器",
+                    "cnt": 20
+                },
+                {
+                    "devType": "负荷",
+                    "cnt": 1
+                },
+                {
+                    "devType": "交流线段端点",
+                    "cnt": 103
+                },
+                {
+                    "devType": "主变",
+                    "cnt": 1030
+                },
+                {
+                    "devType": "变压器绕组",
+                    "cnt": 0
+                }
+            ]
+        },
+        {
+            "stId": "6",
+            "stName": "大行宫变电站",
+            "cnt": 0,
+            "stStatus": 1,
+            "stBvName": "1000kV",
+            "devTypeList": [
+                {
+                    "devType": "断路器",
+                    "cnt": 20
+                },
+                {
+                    "devType": "负荷",
+                    "cnt": 1
+                },
+                {
+                    "devType": "交流线段端点",
+                    "cnt": 103
+                },
+                {
+                    "devType": "主变",
+                    "cnt": 1030
+                },
+                {
+                    "devType": "变压器绕组",
+                    "cnt": 0
+                }
+            ]
+        },
+        {
+            "stId": "7",
+            "stName": "大行宫变电站",
+            "cnt": 0,
+            "stStatus": 1,
+            "stBvName": "750kV",
+            "devTypeList": [
+                {
+                    "devType": "断路器",
+                    "cnt": 20
+                },
+                {
+                    "devType": "负荷",
+                    "cnt": 1
+                },
+                {
+                    "devType": "交流线段端点",
+                    "cnt": 103
+                },
+                {
+                    "devType": "主变",
+                    "cnt": 1030
+                },
+                {
+                    "devType": "变压器绕组",
+                    "cnt": 0
+                }
+            ]
+        },
+        {
+            "stId": "8",
+            "stName": "大行宫变电站",
+            "cnt": 0,
+            "stStatus": 1,
+            "stBvName": "800kV",
+            "devTypeList": [
+                {
+                    "devType": "断路器",
+                    "cnt": 20
+                },
+                {
+                    "devType": "负荷",
+                    "cnt": 1
+                },
+                {
+                    "devType": "交流线段端点",
+                    "cnt": 103
+                },
+                {
+                    "devType": "主变",
+                    "cnt": 1030
+                },
+                {
+                    "devType": "变压器绕组",
+                    "cnt": 0
+                }
+            ]
+        }
+    ]
+}

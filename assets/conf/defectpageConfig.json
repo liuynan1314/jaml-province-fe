@@ -1,0 +1,20 @@
+{
+    "systemDefectManagement": [
+        {
+            "elements": [
+                {
+                    "id": "defectstatistics"
+                }
+            ]
+        },
+        {
+            "elements": [
+                {
+                    "id": "defectdetail"
+                }
+            ]
+        }
+    ]
+ 
+   
+}

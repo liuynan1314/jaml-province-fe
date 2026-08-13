@@ -1,0 +1,27 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": {
+        "id": 1950459213778022400,
+        "opsRecordId": 1949737438819737600,
+        "content": "4346",
+        "opsUserId": 1944707617366515712,
+        "opsTime": "2025-07-30 15:31:00",
+        "gmtCreateTime": "2025-07-30 15:31:29",
+        "createUserId": null,
+        "gmtUpdateTime": null,
+        "updateUserId": null,
+        "opsUserName": "xtgly",
+        "tel": "15150542124",
+        "opsContent": "35345",
+        "feedbackType": 1,
+        "feedbackTypeName": "系统问题",
+        "defectType": 2,
+        "defectTypeName": "软件缺陷",
+        "status": 3,
+        "statusName": "处理中",
+        "idStr": "1950459213778022400",
+        "opsRecordIdStr": "1949737438819737600",
+        "opsUserIdStr": "1944707617366515712"
+    }
+}

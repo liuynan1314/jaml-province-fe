@@ -1,0 +1,596 @@
+{
+    "pageSize": 15,
+    "pageIndex": 1,
+    "pageCount": 8,
+    "pojoTotalCount": 113,
+    "list": [
+        {
+            "stId": "113997365567815681",
+            "stName": "220kV测试站12",
+            "eventId": "2025-12-12 10:13:26.02249889555538847752",
+            "stPsrId": "80000003",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "114560315521236998",
+                    "devName": "CBR202",
+                    "devPsrId": "11562",
+                    "devType": "zf01"
+                },
+                {
+                    "devId": "114560315521236998",
+                    "devName": "CBR202",
+                    "devPsrId": "11562",
+                    "devType": "zf01"
+                }
+            ],
+            "occurTime": "2025-12-12 10:13:26",
+            "content": "2025-12-12 10:13:26，220kV测试站12，CBR202",
+            "eventType": "1",
+            "eventLevel": "1",
+            "id": 3132,
+            "sendStatus": 2,
+            "sendTime": "2025-12-12 10:15:00",
+            "receiveTime": "2025-12-12 10:10:51",
+            "extInfo": "{\"ruleId\":\"\",\"regionId\":\"100\",\"regionName\":\"南京\"}",
+            "details": [],
+            "confirmTime": "2025-12-13 10:50:12",
+            "confirmed": 1,
+            "sendToBpStatus": 0,
+            "sendToBpTime": null,
+            "confirmReason": "111",
+            "faultReceived": 0,
+            "regionName": "南京",
+            "devType": "1",
+            "devBvName": "220kV"
+        },
+        {
+            "stId": "113997365567815681",
+            "stName": "220kV测试站12",
+            "eventId": "2025-12-12 10:05:44.02529197471308959498",
+            "stPsrId": "80000003",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "114560315521236998",
+                    "devName": "CBR202",
+                    "devPsrId": "11562",
+                    "devType": "zf01"
+                },
+                {
+                    "devId": "114560315521236998",
+                    "devName": "CBR202",
+                    "devPsrId": "11562",
+                    "devType": "zf01"
+                }
+            ],
+            "occurTime": "2025-12-12 10:05:44",
+            "content": "2025-12-12 10:05:44，220kV测试站12，CBR202",
+            "eventType": "1",
+            "eventLevel": "1",
+            "id": 3131,
+            "sendStatus": 2,
+            "sendTime": "2025-12-12 10:15:00",
+            "receiveTime": "2025-12-12 10:03:11",
+            "extInfo": "{\"ruleId\":\"\",\"regionId\":\"100\",\"regionName\":\"南京\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 0,
+            "sendToBpStatus": 0,
+            "sendToBpTime": null,
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "南京",
+            "devType": "1",
+            "devBvName": "220kV"
+        },
+        {
+            "stId": "113997365567815681",
+            "stName": "220kV测试站12",
+            "eventId": "2025-12-12 09:59:41.01374218137738630458",
+            "stPsrId": "80000003",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "114560315521236998",
+                    "devName": "CBR202",
+                    "devPsrId": "11562",
+                    "devType": "zf01"
+                },
+                {
+                    "devId": "114560315521236998",
+                    "devName": "CBR202",
+                    "devPsrId": "11562",
+                    "devType": "zf01"
+                }
+            ],
+            "occurTime": "2025-12-12 09:59:41",
+            "content": "2025-12-12 09:59:41，220kV测试站12，CBR202",
+            "eventType": "1",
+            "eventLevel": "1",
+            "id": 3130,
+            "sendStatus": 2,
+            "sendTime": "2025-12-12 10:15:00",
+            "receiveTime": "2025-12-12 09:57:02",
+            "extInfo": "{\"ruleId\":\"\",\"regionId\":\"100\",\"regionName\":\"南京\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 0,
+            "sendToBpStatus": 0,
+            "sendToBpTime": null,
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "南京",
+            "devType": "1",
+            "devBvName": "220kV"
+        },
+        {
+            "stId": "113997365567815681",
+            "stName": "220kV测试站12",
+            "eventId": "2025-12-12 09:54:55.0-5509745499757084655",
+            "stPsrId": "80000003",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "114560315521236998",
+                    "devName": "CBR202",
+                    "devPsrId": "11562",
+                    "devType": "zf01"
+                },
+                {
+                    "devId": "114560315521236998",
+                    "devName": "CBR202",
+                    "devPsrId": "11562",
+                    "devType": "zf01"
+                }
+            ],
+            "occurTime": "2025-12-12 09:54:55",
+            "content": "2025-12-12 09:54:55，220kV测试站12，CBR202",
+            "eventType": "1",
+            "eventLevel": "1",
+            "id": 3129,
+            "sendStatus": 2,
+            "sendTime": "2025-12-12 10:00:00",
+            "receiveTime": "2025-12-12 09:52:25",
+            "extInfo": "{\"ruleId\":\"\",\"regionId\":\"100\",\"regionName\":\"南京\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 0,
+            "sendToBpStatus": 0,
+            "sendToBpTime": null,
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "南京",
+            "devType": "1",
+            "devBvName": "220kV"
+        },
+        {
+            "stId": "113997365567815681",
+            "stName": "220kV测试站12",
+            "eventId": "2025-12-12 09:42:18.08489397188581703271",
+            "stPsrId": "80000003",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "114560315521236998",
+                    "devName": "CBR202",
+                    "devPsrId": "11562",
+                    "devType": "zf01"
+                },
+                {
+                    "devId": "114560315521236998",
+                    "devName": "CBR202",
+                    "devPsrId": "11562",
+                    "devType": "zf01"
+                }
+            ],
+            "occurTime": "2025-12-12 09:42:18",
+            "content": "2025-12-12 09:42:18，220kV测试站12，CBR202",
+            "eventType": "1",
+            "eventLevel": "1",
+            "id": 3128,
+            "sendStatus": 2,
+            "sendTime": "2025-12-12 10:00:00",
+            "receiveTime": "2025-12-12 09:42:55",
+            "extInfo": "{\"ruleId\":\"\",\"regionId\":\"100\",\"regionName\":\"南京\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 0,
+            "sendToBpStatus": 0,
+            "sendToBpTime": null,
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "南京",
+            "devType": "1",
+            "devBvName": "220kV"
+        },
+        {
+            "stId": "113997365567815681",
+            "stName": "220kV测试站12",
+            "eventId": "2025-12-12 09:10:03.04259422689666347239",
+            "stPsrId": "80000003",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "114560315521236998",
+                    "devName": "CBR202",
+                    "devPsrId": "11562",
+                    "devType": "zf01"
+                },
+                {
+                    "devId": "114560315521236998",
+                    "devName": "CBR202",
+                    "devPsrId": "11562",
+                    "devType": "zf01"
+                }
+            ],
+            "occurTime": "2025-12-12 09:10:03",
+            "content": "2025-12-12 09:10:03，220kV测试站12，CBR202",
+            "eventType": "1",
+            "eventLevel": null,
+            "id": 3127,
+            "sendStatus": 2,
+            "sendTime": "2025-12-12 09:30:00",
+            "receiveTime": "2025-12-12 09:24:28",
+            "extInfo": "{\"ruleId\":\"238127830297215318\",\"regionId\":\"100\",\"regionName\":\"南京\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 0,
+            "sendToBpStatus": 0,
+            "sendToBpTime": null,
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "南京",
+            "devType": "1",
+            "devBvName": "220kV"
+        },
+        {
+            "stId": "113997365567815681",
+            "stName": "220kV测试站1",
+            "eventId": "2025-11-24 14:20:08.0947148636721321",
+            "stPsrId": "80000003",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "117375065288343555",
+                    "devName": "220kV测试站1 PTR1-中",
+                    "devPsrId": "11562",
+                    "devType": null
+                },
+                {
+                    "devId": "114560315521236993",
+                    "devName": "CBR101",
+                    "devPsrId": "11562",
+                    "devType": null
+                }
+            ],
+            "occurTime": "2025-11-24 14:20:08",
+            "content": "2025-11-24 14:20:08      220kV测试站1 110kV1号主变断路器开关合上（远方操作）",
+            "eventType": "5",
+            "eventLevel": "2",
+            "id": 3126,
+            "sendStatus": 2,
+            "sendTime": "2025-11-24 14:15:00",
+            "receiveTime": "2025-11-24 14:23:02",
+            "extInfo": "{\"devBvName\":\"110kV\",\"eventKey\":\"947148636721321\",\"regionName\":\"\",\"faultType\":0,\"devType\":\"0\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 2,
+            "sendToBpStatus": 0,
+            "sendToBpTime": null,
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "",
+            "devType": "0",
+            "devBvName": "110kV"
+        },
+        {
+            "stId": "113997365567815681",
+            "stName": "220kV测试站1",
+            "eventId": "2025-11-06 09:53:00.026357225880852176",
+            "stPsrId": "80000003",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "117375065288343555",
+                    "devName": "CBR101666",
+                    "devPsrId": "11562",
+                    "devType": null
+                },
+                {
+                    "devId": "114560315521236993",
+                    "devName": "CBR101",
+                    "devPsrId": "11562",
+                    "devType": null
+                }
+            ],
+            "occurTime": "2025-11-06 09:53:00",
+            "content": "2023-05-05 16:36:39      220kV测试站1 CBR101 刀闸退出运行",
+            "eventType": "1",
+            "eventLevel": "5",
+            "id": 3124,
+            "sendStatus": 2,
+            "sendTime": "2025-11-06 17:15:00",
+            "receiveTime": "2025-11-06 17:05:46",
+            "extInfo": "{\"devBvName\":\"110kV\",\"eventKey\":\"26357225880852176\",\"regionName\":\"\",\"faultType\":0,\"devType\":\"0\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 2,
+            "sendToBpStatus": 0,
+            "sendToBpTime": null,
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "",
+            "devType": "0",
+            "devBvName": "110kV"
+        },
+        {
+            "stId": "113997365567815681",
+            "stName": "220kV测试站1",
+            "eventId": "2025-11-06 09:53:00.04091101203511504",
+            "stPsrId": "1",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "117375065288343555",
+                    "devName": "CBR101666",
+                    "devPsrId": null,
+                    "devType": null
+                },
+                {
+                    "devId": "114560315521236993",
+                    "devName": "CBR101",
+                    "devPsrId": null,
+                    "devType": null
+                }
+            ],
+            "occurTime": "2025-11-06 09:53:00",
+            "content": "2023-05-05 16:25:25      220kV测试站1 CBR101666 刀闸退出运行",
+            "eventType": "6",
+            "eventLevel": "5",
+            "id": 3121,
+            "sendStatus": 2,
+            "sendTime": "2025-11-06 15:00:00",
+            "receiveTime": "2025-11-06 14:57:27",
+            "extInfo": "{\"devBvName\":\"110kV\",\"eventKey\":\"4091101203511504\",\"regionName\":\"\",\"faultType\":0,\"devType\":\"0\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 2,
+            "sendToBpStatus": 0,
+            "sendToBpTime": null,
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "",
+            "devType": "0",
+            "devBvName": "110kV"
+        },
+        {
+            "stId": "113997365567816267",
+            "stName": "220kV测试站3",
+            "eventId": "2025-09-30 18:48:01.058869876238480425",
+            "stPsrId": "11562",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "117375065288343670",
+                    "devName": "CBR201",
+                    "devPsrId": "11562",
+                    "devType": null
+                },
+                {
+                    "devId": "114560315521239277",
+                    "devName": "CBR201（修改后）",
+                    "devPsrId": "11562",
+                    "devType": null
+                }
+            ],
+            "occurTime": "2025-09-30 18:48:01",
+            "content": "2023-05-15 14:45:56      220kV测试站3 PTR1 高压侧 CBR201 跳闸(事件)",
+            "eventType": "1",
+            "eventLevel": "1",
+            "id": 3120,
+            "sendStatus": 2,
+            "sendTime": "2025-10-27 09:45:01",
+            "receiveTime": "2025-09-30 18:48:36",
+            "extInfo": "{\"devBvName\":\"220kV\",\"eventKey\":\"58869876238480425\",\"regionId\":101,\"regionName\":\"苏州\",\"faultType\":0,\"devType\":\"0\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 2,
+            "sendToBpStatus": 0,
+            "sendToBpTime": null,
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "苏州",
+            "devType": "0",
+            "devBvName": "220kV"
+        },
+        {
+            "stId": "113997365567816267",
+            "stName": "220kV测试站3",
+            "eventId": "2025-09-30 18:12:00.058869876238480425",
+            "stPsrId": "11562",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "117375065288343670",
+                    "devName": "CBR201",
+                    "devPsrId": "11562",
+                    "devType": null
+                },
+                {
+                    "devId": "114560315521239277",
+                    "devName": "CBR201（修改后）",
+                    "devPsrId": "11562",
+                    "devType": null
+                }
+            ],
+            "occurTime": "2025-09-30 18:12:00",
+            "content": "2023-05-15 14:45:56      220kV测试站3 PTR1 高压侧 CBR201 跳闸(事件)",
+            "eventType": "1",
+            "eventLevel": "1",
+            "id": 3119,
+            "sendStatus": 2,
+            "sendTime": "2025-10-27 09:45:01",
+            "receiveTime": "2025-09-30 18:12:20",
+            "extInfo": "{\"devBvName\":\"220kV\",\"eventKey\":\"58869876238480425\",\"regionId\":101,\"regionName\":\"苏州\",\"faultType\":0,\"devType\":\"0\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 2,
+            "sendToBpStatus": 0,
+            "sendToBpTime": null,
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "苏州",
+            "devType": "0",
+            "devBvName": "220kV"
+        },
+        {
+            "stId": "113997365567815681",
+            "stName": "220kV测试站1",
+            "eventId": "2025-09-26 10:06:00.052326141626826281",
+            "stPsrId": "80000003",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "115404740451369866",
+                    "devName": "13212",
+                    "devPsrId": "11562",
+                    "devType": null
+                }
+            ],
+            "occurTime": "2025-09-26 10:06:00",
+            "content": "2023-09-08 20:30:16      220kV测试站1 13212 母线保护出口 (事件)",
+            "eventType": "1",
+            "eventLevel": "1",
+            "id": 3118,
+            "sendStatus": 2,
+            "sendTime": "2025-10-27 09:45:01",
+            "receiveTime": "2025-09-26 10:05:06",
+            "extInfo": "{\"devBvName\":\"220kV\",\"eventKey\":\"52326141626826281\",\"regionId\":101,\"regionName\":\"苏州\",\"faultType\":2,\"devType\":\"2\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 2,
+            "sendToBpStatus": 1,
+            "sendToBpTime": "2025-09-26 10:05:06",
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "苏州",
+            "devType": "2",
+            "devBvName": "220kV"
+        },
+        {
+            "stId": "113997365567815681",
+            "stName": "220kV测试站1",
+            "eventId": "2025-09-26 10:05:00.052326141626826281",
+            "stPsrId": "80000003",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "115404740451369866",
+                    "devName": "13212",
+                    "devPsrId": "11562",
+                    "devType": null
+                }
+            ],
+            "occurTime": "2025-09-26 10:05:00",
+            "content": "2023-09-08 20:30:16      220kV测试站1 13212 母线保护出口 (事件)",
+            "eventType": "1",
+            "eventLevel": "1",
+            "id": 3117,
+            "sendStatus": 2,
+            "sendTime": "2025-10-27 09:45:01",
+            "receiveTime": "2025-09-26 10:04:14",
+            "extInfo": "{\"devBvName\":\"220kV\",\"eventKey\":\"52326141626826281\",\"regionId\":101,\"regionName\":\"苏州\",\"faultType\":2,\"devType\":\"2\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 2,
+            "sendToBpStatus": 1,
+            "sendToBpTime": "2025-09-26 10:04:14",
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "苏州",
+            "devType": "2",
+            "devBvName": "220kV"
+        },
+        {
+            "stId": "113997365567816267",
+            "stName": "220kV测试站3",
+            "eventId": "2025-09-26 10:03:00.058869876238480425",
+            "stPsrId": "11562",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "117375065288343670",
+                    "devName": "CBR201",
+                    "devPsrId": "11562",
+                    "devType": null
+                },
+                {
+                    "devId": "114560315521239277",
+                    "devName": "CBR201（修改后）",
+                    "devPsrId": "11562",
+                    "devType": null
+                }
+            ],
+            "occurTime": "2025-09-26 10:03:00",
+            "content": "2023-05-15 14:45:56      220kV测试站3 PTR1 高压侧 CBR201 跳闸(事件)",
+            "eventType": "1",
+            "eventLevel": "1",
+            "id": 3116,
+            "sendStatus": 2,
+            "sendTime": "2025-10-27 09:45:01",
+            "receiveTime": "2025-09-26 10:02:06",
+            "extInfo": "{\"devBvName\":\"220kV\",\"eventKey\":\"58869876238480425\",\"regionId\":101,\"regionName\":\"苏州\",\"faultType\":0,\"devType\":\"0\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 2,
+            "sendToBpStatus": 1,
+            "sendToBpTime": "2025-09-26 10:02:06",
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "苏州",
+            "devType": "0",
+            "devBvName": "220kV"
+        },
+        {
+            "stId": "113997365567815681",
+            "stName": "220kV测试站1",
+            "eventId": "2025-09-26 09:59:00.060658668749257385",
+            "stPsrId": "80000003",
+            "bvName": "220kV",
+            "devInfo": [
+                {
+                    "devId": "116812115334922241",
+                    "devName": "221",
+                    "devPsrId": "11562",
+                    "devType": null
+                },
+                {
+                    "devId": "114560315521237000",
+                    "devName": "CBR221",
+                    "devPsrId": "11562",
+                    "devType": null
+                }
+            ],
+            "occurTime": "2025-09-26 09:59:00",
+            "content": "2023-05-18 09:42:05      220kV测试站1 220kV线路1开关拉开（远方操作）",
+            "eventType": "1",
+            "eventLevel": "2",
+            "id": 3115,
+            "sendStatus": 2,
+            "sendTime": "2025-10-27 09:45:01",
+            "receiveTime": "2025-09-26 09:58:36",
+            "extInfo": "{\"devBvName\":\"220kV\",\"eventKey\":\"60658668749257385\",\"regionId\":111,\"regionName\":\"宿迁\",\"faultType\":1,\"devType\":\"1\"}",
+            "details": [],
+            "confirmTime": null,
+            "confirmed": 2,
+            "sendToBpStatus": 1,
+            "sendToBpTime": "2025-09-26 09:58:36",
+            "confirmReason": null,
+            "faultReceived": 0,
+            "regionName": "宿迁",
+            "devType": "1",
+            "devBvName": "220kV"
+        }
+    ]
+}

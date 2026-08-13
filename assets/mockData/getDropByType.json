@@ -1,0 +1,82 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "name": "变电站",
+            "value": "substation"
+        },
+        {
+            "name": "间隔",
+            "value": "bay"
+        },
+        {
+            "name": "断路器",
+            "value": "cbr"
+        },
+        {
+            "name": "手车",
+            "value": "hct"
+        },
+        {
+            "name": "刀闸",
+            "value": "dis"
+        },
+        {
+            "name": "接地刀闸",
+            "value": "gdis"
+        },
+        {
+            "name": "母线",
+            "value": "ebus"
+        },
+        {
+            "name": "交流线段",
+            "value": "ifl"
+        },
+        {
+            "name": "负荷",
+            "value": "fh"
+        },
+        {
+            "name": "交流线段端点",
+            "value": "aclineend"
+        },
+        {
+            "name": "主变",
+            "value": "ptr"
+        },
+        {
+            "name": "变压器绕组",
+            "value": "ns"
+        },
+        {
+            "name": "电容器",
+            "value": "cap"
+        },
+        {
+            "name": "电抗器",
+            "value": "rea"
+        },
+        {
+            "name": "站用变",
+            "value": "sptr"
+        },
+        {
+            "name": "电压互感器",
+            "value": "vtr"
+        },
+        {
+            "name": "消弧线圈",
+            "value": "asc"
+        },
+        {
+            "name": "避雷器",
+            "value": "sar"
+        },
+        {
+            "name": "接地变",
+            "value": "gtr"
+        }
+    ]
+}

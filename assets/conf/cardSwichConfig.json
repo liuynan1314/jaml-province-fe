@@ -1,0 +1,12 @@
+{
+    "substationScale": "/statistic/system-scale",
+    "eventPushTable": "/maintenance/system-defect-management",
+    "oilTemperatureCharts": "/statistic/oilTemperatureAnalysis_songjian-screen",
+    "defectStatistics": "/statistic/event-monitor-analysis",
+    "day5WarnStatics": "/statistic/five-class-alarm",
+    "overloadDeviceRadarChart": "/statistic/overload_songjian",
+    "powerRiskTable": "/statistic/trip-statistic-analysis",
+    "dataQuality": "/maintenance/data-quality-control-new",
+    "substationAccessConfition": "/maintenance/data-quality-control-new",
+    "currentMonthOperationNums": "/statistic/operation-statistics"
+}

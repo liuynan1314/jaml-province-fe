@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="transparent" content="true" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.css" />
+        <% if (htmlWebpackPlugin.options.scripts && Array.isArray(htmlWebpackPlugin.options.scripts)) { %> <% htmlWebpackPlugin.options.scripts.forEach(function(script) { %>
+        <script src="<%= script %>"></script>
+        <% }) %> <% } else if (htmlWebpackPlugin.options.scripts) { %>
+        <script src="<%= htmlWebpackPlugin.options.scripts %>"></script>
+        <% } %>
+    </head>
+    <style>
+        /* @font-face {
+        font-family: 'YouSheBiaoTiHei';
+        src: url(assets/fontawesome/webfonts/YouSheBiaoTiHei-2.ttf);
+    } */
+    </style>
+
+    <body></body>
+</html>
