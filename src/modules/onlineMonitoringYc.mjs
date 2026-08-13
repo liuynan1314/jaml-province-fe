@@ -15,7 +15,7 @@ export default {
                 flexDirection: 'column',
                 fontSize: 'm',
                 minHeight: '0',
-                paddingRight: '1rem'
+                paddingRight: 'm'
             }
         })
     ],
@@ -42,7 +42,7 @@ export default {
                             alignItems: 'flex-start',
                             width: '100%',
                             alignItems: 'flex-start',
-                            marginBottom: '0.75rem'
+                            marginBottom: 'm'
                         })
                     ],
                     components: [
@@ -54,7 +54,7 @@ export default {
                             styles: [
                                 Styles.buttonGroupStylesWithBgCap,
                                 Styles.css({
-                                    padding: '0 0.3rem'
+                                    padding: '0 s'
                                 }),
                                 Styles.buttongroup.labelslot.css({
                                     alignSelf: 'flex-start',

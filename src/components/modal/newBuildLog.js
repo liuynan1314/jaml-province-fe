@@ -23,7 +23,7 @@ const newBuildLog = (params) => {
                 ':scope': {
                     display: 'flex',
                     flexDirection: 'column',
-                    padding: '1.2rem',
+                    padding: 'm',
                     'box-sizing': 'border-box'
                     // alignItems: 'center'
                 },
@@ -179,7 +179,7 @@ const newBuildLog = (params) => {
                         defaultValue: '',
                         class: 'description-input',
                         cap: '运维内容：',
-                        styles: [Styles.css({ width: '100%', height: '6rem', marginTop: '0.3rem' }), 'textarea.labelslot.margin(0)']
+                        styles: [Styles.css({ width: '100%', height: '6rem', marginTop: 's' }), 'textarea.labelslot.margin(0)']
                     },
                     {
                         type: 'fileinput',
@@ -210,7 +210,7 @@ const newBuildLog = (params) => {
                             e.stopPropagation();
                             getDownLoad(e.target.innerText);
                         },
-                        styles: [Styles.css({ marginTop: '0.3rem' }), 'fileinput.labelslot.margin(0)']
+                        styles: [Styles.css({ marginTop: 's' }), 'fileinput.labelslot.margin(0)']
                     }
                 ]
             },

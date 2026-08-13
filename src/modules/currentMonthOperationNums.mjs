@@ -16,7 +16,7 @@ export default {
         Styles.stylesheet({
             '.title-wrapper': {
                 marginTop: '-0.5rem',
-                marginBottom: '0.5rem',
+                marginBottom: 's',
                 '[slot=value]': {
                     color: jam.colorText(),
                     fontFamily: 'DINPro',

@@ -176,9 +176,9 @@ export default {
         Styles.css({
             display: 'flex',
             flexDirection: 'column',
-            fontSize: '1.1rem',
+            fontSize: 'm',
             minHeight: '0',
-            marginRight: '1rem'
+            marginRight: 'm'
         })
     ],
     components: [
@@ -190,9 +190,9 @@ export default {
                     display: 'flex',
                     height: 'initial',
                     width: '100%',
-                    gap: '0.1rem',
+                    gap: 'xs',
                     alignItems: 'center',
-                    paddingBottom: '0.5rem',
+                    paddingBottom: 's',
                     flexWrap: 'wrap'
                 })
             ],
@@ -267,7 +267,7 @@ export default {
                     styles: [
                         Styles.searchBtnsStyles,
                         Styles.css({
-                            marginLeft: '0.5rem'
+                            marginLeft: 's'
                         })
                     ],
                     onclick() {
@@ -354,7 +354,7 @@ export default {
                     type: 'pagination',
                     styles: [
                         Styles.css({
-                            marginTop: '0.7rem',
+                            marginTop: 'm',
                             width: '100%'
                         })
                     ],

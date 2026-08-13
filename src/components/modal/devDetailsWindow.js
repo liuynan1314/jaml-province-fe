@@ -37,7 +37,7 @@ const devDetailsWindow = (params) => {
                                 marginBottom: 's',
                                 '--jam-agent-width': '11.25rem',
                                 '.jam-option': {
-                                    backgroundColor: '#000'
+                                    background: 'elevation'
                                 }
                             },
                             'jam-button': {

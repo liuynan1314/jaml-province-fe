@@ -31,7 +31,7 @@ jaml.register('mainAndAuxAlarmCard', {
         },
         {
             type: 'label',
-            styles: ['css(cursor:pointer;flexWrap:nowrap)', 'padding(0)', 'flex(direction:row-reverse)', 'layout.flex(justifyContent:flex-end)', 'label.icon.size(width:.75rem;height:.375rem)', 'label.capslot.text(size:1.1rem;color:var(--val-clr);weight:bold;family:DINPro)'],
+            styles: ['css(cursor:pointer;flexWrap:nowrap)', 'padding(0)', 'flex(direction:row-reverse)', 'layout.flex(justifyContent:flex-end)', 'label.icon.size(width:.75rem;height:.375rem)', 'label.capslot.text(size:m;color:var(--val-clr);weight:bold;family:DINPro)'],
             cap: jaml.var('item.value', function (value) {
                 return forkValue(value);
             }),

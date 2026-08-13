@@ -21,7 +21,7 @@ const addLog = (params) => {
                 ':scope': {
                     display: 'flex',
                     flexDirection: 'column',
-                    padding: '1.2rem',
+                    padding: 'm',
                     'box-sizing': 'border-box'
                 },
                 '.form-item': {
@@ -58,7 +58,7 @@ const addLog = (params) => {
                         valueKey: 'addcontent',
                         class: 'description-input',
                         cap: '日志内容：',
-                        styles: [Styles.css({ height: '6rem', marginTop: '0.3rem' }), 'textarea.labelslot.margin(0)']
+                        styles: [Styles.css({ height: '6rem', marginTop: 's' }), 'textarea.labelslot.margin(0)']
                     },
                     {
                         type: 'wrapper',

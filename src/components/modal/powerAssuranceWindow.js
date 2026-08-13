@@ -25,7 +25,7 @@ const powerAssuranceWindow = (params) => {
                     'size.fullsize',
                     Styles.stylesheet({
                         ':scope': {
-                            // padding: '0.8rem'
+                            // padding: 'm'
                         },
                         '.form_wrapper': {
                             // width: '100%',
@@ -405,7 +405,7 @@ const powerAssuranceWindow = (params) => {
                     },
                     {
                         type: 'wrapper',
-                        styles: ['css(width:calc(100% + 2rem))', 'wrapper.buttonwrapper', Styles.css({ marginTop: '1rem', position: 'absolute', bottom: '-1rem', left: '-1rem' })],
+                        styles: ['css(width:calc(100% + 2rem))', 'wrapper.buttonwrapper', Styles.css({ marginTop: 'm', position: 'absolute', bottom: '-1rem', left: '-1rem' })],
                         childStyles: ['icon.duotone', Styles.css({ borderRadius: '0' })],
                         components: [
                             {

@@ -221,7 +221,7 @@ function getEchartsOption(resData, xAxisData) {
             },
             backgroundColor: 'rgba(50,50,50,0.7)',
             textStyle: {
-                color: '#fff'
+                color: Tokens.color.fg.default
             },
             borderColor: 'rgba(0,0,0,0)',
             formatter: function (params) {
@@ -240,7 +240,7 @@ function getEchartsOption(resData, xAxisData) {
                     show: true,
                     textStyle: {
                         color: 'hsl(200.8, 56.3%, 82.9%)',
-                        fontSize: '0.875rem'
+                        fontSize: 's'
                     }
                 },
                 splitLine: {
@@ -264,7 +264,7 @@ function getEchartsOption(resData, xAxisData) {
                     textStyle: {
                         color: 'hsl(199.4, 100%, 93.9%)',
                         fontFamily: 'DINPro',
-                        fontSize: '1.125rem'
+                        fontSize: 'm'
                     },
                     formatter: function (value) {
                         return value + '台';
@@ -313,9 +313,9 @@ function getEchartsOption(resData, xAxisData) {
                 symbolSize: [20, 35],
                 itemStyle: {
                     normal: {
-                        color: '#fff',
+                        color: Tokens.color.fg.default,
                         opacity: 0.5,
-                        shadowColor: '#6df8f0',
+                        shadowColor: Tokens.color.primary.default,
                         shadowBlur: 10
                     }
                 },

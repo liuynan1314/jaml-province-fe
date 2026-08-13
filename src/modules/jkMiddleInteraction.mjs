@@ -64,7 +64,7 @@ export default {
                             type: 'wrapper',
                             childStyles: [
                                 Styles.css({
-                                    marginRight: '1rem'
+                                    marginRight: 'm'
                                 })
                             ],
                             components: [
@@ -117,7 +117,7 @@ export default {
                                 Styles.stylesheet({
                                     ':scope': {},
                                     '.ml-_625rem': {
-                                        marginLeft: '.625rem'
+                                        marginLeft: 'm'
                                     }
                                 })
                             ],
@@ -200,7 +200,7 @@ export default {
                                                 display: 'block',
                                                 minWidth: '13.2rem',
                                                 height: '2.25rem',
-                                                paddingLeft: '1.5rem',
+                                                paddingLeft: 'l',
                                                 backgroundImage: 'url(./../assets/images/title_third.png)',
                                                 backgroundRepeat: 'no-repeat',
                                                 backgroundPosition: 'bottom var(--gap) left',

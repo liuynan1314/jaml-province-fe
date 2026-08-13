@@ -193,7 +193,7 @@ export default {
                             height: '2.25rem',
                             lineHeight: '1.25rem',
                             color: 'onprimary',
-                            paddingLeft: '1.5rem',
+                            paddingLeft: 'l',
                             backgroundImage: 'url(assets/images/title_third.png)',
                             backgroundRepeat: 'no-repeat',
                             backgroundPosition: 'bottom var(--gap) left',
@@ -228,7 +228,7 @@ export default {
                 },
                 '.other-form': {
                     flexWrap: 'wrap',
-                    marginTop: '1rem',
+                    marginTop: 'm',
                     alignItems: 'center'
 
                     // 'jam-imput span[slot=cap]': {
@@ -247,9 +247,9 @@ export default {
             },
             '.btn-wrapper': {
                 justifyContent: 'flex-end',
-                marginTop: '1rem',
+                marginTop: 'm',
                 'jam-button': {
-                    marginRight: '1rem',
+                    marginRight: 'm',
                     backgroundColor: 'var(--jam-color-primary-default)'
                 }
             }

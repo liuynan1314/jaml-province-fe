@@ -106,7 +106,7 @@ function buildSidebar(sidebar) {
                           class: 'pages-wrapper',
                           state: 0,
                           states: [{ styles: [Styles.css({ maxHeight: '1000px' })] }, { styles: [Styles.css({ maxHeight: 0 })] }],
-                          styles: [Styles.css({ paddingLeft: '1rem', display: 'flex', flexDirection: 'column', overflow: 'hidden', transition: 'max-height 0.5s' })],
+                          styles: [Styles.css({ paddingLeft: 'm', display: 'flex', flexDirection: 'column', overflow: 'hidden', transition: 'max-height 0.5s' })],
                           components: buildSidebar(el.pages)
                       }
             ]

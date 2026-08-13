@@ -78,7 +78,7 @@ export function buildStyleStack() {
         },
         plugins: [
             Styles.table.th.css({
-                backgroundColor: 'rgba(60, 184, 255, 0.7)',
+                backgroundColor: 'var(--jam-color-primary-veil)',
                 borderRadius: '0 !important'
             }),
             Styles.table.fixedrowheight({ height: '2.5rem' }),
@@ -86,7 +86,7 @@ export function buildStyleStack() {
             Styles.table.showrownum({ style: 'plain' }),
             Styles.table.thslot.css({
                 fontSize: 'm',
-                borderColor: 'rgba(60, 184, 255, 0.7)',
+                borderColor: 'var(--jam-color-primary-veil)',
                 borderRadius: '0 !important'
             }),
             Styles.table.td.css({
@@ -99,15 +99,15 @@ export function buildStyleStack() {
                 height: 'calc(100%-0.6rem)'
             }),
             Styles.table.stripy({
-                even: 'rgba(60, 184, 255, 0.3)',
+                even: 'var(--jam-color-primary-film)',
                 odd: 'transparent'
             }),
             Styles.css({
                 '--th-border-radius': 0,
                 '--td-border-radius': 0,
                 '--jam-tdslot-border-radius': 0,
-                '--jam-td-color': '#c4ebf0',
-                '--jam-th-background-color': '#29374d8a'
+                '--jam-td-color': 'var(--jam-color-fg-muted)',
+                '--jam-th-background-color': 'var(--jam-color-primary-film)'
             }),
             Styles.props((el, args) => ({
                 overflow: args.scroll ? 'auto' : 'hidden'
@@ -175,7 +175,7 @@ export function buildStyleStack() {
                     }
                 },
                 '&.jam-cta': {
-                    marginRight: '0.625rem'
+                    marginRight: 'm'
                 }
             }),
             Styles.button.icon.css({
@@ -195,9 +195,9 @@ export function buildStyleStack() {
                     '&>span[slot=cap]': {
                         height: '2rem',
                         lineHeight: '2rem',
-                        marginTop: '0.2rem'
+                        marginTop: 'xs'
                         // color: jam.lumiText(1),
-                        // fontSize: '.875rem'
+                        // fontSize: 's'
                     },
                     'jam-button': {
                         borderRadius: 's',
@@ -274,7 +274,7 @@ export function buildStyleStack() {
             //             height: '2.25rem',
             //             lineHeight: '1.25rem',
             //             color: jam.lumiText(1),
-            //             paddingLeft: '1.5rem',
+            //             paddingLeft: 'l',
             //             backgroundImage: 'url(assets/images/title_third.png)',
             //             backgroundRepeat: 'no-repeat',
             //             backgroundPosition: 'bottom var(--gap) left',
@@ -336,7 +336,7 @@ export function buildStyleStack() {
             Styles.stylesheet({
                 ':scope': {
                     position: 'relative',
-                    // paddingLeft: '2.5rem',
+                    // paddingLeft: 'xl',
                     backgroundImage: `linear-gradient(90deg, ${COLOR_SET.thbrclr} 0%, transparent 100%)`,
                     borderBottomStyle: 'solid',
                     borderBottomWidth: '.0625rem',
@@ -454,8 +454,9 @@ export function buildStyleStack() {
                 '--icon-size': args.size,
                 fontSize: 'var(--icon-size)',
                 fontWeight: 'bold',
-                backgroundImage: 'linear-gradient(90deg, #0c1016 0%, #67707f 40%, #67707f 50%, #67707f 60%, #0c1016 100%)',
-                color: 'hsl(0,0%,80%)',
+                backgroundImage:
+                    'linear-gradient(90deg, var(--jam-color-primary-subtle) 0%, var(--jam-color-fg-muted) 40%, var(--jam-color-fg-muted) 50%, var(--jam-color-fg-muted) 60%, var(--jam-color-primary-subtle) 100%)',
+                color: 'var(--jam-color-fg-muted)',
                 padding: 'calc(var(--icon-size) * 0.5) calc(var(--icon-size) * 0.5) calc(var(--icon-size) * 0.5) calc(var(--icon-size) * 2.5)',
                 width: '100%',
                 // minWidth: 'calc(var(--icon-size) * 15)',
@@ -863,7 +864,7 @@ export function buildStyleStack() {
                 fontSize: 'm !important',
                 color: 'primary'
                 // fontFamily: 'YousheBiaoTiHei',
-                // paddingLeft: '1.5rem'
+                // paddingLeft: 'l'
             }),
             Styles.props((el, args) => {
                 const cards = getCardsInPage();
@@ -914,7 +915,7 @@ export function buildStyleStack() {
             }),
             Styles.button.size({ width: '6rem' }),
             Styles.button.icon.css({
-                marginTop: '0.2rem'
+                marginTop: 'xs'
             }),
             Styles.button.cap.css({
                 fontSize: 'm'
@@ -996,7 +997,7 @@ export function buildStyleStack() {
             })
 
             // Styles.select.cap.css({
-            //     fontSize: '0.875rem'
+            //     fontSize: 's'
             // }),
         ]
     });
@@ -1049,7 +1050,7 @@ export function buildStyleStack() {
 
             Styles.datepicker.cap.css({
                 color: 'onprimary'
-                // fontSize: '0.875rem'
+                // fontSize: 's'
             }),
             Styles.datepicker.agent.css({ borderColor: 'var(--jam-color-primary-default)' }),
 
@@ -1100,7 +1101,7 @@ export function buildStyleStack() {
                 alignItems: 'center',
                 marginRight: 'm',
                 marginBottom: 's',
-                color: '#9cc1db',
+                color: 'var(--jam-color-fg-muted)',
                 borderRadius: 0,
                 background: 'url(../../assets/images/select-box.png) no-repeat',
                 backgroundSize: '100% 100%',
@@ -1118,7 +1119,7 @@ export function buildStyleStack() {
                 '.disabled': {
                     pointerEvents: 'none',
                     backdropFilter: 'grayscale(0.9)',
-                    color: '#989898',
+                    color: 'var(--jam-color-fg-subtle)',
                     position: 'relative'
                 },
                 '.disabled::after': {
@@ -1209,7 +1210,7 @@ export function buildStyleStack() {
             Styles.buttongroup.button.css({
                 height: '1.875rem',
                 'line-height': '1.875rem',
-                padding: '0 0.75rem',
+                padding: '0 m',
                 fontSize: 'm',
                 marginRight: 'm',
                 color: 'primary',
@@ -1233,8 +1234,8 @@ export function buildStyleStack() {
             Styles.button.hover({
                 background: 'url(../../assets/images/new/but_default.png) no-repeat center center',
                 backgroundSize: '100% 100%',
-                boxShadow: 'inset 0px 0px 10px 0px hsl(204, 100%, 50%)',
-                color: '#fff !important'
+                boxShadow: 'inset 0px 0px 10px 0px var(--jam-color-primary-default)',
+                color: 'var(--jam-color-on-primary) !important'
             })
         ]
     });
@@ -1287,7 +1288,7 @@ export function buildStyleStack() {
                 border: 'none'
             }),
             Styles.button.icon.css({
-                marginTop: '0.2rem'
+                marginTop: 'xs'
             }),
             Styles.button.size({ width: '6rem' }),
             Styles.button.cap.css({
@@ -1338,7 +1339,7 @@ export function buildStyleStack() {
             }),
             Styles.stylesheet({
                 '.fa-rotate-right': {
-                    color: '#fff !important'
+                    color: 'var(--jam-color-on-primary) !important'
                 }
             })
         ]
@@ -1388,8 +1389,8 @@ export function buildStyleStack() {
                 justifyContent: 'center',
                 gap: 'm',
                 marginLeft: '4vw',
-                marginTop: '0.5rem',
-                marginBottom: '0.5rem',
+                marginTop: 's',
+                marginBottom: 's',
                 background: 'url(../../assets/images/new/but_default.png) no-repeat',
                 backgroundSize: '100% 100%'
                 // background: 'linear-gradient(to right, #4fbdff 50%, #6b95ae),linear-gradient(to bottom, #97bdd3 0%, #376f8f 70%)'

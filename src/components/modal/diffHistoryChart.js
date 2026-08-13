@@ -9,7 +9,7 @@ const diffHistoryChart = (modal_params) => {
             'size.fullsize',
             Styles.stylesheet({
                 ':scope': {
-                    padding: '0.5rem',
+                    padding: 's',
                     display: 'flex',
                     flexDirection: 'column',
                     '.form-box': {
@@ -21,7 +21,7 @@ const diffHistoryChart = (modal_params) => {
         ],
         descStyles: {
             datepicker: [Styles.icon.duotone, Styles.datepicker.regularStyleNew],
-            button: [Styles.diffButton, Styles.diffSearchButton, Styles.button.css({ margin: '0 0.5rem' })]
+            button: [Styles.diffButton, Styles.diffSearchButton, Styles.button.css({ margin: '0 s' })]
         },
         components: [
             {

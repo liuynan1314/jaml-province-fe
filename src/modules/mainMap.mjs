@@ -37,10 +37,10 @@ export default {
             ' .container': {
                 width: '11rem',
                 height: ' 7.075rem',
-                backgroundColor: '#04233b',
+                background: 'elevation',
                 borderRadius: 'm',
                 borderWidth: 's',
-                borderColor: '#00bbfb'
+                borderColor: 'var(--jam-color-primary-default)'
                 // background: 'url(../../assets/images/map_bullet_box.png) no-repeat',
                 // backgroundSize: ' 100% 100%'
             },
@@ -50,24 +50,24 @@ export default {
                 lineHeight: '2rem',
                 margin: 'auto',
                 backgroundSize: ' 14px 16px',
-                paddingLeft: ' 0.5rem',
+                paddingLeft: 's',
                 boxSizing: ' border-box',
                 backgroundPositionY: ' 15px',
                 backgroundPositionX: '5px',
-                backgroundColor: ' #295772',
-                borderRadius: ' 0.3rem 0.3rem 0 0'
+                background: 'tint',
+                borderRadius: 's s 0 0'
             },
 
             '.location': {
                 float: 'left',
                 width: 'calc(100% - 2.8125rem)',
                 fontWeight: 'bold',
-                color: '#ffffff',
-                marginLeft: '0.625rem'
+                color: 'var(--jam-color-on-primary)',
+                marginLeft: 'm'
             },
             '.danwei': {
                 zIndex: 9999,
-                color: '#ffffff',
+                color: 'var(--jam-color-on-primary)',
                 float: 'left',
                 width: ' 1rem',
                 height: ' 100%'
@@ -84,20 +84,20 @@ export default {
                 alignItems: 'center',
                 display: 'flex',
                 justifyContent: 'space-around',
-                padding: '0 0.85rem',
-                marginTop: '0.25rem !important',
+                padding: '0 m',
+                marginTop: 's !important',
                 width: '100%',
                 height: ' 1.25rem',
                 backgroundSize: '100% 50%',
                 fontSize: 's',
                 fontWeight: ' bold',
-                backgroundColor: '#102e45'
+                background: 'tint'
             },
             '.content>li .name': {
                 fontSize: 's',
-                color: ' #ffffff',
+                color: 'var(--jam-color-on-primary)',
                 lineHeight: '20px',
-                padding: ' 0 0.01rem'
+                padding: '0 xs'
             },
 
             '.fhbox': {
@@ -105,7 +105,7 @@ export default {
             },
 
             '.blue': {
-                color: '#ece14a',
+                color: 'warn',
                 fontSize: 's',
                 textAlign: ' right',
                 fontFamily: 'DIN-Medium',
@@ -117,7 +117,7 @@ export default {
 
             '.fuhao': {
                 fontSize: 's',
-                color: '#7ba5c1',
+                color: 'var(--jam-color-fg-muted)',
                 fontFamily: 'SourceHanSansCN-Regular'
             },
             '.mapLegend': {
@@ -467,7 +467,7 @@ export default {
             components: jaml.var('mapLegend', function (mapLegend) {
                 return mapLegend.map((item) => ({
                     icon: item.icon,
-                    styles: [Styles.label.icon.css({ width: '0.875rem', height: '0.875rem' }), Styles.label.cap.css({ marginLeft: '0.1rem' })],
+                    styles: [Styles.label.icon.css({ width: '0.875rem', height: '0.875rem' }), Styles.label.cap.css({ marginLeft: 'xs' })],
                     class: 'mapLegend-item',
                     type: 'label',
                     cap: item.value

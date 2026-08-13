@@ -150,13 +150,13 @@ export default {
                                             display: 'flex',
                                             justifyContent: 'flex-start',
                                             // alignItems: 'center',
-                                            marginLeft: '.625rem',
+                                            marginLeft: 'm',
                                             height: 'fit-content'
                                         }),
                                         Styles.stylesheet({
                                             '.ml-_625rem': {
-                                                marginLeft: '.625rem',
-                                                marginBottom: '.25rem'
+                                                marginLeft: 'm',
+                                                marginBottom: 's'
                                             }
                                         })
                                     ],
@@ -235,7 +235,7 @@ export default {
 
                                 '.station-title': {
                                     '&:not(:first-child)': {
-                                        marginTop: '1rem'
+                                        marginTop: 'm'
                                     }
                                 }
                             },

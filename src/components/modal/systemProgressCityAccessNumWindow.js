@@ -27,7 +27,7 @@ const systemProgressCityAccessNumWindow = (params) => {
                             direction: 'column',
                             'flex-wrap': 'nowrap',
                             'flex-direction': 'column',
-                            gap: '1rem'
+                            gap: 'm'
                         }
                     })
                 ],
@@ -40,13 +40,13 @@ const systemProgressCityAccessNumWindow = (params) => {
                                 type: 'select',
                                 cap: '类型选择:',
                                 value: '{{typeId}}',
-                                styles: [Styles.select.regular, Styles.props({ marginTop: '0.2rem', marginLeft: '1.25rem' })],
+                                styles: [Styles.select.regular, Styles.props({ marginTop: 'xs', marginLeft: 'm' })],
                                 data: deviceList
                             },
                             {
                                 type: 'input',
                                 cap: '变电站：',
-                                styles: [Styles.input.regular, Styles.props({ marginTop: '0.2rem', marginLeft: '1.25rem' })],
+                                styles: [Styles.input.regular, Styles.props({ marginTop: 'xs', marginLeft: 'm' })],
                                 placeholder: '请输入变电站',
                                 valueKey: 'stName'
                             },
@@ -54,7 +54,7 @@ const systemProgressCityAccessNumWindow = (params) => {
                                 type: 'button',
                                 class: 'btn query-btn',
                                 cap: '查询',
-                                styles: [Styles.button.regularStyle, Styles.buttonWithQueryBgNew, Styles.props({ marginTop: '0.2rem', marginLeft: '1.25rem' })],
+                                styles: [Styles.button.regularStyle, Styles.buttonWithQueryBgNew, Styles.props({ marginTop: 'xs', marginLeft: 'm' })],
                                 onclick: function () {
                                     handleTableData();
                                 }

@@ -18,7 +18,7 @@ const remoteVideoAccess = (params) => {
                     'size.fullsize',
                     Styles.stylesheet({
                         ':scope': {
-                            padding: '0.5rem',
+                            padding: 's',
                             iframe: {
                                 height: '100%',
                                 width: '100%',

@@ -12,9 +12,9 @@ export default {
         Styles.css({
             display: 'flex',
             flexDirection: 'column',
-            fontSize: '1.1rem',
+            fontSize: 'm',
             minHeight: '0',
-            paddingRight: '1rem'
+            paddingRight: 'm'
         })
     ],
     components: [
@@ -38,11 +38,11 @@ export default {
                         Styles.css({
                             display: 'flex',
                             height: 'initial',
-                            gap: '0.1rem',
+                            gap: 'xs',
                             alignItems: 'flex-start',
                             width: '100%',
                             alignItems: 'flex-start',
-                            marginBottom: '0.75rem'
+                            marginBottom: 'm'
                         })
                     ],
                     buttongroupStyles: [Styles.buttonGroupStylesWithBgCap],
@@ -116,7 +116,7 @@ export default {
                             width: '100%',
                             height: 'calc(100% - 3rem)',
                             padding: 0,
-                            margin: '0.6rem auto'
+                            margin: 's auto'
                         }),
                         Styles.stylesheet({
                             '.underline': {

@@ -69,13 +69,13 @@ export default {
             '.weather-bottom': {
                 width: '100%',
                 height: 'calc(53% - 0.5rem)',
-                marginTop: '0.5rem',
+                marginTop: 's',
                 position: 'relative',
                 '.weather-list': {
                     width: 'calc(100% - 2rem)',
                     height: '100%',
                     gap: 's',
-                    margin: '0 1rem',
+                    margin: '0 m',
                     overflow: 'auto',
                     scrollbarWidth: 'none',
                     '.weather-list-item': {

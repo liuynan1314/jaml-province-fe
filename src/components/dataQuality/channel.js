@@ -347,7 +347,7 @@ const window = (params) => {
                         height: '20rem',
                         overflow: 'auto',
                         display: 'block',
-                        padding: '0 0.2rem'
+                        padding: '0 xs'
                     })
                 ],
                 components: [
@@ -364,7 +364,7 @@ const window = (params) => {
                                 width: '53.5rem',
                                 height: '18.5rem',
                                 padding: 0,
-                                margin: '0.6rem auto'
+                                margin: 's auto'
                             }),
                             Styles.table.thslot.css({
                                 position: 'sticky',
@@ -426,7 +426,7 @@ const window = (params) => {
                         '--orange-color': 'hsl(40.2, 100%, 50%)',
                         display: 'flex',
                         flexDirection: 'column',
-                        fontSize: '1.1rem',
+                        fontSize: 'm',
                         minHeight: '0'
                     })
                 ],
@@ -438,9 +438,9 @@ const window = (params) => {
                             Styles.css({
                                 display: 'flex',
                                 width: '100%',
-                                gap: '0.1rem',
+                                gap: 'xs',
                                 alignItems: 'center',
-                                paddingBottom: '0.5rem',
+                                paddingBottom: 's',
                                 flexWrap: 'wrap'
                             })
                         ],
@@ -547,7 +547,7 @@ const window = (params) => {
                                 styles: [
                                     Styles.css({
                                         width: '100%',
-                                        marginTop: '0.7rem'
+                                        marginTop: 'm'
                                     })
                                 ],
                                 props: {

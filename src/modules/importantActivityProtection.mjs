@@ -125,7 +125,7 @@ export default {
                             styles: [
                                 Styles.stylesheet({
                                     ':scope': {
-                                        padding: '0 1rem',
+                                        padding: '0 m',
                                         height: '3.8rem',
                                         alignItems: 'center',
                                         justifyContent: 'space-between',
@@ -197,7 +197,7 @@ export default {
                                                 borderTopWidth: 0
                                             },
                                             '&.jam-with-cap': {
-                                                paddingTop: '2rem'
+                                                paddingTop: 'l'
                                             }
                                         }
                                     }
@@ -218,7 +218,7 @@ export default {
                                         {
                                             type: 'indicator-number',
                                             value: '{{item.day}}',
-                                            styles: ['indicator.tweening.dial', 'value.text(size:1.875rem;family:DINPro)', 'padding(right:m)', 'css(justifyContent:flex-end)'],
+                                            styles: ['indicator.tweening.dial', 'value.text(size:l;family:DINPro)', 'padding(right:m)', 'css(justifyContent:flex-end)'],
                                             state: '{{item.isCurrentMonth}}?"isCurrMon":"isNotCurrMon"',
                                             states: {
                                                 isCurrMon: { styles: ['value.text(color:var(--jam-color-fg-default))'] },
@@ -254,7 +254,7 @@ export default {
                                                                     Styles.stylesheet({
                                                                         ':scope': {
                                                                             cursor: 'grab',
-                                                                            paddingLeft: '1.25rem',
+                                                                            paddingLeft: 'm',
                                                                             alignSelf: 'flex-start !important',
                                                                             color: 'muted'
                                                                         }

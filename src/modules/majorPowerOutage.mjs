@@ -38,7 +38,7 @@ export default {
                     display: 'flex',
                     flexWrap: 'wrap',
                     alignItems: 'center',
-                    marginBottom: '1rem',
+                    marginBottom: 'm',
                     position: 'relative',
                     '.change-scene-box': {
                         position: 'relative'
@@ -59,7 +59,7 @@ export default {
                     },
 
                     '.scene-regionName': {
-                        marginRight: '1rem'
+                        marginRight: 'm'
                     }
                 },
 
@@ -69,7 +69,7 @@ export default {
                     gap: 'l',
                     maxHeight: '18rem',
                     overflowY: 'auto',
-                    marginBottom: '1rem'
+                    marginBottom: 'm'
                 },
                 '.major-card-box': {
                     height: '12rem',
@@ -169,7 +169,7 @@ export default {
     ],
     descStyles: {
         input: [Styles.input.agent.css({ width: '12rem' })],
-        button: [Styles.icon.regular, Styles.button.css({ margin: '0 0.5rem ' })]
+        button: [Styles.icon.regular, Styles.button.css({ margin: '0 s' })]
     },
     components: [
         {
@@ -384,7 +384,7 @@ export default {
                                                     }),
                                                     class: 'major-card-cap',
                                                     cap: '{{item.devType}}',
-                                                    styles: [Styles.label.icon.css({ minHeight: 0, minWidth: 0, width: '1rem', height: '1rem', marginRight: '0.2rem' })]
+                                                    styles: [Styles.label.icon.css({ minHeight: 0, minWidth: 0, width: '1rem', height: '1rem', marginRight: 'xs' })]
                                                 },
                                                 {
                                                     type: 'label',

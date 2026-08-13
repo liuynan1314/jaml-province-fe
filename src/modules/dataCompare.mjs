@@ -375,7 +375,7 @@ function getDataDef() {
                                         Styles.css({
                                             width: '4rem',
                                             height: '2rem',
-                                            marginLeft: '0.5rem'
+                                            marginLeft: 's'
                                         })
                                     ],
                                     onclick() {
@@ -534,9 +534,9 @@ export default {
         Styles.css({
             display: 'flex',
             flexDirection: 'column',
-            fontSize: '1.1rem',
+            fontSize: 'm',
             minHeight: '0',
-            marginRight: '1rem'
+            marginRight: 'm'
         })
     ],
     components: [
@@ -561,10 +561,10 @@ export default {
                             display: 'flex',
                             height: 'initial',
                             width: '100%',
-                            gap: '0.1rem',
+                            gap: 'xs',
                             alignItems: 'center',
                             justifyContent: 'flex-start',
-                            paddingBottom: '0.5rem',
+                            paddingBottom: 's',
                             flexWrap: 'wrap'
                         })
                     ],
@@ -752,8 +752,8 @@ export default {
                                 Styles.css({
                                     minHeight: '0%',
                                     width: '100%',
-                                    padding: '0.5rem 0',
-                                    fontSize: '1.2rem',
+                                    padding: 's 0',
+                                    fontSize: 'm',
                                     fontWeight: 'bold'
                                 })
                             ]

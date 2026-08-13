@@ -244,7 +244,7 @@ async function init(config) {
                                   ],
                                   styles: [
                                       Styles.css({
-                                          padding: '1rem',
+                                          padding: 'm',
                                           display: 'flex',
                                           width: 'calc(100% - 15rem)',
                                           height: '100%',
@@ -351,7 +351,7 @@ async function init(config) {
                                           type: 'notifycntr',
                                           slot: 'layer',
                                           props: {
-                                              paddingTop: '0.5rem',
+                                              paddingTop: 's',
                                               position: 'center',
                                               defaultType: 'card',
                                               styles: [Styles.notify.bigicon, Styles.icon.duotone],

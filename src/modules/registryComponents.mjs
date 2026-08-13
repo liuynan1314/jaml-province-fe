@@ -96,7 +96,7 @@ export default {
                 '.jam-cc': {
                     aspectRatio: 'var(--w) / var(--h)',
                     // padding: 'var(--gap-padding)',
-                    // margin: '1rem',
+                    // margin: 'm',
                     // cursor: 'pointer',
                     transition: 'box-shadow 0.4s ease-in-out',
                     position: 'relative',

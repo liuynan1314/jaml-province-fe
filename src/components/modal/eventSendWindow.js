@@ -24,7 +24,7 @@ const eventSendWindow = (parent_msgr, ids) => {
                         ':scope': {
                             display: 'flex',
                             flexDirection: 'column',
-                            padding: '1.2rem',
+                            padding: 'm',
                             'box-sizing': 'border-box'
                         },
                         '.form-wrapper': {

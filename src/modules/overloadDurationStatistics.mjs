@@ -51,7 +51,7 @@ export default {
             props: {
                 unit: '',
                 barWith: '20%',
-                fontSize: '0.6rem',
+                fontSize: 's',
                 dataType: 'analog',
                 valueType: 'number',
                 decimalPos: 2,

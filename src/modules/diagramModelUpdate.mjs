@@ -33,7 +33,7 @@ export default {
                     class: 'form-box',
                     descStyles: {
                         datepicker: [Styles.icon.duotone, Styles.datepicker.regularStyle],
-                        button: [Styles.searchBtnsStyles, Styles.button.css({ margin: '0.2rem 0.5rem' })],
+                        button: [Styles.searchBtnsStyles, Styles.button.css({ margin: 'xs s' })],
                         select: [Styles.icon.duotone, Styles.select.regularStyle, Styles.select.agent.css({ width: '11rem' })],
                         input: [Styles.icon.duotone, Styles.input.regularStyle]
                     },

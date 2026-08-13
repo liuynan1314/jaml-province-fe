@@ -26,7 +26,7 @@ export default {
             // backgroundImage: 'url(../../common/img/dataQualityManagement/bg_right.png)',
             // backgroundSize: '100% 100%',
             // backgroundRepeat: 'no-repeat',
-            // padding: '1rem 0.5rem'
+            // padding: 'm s'
             // color: 'hsl(201.6, 33.3%, 64.1%)'
         })
     ],
@@ -68,7 +68,7 @@ export default {
                             styles: [
                                 Styles.buttonGroupStylesWithBgCap,
                                 Styles.css({
-                                    padding: '0 0.3rem'
+                                    padding: '0 s'
                                 }),
                                 Styles.buttongroup.labelslot.css({
                                     alignSelf: 'flex-start',

@@ -30,7 +30,7 @@ export default {
                     '.year-box': {
                         width: '5rem',
                         height: '2.5rem',
-                        marginLeft: '0.5rem'
+                        marginLeft: 's'
                     },
                     '.chart-line': {
                         height: 'calc(100% - 2.5rem)'

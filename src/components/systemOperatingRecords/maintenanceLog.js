@@ -84,7 +84,7 @@ const maintenanceLog = (page = 0) => {
                                 type: 'button',
                                 cap: '新增',
                                 icon: 'plus',
-                                styles: [Styles.searchBtnsStyles, Styles.props({ marginTop: '0.2rem' })],
+                                styles: [Styles.searchBtnsStyles, Styles.props({ marginTop: 'xs' })],
                                 onclick: function () {
                                     let params = {
                                         key_factor: '',
@@ -101,7 +101,7 @@ const maintenanceLog = (page = 0) => {
                                 type: 'button',
                                 cap: '删除',
                                 icon: 'trash-can',
-                                styles: [Styles.searchBtnsStyles, Styles.props({ marginTop: '0.2rem' })],
+                                styles: [Styles.searchBtnsStyles, Styles.props({ marginTop: 'xs' })],
                                 onclick: function (e) {
                                     jam.popupYesNo(
                                         e.target,
@@ -247,7 +247,7 @@ const maintenanceLog = (page = 0) => {
                                                         'css(cursor:pointer)',
                                                         Styles.stylesheet({
                                                             '[slot=icon]': {
-                                                                margin: '0.25rem'
+                                                                margin: 's'
                                                             }
                                                         })
                                                     ]

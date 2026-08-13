@@ -29,7 +29,7 @@ const sendMiddleFilterWindow = (parent_msgr) => {
                         ':scope': {
                             display: 'flex',
                             flexDirection: 'column',
-                            padding: '1.2rem',
+                            padding: 'm',
                             'box-sizing': 'border-box'
                         },
                         '.btn-wrapper': {

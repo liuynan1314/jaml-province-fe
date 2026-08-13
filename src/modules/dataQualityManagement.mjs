@@ -25,7 +25,7 @@ export default {
             // backgroundImage: 'url(../../common/img/dataQualityManagement/bg_right.png)',
             // backgroundSize: '100% 100%',
             // backgroundRepeat: 'no-repeat',
-            // padding: '1rem 0.5rem'
+            // padding: 'm s'
             // color: 'hsl(201.6, 33.3%, 64.1%)'
         })
     ],
@@ -69,7 +69,7 @@ export default {
                             dataWatcher: 'regionList',
                             styles: [
                                 Styles.css({
-                                    padding: '0 0.3rem'
+                                    padding: '0 s'
                                 }),
                                 Styles.buttongroup.labelslot.css({
                                     alignSelf: 'flex-start',
@@ -111,7 +111,7 @@ export default {
                                         }),
                                         Styles.connectLine,
                                         Styles.css({
-                                            padding: '0 0.25rem'
+                                            padding: '0 s'
                                         })
                                     ],
                                     onvaluechange() {
@@ -126,7 +126,7 @@ export default {
                                     valueKey: 'endTime',
                                     styles: [
                                         Styles.css({
-                                            padding: '0 0.25rem'
+                                            padding: '0 s'
                                         })
                                     ],
                                     onvaluechange() {
@@ -145,7 +145,7 @@ export default {
                                             margin: '0'
                                         }),
                                         Styles.css({
-                                            padding: '0 0.25rem'
+                                            padding: '0 s'
                                         })
                                     ],
                                     data: [

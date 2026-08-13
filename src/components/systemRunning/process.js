@@ -47,7 +47,7 @@ const window = (params) => {
                 '--orange-color': 'hsl(40.2, 100%, 50%)',
                 display: 'flex',
                 flexDirection: 'column',
-                fontSize: '1.1rem',
+                fontSize: 'm',
                 minHeight: '0'
             })
         ],
@@ -59,10 +59,10 @@ const window = (params) => {
                     Styles.css({
                         display: 'flex',
                         width: '100%',
-                        gap: '0.1rem',
+                        gap: 'xs',
                         alignItems: 'center',
                         justifyContent: 'flex-start',
-                        paddingBottom: '0.5rem',
+                        paddingBottom: 's',
                         flexWrap: 'wrap'
                     })
                 ],

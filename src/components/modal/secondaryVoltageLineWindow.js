@@ -13,7 +13,7 @@ export default function (props) {
                     position: 'sticky',
                     top: 0,
                     height: '1.6875rem',
-                    paddingLeft: '1.375rem',
+                    paddingLeft: 'l',
                     color: 'transparent',
                     backgroundImage: 'linear-gradient(180deg, var(--jam-color-on-primary) 10%, var(--jam-color-primary-default) 90%, var(--jam-color-primary-default) 100%)',
                     '-webkit-background-clip': 'text',
@@ -71,7 +71,7 @@ export default function (props) {
             //         'flex(direction:column)',
             //         Styles.stylesheet({
             //             'jam-label:first-child': {
-            //                 marginTop: '.875rem'
+            //                 marginTop: 's'
             //             },
             //             '.empty::after': {
             //                 content: '无告警记录'

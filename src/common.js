@@ -816,7 +816,7 @@ export function formatterJameBv(bvName) {
                   Styles.label.cap.css({
                       width: '3rem',
                       textAlign: 'left',
-                    //   marginLeft: '.625rem'
+                    //   marginLeft: 'm'
                   })
               ]
           })

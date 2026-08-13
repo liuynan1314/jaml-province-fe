@@ -39,7 +39,7 @@ export default {
                             type: 'wrapper',
                             styles: [
                                 Styles.css({
-                                    marginTop: '1rem'
+                                    marginTop: 'm'
                                 })
                             ],
                             components: [
@@ -72,11 +72,11 @@ export default {
                                 'layout.flex(alignItems:center;justifyContent:flex-start)',
                                 Styles.stylesheet({
                                     '.ml-_625rem': {
-                                        marginLeft: '.625rem'
+                                        marginLeft: 'm'
                                     }
                                 }),
                                 Styles.css({
-                                    marginTop: '1rem'
+                                    marginTop: 'm'
                                 })
                             ],
                             childStyles: ['margin(top:var(--gap))', 'datepicker.agent.border(radius:.25rem)'],
@@ -144,7 +144,7 @@ export default {
                                                 display: 'block',
                                                 minWidth: '13.2rem',
                                                 height: '2.25rem',
-                                                paddingLeft: '1.5rem',
+                                                paddingLeft: 'l',
                                                 backgroundImage: 'url(./../assets/images/title_third.png)',
                                                 backgroundRepeat: 'no-repeat',
                                                 backgroundPosition: 'bottom var(--gap) left',
@@ -169,7 +169,7 @@ export default {
                                             styles: ['padding(0 1rem)', 'layout.flex(justifyContent:space-between;alignItems:center)'],
                                             descStyles: {
                                                 label: [
-                                                    'text(size:.875rem;)',
+                                                    'text(size:s;)',
                                                     Styles.stylesheet({
                                                         '.title-color': {
                                                             color: 'var(--jam-color-primary-default)'

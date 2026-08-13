@@ -44,7 +44,7 @@ const dataDefs = [
         sortable: true,
         unit: 'min',
         type: 'indicator-number',
-        color: '#377915',
+        color: 'success',
         align: 'center',
         styles: ['indicator.capslot.hide'],
         formatter: function (val) {
@@ -97,7 +97,7 @@ const dataDefs = [
         sortable: true,
         type: 'indicator-number',
         unit: 'MW',
-        color: '#36547f',
+        color: 'primary',
         align: 'center',
         styles: ['indicator.capslot.hide'],
         formatter: function (val) {
@@ -110,7 +110,7 @@ const dataDefs = [
         sortable: true,
         type: 'indicator-number',
         unit: '%',
-        color: '#69690c',
+        color: 'warn',
         align: 'center',
         styles: ['indicator.capslot.hide'],
         formatter: function (val) {
@@ -142,7 +142,7 @@ const dataDefs = [
         sortable: false,
         unit: 'MVA',
         type: 'indicator-number',
-        color: '#36547f',
+        color: 'primary',
         align: 'center',
         styles: ['indicator.capslot.hide'],
         formatter: function (val) {

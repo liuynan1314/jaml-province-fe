@@ -38,21 +38,21 @@ export default {
                 display: 'flex',
                 justifyContent: 'center',
                 '&>[slot=cap]': {
-                    fontSize: '2.4rem',
-                    marginLeft: '0.3rem',
-                    color: '#b9c3c7'
+                    fontSize: 'xl',
+                    marginLeft: 's',
+                    color: 'var(--jam-color-fg-muted)'
                 },
                 '&>[slot=value]': {
                     margin: 0,
-                    fontSize: '2rem',
-                    color: '#fff',
+                    fontSize: 'l',
+                    color: 'var(--jam-color-on-primary)',
                     fontWeight: 'bold'
                 },
                 '&>[slot=unit]': {
                     backgroundColor: 'transparent',
-                    fontSize: '1.2rem',
-                    marginLeft: '0.1rem',
-                    color: '#b9c3c7'
+                    fontSize: 'm',
+                    marginLeft: 'xs',
+                    color: 'var(--jam-color-fg-muted)'
                 }
             }
         })

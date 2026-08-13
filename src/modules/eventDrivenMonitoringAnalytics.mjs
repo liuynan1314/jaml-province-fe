@@ -37,7 +37,7 @@ export default {
             },
             '.legend': {
                 cursor: 'pointer',
-                paddingTop: '1rem !important'
+                paddingTop: 'm !important'
             }
         })
     ],
@@ -139,7 +139,7 @@ export default {
                                 Styles.stylesheet({
                                     ':scope': {},
                                     '.ml-_625rem': {
-                                        marginLeft: '.625rem'
+                                        marginLeft: 'm'
                                     }
                                 })
                             ],
@@ -219,7 +219,7 @@ export default {
                                                 minWidth: '13.2rem',
                                                 height: '2.25rem',
                                                 color: 'muted',
-                                                paddingLeft: '1.5rem',
+                                                paddingLeft: 'l',
                                                 backgroundImage: 'url(./../assets/images/title_third.png)',
                                                 backgroundRepeat: 'no-repeat',
                                                 backgroundPosition: 'bottom var(--gap) left',

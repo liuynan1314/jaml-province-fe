@@ -113,7 +113,7 @@ export default {
         'size.fullsize',
         Styles.stylesheet({
             ':scope': {
-                padding: '1.2rem',
+                padding: 'm',
                 'box-sizing': 'border-box'
             },
             '.form-box': {

@@ -10,7 +10,7 @@ export default {
         Styles.layout.grid({ cols: 16, rows: 10 }),
         Styles.stylesheet({
             ':scope': {
-                padding: '1rem'
+                padding: 'm'
             },
             '.form-wrapper': {
                 height: '2rem',
@@ -19,7 +19,7 @@ export default {
                     marginTop: '-0.1rem'
                 },
                 '.btn': {
-                    marginRight: '0.5rem'
+                    marginRight: 's'
                 }
             },
             '.chart-wrapper': {

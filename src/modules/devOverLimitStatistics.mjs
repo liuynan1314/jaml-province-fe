@@ -37,8 +37,8 @@ export default {
         }),
         Styles.stylesheet({
             '.dateRangePicker': {
-                marginTop: '1rem',
-                marginBottom: '1rem',
+                marginTop: 'm',
+                marginBottom: 'm',
                 width: '100%'
             }
         })
@@ -97,7 +97,7 @@ export default {
                         justifyContent: 'flex-start',
                         '.jam-cc-legend': {
                             width: 'calc((100% - 9rem)/4)',
-                            marginRight: '2rem',
+                            marginRight: 'l',
                             cursor: 'pointer'
                         },
                         '.jam-cc-legend:nth-child(4n)': {

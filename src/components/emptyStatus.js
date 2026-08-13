@@ -19,7 +19,7 @@ jaml.register('emptyStatus', {
         {
             type: 'label',
             cap: '{{desc}}',
-            styles: [Styles.label.cap.text({ size: '1.5rem' })]
+            styles: [Styles.label.cap.text({ size: 'l' })]
         }
     ]
 });

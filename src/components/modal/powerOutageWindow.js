@@ -181,7 +181,7 @@ function buildTipContent(details) {
         stylize: 'json',
         styles: [
             'group.divider',
-            Styles.css({ minWidth: '24rem', maxWidth: '30rem', paddingTop: '2rem' }),
+            Styles.css({ minWidth: '24rem', maxWidth: '30rem', paddingTop: 'l' }),
             Styles.stylesheet({
                 ':scope .jam-depth-0': {
                     flexDirection: 'column',

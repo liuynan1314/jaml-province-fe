@@ -46,14 +46,14 @@ const topLegendStyle = [
         cursor: 'pointer'
     }),
     Styles.indicator.unit.css({
-        fontSize: '1rem',
+        fontSize: 'm',
         lineHeight: '1rem',
         backgroundColor: 'transparent',
         fontWeight: 'normal',
         border: 'none',
         boxShadow: 'none',
         color: 'var(--jam-element-color)',
-        padding: '0 0.25rem'
+        padding: '0 s'
     })
 ];
 

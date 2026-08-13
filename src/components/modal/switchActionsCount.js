@@ -55,8 +55,8 @@ const window = (tableData, title) => {
                                               type: 'badge',
                                               styles: [
                                                   Styles.css({
-                                                      borderRadius: '0.2rem',
-                                                      fontSize: '0.9rem'
+                                                      borderRadius: 'xs',
+                                                      fontSize: 's'
                                                   })
                                               ],
                                               cap: jam.formatTime(value, 'yyyy-MM-dd'),

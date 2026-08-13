@@ -52,7 +52,7 @@ jaml.register('sceneList', {
         })
     ],
     descStyles: {
-        label: [Styles.label.icon.css({ fontSize: '1.3rem', cursor: 'pointer' })]
+        label: [Styles.label.icon.css({ fontSize: 'l', cursor: 'pointer' })]
     },
     components: [
         {
@@ -87,7 +87,7 @@ jaml.register('sceneList', {
                     styles: [
                         Styles.buttonGroupStyles,
                         Styles.button.css({
-                            marginBottom: '0.5rem'
+                            marginBottom: 's'
                         })
                     ]
                 }

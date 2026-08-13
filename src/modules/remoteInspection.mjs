@@ -28,7 +28,7 @@ export default {
                     background: 'url(../../assets/images/remote-card.png) no-repeat',
                     backgroundSize: '100% 100%',
                     border: 's solid var(--jam-color-primary-subtle)',
-                    marginRight: '2rem',
+                    marginRight: 'l',
                     '&:nth-child(2n)': {
                         marginRight: 0
                     },
@@ -66,14 +66,14 @@ export default {
                             '& > span[slot="value"]': {
                                 fontSize: 'l',
                                 margin: 0,
-                                color: '#1FC6FF',
+                                color: 'var(--jam-color-primary-default)',
                                 fontFamily: 'DINPro',
                                 fontWeight: 'bold'
                             },
                             '& > span[slot="unit"]': {
                                 background: 'transparent',
                                 fontSize: 'l',
-                                color: '#85acc2',
+                                color: 'var(--jam-color-fg-muted)',
                                 opacity: 0.8999999761581421,
                                 fontFamily: 'DINPro',
                                 fontWeight: 'normal'
@@ -98,13 +98,13 @@ export default {
                         right: '1.5rem',
                         padding: '0 s',
                         '& > span[slot="cap"]': {
-                            color: '#85acc2',
+                            color: 'var(--jam-color-fg-muted)',
                             fontFamily: 'DINPro',
                             fontSize: 'l',
                             alignItems: 'center'
                         },
                         '& > span[slot="value"]': {
-                            color: '#00D1D1',
+                            color: 'var(--jam-color-primary-default)',
                             fontFamily: 'DINPro',
                             fontSize: 'l',
                             alignItems: 'center',
@@ -131,7 +131,7 @@ export default {
                     position: 'relative',
                     '.chart-title': {
                         fontSize: 'l',
-                        color: '#fff'
+                        color: 'var(--jam-color-on-primary)'
                     },
                     '.chart-state': {
                         width: '5rem',
@@ -153,7 +153,7 @@ export default {
                         top: '50%',
                         left: '50%',
                         transform: 'translate(-50%, -50%)',
-                        color: '#fff',
+                        color: 'var(--jam-color-on-primary)',
                         fontSize: 'l',
                         fontWeight: 'bold',
                         display: 'flex',
@@ -162,7 +162,7 @@ export default {
                             fontSize: 'l',
                             fontFamily: 'DINPro',
                             fontWeight: 'normal',
-                            color: '#fff'
+                            color: 'var(--jam-color-on-primary)'
                         }
                     }
                 }
@@ -251,16 +251,16 @@ export default {
                                 正常: {
                                     styles: [
                                         Styles.label.css({
-                                            border: 's solid #00C853',
-                                            color: '#00C853'
+                                            border: 's solid success',
+                                            color: 'success'
                                         })
                                     ]
                                 },
                                 异常: {
                                     styles: [
                                         Styles.label.css({
-                                            border: 's solid #ffab00',
-                                            color: '#ffab00'
+                                            border: 's solid warn',
+                                            color: 'warn'
                                         })
                                     ]
                                 }
@@ -304,14 +304,14 @@ export default {
                                         站点覆盖率: {
                                             styles: [
                                                 Styles.indicator.cap.css({
-                                                    color: '#1fc6ff'
+                                                    color: 'primary'
                                                 })
                                             ]
                                         },
                                         异常点位比率: {
                                             styles: [
                                                 Styles.indicator.cap.css({
-                                                    color: '#ffab00'
+                                                    color: 'warn'
                                                 })
                                             ]
                                         }

@@ -218,8 +218,7 @@ export default {
                                                     'text(size:s;)',
                                                     Styles.stylesheet({
                                                         '.title-color': {
-                                                            // color: jam.ac(0.95, 1, jam.lumiL(40))
-                                                            color: '#d9970b'
+                                                            color: 'warn'
                                                         }
                                                     })
                                                 ]

@@ -22,7 +22,7 @@ export default {
         Styles.css({
             display: 'flex',
             flexDirection: 'column',
-            gap: '0.5rem'
+            gap: 's'
         })
     ],
     components: [
@@ -61,13 +61,13 @@ export default {
                                 Styles.stylesheet({
                                     ':scope': {},
                                     '.ml-_625rem': {
-                                        marginLeft: '.625rem'
+                                        marginLeft: 'm'
                                     },
                                     'jam-container': {
-                                        marginBottom: '0.4rem'
+                                        marginBottom: 's'
                                     },
                                     'jam-select': {
-                                        marginBottom: '0.1rem'
+                                        marginBottom: 'xs'
                                     }
                                 })
                             ],
@@ -81,7 +81,7 @@ export default {
                                 Styles.stylesheet({
                                     ':scope': {},
                                     '.ml-_625rem': {
-                                        marginLeft: '.625rem'
+                                        marginLeft: 'm'
                                     }
                                 })
                             ],
@@ -105,7 +105,7 @@ export default {
                                             display: 'block',
                                             minWidth: '13.2rem',
                                             height: '2.25rem',
-                                            paddingLeft: '1.5rem',
+                                            paddingLeft: 'l',
                                             backgroundImage: 'url(./../assets/images/title_third.png)',
                                             backgroundRepeat: 'no-repeat',
                                             backgroundPosition: 'bottom var(--gap) left',

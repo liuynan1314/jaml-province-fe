@@ -26,7 +26,7 @@ export default {
                 'layout(position:absolute;transform:translate(-50%,-50%);zIndex:1)',
                 'css(top:55%;left:50%;grid-template-areas:"c c c c""v v v u")',
                 'cap.css(gridArea:c;justifySelf:center)',
-                `value.text(size:1.5rem;family:DINPro;)`,
+                `value.text(size:l;family:DINPro;)`,
                 'indicator.unit.css(backgroundColor:transparent;boxShadow:none;)'
             ]
         },

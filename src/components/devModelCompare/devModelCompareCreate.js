@@ -164,7 +164,7 @@ const window = () => {
                 Styles.css({
                     display: 'flex',
                     flexDirection: 'column',
-                    fontSize: '1.1rem',
+                    fontSize: 'm',
                     minHeight: '0'
                 })
             ],
@@ -176,11 +176,11 @@ const window = () => {
                         Styles.css({
                             display: 'flex',
                             flexDirection: 'column',
-                            fontSize: '1.1rem',
+                            fontSize: 'm',
                             width: '100%',
-                            gap: '0.1rem',
+                            gap: 'xs',
                             flexWrap: 'wrap',
-                            padding: '2rem 0 0 2rem'
+                            padding: 'l 0 0 l'
                         })
                     ],
                     selectStyles: [
@@ -394,7 +394,7 @@ const window = () => {
                                     display: 'flex',
                                     justifyContent: 'flex-end',
                                     alignItem: 'center',
-                                    padding: '1rem'
+                                    padding: 'm'
                                 })
                             ],
                             components: [
@@ -403,7 +403,7 @@ const window = () => {
                                     cap: '确定',
                                     styles: [
                                         Styles.css({
-                                            marginLeft: '0.5rem'
+                                            marginLeft: 's'
                                         })
                                     ],
                                     onclick() {
@@ -415,7 +415,7 @@ const window = () => {
                                     cap: '取消',
                                     styles: [
                                         Styles.css({
-                                            marginLeft: '0.5rem'
+                                            marginLeft: 's'
                                         })
                                     ],
                                     onclick() {

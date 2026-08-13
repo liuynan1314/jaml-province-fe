@@ -11,8 +11,8 @@ export default {
         'size.fullsize',
         Styles.stylesheet({
             ':scope': {
-                // padding: '1.2rem',
-                // padding: '0.5rem',
+                // padding: 'm',
+                // padding: 's',
                 'box-sizing': 'border-box'
             },
             '.form-box': {

@@ -57,7 +57,7 @@ const defectRecord = () => {
                                 class: 'btn jam-cta',
                                 cap: '查询',
                                 icon: 'magnifying-glass',
-                                styles: [Styles.searchBtnsStyles, Styles.props({ marginTop: '0.2rem' })],
+                                styles: [Styles.searchBtnsStyles, Styles.props({ marginTop: 'xs' })],
                                 onclick: function () {
                                     getDefectPage();
                                 }

@@ -94,7 +94,7 @@ jaml.register('treeFilterSelect', {
                         padding: 0
                     },
                     '.tree': {
-                        padding: '0.75rem',
+                        padding: 'm',
                         overflow: 'auto',
                         width: '100%',
                         height: '100%'

@@ -198,7 +198,7 @@ const maintenancePersonnel = (page = 0) => {
                                                     'css(cursor:pointer)',
                                                     Styles.stylesheet({
                                                         '[slot=icon]': {
-                                                            margin: '0.25rem'
+                                                            margin: 's'
                                                         }
                                                     })
                                                 ]

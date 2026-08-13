@@ -39,7 +39,7 @@ export default function newModal({ title = '', body, width = '40vw', height = '6
                     Styles.animation.entry,
                     Styles.animation.exit,
                     Styles.hover.brighter,
-                    Styles.card.titleslot.text({ size: '.875rem' }),
+                    Styles.card.titleslot.text({ size: 's' }),
                     Styles.card.titleslot.size({ width: '100%' }),
                     Styles.card.titleslot.css({ justifyContent: 'flex-start', boxSizing: 'border-box', backgroundClip: 'border', borderRadius: 0, borderBottom: 's solid var(--jam-color-outline-muted)' }),
                     Styles.card.bodyslot.size({ width: '100%', height: 'calc(100% - var(--jam-card-title-height,auto))' }),

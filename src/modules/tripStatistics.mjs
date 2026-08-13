@@ -40,7 +40,7 @@ export default {
                 position: 'absolute'
             },
             '.jam-cc-chart-wrapper': {
-                marginTop: '2rem',
+                marginTop: 'l',
                 height: 'calc(100% - 2rem)'
             }
         })

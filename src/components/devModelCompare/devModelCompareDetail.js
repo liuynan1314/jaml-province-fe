@@ -180,7 +180,7 @@ const window = (recordId) => {
             Styles.css({
                 display: 'flex',
                 flexDirection: 'column',
-                fontSize: '1.1rem',
+                fontSize: 'm',
                 minHeight: '0'
             })
         ],
@@ -192,9 +192,9 @@ const window = (recordId) => {
                     Styles.css({
                         display: 'flex',
                         // width: '100%',
-                        gap: '0.1rem',
+                        gap: 'xs',
                         alignItems: 'center',
-                        paddingBottom: '0.5rem',
+                        paddingBottom: 's',
                         flexWrap: 'wrap'
                     })
                 ],
@@ -275,7 +275,7 @@ const window = (recordId) => {
                             Styles.searchBtnsStyles,
                             Styles.css({
                                 height: '2rem',
-                                marginLeft: '0.5rem'
+                                marginLeft: 's'
                             })
                         ],
                         onclick() {
@@ -340,7 +340,7 @@ const window = (recordId) => {
                         styles: [
                             Styles.css({
                                 width: '100%',
-                                marginTop: '0.7rem'
+                                marginTop: 'm'
                             })
                         ],
                         props: {

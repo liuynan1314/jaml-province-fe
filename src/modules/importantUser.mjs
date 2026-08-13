@@ -22,7 +22,7 @@ export default {
                 display: 'flex',
                 flexDirection: 'column',
                 position: 'relative',
-                marginBottom: '0.5rem',
+                marginBottom: 's',
                 border: 's solid var(--jam-color-primary-subtle)',
                 backdropFilter: ' blur(24px)'
             },
@@ -34,13 +34,13 @@ export default {
                 flexDirection: 'column'
             },
             '.form-item': {
-                marginBottom: '.5rem',
+                marginBottom: 's',
                 display: 'flex',
                 alignItems: 'center'
             },
 
             '.search_btn': {
-                marginLeft: '0.625rem'
+                marginLeft: 'm'
             },
             '.bvIcon': {
                 width: '0.625rem',
@@ -110,7 +110,7 @@ export default {
                 color: 'onprimary'
             },
             '.userName:hover': {
-                background: 'linear-gradient(180deg, #c3e3f0ff 0%, #FFFFFF 100%)',
+                background: 'linear-gradient(180deg, var(--jam-color-primary-default) 0%, var(--jam-color-on-primary) 100%)',
                 '-webkit-background-clip': 'text',
                 'background-clip': 'text',
                 '-webkit-text-fill-color': 'transparent',

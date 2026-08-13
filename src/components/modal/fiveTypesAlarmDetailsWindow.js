@@ -82,7 +82,7 @@ function renderTotalTable(_params) {
                         cap: '导出',
                         icon: 'file-export',
                         class: 'export-btn',
-                        styles: [Styles.icon.duotone, Styles.css({ height: '2rem', marginTop: '0.3rem' })],
+                        styles: [Styles.icon.duotone, Styles.css({ height: '2rem', marginTop: 's' })],
                         state: '{{to-export-table}}?"loading":"normal"',
                         states: {
                             loading: {

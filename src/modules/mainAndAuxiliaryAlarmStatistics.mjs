@@ -102,7 +102,7 @@ export default {
                     fontSize: 's'
                 },
                 '& span[slot=value]': {
-                    marginLeft: '0.2rem',
+                    marginLeft: 'xs',
                     fontSize: 'm',
                     fontWeight: 'bold',
                     fontFamily: 'DINPro',

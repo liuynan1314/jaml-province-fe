@@ -61,7 +61,7 @@ const oilTemperatureAnalysisWindow = (params) => {
                         type: 'wrapper',
                         class: 'container',
                         descStyles: {
-                            button: [Styles.searchBtnsStyles, Styles.button.css({ margin: '0.2rem 0.5rem' })]
+                            button: [Styles.searchBtnsStyles, Styles.button.css({ margin: 'xs s' })]
                         },
                         components: [
                             {

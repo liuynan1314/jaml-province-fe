@@ -572,7 +572,7 @@ class Scene3DManager {
         const mode = options.mode || 'flash';
 
         const defaultConfig = {
-            color: '#f23639',
+            color: jam.getColor('error').hex(),
             width: 1,
             speed: 1
         };
@@ -631,7 +631,7 @@ class Scene3DManager {
         const mode = options.mode || 'flash';
 
         const defaultConfig = {
-            color: '#f23639',
+            color: jam.getColor('error').hex(),
             width: 1,
             speed: 1
         };

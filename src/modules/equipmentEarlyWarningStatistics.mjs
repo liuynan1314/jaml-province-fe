@@ -80,7 +80,7 @@ export default {
                         //     width: 'var(--menu-width)',
                         //     height: '2.5rem',
                         //     lineHeight: '2.5rem',
-                        //     paddingLeft: '2.5rem',
+                        //     paddingLeft: 'xl',
                         //     backgroundImage: `linear-gradient(90deg, ${COLOR_SET.thbrclr} 0%, transparent 100%)`,
                         //     fontSize: '1.125rem',
                         //     fontWeight: 'bold',
@@ -187,7 +187,7 @@ export default {
                                             marginRight: 's',
 
                                             '.label-icon': {
-                                                margin: '0 0.1rem 0 1rem',
+                                                margin: '0 xs 0 m',
                                                 fontWeight: 'bold',
                                                 display: 'flex',
                                                 alignItems: 'center',
@@ -450,7 +450,7 @@ export default {
                                 //                 'layout(position:absolute;transform:translate(-50%,-50%);zIndex:1)',
                                 //                 'css(top:50%;left:50%;grid-template-areas:"c c c c""v v v u")',
                                 //                 'cap.css(gridArea:c;justifySelf:center)',
-                                //                 `value.text(size:1.5rem;family:DINPro;color:${COLOR_SET.primarytextclr})`,
+                                //                 `value.text(size:l;family:DINPro;color:${COLOR_SET.primarytextclr})`,
                                 //                 'indicator.unit.css(backgroundColor:transparent;boxShadow:none;)'
                                 //             ]
                                 //         },
@@ -488,7 +488,7 @@ export default {
                                 //                         'padding(left:0)',
                                 //                         'css(grid-template-areas:"i c v u";cursor:pointer)',
                                 //                         'cap.size(minWidth:2.25rem)',
-                                //                         `cap.text(size:.875rem;color:${COLOR_SET.secondarytextclr})`,
+                                //                         `cap.text(size:s;color:${COLOR_SET.secondarytextclr})`,
                                 //                         `value.size(width:2.5rem)`,
                                 //                         'value.css(justifyContent:flex-end)',
                                 //                         `value.text(size:1.125rem;family:DINPro;weight:bold;color:${COLOR_SET.firsttextclr};)`

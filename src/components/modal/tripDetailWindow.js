@@ -205,7 +205,7 @@ export default function (props, isForTrip, title) {
                                                         height: '.45rem',
                                                         borderRadius: '50%',
                                                         marginRight: 's',
-                                                        backgroundImage: 'linear-gradient(135deg, #02b1f1, black)'
+                                                        backgroundImage: 'linear-gradient(135deg, var(--jam-color-primary-default), var(--jam-color-primary-subtle))'
                                                     }
                                                 }
                                             })

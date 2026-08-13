@@ -29,7 +29,7 @@ const sendHeadquartersFilterWindow = (parent_msgr) => {
                         ':scope': {
                             display: 'flex',
                             flexDirection: 'column',
-                            padding: '1.2rem',
+                            padding: 'm',
                             'box-sizing': 'border-box'
                         },
                         '.form-wrapper': {

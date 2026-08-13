@@ -282,7 +282,7 @@ export default {
                                 const textWithBr = el.parentElement.col(7);
                                 return textWithBr;
                             },
-                            style: { '--jam-labelslot-width': 'fit-content', padding: '1rem', height: 'auto', width: 'fit-content', lineHeight: '2rem', maxWidth: '20vw', overflowY: 'auto' }
+                            style: { '--jam-labelslot-width': 'fit-content', padding: 'm', height: 'auto', width: 'fit-content', lineHeight: '2rem', maxWidth: '20vw', overflowY: 'auto' }
                         })
                     ],
                     styles: [

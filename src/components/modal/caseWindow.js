@@ -104,7 +104,7 @@ export default function (params, _msgr) {
                     },
                     {
                         type: 'wrapper',
-                        styles: ['size.fullwidth', 'wrapper.buttonwrapper', Styles.css({ marginTop: '1rem', position: 'fixed', bottom: '0', left: '0' })],
+                        styles: ['size.fullwidth', 'wrapper.buttonwrapper', Styles.css({ marginTop: 'm', position: 'fixed', bottom: '0', left: '0' })],
                         childStyles: ['icon.duotone', Styles.css({ borderRadius: '0' })],
                         components: [
                             {

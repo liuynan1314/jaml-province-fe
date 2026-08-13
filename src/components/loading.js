@@ -22,7 +22,7 @@ jaml.register('loading', {
             cap: '数据加载中...',
             styles: [
                 Styles.css({
-                    fontSize: '2.5rem'
+                    fontSize: 'xl'
                 })
             ],
             components: [

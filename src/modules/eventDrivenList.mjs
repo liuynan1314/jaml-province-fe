@@ -15,7 +15,7 @@ export default {
         }),
         Styles.stylesheet({
             '.content-box': {
-                padding: '0 1rem',
+                padding: '0 m',
                 overflow: 'hidden',
                 '.basic-table': {
                     width: '83%'

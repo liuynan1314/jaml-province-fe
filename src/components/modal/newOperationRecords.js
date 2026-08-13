@@ -19,7 +19,7 @@ const newOperationRecords = (params) => {
             }),
             Styles.stylesheet({
                 '.form-wrapper': {
-                    marginBottom: '1rem'
+                    marginBottom: 'm'
                 }
             })
         ],
@@ -56,7 +56,7 @@ const newOperationRecords = (params) => {
                                 class: 'btn jam-cta',
                                 cap: '查询',
                                 icon: 'magnifying-glass',
-                                styles: [Styles.searchBtnsStyles, Styles.props({ marginTop: '0.2rem' })],
+                                styles: [Styles.searchBtnsStyles, Styles.props({ marginTop: 'xs' })],
                                 onclick: function () {
                                     getParamsSettingData();
                                 }
@@ -67,7 +67,7 @@ const newOperationRecords = (params) => {
                                       class: 'btn jam-cta',
                                       icon: 'plus',
 
-                                      styles: [Styles.searchBtnsStyles, Styles.props({ marginTop: '0.2rem' })],
+                                      styles: [Styles.searchBtnsStyles, Styles.props({ marginTop: 'xs' })],
                                       cap: '新增',
                                       onclick: function () {
                                           if (params.statusName == '已解决' || params.statusName == '已归档') {
@@ -95,7 +95,7 @@ const newOperationRecords = (params) => {
                                       class: 'btn jam-cta',
                                       icon: 'trash-can',
 
-                                      styles: [Styles.searchBtnsStyles, Styles.props({ marginTop: '0.2rem' })],
+                                      styles: [Styles.searchBtnsStyles, Styles.props({ marginTop: 'xs' })],
                                       cap: '删除',
                                       onclick: function (e) {
                                           let selectRows = _model.selectRows || [];
@@ -240,7 +240,7 @@ const newOperationRecords = (params) => {
                                                         'css(cursor:pointer)',
                                                         Styles.stylesheet({
                                                             '[slot=icon]': {
-                                                                margin: '0.25rem'
+                                                                margin: 's'
                                                             }
                                                         })
                                                     ]

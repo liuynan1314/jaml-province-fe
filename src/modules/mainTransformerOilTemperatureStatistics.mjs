@@ -30,7 +30,7 @@ export default {
                 '.btn-box': {
                     marginLeft: 'm',
                     'jam-button': {
-                        marginRight: '1rem'
+                        marginRight: 'm'
                     }
                 }
             },
@@ -38,7 +38,7 @@ export default {
                 width: '100%'
             },
             '.echarts-box': {
-                marginTop: '1rem',
+                marginTop: 'm',
                 justifyContent: 'space-between',
                 '.temp-box': {
                     width: 'calc((100% - 2rem)/3)',

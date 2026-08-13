@@ -11,7 +11,7 @@ jaml.register('treeSelect', {
             flex: '0 0 12rem',
             overflow: 'auto',
             whiteSpace: 'nowrap',
-            padding: '.625rem'
+            padding: 'm'
         }),
         Styles.stylesheet({
             '.nodes-wrapper': {
@@ -165,7 +165,7 @@ function buildTree(tree) {
                       class: 'nodes-wrapper',
                       state: 0,
                       states: [{ styles: [Styles.css({ maxHeight: '1000px' })] }, { styles: [Styles.css({ maxHeight: 0 })] }],
-                      styles: [Styles.css({ paddingLeft: '1rem', display: 'flex', flexDirection: 'column', overflow: 'hidden', transition: 'all 0.5s' })],
+                      styles: [Styles.css({ paddingLeft: 'm', display: 'flex', flexDirection: 'column', overflow: 'hidden', transition: 'all 0.5s' })],
                       components: buildTree(el.children)
                   }
         );

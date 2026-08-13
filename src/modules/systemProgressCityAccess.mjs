@@ -175,7 +175,7 @@ export default {
                                             showIf: '{{isTest}}',
                                             class: 'btn query-btn',
                                             cap: '变电站统计',
-                                            styles: [Styles.button.regularStyle, Styles.buttonWithQueryBgNew, Styles.props({ marginTop: '0.2rem', width: '7rem' })],
+                                            styles: [Styles.button.regularStyle, Styles.buttonWithQueryBgNew, Styles.props({ marginTop: 'xs', width: '7rem' })],
                                             onclick: function () {
                                                 const params = {
                                                     title: '变电站统计'

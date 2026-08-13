@@ -13,7 +13,7 @@ export default {
         'size.fullsize',
         Styles.stylesheet({
             ':scope': {
-                // padding: '1.2rem',
+                // padding: 'm',
                 'box-sizing': 'border-box'
             },
             '.form-box': {
@@ -28,7 +28,7 @@ export default {
                         '--color': 'var(--jam-color-primary-subtle) !important',
                         '--stroke-color': 'var(--jam-color-primary-subtle) !important',
                         '--color2': `rgba(0,0,0,0) !important`,
-                        marginTop: '0.2rem'
+                        marginTop: 'xs'
                     }
                 }
             },

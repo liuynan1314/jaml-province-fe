@@ -422,7 +422,7 @@ export default {
                 minHeight: '14rem',
                 flexDirection: 'column',
                 '.btnContent': {
-                    marginTop: '.625rem',
+                    marginTop: 'm',
                     alignItems: 'center'
                 }
             },

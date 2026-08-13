@@ -30,7 +30,7 @@ export default {
                     position: 'absolute',
                     right: 0,
                     top: '-3.4rem',
-                    margin: '0.25rem 0.5rem'
+                    margin: 's s'
                 }
             }
         })

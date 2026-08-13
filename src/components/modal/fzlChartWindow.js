@@ -5,7 +5,7 @@ let devId;
 const defaultTime = moment().format('YYYY-MM-DD');
 const fzlChartWindow = (params) => {
     devId = params;
-    const datepickerAgentStyles = [',', Styles.datepicker.agent.size({ width: 'var(--agent-width)', height: '2rem' }), Styles.datepicker.agent.background({ color: 'transparent' }), Styles.datepicker.agent.border({ color: '#235592', radius: '0' })];
+    const datepickerAgentStyles = [',', Styles.datepicker.agent.size({ width: 'var(--agent-width)', height: '2rem' }), Styles.datepicker.agent.background({ color: 'transparent' }), Styles.datepicker.agent.border({ color: 'var(--jam-color-outline-muted)', radius: '0' })];
     return {
         type: 'card',
         icon: '',
@@ -34,9 +34,9 @@ const fzlChartWindow = (params) => {
                                     'size(maxWidth:16rem)',
                                     Styles.input.agent.size({ width: '10rem', height: '2rem' }),
                                     Styles.input.agent.background({ color: 'transparent' }),
-                                    Styles.input.agent.border({ color: '#235592', radius: '0' }),
+                                    Styles.input.agent.border({ color: 'var(--jam-color-outline-muted)', radius: '0' }),
                                     Styles.props({
-                                        marginRight: '1rem'
+                                        marginRight: 'm'
                                     })
                                 ],
                                 buttonStyles: [Styles.searchBtnsStyles],
@@ -93,7 +93,15 @@ const fzlChartWindow = (params) => {
                                 components: [
                                     {
                                         type: 'chart-line',
-                                        styles: ['echarts.legend(show:true;icon:rect;top:5%;itemWidth:10;itemHeight:10;)', 'echarts.legend.textStyle(size:14;color:#fff)', 'echarts.grid(top:15%;bottom:5%;left:5%;)', 'echarts.axis.y.nameStyle(fontSize:18px;color:#fff;fontWeight:500)', 'size(width:100%;height:100%;)', 'css(font-size:22px;)', Styles.cap.text({ spacing: '3px' })],
+                                        styles: [
+                                            'echarts.legend(show:true;icon:rect;top:5%;itemWidth:10;itemHeight:10;)',
+                                            'echarts.legend.textStyle(size:14;color:var(--jam-color-fg-default))',
+                                            'echarts.grid(top:15%;bottom:5%;left:5%;)',
+                                            'echarts.axis.y.nameStyle(fontSize:18px;color:var(--jam-color-fg-default);fontWeight:500)',
+                                            'size(width:100%;height:100%;)',
+                                            'css(font-size:22px;)',
+                                            Styles.cap.text({ spacing: '3px' })
+                                        ],
                                         dataWatcher: 'lineData'
                                     }
                                 ]

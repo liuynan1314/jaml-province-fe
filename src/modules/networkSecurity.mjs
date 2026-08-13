@@ -31,7 +31,7 @@ export default {
                                 {
                                     type: 'buttongroup-radio',
                                     cap: '事件等级',
-                                    styles: [Styles.buttonGroupStylesWithBgCap, Styles.css({ marginLeft: '1rem' })],
+                                    styles: [Styles.buttonGroupStylesWithBgCap, Styles.css({ marginLeft: 'm' })],
                                     value: '{{eventLevel}}',
                                     data: '{{warnLevelList}}'
                                 }
@@ -45,7 +45,7 @@ export default {
                                 Styles.stylesheet({
                                     ':scope': {},
                                     '.ml-_625rem': {
-                                        marginLeft: '.625rem'
+                                        marginLeft: 'm'
                                     }
                                 })
                             ],

@@ -22,14 +22,14 @@ const operationStatisticWindow = () => {
                     'size(width:100%;height:calc(100% - 1rem))',
                     Styles.stylesheet({
                         ':scope': {
-                            padding: '0.8rem'
+                            padding: 'm'
                         },
                         '.form_wrapper': {
                             width: '100%',
                             display: 'flex',
 
                             'jam-button': {
-                                marginLeft: '1rem'
+                                marginLeft: 'm'
                             }
                         }
                     })
@@ -44,7 +44,7 @@ const operationStatisticWindow = () => {
                             Styles.stylesheet({
                                 ':scope': {},
                                 '.ml-_625rem': {
-                                    marginLeft: '.625rem'
+                                    marginLeft: 'm'
                                 }
                             })
                         ],

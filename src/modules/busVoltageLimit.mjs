@@ -25,7 +25,7 @@ export default {
             '.bus-voltage-limit': {
                 width: '100%',
                 height: '100%',
-                padding: '0.5rem',
+                padding: 's',
                 display: 'flex',
                 'flex-wrap': 'wrap',
                 'justify-content': 'space-between'
@@ -34,7 +34,7 @@ export default {
                 width: '33%',
                 height: '55%',
                 display: 'flex',
-                padding: '0.5rem',
+                padding: 's',
                 'flex-direction': 'column',
                 '.barCharts-box': {
                     width: '100%',
@@ -92,7 +92,7 @@ export default {
             '.pie-legend > ul': {
                 height: '100%',
                 'justify-content': 'center',
-                gap: ' 0.2rem',
+                gap: 'xs',
                 'list-style': 'none'
             },
             '.pie-legend > ul > li': {
@@ -121,7 +121,7 @@ export default {
                 color: ' var(--li-clr)'
             },
             '.pie-legend > ul > li > span:first-child': {
-                color: '#e9f3fe',
+                color: 'var(--jam-color-fg-default)',
                 width: '7ch'
             },
             '.staicesItem': {
@@ -171,7 +171,7 @@ export default {
                 display: 'flex',
                 'flex-wrap': 'wrap',
                 'align-items': 'flex-start',
-                marginRight: '2rem'
+                marginRight: 'l'
             },
             '.bvItem': {
                 // width: '25%'

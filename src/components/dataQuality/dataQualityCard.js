@@ -265,7 +265,7 @@ jaml.register('dataQualityCard33', {
                             styles: [
                                 Styles.css({
                                     height: '100%',
-                                    // fontSize: '1.1rem',
+                                    // fontSize: 'm',
                                     padding: 0,
                                     flexGrow: 1,
                                     justifyContent: 'flex-end',
@@ -528,7 +528,7 @@ jaml.register('dataQualityCard50', {
                             styles: [
                                 Styles.css({
                                     color: 'hsl(40.2, 100%, 50%)'
-                                    // fontSize: '1.1rem',
+                                    // fontSize: 'm',
                                 })
                             ]
                         },

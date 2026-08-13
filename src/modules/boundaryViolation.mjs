@@ -24,8 +24,8 @@ export default {
                                 Styles.stylesheet({
                                     ':scope': {},
                                     '.ml-_625rem': {
-                                        marginLeft: '.625rem',
-                                        marginBottom: '.125rem'
+                                        marginLeft: 'm',
+                                        marginBottom: 'xs'
                                     }
                                 })
                             ],
@@ -59,7 +59,7 @@ export default {
                                 Styles.stylesheet({
                                     ':scope': {},
                                     '.ml-_625rem': {
-                                        marginLeft: '.625rem'
+                                        marginLeft: 'm'
                                     }
                                 })
                             ],

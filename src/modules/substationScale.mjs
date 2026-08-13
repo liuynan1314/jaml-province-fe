@@ -36,8 +36,8 @@ export default {
         }),
         Styles.stylesheet({
             '[slot=unit]': {
-                marginLeft: '0.25rem',
-                marginTop: '0.25rem'
+                marginLeft: 's',
+                marginTop: 's'
             },
             '[slot=value]': {
                 cursor: 'pointer'
@@ -61,7 +61,7 @@ export default {
                     styles: [
                         Styles.css({
                             'grid-area': '1/1/span 1/span 1',
-                            paddingLeft: '1.25rem'
+                            paddingLeft: 'm'
                         })
                     ],
                     class: 'auxiliary',

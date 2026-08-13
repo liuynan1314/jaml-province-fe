@@ -16,7 +16,7 @@ jaml.register('share', {
                 background: 'var(--jam-color-primary-default)',
                 padding: 0,
                 transition: 'all ease-in-out 250ms',
-                borderRadius: '1rem 0 0 1rem',
+                borderRadius: 'm 0 0 m',
                 zIndex: 9999,
                 '&:hover': {
                     padding: 'xs',
@@ -54,7 +54,7 @@ jaml.register('share', {
                     }
                 },
                 '.icon-wrapper': {
-                    borderRadius: '0.8rem 0 0 0.8rem',
+                    borderRadius: 'm 0 0 m',
                     position: 'absolute',
                     top: '1.5rem',
                     left: '-1.2rem',

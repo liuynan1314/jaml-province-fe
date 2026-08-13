@@ -69,7 +69,7 @@ export default {
                         color: 'hsl(200.8, 56.3%, 82.9%)',
                         'jam-label': {
                             fontSize: 's',
-                            padding: '0 0 0 .5rem',
+                            padding: '0 0 0 s',
                             lineHeight: '2.18rem'
                         },
                         'jam-indicator': {
@@ -87,7 +87,7 @@ export default {
                             },
                             '&>[slot=cap]': {
                                 display: 'flex',
-                                padding: '0 .2rem',
+                                padding: '0 xs',
                                 height: '1.125rem',
                                 borderRadius: '2px',
                                 background: 'linear-gradient(-77.97deg, hsl(3.3, 100%, 32.2%) 0%, hsl(3.4, 100%, 62%) 100%)'
@@ -326,16 +326,16 @@ function setDetectStatisticsEcharts(seriesData, sum) {
                     },
                     rich: {
                         num1: {
-                            color: 'hsl(156.3, 52.5%, 53.7%)'
+                            color: jam.getColor('success').css()
                         },
                         num2: {
-                            color: '#e3c363'
+                            color: jam.getColor('warn').css()
                         },
                         num3: {
-                            color: '#D0684C'
+                            color: jam.getColor('error').css()
                         },
                         name: {
-                            color: 'hsl(201.6, 33.3%, 64.1%)'
+                            color: Tokens.color.fg.muted
                         }
                     }
                 },
