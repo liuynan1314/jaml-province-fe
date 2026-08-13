@@ -166,10 +166,7 @@ function filterDetails(rowData) {
 
 function buildTipContent(details) {
     const components = [];
-    Object.entries(details).forEach(([key, value], index) => {
-        if (index > 0) {
-            components.push({ type: 'divider-horizontal' });
-        }
+    Object.entries(details).forEach(([key, value]) => {
         components.push({
             type: 'input-textarea',
             cap: key,
@@ -183,6 +180,7 @@ function buildTipContent(details) {
         type: 'container',
         stylize: 'json',
         styles: [
+            'group.divider',
             Styles.css({ minWidth: '24rem', maxWidth: '30rem', paddingTop: '2rem' }),
             Styles.stylesheet({
                 ':scope .jam-depth-0': {

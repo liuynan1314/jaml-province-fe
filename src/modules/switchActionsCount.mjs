@@ -108,6 +108,7 @@ export default {
                 {
                     type: 'tableWithPage',
                     styles: [
+                        'tableWithPage.basic',
                         Styles.hover.toShowAll({ selector: '.hover' }),
                         Styles.tableStylesFixedRowGeight,
                         Styles.numberAlign,

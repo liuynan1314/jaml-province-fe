@@ -79,7 +79,7 @@ module.exports = merge(commonConfig, {
             inject: 'body',
             chunks: ['index'],
             scriptLoading: 'blocking',
-            scripts: ['assets/lib/jam-ui.js', 'assets/lib/http.js', 'assets/lib/jam-styles.js', 'assets/lib/jam-nusp.js', 'assets/lib/jam-cc.js', 'assets/lib/polyfill.js', 'assets/lib/message.min.js']
+            scripts: ['assets/lib/jam-ui.js', 'assets/lib/http.js', 'assets/lib/jam-styles.js', 'assets/cc/jam-cc-all.js', 'assets/lib/polyfill.js', 'assets/lib/message.min.js', 'assets/lib/jam-nusp.js']
         })
     ]
 });

@@ -1,5 +1,4 @@
 import { ajaxCall, getDetailConf } from './../common.js';
-import { COLOR_SET, hslaToJamAc } from '../utils/Constants.js';
 import './../components/weatherInfo.js';
 
 export const weatherNameCodeMaps = {
@@ -61,7 +60,7 @@ export default {
         }),
         Styles.stylesheet({
             '.temp-wrapper': {
-                color: jam.lumiText(0),
+                color: 'var(--jam-color-fg-default)',
                 position: 'absolute',
                 width: '100%',
                 justifyContent: 'center',
@@ -75,7 +74,7 @@ export default {
                 '.weather-list': {
                     width: 'calc(100% - 2rem)',
                     height: '100%',
-                    gap: '0.5rem',
+                    gap: 's',
                     margin: '0 1rem',
                     overflow: 'auto',
                     scrollbarWidth: 'none',
@@ -83,8 +82,8 @@ export default {
                         width: 'calc((100% - 2rem)/5)',
                         minWidth: 'calc((100% - 2rem)/5)',
                         height: '100%',
-                        background: jam.ac({ a: 0.4 }),
-                        borderRadius: '0.5rem',
+                        background: 'tint',
+                        borderRadius: 'm',
                         cursor: 'pointer'
                     }
                 },
@@ -256,7 +255,7 @@ export default {
                                                 item.style.border = 'none';
                                             });
                                             let parentDom = jam.closest(e.target, '.weather-list-item');
-                                            parentDom.style.border = `1px solid ${jam.ac()}`;
+                                            parentDom.style.border = 'var(--jam-border-width-s) solid var(--jam-color-primary-default)';
                                             _model.selectedWeatherInfo = item;
                                             _model.temp = parseInt(item.mintemp) + '-' + parseInt(item.maxtemp) + '℃';
                                         }

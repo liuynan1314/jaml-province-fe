@@ -10,19 +10,19 @@ const threshold = getDetailConfObject('dataQualityManagementThreshold') || {
 };
 const progressStyles = [
     Styles.css({
-        fontSize: '1.5rem',
+        fontSize: 'xl',
         height: '1.6rem',
         width: 'calc(100% - 0.6rem)',
-        margin: ' 0 0.3rem 0.5rem 0.3rem',
+        margin: '0 xs s xs',
         padding: 0,
         '--jam-agent-border-radius': '0',
         '--jam-agent-border-width': '0'
     }),
     Styles.progress.agent.css({
         height: '1.6rem',
-        background: `${jam.ac()}`,
+        background: 'var(--jam-color-primary-default)',
         textAlign: 'left',
-        textIndent: '0.5rem',
+        textIndent: 's',
         cursor: 'pointer'
     })
 ];
@@ -34,15 +34,15 @@ jaml.register('dataQualityCard', {
         Styles.css({
             height: 'fit-content',
             width: 'calc(calc((100% / 3)) - 1rem)',
-            margin: '0 0.5rem 0.9rem 0.5rem',
+            margin: '0 s m s',
             display: 'flex',
             flexWrap: 'wrap',
             justifyContent: 'space-between',
-            padding: '2.8rem 0.5rem 0.5rem 0.5rem',
+            padding: '2.8rem s s s',
             fontFamily: 'DINPro',
-            fontSize: '0.9rem',
-            border: `1px solid ${jam.ac()}`,
-            background: `${jam.ac({ a: 0.2 })}`
+            fontSize: 's',
+            border: 's solid var(--jam-color-primary-default)',
+            background: 'tint'
         })
     ],
     components: [
@@ -51,9 +51,9 @@ jaml.register('dataQualityCard', {
             cap: '{{item.regionName}}',
             styles: [
                 Styles.css({
-                    backgroundImage: `linear-gradient(180deg, ${jam.ac()} 0%, ${jam.lumiText(0)} 100%)`,
+                    backgroundImage: 'linear-gradient(180deg, var(--jam-color-primary-default) 0%, var(--jam-color-primary-default) 100%)',
                     backgroundClip: 'text',
-                    fontSize: '1.2rem',
+                    fontSize: 'l',
                     position: 'absolute',
                     top: '0.2rem',
                     left: '50%',
@@ -124,13 +124,13 @@ jaml.register('dataQualityCard33', {
     type: 'container',
     styles: [
         Styles.css({
-            border: `1px solid ${jam.ac()}`,
+            border: 's solid var(--jam-color-primary-default)',
             height: '8.2rem',
             width: 'calc(100% / 3 - 0.4rem)',
             display: 'block',
-            marginBottom: '0.6rem',
-            padding: '0.2rem',
-            background: `${jam.ac({ a: 0.6 })}`,
+            marginBottom: 's',
+            padding: 'xs',
+            background: 'var(--jam-color-primary-subtle)',
             cursor: 'pointer'
         })
     ],
@@ -141,8 +141,8 @@ jaml.register('dataQualityCard33', {
             cap: '{{cap}}',
             styles: [
                 Styles.css({
-                    paddingTop: '0.1rem',
-                    fontSize: '0.9rem'
+                    paddingTop: 'xxs',
+                    fontSize: 's'
                 }),
                 Styles.label.icon.css({
                     backgroundSize: '100% 100%',
@@ -228,8 +228,8 @@ jaml.register('dataQualityCard33', {
                     display: 'block',
                     height: '3rem',
                     width: 'calc(100% - 0.6rem)',
-                    margin: '0 0.3rem',
-                    fontSize: '0.9rem'
+                    margin: '0 xs',
+                    fontSize: 's'
                 })
             ],
             components: [
@@ -242,8 +242,8 @@ jaml.register('dataQualityCard33', {
                             display: 'flex',
                             flexWrap: 'wrap',
                             alignContent: 'flex-start',
-                            background: `${jam.ac()}`,
-                            marginBottom: '0.2rem'
+                            background: 'var(--jam-color-primary-default)',
+                            marginBottom: 'xxs'
                         })
                     ],
                     components: [
@@ -269,7 +269,7 @@ jaml.register('dataQualityCard33', {
                                     padding: 0,
                                     flexGrow: 1,
                                     justifyContent: 'flex-end',
-                                    marginRight: '0.3rem',
+                                    marginRight: 'xs',
                                     color: 'hsl(40.2, 100%, 50%)'
                                 })
                             ]
@@ -296,12 +296,12 @@ jaml.register('dataQualityCard33', {
                             styles: [
                                 Styles.css({
                                     height: 'fit-content',
-                                    margin: '0 0.3rem 0 0.2rem',
-                                    padding: '0 0.1rem',
-                                    borderRadius: '0.2rem',
-                                    color: jam.ac(1, 0, jam.acLumiO(1)),
-                                    background: `linear-gradient(-79.16deg, ${jam.ac({ a: 0.2 })} 0%, ${jam.ac({ a: 0.8 })} 100%)`,
-                                    fontSize: '0.8rem',
+                                    margin: '0 xs 0 xxs',
+                                    padding: '0 xxs',
+                                    borderRadius: 'xs',
+                                    color: 'onprimary',
+                                    background: 'var(--jam-color-primary-default)',
+                                    fontSize: 'xs',
                                     alignSelf: 'center'
                                 })
                             ]
@@ -316,7 +316,7 @@ jaml.register('dataQualityCard33', {
                             width: '100%',
                             display: 'flex',
                             alignItems: 'center',
-                            background: `${jam.ac()}`
+                            background: 'var(--jam-color-primary-default)'
                         })
                     ],
                     components: [
@@ -359,12 +359,12 @@ jaml.register('dataQualityCard33', {
                                     styles: [
                                         Styles.css({
                                             height: 'fit-content',
-                                            margin: '0 0.3rem 0 0.2rem',
-                                            padding: '0 0.1rem',
-                                            borderRadius: '0.2rem',
-                                            color: jam.ac(1, 0, jam.acLumiO(1)),
-                                            background: `linear-gradient(-79.16deg, ${jam.ac({ a: 0.2 })} 0%, ${jam.ac({ a: 0.8 })} 100%)`,
-                                            fontSize: '0.8rem',
+                                            margin: '0 xs 0 xxs',
+                                            padding: '0 xxs',
+                                            borderRadius: 'xs',
+                                            color: 'onprimary',
+                                            background: 'var(--jam-color-primary-default)',
+                                            fontSize: 'xs',
                                             alignSelf: 'center'
                                         })
                                     ]
@@ -384,11 +384,11 @@ jaml.register('dataQualityCard50', {
     type: 'container',
     styles: [
         Styles.css({
-            border: `1px solid ${jam.ac()}`,
+            border: 's solid var(--jam-color-primary-default)',
             height: '6rem',
             width: 'calc(50% - 0.3rem)',
             display: 'block',
-            padding: '0.2rem',
+            padding: 'xs',
             background: `linear-gradient(180deg, hsla(206, 83.1%, 55.9%, 0) 19%, hsla(206, 83.1%, 55.9%, 0.16) 100%)`,
             cursor: 'pointer'
         })
@@ -409,8 +409,8 @@ jaml.register('dataQualityCard50', {
                     cap: '{{cap}}',
                     styles: [
                         Styles.css({
-                            paddingTop: '0.1rem',
-                            fontSize: '0.9rem'
+                            paddingTop: 'xxs',
+                            fontSize: 's'
                         }),
                         Styles.label.icon.css({
                             backgroundSize: '100% 100%',
@@ -490,9 +490,9 @@ jaml.register('dataQualityCard50', {
                 Styles.css({
                     width: 'calc(100% - 0.6rem)',
                     display: 'flex',
-                    margin: '0 0.3rem',
-                    padding: '0.2rem 0',
-                    background: `${jam.ac()}`
+                    margin: '0 xs',
+                    padding: 'xs 0',
+                    background: 'var(--jam-color-primary-default)'
                 })
             ],
             components: [
@@ -505,7 +505,7 @@ jaml.register('dataQualityCard50', {
                         Styles.css({
                             width: '5rem',
                             display: 'flex',
-                            marginLeft: '0.2rem',
+                            marginLeft: 'xxs',
                             padding: 0
                         })
                     ]
@@ -520,7 +520,7 @@ jaml.register('dataQualityCard50', {
                             justifyContent: 'flex-end'
                         })
                     ],
-                    labelStyles: [Styles.css({ padding: '0 0.1rem' })],
+                    labelStyles: [Styles.css({ padding: '0 xxs' })],
                     components: [
                         {
                             type: 'label',
@@ -543,7 +543,7 @@ jaml.register('dataQualityCard50', {
                             }),
                             styles: [
                                 Styles.css({
-                                    fontSize: '0.9rem'
+                                    fontSize: 's'
                                 })
                             ]
                         },
@@ -555,11 +555,11 @@ jaml.register('dataQualityCard50', {
                             styles: [
                                 Styles.css({
                                     height: 'fit-content',
-                                    margin: '0 0.3rem 0 0.2rem',
-                                    padding: '0 0.1rem',
-                                    borderRadius: '0.2rem',
-                                    color: jam.ac(1, 0, jam.acLumiO(1)),
-                                    fontSize: '0.8rem',
+                                    margin: '0 xs 0 xxs',
+                                    padding: '0 xxs',
+                                    borderRadius: 'xs',
+                                    color: 'onprimary',
+                                    fontSize: 'xs',
                                     alignSelf: 'center'
                                 })
                             ]

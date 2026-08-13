@@ -1,6 +1,6 @@
 import { getCardsInPage } from '../utils/commonList';
 import { cardSwichConfig } from './../index';
-import { COLOR_SET, hslaToJamAc } from '../utils/Constants.js';
+import { COLOR_SET } from '../utils/Constants.js';
 
 export function buildStyleStack() {
     Styles.inputWithCustomizedBgAndIcon = Styles.style({
@@ -45,13 +45,13 @@ export function buildStyleStack() {
                 border: 'none',
                 backgroundSize: '100% 100%',
                 backgroundRepeat: 'no-repeat',
-                fontSize: '1.5rem',
-                margin: '0 0.5rem'
+                fontSize: 'xl',
+                margin: '0 s'
             })),
             Styles.buttongroup.buttonslot.css({
                 justifyContent: 'center',
                 fontFamily: 'YouSheBiaoTiHei',
-                fontSize: '1.5rem',
+                fontSize: 'xl',
                 flexWrap: 'nowrap'
             }),
             Styles.stylesheet('jam-button:nth-of-type(1) { background-image: var(--jam-buttongroup-right-background-image) }'),
@@ -67,7 +67,7 @@ export function buildStyleStack() {
         plugins: [
             Styles.label.capslot.css({
                 fontFamily: 'YouSheBiaoTiHei',
-                fontSize: '1.5rem'
+                fontSize: 'xl'
             })
         ]
     });
@@ -85,7 +85,7 @@ export function buildStyleStack() {
             Styles.table.gridline,
             Styles.table.showrownum({ style: 'plain' }),
             Styles.table.thslot.css({
-                fontSize: '1rem',
+                fontSize: 'm',
                 borderColor: 'rgba(60, 184, 255, 0.7)',
                 borderRadius: '0 !important'
             }),
@@ -122,7 +122,7 @@ export function buildStyleStack() {
             'table.gridline',
             Styles.table.showrownum({ style: 'plain' }),
             'padding(0)',
-            `table.stripy(odd:transparent;even:${hslaToJamAc('hsl(210,40.3%,28.2%,0.4)')})`,
+            `table.stripy(odd:transparent;even:var(--jam-color-primary-film))`,
             Styles.table.td.css({
                 // color: jam.lumiText(1)
             }),
@@ -161,17 +161,17 @@ export function buildStyleStack() {
         args: {},
         plugins: [
             'size(height:1.875rem)',
-            'border(radius:.25rem)',
+            'border.s',
             Styles.stylesheet({
                 ':scope': {
                     whiteSpace: 'nowrap',
-                    padding: '0 .625rem',
-                    color: jam.acLumiText(1)
+                    padding: '0 m',
+                    color: 'onprimary'
                 },
                 '&.search-btn': {
-                    background: jam.ac({ l: 0.8 }),
+                    background: 'var(--jam-color-primary-subtle)',
                     '&:hover': {
-                        background: jam.ac()
+                        background: 'var(--jam-color-primary-default)'
                     }
                 },
                 '&.jam-cta': {
@@ -200,9 +200,9 @@ export function buildStyleStack() {
                         // fontSize: '.875rem'
                     },
                     'jam-button': {
-                        borderRadius: '.25rem',
-                        color: jam.lumiText(1),
-                        padding: '.2rem .75rem',
+                        borderRadius: 's',
+                        color: 'onprimary',
+                        padding: 's',
                         // borderWidth: '.0625rem',
                         // borderStyle: 'solid',
                         // borderColor: hslaToJamAc('hsla(196, 90%, 30%, 0.4)'),
@@ -223,12 +223,12 @@ export function buildStyleStack() {
                         }
                     },
                     'jam-button.jam-checked': {
-                        color: jam.lumiText(1)
+                        color: 'onprimary'
                         // borderColor: hslaToJamAc('hsla(204, 90%, 30%, 0.4)'),
                         // backgroundImage: `linear-gradient(179.98deg, ${hslaToJamAc('hsl(204, 100%, 50%)')} 0%, transparent 100%)`,
                         // backgroundImage: 'url(./assets/images/btn_group_selected.png)',
                         // '&>[slot=cap]': {
-                        //     backgroundImage: `linear-gradient(-180deg, ${hslaToJamAc('hsl(0,0%,100%)')} 0%, ${hslaToJamAc('hsl(204,100%,81.2%)')} 100%)`,
+                        //     backgroundImage: 'linear-gradient(-180deg, var(--jam-color-on-primary) 0%, var(--jam-color-primary-default) 100%)',
                         //     '-webkit-background-clip': 'text',
                         //     'text-shadow': `0px 4px 6px 0px ${hslaToJamAc('hsla(204,100%,50%,0.7)')}`,
                         //     backgroundClip: 'text'
@@ -316,8 +316,8 @@ export function buildStyleStack() {
                         minWidth: '13.2rem',
                         height: '2.25rem',
                         lineHeight: '1.25rem',
-                        color: jam.lumiText(1),
-                        paddingLeft: '1.5rem',
+                        color: 'onprimary',
+                        paddingLeft: 'l',
                         backgroundImage: 'url(./../assets/images/title_third.png)',
                         backgroundRepeat: 'no-repeat',
                         backgroundPosition: 'bottom var(--gap) left',
@@ -341,11 +341,11 @@ export function buildStyleStack() {
                     borderBottomStyle: 'solid',
                     borderBottomWidth: '.0625rem',
                     borderBottomColor: 'transparent',
-                    borderImageSource: `linear-gradient(89.97deg, ${hslaToJamAc('hsl(203,60.2%,32.5%)')} 0%, transparent 100%)`,
+                    borderImageSource: 'linear-gradient(89.97deg, var(--jam-color-outline-muted) 0%, transparent 100%)',
                     borderImageSlice: 1,
                     '&>[slot=cap]': {
                         color: COLOR_SET.firsttextclr,
-                        fontSize: '1.125rem',
+                        fontSize: 'l',
                         fontWeight: 'bold',
                         '&::before': {
                             content: '""',
@@ -368,7 +368,7 @@ export function buildStyleStack() {
                             right: '0',
                             width: '2rem',
                             height: '.1rem',
-                            backgroundImage: `linear-gradient(to right, ${hslaToJamAc('hsl(210,40.3%,28.2%)')} 0, ${hslaToJamAc('hsl(210,40.3%,28.2%)')} 22%, transparent 22%, transparent 39%,${hslaToJamAc('hsl(210,40.3%,28.2%)')} 39%, ${hslaToJamAc('hsl(210,40.3%,28.2%)')} 61%, transparent 61%,transparent 78%,${hslaToJamAc('hsl(210,40.3%,28.2%)')} 78% , ${hslaToJamAc('hsl(210,40.3%,28.2%)')} 100%)`
+                            backgroundImage: 'linear-gradient(to right, var(--jam-color-primary-subtle) 0, var(--jam-color-primary-subtle) 22%, transparent 22%, transparent 39%, var(--jam-color-primary-subtle) 39%, var(--jam-color-primary-subtle) 61%, transparent 61%, transparent 78%, var(--jam-color-primary-subtle) 78%, var(--jam-color-primary-subtle) 100%)'
                         }
                     }
                 }
@@ -379,7 +379,7 @@ export function buildStyleStack() {
         desc: 'tab按钮通用样式',
         args: {},
         plugins: [
-            'padding(left:.25rem)',
+            'padding(left:s)',
             'layout.flex(justifyContent:center;)',
             Styles.stylesheet({
                 ':scope': {
@@ -389,8 +389,8 @@ export function buildStyleStack() {
                         border: 0,
                         borderRadius: 0,
                         fontWeight: '500',
-                        fontSize: '.875rem',
-                        padding: '.2rem .75rem',
+                        fontSize: 's',
+                        padding: 's',
                         boxShadow: 'none',
                         '&>[slot=cap]': {
                             height: '1.5rem',
@@ -398,9 +398,9 @@ export function buildStyleStack() {
                         }
                     },
                     'jam-button.jam-checked': {
-                        color: jam.lumiText(1) + '!important',
+                        color: 'var(--jam-color-on-primary) !important',
                         '&>[slot=cap]': {
-                            backgroundImage: `linear-gradient(-180deg, ${hslaToJamAc('hsl(0,0%,100%)')} 0%, ${hslaToJamAc('hsl(204,100%,81.2%)')} 100%)`,
+                            backgroundImage: 'linear-gradient(-180deg, var(--jam-color-on-primary) 0%, var(--jam-color-primary-default) 100%)',
                             '-webkit-background-clip': 'text',
                             backgroundClip: 'text'
                         }
@@ -420,7 +420,7 @@ export function buildStyleStack() {
             Styles.table.gridline,
             Styles.table.showrownum({ style: 'plain' }),
             Styles.table.stripy({
-                even: hslaToJamAc('hsl(210,40.3%,28.2%,0.4)'),
+                even: 'var(--jam-color-primary-film)',
                 odd: 'transparent'
             }),
             Styles.stylesheet({
@@ -430,7 +430,7 @@ export function buildStyleStack() {
                 },
                 '.jam-th': {
                     backgroundColor: COLOR_SET.thbrclr,
-                    color: jam.lumiText(1),
+                    color: 'onprimary',
                     border: 0
                 },
                 '.jam-th,.jam-td': {
@@ -467,7 +467,8 @@ export function buildStyleStack() {
                     dom.style.width = 'calc(var(--icon-size) * 1.5)';
                     dom.style.height = 'calc(var(--icon-size) * 1.5)';
                     dom.style.borderRadius = '50%';
-                    dom.style.background = `linear-gradient(135deg, ${jam.ac()}, hsl(189, 100%, 48%, 0.05) 75%)`;
+                    // 已降级: title ornament gradient needs theme primary
+                    dom.style.background = 'linear-gradient(135deg, var(--jam-color-primary-default), var(--jam-color-primary-film) 75%)';
                     dom.style.position = 'absolute';
                     dom.style.left = 'calc(var(--icon-size) * 0.35)';
                     dom.style.padding = 'calc(var(--icon-size) * 0.1)';
@@ -496,13 +497,13 @@ export function buildStyleStack() {
                     dom3.style.alignItems = 'center';
 
                     const dom4 = document.createElement('div');
-                    dom4.style.background = jam.ac();
+                    dom4.style.background = 'var(--jam-color-primary-default)';
                     dom4.style.width = 'calc(var(--icon-size) * 0.3)';
                     dom4.style.height = 'calc(var(--icon-size) * 0.3)';
                     dom4.style.transform = 'rotate(45deg)';
 
                     const dom5 = document.createElement('div');
-                    dom5.style.background = jam.ac();
+                    dom5.style.background = 'var(--jam-color-primary-default)';
                     dom5.style.transform = 'rotate(45deg)';
                     dom5.style.position = 'absolute';
                     dom5.style.width = 'calc(var(--icon-size) * 1.25)';
@@ -528,7 +529,8 @@ export function buildStyleStack() {
                     const dom = document.createElement('div');
                     dom.style.width = 'calc(100% - var(--icon-size) * 2)';
                     dom.style.height = 'calc(var(--icon-size) * 0.1)';
-                    dom.style.background = `linear-gradient(135deg, ${jam.ac()}, hsl(189, 100%, 48%, 0.05) 65%)`;
+                    // 已降级: title underline gradient needs theme primary
+                    dom.style.background = 'linear-gradient(135deg, var(--jam-color-primary-default), var(--jam-color-primary-film) 65%)';
                     dom.style.position = 'absolute';
                     dom.style.bottom = 'calc(var(--icon-size) * 0.21)';
                     dom.style.left = 'calc(var(--icon-size) * 1.95)';
@@ -551,9 +553,10 @@ export function buildStyleStack() {
                         parent.style.right = 'calc(var(--icon-size) * 0.2)';
                         dom.style.width = 'calc(var(--icon-size) * 10)';
                         dom.style.height = 'calc(var(--icon-size) * 1)';
-                        dom.style.maskImage = `repeating-linear-gradient(90deg, ${jam.ac()} , ${jam.ac()} calc(var(--icon-size) * 0.15), transparent calc(var(--icon-size) * 0.15), transparent calc(var(--icon-size) * 0.4))`;
-                        dom.style.webkitMaskImage = `repeating-linear-gradient(90deg, ${jam.ac()} , ${jam.ac()} calc(var(--icon-size) * 0.15), transparent calc(var(--icon-size) * 0.15), transparent calc(var(--icon-size) * 0.4))`;
-                        dom.style.backgroundImage = `repeating-linear-gradient(0deg, ${jam.ac()} , ${jam.ac()} calc(var(--icon-size) * 0.15), transparent calc(var(--icon-size) * 0.15), transparent calc(var(--icon-size) * 0.4))`;
+                        // 已降级: repeating mask/fill needs theme primary
+                        dom.style.maskImage = 'repeating-linear-gradient(90deg, var(--jam-color-primary-default), var(--jam-color-primary-default) calc(var(--icon-size) * 0.15), transparent calc(var(--icon-size) * 0.15), transparent calc(var(--icon-size) * 0.4))';
+                        dom.style.webkitMaskImage = 'repeating-linear-gradient(90deg, var(--jam-color-primary-default), var(--jam-color-primary-default) calc(var(--icon-size) * 0.15), transparent calc(var(--icon-size) * 0.15), transparent calc(var(--icon-size) * 0.4))';
+                        dom.style.backgroundImage = 'repeating-linear-gradient(0deg, var(--jam-color-primary-default), var(--jam-color-primary-default) calc(var(--icon-size) * 0.15), transparent calc(var(--icon-size) * 0.15), transparent calc(var(--icon-size) * 0.4))';
                         this.dot = parent;
                         parent.appendChild(dom);
                         el.appendChild(parent);
@@ -589,21 +592,22 @@ export function buildStyleStack() {
                     dom.style.position = 'absolute';
                     dom.style.top = '0';
                     dom.style.left = '0';
-                    dom.style.borderTop = `0.15rem solid ${jam.ac(1.05, 0.14, 0.14, 0.1)}`;
-                    dom.style.borderBottom = `0.15rem solid ${jam.ac(1.05, 0.14, 1.3, 0.35)}`;
-                    dom.style.backgroundImage = `linear-gradient(180deg, ${jam.ac(1.05, 0.14, 0.74, 0.05)} 0,${jam.ac(1.05, 0.14, 0.74, 0.2)} 70%, ${jam.ac(1.05, 0.14, 0.74, 0.4)} 100%)`;
+                    // 已降级: light-belt borders/fill need theme primary steps
+                    dom.style.borderTop = '0.15rem solid var(--jam-color-primary-film)';
+                    dom.style.borderBottom = '0.15rem solid var(--jam-color-primary-subtle)';
+                    dom.style.backgroundImage = 'linear-gradient(180deg, var(--jam-color-primary-film) 0, var(--jam-color-primary-film) 70%, var(--jam-color-primary-subtle) 100%)';
                     dom.style.maskImage = `linear-gradient(90deg, transparent 0%, hsl(0, 0%, 100%) ${maskPos}%,hsl(0, 0%, 100%) ${100 - maskPos}%, transparent 100%)`;
                     dom.style.transition = '0.4s all';
                     if (args.animation) {
                         dom.addEventListener('mouseenter', () => {
                             window.requestAnimationFrame(animationFrameFront);
-                            dom.style.borderTop = `0.15rem solid ${jam.ac(1.05, 0.14, 0.14, 0.25)}`;
-                            dom.style.borderBottom = `0.15rem solid ${jam.ac(1.05, 0.14, 1.3, 0.5)}`;
+                            dom.style.borderTop = '0.15rem solid var(--jam-color-primary-film)';
+                            dom.style.borderBottom = '0.15rem solid var(--jam-color-primary-subtle)';
                         });
                         dom.addEventListener('mouseleave', () => {
                             window.requestAnimationFrame(animationFrameRevert);
-                            dom.style.borderTop = `0.15rem solid ${jam.ac(1.05, 0.14, 0.14, 0.1)}`;
-                            dom.style.borderBottom = `0.15rem solid ${jam.ac(1.05, 0.14, 1.3, 0.35)}`;
+                            dom.style.borderTop = '0.15rem solid var(--jam-color-primary-film)';
+                            dom.style.borderBottom = '0.15rem solid var(--jam-color-primary-subtle)';
                         });
                         function animationFrameFront() {
                             if (animationMaskPos > animationMaskPosTarget) {
@@ -651,12 +655,17 @@ export function buildStyleStack() {
                         }
                     }
                     const dom = document.createElement('div');
+                    // 已降级: layer gradients/borders need theme primary (baseHsl override uses raw hsl)
+                    let cSubtle = 'var(--jam-color-primary-subtle)';
+                    let cDefault = 'var(--jam-color-primary-default)';
+                    let cFilm = 'var(--jam-color-primary-film)';
                     if (args.baseHsl) {
                         try {
                             let HSLArr = parseHSL(args.baseHsl);
-                            dom.style.setProperty('--jam-ac-h', HSLArr[0]);
-                            dom.style.setProperty('--jam-ac-s', HSLArr[1]);
-                            dom.style.setProperty('--jam-ac-l', HSLArr[2]);
+                            const h = HSLArr[0], s = HSLArr[1], l = HSLArr[2];
+                            cSubtle = `hsla(${h}, ${s}, ${l}, 0.45)`;
+                            cDefault = `hsl(${h}, ${s}, ${l})`;
+                            cFilm = `hsla(${h}, ${s}, ${l}, 0.15)`;
                         } catch (error) {}
                     }
                     dom.slot = 'layer';
@@ -670,8 +679,8 @@ export function buildStyleStack() {
                     dom.style.gridTemplateRows = `3fr ${args.rate || Styles.layer.themeCardStyleLayer.args.rate.defalut}fr`;
                     dom.style.overflow = 'hidden';
                     const dom1 = document.createElement('div');
-                    dom1.style.backgroundImage = `linear-gradient(180deg, ${jam.ac(1, 0.39, 0.5)} 0, ${jam.ac(1.07, 0.29, 0.61, 0)} 100%)`;
-                    dom1.style.border = `0.1rem solid ${jam.ac(1, 0.39, 1)}`;
+                    dom1.style.backgroundImage = `linear-gradient(180deg, ${cSubtle} 0, transparent 100%)`;
+                    dom1.style.border = `0.1rem solid ${cDefault}`;
                     dom1.style.borderTopLeftRadius = el.style.borderRadius || 0;
                     dom1.style.borderTopRightRadius = el.style.borderRadius || 0;
                     dom1.style.maskImage = 'linear-gradient(180deg, hsl(0, 0%, 100%), transparent 90%)';
@@ -679,8 +688,8 @@ export function buildStyleStack() {
                     const dom2 = document.createElement('div');
                     dom2.style.borderBottomLeftRadius = el.style.borderRadius || 0;
                     dom2.style.borderBottomRightRadius = el.style.borderRadius || 0;
-                    dom2.style.backgroundImage = `linear-gradient(180deg, ${jam.ac(1, 0.39, 0.5, 0.1)} 0, ${jam.ac(1.07, 0.29, 0.61, 0.3)} 100%)`;
-                    dom2.style.border = `0.1rem solid ${jam.ac(1, 0.39, 0.8, 0.6)}`;
+                    dom2.style.backgroundImage = `linear-gradient(180deg, ${cFilm} 0, ${cSubtle} 100%)`;
+                    dom2.style.border = `0.1rem solid ${cDefault}`;
 
                     dom.appendChild(dom1);
                     dom.appendChild(dom2);
@@ -731,8 +740,9 @@ export function buildStyleStack() {
                             throw new Error('Invalid HSL string');
                         }
                     }
-                    let stripColor1 = args.stripColor1 ? parseHSL(args.stripColor1) : jam.ac(1.06, 0.27, 0.78, 1);
-                    let stripColor2 = args.stripColor2 ? parseHSL(args.stripColor2) : jam.ac(1.06, 0.26, 0.49, 0.8);
+                    // 已降级: stripy defaults need theme primary vars (stripy API)
+                    let stripColor1 = args.stripColor1 ? parseHSL(args.stripColor1) : 'var(--jam-color-primary-default)';
+                    let stripColor2 = args.stripColor2 ? parseHSL(args.stripColor2) : 'var(--jam-color-primary-subtle)';
                     if (el.style.position === 'static' || el.style.position === 'unset' || el.style.position === 'static') {
                         el.style.position === 'relative';
                     }
@@ -744,7 +754,7 @@ export function buildStyleStack() {
                     dom.style.position = 'absolute';
                     dom.style.top = '0';
                     dom.style.left = '0';
-                    dom.style.border = `0.1rem solid ${jam.ac(0.96, 0.21, 0.85)}`;
+                    dom.style.border = '0.1rem solid var(--jam-color-primary-default)';
                     dom.style.borderRadius = el.style.borderRadius || '0';
                     if (args.strip) {
                         dom.style.backgroundImage = `repeating-linear-gradient(115deg, ${stripColor1} 0%, ${stripColor1} calc(var(--strip-size1)), ${stripColor2} calc(var(--strip-size1)), ${stripColor2} calc(var(--strip-size2) + var(--strip-size2)))`;
@@ -800,7 +810,8 @@ export function buildStyleStack() {
                     dom.style.bottom = '0';
                     dom.style.left = '20%';
                     dom.style.transition = '0.4s all';
-                    dom.style.backgroundImage = `linear-gradient(0deg, ${jam.ac(0.96, 0.21, 0.85)},${jam.ac(0.96, 0.21, 0.85)} 20%, ${jam.ac(0.96, 0.21, 0.85, 0.1)}`;
+                    // 已降级: stripy light bar gradient needs theme primary
+                    dom.style.backgroundImage = 'linear-gradient(0deg, var(--jam-color-primary-default), var(--jam-color-primary-default) 20%, var(--jam-color-primary-film)';
                     el.addEventListener('mouseenter', () => {
                         dom.style.height = args.lightHeight || Styles.layer.stripyButton.args.lightHeight.default;
                     });
@@ -824,7 +835,7 @@ export function buildStyleStack() {
             Styles.layout({ overflow: 'hidden' }),
             Styles.card.padding({ padding: 0 }),
             Styles.card.titleslot.align({ justifyContent: 'flex-start' }),
-            Styles.card.titleslot.padding('0rem'),
+            Styles.card.titleslot.padding(0),
             Styles.card.titleslot.border({
                 bottomRightRadius: '0px',
                 bottomLeftRadius: '0px',
@@ -843,13 +854,14 @@ export function buildStyleStack() {
             Styles.card.bodyslot.padding('0'),
             Styles.card.bodyslot.css({
                 borderRadius: 0,
-                background: `radial-gradient(circle, transparent, ${jam.ac(1, 1, 1, 0.1)}) !important`,
+                // 已降级: radial body wash needs theme primary film
+                background: 'radial-gradient(circle, transparent, var(--jam-color-primary-film)) !important',
                 boxSizing: 'border-box'
             }),
 
             Styles.card.cap.css({
-                fontSize: '1.1rem !important',
-                color: jam.ac(1, 1, jam.lumiO(18))
+                fontSize: 'm !important',
+                color: 'primary'
                 // fontFamily: 'YousheBiaoTiHei',
                 // paddingLeft: '1.5rem'
             }),
@@ -905,7 +917,7 @@ export function buildStyleStack() {
                 marginTop: '0.2rem'
             }),
             Styles.button.cap.css({
-                fontSize: '1rem'
+                fontSize: 'm'
             })
         ]
     });
@@ -918,12 +930,12 @@ export function buildStyleStack() {
 
             Styles.input.agent.css({
                 height: '1.8rem',
-                borderRadius: '0.25rem',
+                borderRadius: 's',
                 minWidth: '12rem'
             }),
 
             Styles.input.cap.css({
-                fontSize: '0.875rem'
+                fontSize: 's'
             })
         ]
     });
@@ -933,10 +945,10 @@ export function buildStyleStack() {
         plugins: [
             Styles.input.agent.css({
                 height: '1.8rem',
-                borderRadius: '0.25rem',
+                borderRadius: 's',
                 minWidth: '12rem'
             }),
-            Styles.input.agent.css({ borderColor: hslaToJamAc('hsl(204.49 , 92.45%, 41.57%)') })
+            Styles.input.agent.css({ borderColor: 'var(--jam-color-primary-default)' })
         ]
     });
 
@@ -946,12 +958,12 @@ export function buildStyleStack() {
         plugins: [
             Styles.input.agent.css({
                 height: '1.875rem',
-                borderRadius: '0.25rem',
+                borderRadius: 's',
                 width: '8.5rem'
             }),
 
             Styles.input.agent.css({
-                borderColor: jam.ac(1.06, 0.2, 0.58, jam.lumiO(80))
+                borderColor: 'var(--jam-color-primary-subtle)'
             })
         ]
     });
@@ -963,11 +975,11 @@ export function buildStyleStack() {
             Styles.select.labelslot.css({ margin: 0 }),
             Styles.select.agent.css({
                 height: '1.8rem',
-                borderRadius: '0.2rem',
+                borderRadius: 's',
                 minWidth: '12rem'
             }),
             Styles.select.cap.css({
-                fontSize: '0.875rem'
+                fontSize: 's'
             })
         ]
     });
@@ -978,9 +990,9 @@ export function buildStyleStack() {
         plugins: [
             Styles.select.agent.css({
                 height: '1.8rem',
-                borderRadius: '0.2rem',
+                borderRadius: 's',
                 minWidth: '12rem',
-                borderColor: hslaToJamAc('hsl(204.49, 92.45%, 41.57%)')
+                borderColor: 'var(--jam-color-primary-default)'
             })
 
             // Styles.select.cap.css({
@@ -995,7 +1007,7 @@ export function buildStyleStack() {
         plugins: [
             Styles.select.agent.css({
                 height: '1.875rem',
-                borderRadius: '0.25rem'
+                borderRadius: 's'
                 // backgroundColor: 'tansparent',
                 // borderColor: 'rgb(79, 109, 131)'
             })
@@ -1009,13 +1021,13 @@ export function buildStyleStack() {
             Styles.datepicker.agent.css({
                 minWidth: '12rem',
                 height: '1.8rem',
-                borderRadius: '0.25rem'
+                borderRadius: 's'
             }),
 
             Styles.datepicker.labelslot.css({ margin: 0 }),
 
             Styles.datepicker.cap.css({
-                fontSize: '0.875rem'
+                fontSize: 's'
             }),
 
             Styles.inputWithCustomizedBgAndIcon({
@@ -1032,14 +1044,14 @@ export function buildStyleStack() {
             Styles.datepicker.agent.css({
                 minWidth: '12rem',
                 height: '1.8rem',
-                borderRadius: '0.25rem'
+                borderRadius: 's'
             }),
 
             Styles.datepicker.cap.css({
-                color: jam.lumiText(1)
+                color: 'onprimary'
                 // fontSize: '0.875rem'
             }),
-            Styles.datepicker.agent.css({ borderColor: hslaToJamAc('hsl(204.49, 92.45%, 41.57%)') }),
+            Styles.datepicker.agent.css({ borderColor: 'var(--jam-color-primary-default)' }),
 
             Styles.inputWithCustomizedBgAndIcon({
                 dateIcon: '../../assets/images/icon-calender.png'
@@ -1055,8 +1067,8 @@ export function buildStyleStack() {
             Styles.datepicker.agent.css({
                 minWidth: '11.25rem',
                 height: '1.8rem',
-                borderRadius: '0.25rem',
-                borderColor: jam.ac(1, 0.25, 0.61)
+                borderRadius: 's',
+                borderColor: 'var(--jam-color-primary-subtle)'
             })
         ]
     });
@@ -1076,18 +1088,18 @@ export function buildStyleStack() {
                 background: 'url(../../assets/images/title-bg.png) no-repeat',
                 backgroundPosition: '0 50%',
                 color: COLOR_SET.purewhite,
-                fontSize: ' 1rem',
+                fontSize: 'm',
                 fontFamily: 'YousheBiaoTiHei',
-                paddingLeft: '1rem'
+                paddingLeft: 'm'
             }),
 
             Styles.buttongroup.button.css({
                 height: '1.7rem',
-                padding: '0 1rem',
-                fontSize: '1rem',
+                padding: '0 m',
+                fontSize: 'm',
                 alignItems: 'center',
-                marginRight: '0.6rem',
-                marginBottom: '0.5rem',
+                marginRight: 'm',
+                marginBottom: 's',
                 color: '#9cc1db',
                 borderRadius: 0,
                 background: 'url(../../assets/images/select-box.png) no-repeat',
@@ -1138,18 +1150,18 @@ export function buildStyleStack() {
                 background: 'url(../../assets/images/new/title_level.png) no-repeat left bottom',
                 backgroundPosition: 'bottom var(--gap) left',
                 color: COLOR_SET.purewhite,
-                fontSize: ' 1rem',
-                paddingLeft: '1.5rem',
+                fontSize: 'm',
+                paddingLeft: 'l',
                 minWidth: '16rem'
             }),
 
             Styles.buttongroup.button.css({
                 height: '1.875rem',
                 'line-height': '1.875rem',
-                padding: '0 0.75rem',
-                fontSize: '1rem',
-                marginRight: '0.625rem',
-                color: jam.ac(0.97, 0.53, 1.23),
+                padding: '0 m',
+                fontSize: 'm',
+                marginRight: 'm',
+                color: 'primary',
                 borderRadius: 0,
                 background: 'url(../../assets/images/new/but_default.png) no-repeat center center',
                 backgroundSize: '100% 100%',
@@ -1198,9 +1210,9 @@ export function buildStyleStack() {
                 height: '1.875rem',
                 'line-height': '1.875rem',
                 padding: '0 0.75rem',
-                fontSize: '1rem',
-                marginRight: '0.625rem',
-                color: jam.ac(0.97, 0.53, 1.23),
+                fontSize: 'm',
+                marginRight: 'm',
+                color: 'primary',
                 borderRadius: 0,
                 background: 'url(../../assets/images/new/but_default.png) no-repeat center center',
                 backgroundSize: '100% 100%',
@@ -1231,20 +1243,21 @@ export function buildStyleStack() {
         desc: '按钮样式',
         args: {},
         plugins: [
+            // 已降级: button fill/hover gradients need theme primary vars
             Styles.button.css({
                 height: '2rem',
-                padding: '0 1rem',
-                borderRadius: '4px',
-                background: `linear-gradient(-180deg, ${jam.ac(0.98, 0.4, 1.06, 0)}  0%, ${jam.ac(0.98, 0.45, 0.58, 0.7)} 100%)`,
-                border: `1px solid ${jam.ac(0.98, 0.3, 0.82)} `,
+                padding: '0 m',
+                borderRadius: 's',
+                background: 'linear-gradient(-180deg, transparent 0%, var(--jam-color-primary-subtle) 100%)',
+                border: 's solid var(--jam-color-primary-default)',
                 fontFamily: 'Source Han Sans CN',
-                color: jam.lumiText(1)
+                color: 'onprimary'
             }),
 
             Styles.button.hover({
-                background: `linear-gradient(-180deg, ${jam.ac(1, 1, 0.75, 0)} 0%, ${jam.ac(1, 1, 0.75, 0.7)} 100%) !important`,
-                boxShadow: `inset 0px 0px 10px 0px ${jam.ac(1, 1, 0.75, 0)} !important`,
-                color: `${jam.ac(0, 0, 1.5)} !important`
+                background: 'linear-gradient(-180deg, transparent 0%, var(--jam-color-primary-default) 100%) !important',
+                boxShadow: 'inset 0px 0px 10px 0px transparent !important',
+                color: 'var(--jam-color-on-primary) !important'
             })
         ]
     });
@@ -1278,7 +1291,7 @@ export function buildStyleStack() {
             }),
             Styles.button.size({ width: '6rem' }),
             Styles.button.cap.css({
-                fontSize: '1rem'
+                fontSize: 'm'
             })
         ]
     });
@@ -1321,7 +1334,7 @@ export function buildStyleStack() {
             }),
             Styles.button.size({ width: '6rem' }),
             Styles.button.cap.css({
-                fontSize: '1rem'
+                fontSize: 'm'
             }),
             Styles.stylesheet({
                 '.fa-rotate-right': {
@@ -1339,9 +1352,9 @@ export function buildStyleStack() {
                 background: 'url(../../assets/images/search_btn_selected.png) no-repeat',
                 backgroundSize: '100% 100%',
                 backgroundPosition: 'center center',
-                color: jam.ac(0.97, 0.53, 1.23),
-                fontSize: '1rem',
-                marginRight: '0.625rem'
+                color: 'primary',
+                fontSize: 'm',
+                marginRight: 'm'
             })
         ]
     });
@@ -1356,11 +1369,11 @@ export function buildStyleStack() {
                 background: 'url(../../assets/images/search_btn.png) no-repeat',
                 backgroundSize: '100% 100%',
                 backgroundPosition: 'center center',
-                borderRadius: '0.25rem',
-                padding: '0 .7rem',
-                color: jam.ac(0.97, 0.53, 1.23),
-                fontSize: '0.875rem',
-                marginRight: '0.625rem'
+                borderRadius: 's',
+                padding: '0 m',
+                color: 'primary',
+                fontSize: 's',
+                marginRight: 'm'
             })
         ]
     });
@@ -1370,10 +1383,10 @@ export function buildStyleStack() {
         plugins: [
             Styles.button.css({
                 height: '2.4rem',
-                padding: '1rem',
+                padding: 'm',
                 alignItems: 'center',
                 justifyContent: 'center',
-                gap: '1rem',
+                gap: 'm',
                 marginLeft: '4vw',
                 marginTop: '0.5rem',
                 marginBottom: '0.5rem',
@@ -1399,9 +1412,9 @@ export function buildStyleStack() {
                 background: 'url(../../assets/images/title-bg.png) no-repeat',
                 backgroundPosition: '0 50%',
                 color: COLOR_SET.purewhite,
-                fontSize: ' 1rem',
+                fontSize: 'm',
                 fontFamily: 'YousheBiaoTiHei',
-                paddingLeft: '1rem'
+                paddingLeft: 'm'
             })
         ]
     });
@@ -1421,7 +1434,7 @@ export function buildStyleStack() {
     Styles.connectLine = Styles.style({
         plugins: [
             Styles.css({
-                marginRight: '0.5rem'
+                marginRight: 's'
             }),
             Styles.stylesheet({
                 ':scope::after': {
@@ -1456,8 +1469,8 @@ export function buildStyleStack() {
     Styles.badge.timeBadge = Styles.style({
         plugins: [
             Styles.css({
-                borderRadius: '0.2rem',
-                fontSize: '0.9rem',
+                borderRadius: 's',
+                fontSize: 's',
                 position: 'ralative',
                 top: '0.05rem'
             })
@@ -1497,12 +1510,12 @@ export function buildStyleStack() {
         plugins: [
             Styles.datepicker.agent.css({
                 width: '10rem',
-                borderRadius: '0.25rem',
+                borderRadius: 's',
                 // border: '1px solid #1e5e84',
                 // background: 'hsl(192,100%,19%)',
                 // color: '#edfcff',
                 height: '2rem',
-                fontSize: '0.9rem'
+                fontSize: 's'
             })
         ]
     });
@@ -1510,12 +1523,12 @@ export function buildStyleStack() {
         plugins: [
             Styles.select.agent.css({
                 width: '10rem',
-                borderRadius: '0.25rem',
+                borderRadius: 's',
                 // border: '1px solid #1e5e84',
                 // background: 'hsl(192,100%,19%)',
                 // color: '#edfcff',
                 height: '2rem',
-                fontSize: '0.9rem'
+                fontSize: 's'
             })
         ]
     });
@@ -1523,21 +1536,21 @@ export function buildStyleStack() {
         plugins: [
             Styles.input.agent.css({
                 width: '10rem',
-                borderRadius: '0.25rem',
+                borderRadius: 's',
                 // border: '1px solid #1e5e84',
                 // background: 'hsl(192,100%,19%)',
                 // color: '#edfcff',
                 height: '2rem',
-                fontSize: '0.9rem'
+                fontSize: 's'
             })
         ]
     });
     Styles.button.regularButton = Styles.style({
         plugins: [
             Styles.button.css({
-                borderRadius: '0.25rem',
+                borderRadius: 's',
                 height: '2rem',
-                fontSize: '1rem',
+                fontSize: 'm',
                 // color: '#edfcff',
                 // backgroundImage: 'url(../../../../common/img/bigData/btn-bg.png)',
                 // backgroundSize: '100% 100%',
@@ -1589,7 +1602,7 @@ export function buildStyleStack() {
     });
 
     Styles.tabBtnList = Styles.css({
-        fontSize: '.875rem',
+        fontSize: 's',
         padding: '0!important'
     });
     // Styles.table.clickhighlight = Styles.style({

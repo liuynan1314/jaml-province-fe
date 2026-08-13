@@ -5,8 +5,6 @@
  * @showType chart
  */
 
-import { getAcColor } from '../utils/acColorParams.js';
-
 function bvLevelSvgIcon(bvName) {
     const m = String(bvName ?? '').match(/(\d+)/);
     const kv = m ? m[1] : '';
@@ -46,7 +44,7 @@ export default {
                         flexDirection: 'column',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        gap: '0.2rem',
+                        gap: 's',
                         boxShadow: 'none',
                         filter: 'none',
                         '& > img': {
@@ -69,7 +67,7 @@ export default {
                         paddingLeft: 0,
                         textAlign: 'end',
                         whiteSpace: 'normal',
-                        fontSize: '0.75rem',
+                        fontSize: 's',
                         writingMode: 'vertical-rl',
                         textOrientation: 'upright',
                         transform: 'translateY(-80%)'
@@ -79,15 +77,18 @@ export default {
             components: [
                 {
                     type: 'ccMap',
-                    styles: [Styles.size.fullsize, Styles.css({ overflow: 'hidden' })],
+                    styles: ['ccMap.basic', Styles.size.fullsize, Styles.css({ overflow: 'hidden' })],
                     plugins: [Plugins.shortcut.popGraph([{ target: '.infoOverMap', shortcuts: ['stGraph', 'onlineInfo'] }])]
                 },
                 {
                     type: 'wrapper',
-                    class: 'map-bv-legend jam-with-border jam-with-bg',
+                    class: 'map-bv-legend',
                     styles: [
+                        'with.elevation',
+                        'border.subtle',
+                        'border.s',
                         Styles.css({
-                            padding: '0.5rem',
+                            padding: 's',
                             width: 'fit-content',
                             height: 'fit-content',
                             position: 'absolute',
@@ -96,20 +97,20 @@ export default {
                             display: 'flex',
                             flexDirection: 'column',
                             alignItems: 'stretch',
-                            gap: '0.35rem',
-                            borderRadius: '0.5rem',
-                            borderColor: `${getAcColor('rgba(117, 161, 163, 0.1)')}`
+                            gap: 's',
+                            borderRadius: 'm',
+                            borderColor: 'var(--jam-color-primary-film)'
                         }),
                         Styles.stylesheet({
                             '.map-bv-legend-title': {
                                 width: '100%',
                                 textAlign: 'center',
-                                paddingBottom: '0.35rem',
-                                marginBottom: '0.15rem',
-                                borderBottom: `1px solid rgba(100, 220, 220, 0.45)`
+                                paddingBottom: 's',
+                                marginBottom: 's',
+                                borderBottom: 's solid var(--jam-color-primary-subtle)'
                             },
                             '.bv_item.bv_item-selected': {
-                                background: jam.ac()
+                                background: 'accent'
                             }
                         })
                     ],
@@ -117,7 +118,7 @@ export default {
                     components: [
                         {
                             type: 'wrapper',
-                            styles: [Styles.css({ display: 'flex', flexDirection: 'column', gap: '0.15rem' })],
+                            styles: [Styles.css({ display: 'flex', flexDirection: 'column', gap: 's' })],
                             components: jaml.var('bvList', function (bvList) {
                                 return (bvList || []).map((item) => {
                                     return {
@@ -129,9 +130,9 @@ export default {
                                         styles: [
                                             'css(cursor:pointer)',
                                             Styles.label.hover({
-                                                background: jam.ac()
+                                                background: 'var(--jam-color-primary-subtle)'
                                             }),
-                                            Styles.label.cap.css({ color: `${jam.lumiText(10)}`, fontFamily: 'DINPro', fontSize: '0.875rem' })
+                                            Styles.label.cap.css({ color: 'muted', fontFamily: 'DINPro', fontSize: 's' })
                                         ],
                                         onclick() {
                                             const _selectedBv = this.msgr.get('selectBv')?.value;

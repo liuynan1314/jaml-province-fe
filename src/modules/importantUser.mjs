@@ -23,7 +23,7 @@ export default {
                 flexDirection: 'column',
                 position: 'relative',
                 marginBottom: '0.5rem',
-                border: `1px solid ${jam.ac(1.05, 0.3, 0.46)}`,
+                border: 's solid var(--jam-color-primary-subtle)',
                 backdropFilter: ' blur(24px)'
             },
             '.user-box': {
@@ -56,7 +56,7 @@ export default {
                 alignItems: 'center'
             },
             '.bvName': {
-                fontSize: '0.75rem'
+                fontSize: 's'
             },
             '.userBox': {
                 display: 'flex',
@@ -66,38 +66,37 @@ export default {
                 // background: "url('../../assets/images/bg_result.png') no-repeat",
                 // backgroundPosition: 'center center',
                 // backgroundSize: '100% 100%',
-                marginBottom: '0.75rem',
-                paddingBottom: '1.25rem'
+                marginBottom: 'm',
+                paddingBottom: 'l'
             },
             '.userType': {
                 height: '2.5rem',
                 'line-height': '2.5rem',
                 // background: "url('../../assets/images/user_sec_title.png') no-repeat",
                 // backgroundPosition: 'top left',
-                fontSize: '1.25rem',
+                fontSize: 'l',
                 fontWeight: 'bold',
-                marginTop: '0.5rem',
-                paddingLeft: '2rem'
-                // color: jam.lumiText(0)
+                marginTop: 's',
+                paddingLeft: 'l'
                 // padding
             },
             '.userContent': {
                 display: 'flex',
                 height: 'auto',
-                padding: '0 1.25rem',
+                padding: '0 l',
                 'flex-wrap': 'wrap'
             },
             '.userContent>div': {
                 position: 'relative',
                 width: '10rem',
                 height: '11.375rem',
-                marginTop: '1.25rem',
+                marginTop: 'l',
                 // background: "url('../../assets/images/user_bg_box.png') no-repeat",
                 // backgroundPosition: 'center center',
                 // backgroundSize: '100% 100%',
-                border: `1px solid ${jam.ac()}`,
-                background: `${jam.ac({ a: 0.2 })}`,
-                marginRight: '1rem'
+                border: 's solid var(--jam-color-primary-default)',
+                background: 'tint',
+                marginRight: 'm'
             },
             '.userName': {
                 width: '100%',
@@ -107,8 +106,8 @@ export default {
                 fonSize: '1.125rem',
                 fontWeight: 'bold',
                 cursor: 'pointer',
-                background: `${jam.ac({ a: 0.8 })}`,
-                color: jam.lumiText(0)
+                background: 'accent',
+                color: 'onprimary'
             },
             '.userName:hover': {
                 background: 'linear-gradient(180deg, #c3e3f0ff 0%, #FFFFFF 100%)',
@@ -143,7 +142,7 @@ export default {
 
             '.top_text,.left_text,.bottom_text': {
                 'text-align': 'center',
-                fontSize: '.875rem'
+                fontSize: 's'
             },
 
             '.left_text': {
@@ -165,7 +164,7 @@ export default {
                 height: '1.3125rem',
                 top: '2rem',
                 left: 'calc(50% - .21875rem)',
-                border: '1px solid #B1220B'
+                border: 's solid #B1220B'
             },
             '.red_line11000': {
                 borderColor: '#0000ff'
@@ -261,7 +260,7 @@ export default {
                                 'props(marginLeft:2rem;)',
                                 Styles.input.regularStyleDiff,
                                 Styles.input.agent.css({
-                                    borderColor: jam.ac(1, 0.25, 0.61)
+                                    borderColor: 'var(--jam-color-primary-subtle)'
                                 })
                             ],
                             cap: '用户名称：',
@@ -502,7 +501,7 @@ function drawUser(data) {
     document.querySelector('.tooltip-buttons').style.display = 'flex';
     document.querySelector('.tooltip-buttons').style.justifyContent = 'space-around';
     const tooltipButtons = document.querySelectorAll('.tooltip-btn');
-    const colorList = [jam.ac(1.06, 1, 0.92), jam.ac(0.76, 0.53, 0.8), jam.ac(0.06, 0.58, 0.83)];
+    const colorList = [jam.acToken[0](), jam.acToken[1](), jam.acToken[2]()];
     tooltipButtons.forEach((btn, index) => {
         btn.style.width = '4rem';
         btn.style.height = '2rem';

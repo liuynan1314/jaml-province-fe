@@ -102,7 +102,7 @@ export default {
                 {
                     type: 'chart-pie',
                     class: 'pie-chart chart-ele',
-                    colorset: ['#41ecce', '#e37784'],
+                    colorset: ['primary', 'warn'],
                     styles: [
                         'size.fullsize',
                         Styles.echarts.pie({
@@ -386,14 +386,14 @@ async function getRegionList() {
 
 const typeConfig = {
     leftColor: [
-        ['#0887a5', '#04819c', '#017990'],
-        ['#085fa5', '#055b9c', '#065686'],
-        ['#a1990b', '#948a08', '#8c8306']
+        [jam.acToken[0](), jam.acToken[0](1, 1, 1, 0.85), jam.acToken[0](1, 1, 1, 0.7)],
+        [jam.acToken[2](), jam.acToken[2](1, 1, 1, 0.85), jam.acToken[2](1, 1, 1, 0.7)],
+        [jam.acToken[1](), jam.acToken[1](1, 1, 1, 0.85), jam.acToken[1](1, 1, 1, 0.7)]
     ],
     rightColor: [
-        ['#08d3bb', '#04aba9', '#08768b'],
-        ['#01a6ca', '#057ba7', '#08558a'],
-        ['#c78706', '#a08009', '#877c0b']
+        [jam.acToken[0](), jam.acToken[0](1, 1, 1, 0.9), jam.acToken[0](1, 1, 1, 0.75)],
+        [jam.acToken[2](), jam.acToken[2](1, 1, 1, 0.9), jam.acToken[2](1, 1, 1, 0.75)],
+        [jam.acToken[1](), jam.acToken[1](1, 1, 1, 0.9), jam.acToken[1](1, 1, 1, 0.75)]
     ],
-    topColor: [['#0eecf8'], ['#eaff8'], ['#f8cc0e']]
+    topColor: [[jam.acToken[0]()], [jam.acToken[2]()], [jam.acToken[1]()]]
 };

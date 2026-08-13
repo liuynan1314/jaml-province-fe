@@ -61,8 +61,8 @@ const dataDefs = [
                       type: 'badge',
                       styles: [
                           Styles.css({
-                              borderRadius: '0.2rem',
-                              fontSize: '0.9rem'
+                              borderRadius: 'xs',
+                              fontSize: 's'
                           })
                       ],
                       cap: jam.formatTime(value, 'yyyy-MM-dd'),
@@ -81,8 +81,8 @@ const dataDefs = [
                       type: 'badge',
                       styles: [
                           Styles.css({
-                              borderRadius: '0.2rem',
-                              fontSize: '0.9rem'
+                              borderRadius: 'xs',
+                              fontSize: 's'
                           })
                       ],
                       cap: jam.formatTime(value, 'yyyy-MM-dd'),
@@ -216,10 +216,10 @@ const alarmSearchTable = (params) => {
                             '.viewButtons': {
                                 'jam-button': {
                                     '--jam-button-bg-deg': '180deg',
-                                    background: `linear-gradient(var(--jam-button-bg-deg),${jam.ac({ l: 0.9 })}, ${jam.ac({ l: 0.7 })})`,
-                                    color: jam.lumiText(1),
+                                    background: 'var(--jam-color-primary-default)',
+                                    color: 'onprimary',
                                     '&:hover': {
-                                        background: `linear-gradient(var(--jam-button-bg-deg),${jam.ac({ l: 1 })}, ${jam.ac({ l: 0.8 })})`
+                                        background: 'var(--jam-color-primary-strong)'
                                     },
                                     '&:active': {
                                         '--jam-button-bg-deg': '0deg'
@@ -235,7 +235,7 @@ const alarmSearchTable = (params) => {
                         class: 'form-box',
                         descStyles: {
                             datepicker: [Styles.icon.duotone, Styles.datepicker.regularStyle],
-                            button: [Styles.searchBtnsStyles, Styles.button.css({ margin: '0.3rem 0.5rem' })],
+                            button: [Styles.searchBtnsStyles, Styles.button.css({ margin: 'xs s' })],
                             select: [Styles.icon.duotone, Styles.select.regularStyle, Styles.select.agent.css({ width: '11rem' })],
                             input: [Styles.icon.duotone, Styles.input.regularStyle]
                         },

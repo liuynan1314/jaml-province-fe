@@ -1,5 +1,4 @@
 import { ajaxCall, getDetailConf } from '../common.js';
-import { hslaToJamAc } from '../utils/Constants.js';
 import { handleClickStName } from './substationIndex.mjs';
 const mapConfig = getDetailConf('mapConf');
 const defaultRegionName = mapConfig.defaultRegionName;
@@ -28,9 +27,9 @@ export default {
                 flexDirection: 'column',
                 width: '9.75rem',
                 height: '4.375rem',
-                backgroundColor: jam.ac({ a: 0.3 }),
+                background: 'tint',
                 backgroundImage: 'linear-gradient(rgba(0, 0, 0, .05), transparent .4rem, transparent calc(100% - .6rem), rgba(0, 0, 0, .12))',
-                border: `1px solid ${jam.ac({ a: 0.6 })}`,
+                border: 's solid var(--jam-color-primary-default)',
                 cursor: 'pointer'
             },
             '.left-item-label': {},
@@ -39,8 +38,8 @@ export default {
                 width: '11rem',
                 height: ' 7.075rem',
                 backgroundColor: '#04233b',
-                borderRadius: '0.625rem',
-                borderWidth: '1px',
+                borderRadius: 'm',
+                borderWidth: 's',
                 borderColor: '#00bbfb'
                 // background: 'url(../../assets/images/map_bullet_box.png) no-repeat',
                 // backgroundSize: ' 100% 100%'
@@ -90,12 +89,12 @@ export default {
                 width: '100%',
                 height: ' 1.25rem',
                 backgroundSize: '100% 50%',
-                fontSize: '0.875rem',
+                fontSize: 's',
                 fontWeight: ' bold',
                 backgroundColor: '#102e45'
             },
             '.content>li .name': {
-                fontSize: ' 0.85rem',
+                fontSize: 's',
                 color: ' #ffffff',
                 lineHeight: '20px',
                 padding: ' 0 0.01rem'
@@ -107,17 +106,17 @@ export default {
 
             '.blue': {
                 color: '#ece14a',
-                fontSize: ' 0.875rem',
+                fontSize: 's',
                 textAlign: ' right',
                 fontFamily: 'DIN-Medium',
                 // backgroundColor: ' hsla(201, 97%, 14%, 0.8)',
-                borderRadius: ' 0.3rem',
-                paddingRight: ' 0.5rem',
+                borderRadius: 's',
+                paddingRight: 's',
                 width: '5rem'
             },
 
             '.fuhao': {
-                fontSize: '0.75rem',
+                fontSize: 's',
                 color: '#7ba5c1',
                 fontFamily: 'SourceHanSansCN-Regular'
             },
@@ -127,12 +126,12 @@ export default {
                 right: '0%',
                 width: '7.55rem',
                 height: '8.25rem',
-                background: jam.ac({ a: 0.3 }),
-                border: `1px solid ${jam.ac({ a: 0.6 })}`,
+                background: 'tint',
+                border: 's solid var(--jam-color-primary-default)',
                 display: 'flex',
                 flexDirection: 'column',
-                fontSize: '0.75rem',
-                padding: '0.1rem'
+                fontSize: 's',
+                padding: 's'
             },
             '.mapLegend-item': {
                 flex: '1'
@@ -156,12 +155,12 @@ export default {
                     components: [
                         {
                             type: 'wrapper',
-                            styles: [Styles.size({ width: '100%', height: '1.8rem' }), Styles.css({ padding: '0.5rem 1rem' }), Styles.layout.flex({ justifyContent: 'space-between', alignItems: 'center' })],
+                            styles: [Styles.size({ width: '100%', height: '1.8rem' }), Styles.css({ padding: 's m' }), Styles.layout.flex({ justifyContent: 'space-between', alignItems: 'center' })],
                             components: [
                                 {
                                     type: 'label',
                                     class: 'left-item-label',
-                                    styles: [Styles.size({ height: '100%' }), Styles.label.css({ fontSize: '0.875rem', color: jam.lumiText(0) })],
+                                    styles: [Styles.size({ height: '100%' }), Styles.label.css({ fontSize: 's' })],
                                     cap: '遥控'
                                 },
                                 {
@@ -183,16 +182,16 @@ export default {
                         },
                         {
                             type: 'wrapper',
-                            styles: [Styles.css({ marginLeft: '1rem' })],
+                            styles: [Styles.css({ marginLeft: 'm' })],
                             components: [
                                 {
                                     type: 'label',
-                                    styles: [Styles.label.css({ fontSize: '1.5rem', fontWeight: 'bold', fontFamily: 'DINPro', color: jam.lumiText(0) })],
+                                    styles: [Styles.label.css({ fontSize: 'l', fontWeight: 'bold', fontFamily: 'DINPro' })],
                                     cap: '{{switch_remote_num}}'
                                 },
                                 {
                                     type: 'label',
-                                    styles: [Styles.label.css({ fontSize: '0.875rem', color: jam.lumiText(0) })],
+                                    styles: [Styles.label.css({ fontSize: 's' })],
                                     cap: '个'
                                 }
                                 // {
@@ -225,16 +224,16 @@ export default {
                 {
                     type: 'wrapper',
                     class: 'left-item',
-                    styles: [Styles.css({ marginTop: '0.5rem' })],
+                    styles: [Styles.css({ marginTop: 's' })],
                     components: [
                         {
                             type: 'wrapper',
-                            styles: [Styles.size({ width: '100%', height: '1.8rem' }), Styles.css({ padding: '0.5rem 1rem' }), Styles.layout.flex({ justifyContent: 'space-between', alignItems: 'center' })],
+                            styles: [Styles.size({ width: '100%', height: '1.8rem' }), Styles.css({ padding: 's m' }), Styles.layout.flex({ justifyContent: 'space-between', alignItems: 'center' })],
                             components: [
                                 {
                                     type: 'label',
                                     class: 'left-item-label',
-                                    styles: [Styles.size({ height: '100%' }), , Styles.label.css({ fontSize: '0.875rem', color: jam.lumiText(0) })],
+                                    styles: [Styles.size({ height: '100%' }), Styles.label.css({ fontSize: 's' })],
                                     cap: '遥调'
                                 },
                                 {
@@ -256,16 +255,16 @@ export default {
                         },
                         {
                             type: 'wrapper',
-                            styles: [Styles.css({ marginLeft: '1rem' })],
+                            styles: [Styles.css({ marginLeft: 'm' })],
                             components: [
                                 {
                                     type: 'label',
-                                    styles: [Styles.label.css({ fontSize: '1.5rem', fontWeight: 'bold', fontFamily: 'DINPro', color: jam.lumiText(0) })],
+                                    styles: [Styles.label.css({ fontSize: 'l', fontWeight: 'bold', fontFamily: 'DINPro' })],
                                     cap: '{{main_transformer_num}}'
                                 },
                                 {
                                     type: 'label',
-                                    styles: [Styles.label.css({ fontSize: '0.875rem', color: jam.lumiText(0) })],
+                                    styles: [Styles.label.css({ fontSize: 's' })],
                                     cap: '个'
                                 }
                             ]
@@ -283,17 +282,17 @@ export default {
                 },
                 {
                     type: 'wrapper',
-                    styles: [Styles.css({ marginTop: '0.5rem' })],
+                    styles: [Styles.css({ marginTop: 's' })],
                     class: 'left-item',
                     components: [
                         {
                             type: 'wrapper',
-                            styles: [Styles.size({ width: '100%', height: '1.8rem' }), Styles.css({ padding: '0.5rem 1rem' }), Styles.layout.flex({ justifyContent: 'space-between', alignItems: 'center' })],
+                            styles: [Styles.size({ width: '100%', height: '1.8rem' }), Styles.css({ padding: 's m' }), Styles.layout.flex({ justifyContent: 'space-between', alignItems: 'center' })],
                             components: [
                                 {
                                     type: 'label',
                                     class: 'left-item-label',
-                                    styles: [Styles.size({ height: '100%' }), Styles.label.css({ fontSize: '0.875rem' })],
+                                    styles: [Styles.size({ height: '100%' }), Styles.label.css({ fontSize: 's' })],
                                     cap: '软压板投退'
                                 },
                                 {
@@ -315,16 +314,16 @@ export default {
                         },
                         {
                             type: 'wrapper',
-                            styles: [Styles.css({ marginLeft: '1rem' })],
+                            styles: [Styles.css({ marginLeft: 'm' })],
                             components: [
                                 {
                                     type: 'label',
-                                    styles: [Styles.label.css({ fontSize: '1.5rem', fontWeight: 'bold', fontFamily: 'DINPro' })],
+                                    styles: [Styles.label.css({ fontSize: 'l', fontWeight: 'bold', fontFamily: 'DINPro' })],
                                     cap: '{{press_plate_num}}'
                                 },
                                 {
                                     type: 'label',
-                                    styles: [Styles.label.css({ fontSize: '0.875rem' })],
+                                    styles: [Styles.label.css({ fontSize: 's' })],
                                     cap: '个'
                                 }
                             ]
@@ -342,17 +341,17 @@ export default {
                 },
                 {
                     type: 'wrapper',
-                    styles: [Styles.css({ marginTop: '0.5rem' })],
+                    styles: [Styles.css({ marginTop: 's' })],
                     class: 'left-item',
                     components: [
                         {
                             type: 'wrapper',
-                            styles: [Styles.size({ width: '100%', height: '1.8rem' }), Styles.css({ padding: '0.5rem 1rem' }), Styles.layout.flex({ justifyContent: 'space-between', alignItems: 'center' })],
+                            styles: [Styles.size({ width: '100%', height: '1.8rem' }), Styles.css({ padding: 's m' }), Styles.layout.flex({ justifyContent: 'space-between', alignItems: 'center' })],
                             components: [
                                 {
                                     type: 'label',
                                     class: 'left-item-label',
-                                    styles: [Styles.size({ height: '100%' }), Styles.label.css({ fontSize: '0.875rem' })],
+                                    styles: [Styles.size({ height: '100%' }), Styles.label.css({ fontSize: 's' })],
                                     cap: '程序化操作'
                                 },
                                 {
@@ -374,16 +373,16 @@ export default {
                         },
                         {
                             type: 'wrapper',
-                            styles: [Styles.css({ marginLeft: '1rem' })],
+                            styles: [Styles.css({ marginLeft: 'm' })],
                             components: [
                                 {
                                     type: 'label',
-                                    styles: [Styles.label.css({ fontSize: '1.5rem', fontWeight: 'bold', fontFamily: 'DINPro' })],
+                                    styles: [Styles.label.css({ fontSize: 'l', fontWeight: 'bold', fontFamily: 'DINPro' })],
                                     cap: '{{sequential_control_num}}'
                                 },
                                 {
                                     type: 'label',
-                                    styles: [Styles.label.css({ fontSize: '0.875rem' })],
+                                    styles: [Styles.label.css({ fontSize: 's' })],
                                     cap: '个'
                                 }
                             ]
@@ -414,15 +413,16 @@ export default {
                             type: 'ccMap',
                             class: 'map3D',
                             styles: [
+                                'ccMap.basic',
                                 'css(overflow: hidden;)',
                                 Styles.size.fullsize,
                                 Styles.echarts.map.fake3D({
-                                    color: jam.ac(1, '100%', jam.lumiO(45), 0.87),
-                                    colorEmphasis: jam.ac(1, 1.5, 1, 0.5),
+                                    color: Tokens.color.primary.film,
+                                    colorEmphasis: Tokens.color.primary.subtle,
                                     borderWidth: 1,
-                                    borderColor: jam.ac(),
-                                    colorMid: jam.ac(),
-                                    colorBottom: jam.ac()
+                                    borderColor: Tokens.color.primary.default,
+                                    colorMid: Tokens.color.primary.default,
+                                    colorBottom: Tokens.color.primary.default
                                 })
                             ]
                         }
@@ -491,13 +491,13 @@ export default {
 };
 
 mango.sub('mapRegionChange', (data) => {
-    jam.notify(`当前区域：${data.name}`, {
+    jam.notify(`当前区域：${data.detail.name}`, {
         id: 'regionchange'
     });
     if (!_model.vars.mapAreaData) {
         return;
     }
-    let areaId = _model.vars.mapAreaData.filter((item) => data.name.includes(item.regionNameChn));
+    let areaId = _model.vars.mapAreaData.filter((item) => data.detail.name.includes(item.regionNameChn));
     if (areaId.length) {
         rambutan.switchTo('/substationIndex_songjian-screen', {
             token: jam.getUrlParam('token')

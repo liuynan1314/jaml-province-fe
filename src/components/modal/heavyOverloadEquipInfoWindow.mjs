@@ -22,9 +22,9 @@ export default function (props) {
                 title: '重过载详情-表格',
                 key: 'tableWithPage-event',
                 styles: [
+                    'basicTable.basic',
                     'size.fullsize',
                     'padding(0)',
-                    'tableWithPage.basic',
                     'cap.hide',
                     'icon.hide',
                     Styles.stylesheet({

@@ -1,6 +1,5 @@
 import { ajaxCall, exportExcel, formatterJameTime } from '../common.js';
 import { urlConfig } from '../global.js';
-import { hslaToJamAc } from '../utils/Constants.js';
 let _model, _msgr;
 const pagerKey = jam.genUUID();
 
@@ -16,9 +15,9 @@ export default {
             '.table-container': {
                 padding: 'var(--gap)',
                 marginTop: 'var(--gap)',
-                border: `.0625rem solid ${hslaToJamAc('hsla(212.6, 42.9%, 26.1%, .86)')}`,
-                backgroundColor: `${hslaToJamAc('hsla(220, 100%, 81.2%, 0.03)')}`,
-                boxShadow: `0px 30px 73px 0px ${hslaToJamAc('hsla(223.6, 47.8%, 4.5%, 0.15)')}`,
+                border: 's solid var(--jam-color-outline-muted)',
+                backgroundColor: 'elevation',
+                boxShadow: 'l',
                 overflow: 'hidden auto'
             }
         })

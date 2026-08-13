@@ -39,39 +39,39 @@ export default {
         Styles.stylesheet({
             '&': {
                 zIndex: 99999,
-                padding: '1rem',
-                borderRadius: '0.5rem 0.5rem 0 0',
+                padding: 'm',
+                borderRadius: 'm m 0 0',
                 height: '50%',
                 width: '80%',
                 left: 0,
                 margin: '0 10%',
                 boxShadow: '0.15rem 0rem 0.25rem hsla(0, 0%, 0%, 0.2)',
-                backgroundColor: 'var(--jam-sys-background-color-extra-primary,var(--jam-card-bodysolot-backgroud-color,hsla(0,0%,0%,0.8)))'
+                backgroundColor: 'elevation'
             },
             '#devSidebar': {
                 '.dev-group': {
-                    'margin-bottom': '0.5rem'
+                    'margin-bottom': 's'
                 },
                 '.dev-name': {
                     cursor: 'pointer',
-                    padding: '0.5rem',
-                    img: { filter: 'hue-rotate(calc(var(--jam-ac-h) * 1deg))  drop-shadow(0px 0.04rem 0.1rem var(--jam-ac-color))', transform: 'scale(0.8)', '--jam-icon-size': '1.2rem' },
+                    padding: 's',
+                    img: { filter: 'drop-shadow(0px 0.04rem 0.1rem var(--jam-color-primary-default))', transform: 'scale(0.8)', '--jam-icon-size': '1.2rem' },
                     '[slot="value"]': {
                         'font-family': 'DINpro',
                         'font-weight': 'bold',
-                        color: jam.ac({ l: jam.lumiO(10) }),
+                        color: 'primary',
                         'text-shadow': '0 0.1rem 0.2rem hsla(0,0%,47%,0.4)',
-                        'margin-right': '0.5rem'
+                        'margin-right': 's'
                     }
                 },
                 '.group-list': {
                     display: 'flex',
                     flexDirection: 'column',
-                    'padding-left': '1.5rem',
+                    'padding-left': 'l',
                     '.group-name': {
                         cursor: 'pointer',
-                        padding: '0.3rem',
-                        borderRadius: 'var(--jam-sys-border-radius-tertiary)'
+                        padding: 's',
+                        borderRadius: 's'
                     }
                 }
             },
@@ -79,7 +79,7 @@ export default {
                 overflow: 'auto',
                 display: 'grid',
                 gridTemplateColumns: 'repeat(3, minmax(8rem, 1fr))',
-                gap: '1rem',
+                gap: 'm',
                 // 'flex-wrap': 'wrap',
                 '.widget-wrapper': {
                     display: 'flex',
@@ -89,9 +89,8 @@ export default {
                     width: '100%',
                     height: '100%',
                     backgroundImage: `linear-gradient(180deg,hsla(0,0%,100%,0.01) 50%,hsla(0,0,0,0.03))`,
-                    backgroundColor: 'var(--jam-sys-background-color-surface-quaternary)',
-                    boxShadow: '0rem 0.15rem 0.35rem hsla(0,0%,0%,var(--jam-lumi-a-10))',
-                    borderRadius: 'var(--jam-sys-border-radius-tertiary)',
+                    backgroundColor: 'elevation',
+                    borderRadius: 's',
                     cursor: 'pointer'
                 },
                 '.jam-cc': {
@@ -102,14 +101,10 @@ export default {
                     transition: 'box-shadow 0.4s ease-in-out',
                     position: 'relative',
                     '.fa-circle-plus': {
-                        fontSize: '1rem'
-                    },
-                    '&:hover': {
-                        boxShadow: '0rem 1rem 1rem hsla(0,0%,0%,var(--jam-lumi-a-10))'
+                        fontSize: 'm'
                     }
                 }
-            },
-            'body.jam-dark :scope #devSidebar .dev-name [slot="layer"]': { 'text-shadow': '0 0.1rem 0.2rem hsla(0,0%,0%,0.8)' }
+            }
         })
     ],
     components: [
@@ -121,7 +116,7 @@ export default {
                     display: 'grid',
                     gridTemplateColumns: '11rem auto',
                     gridTemplateRows: '2rem auto',
-                    gap: '1rem'
+                    gap: 'm'
                 })
             ],
             components: [
@@ -192,14 +187,14 @@ export default {
                                             cap: '{{group.name}}',
                                             class: 'group-name',
                                             buildFor: 'group in devList.data',
-                                            styles: [Styles.hover.crosshair({ radius: 'var(--jam-sys-border-radius-tertiary)' })],
+                                            styles: [Styles.hover.crosshair({ radius: 's' })],
                                             state: '{{group.id}} === {{selected.id}} ? "selected":"default"',
                                             states: {
                                                 default: {
-                                                    styles: [Styles.css({ background: 'transparent', color: jam.lumiText(5) })]
+                                                    styles: [Styles.css({ background: 'transparent', color: 'var(--jam-color-fg-default)' })]
                                                 },
                                                 selected: {
-                                                    styles: [Styles.css({ background: jam.ac(), color: jam.lumiText(5) })]
+                                                    styles: [Styles.css({ background: 'accent', color: 'onprimary' })]
                                                 }
                                             },
                                             onclick() {
@@ -241,7 +236,7 @@ export default {
                                     // let _card = document.querySelector(`[data-id=undefined]`);
                                     if (_card) {
                                         jam.notify('当前页面中已存在该模块', 'info');
-                                        jam.locate(_card, { color: jam.ac() });
+                                        jam.locate(_card, { color: 'var(--jam-color-primary-default)' });
                                         return;
                                     }
                                     jam.currantComposable.putNewCardInCanvas(await resolveModuleById(_id));
@@ -267,7 +262,7 @@ export default {
                                         type: 'label',
                                         id: `size-${item.key}`,
                                         cap: `${item.size[0]} x ${item.size[1]}`,
-                                        styles: [`css(display:flex;justifyContent:center;position:absolute;bottom:0.5rem;right:0.5rem;padding:0.1rem 0.5rem;border-radius:var(--jam-sys-border-radius-tertiary);backdrop-filter:blur(2px);background:${jam.ac({ l: 1.2, a: 0.3 })};width: 6rem;height: 1.5rem;)`]
+                                        styles: [`css(display:flex;justifyContent:center;position:absolute;bottom:s;right:s;padding:s;border-radius:var(--jam-border-radius-s);backdrop-filter:blur(2px);background:var(--jam-color-primary-film);width: 6rem;height: 1.5rem;)`]
                                     });
                                     // jam.appendChild(this, el);
                                     jam.appendChild(this, el1);

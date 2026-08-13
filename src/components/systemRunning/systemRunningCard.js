@@ -6,7 +6,7 @@ import { getDetailConfObject } from '../../common.js';
 const threshold = getDetailConfObject('systemRunningManagementThreshold') || [0.8, 0.6];
 const progressStyles = [
     Styles.css({
-        fontSize: '1.2rem',
+        fontSize: 'l',
         height: '1.6rem',
         width: '100%',
         padding: 0,
@@ -18,7 +18,7 @@ const progressStyles = [
         height: '1.6rem',
         background: 'hsl(203.4, 57.1%, 22%)',
         textAlign: 'left',
-        textIndent: '0.5rem',
+        textIndent: 's',
         cursor: 'pointer'
     })
 ];
@@ -29,15 +29,15 @@ jaml.register('systemRunningCard', {
         Styles.css({
             height: 'fit-content',
             width: 'calc(calc((100% / 3)) - 1rem)',
-            margin: '0 0.5rem 0.9rem 0.5rem',
+            margin: '0 s m s',
             display: 'flex',
             flexWrap: 'wrap',
             justifyContent: 'space-between',
-            padding: '2.8rem 0.5rem 0.5rem 0.5rem',
+            padding: '2.8rem s s s',
             fontFamily: 'DINPro',
-            fontSize: '0.9rem',
-            border: `1px solid ${jam.ac()}`,
-            background: `${jam.ac({ a: 0.2 })}`
+            fontSize: 's',
+            border: 's solid var(--jam-color-primary-default)',
+            background: 'tint'
             // backgroundImage: 'url(../assets/images/dataQualityManagement/sj_box.png)',
             // backgroundSize: '100% 100%',
             // backgroundRepeat: 'no-repeat'
@@ -49,9 +49,9 @@ jaml.register('systemRunningCard', {
             cap: '{{item.regionName}}',
             styles: [
                 Styles.css({
-                    backgroundImage: `linear-gradient(180deg, ${jam.ac()} 0%, hsl(0, 0%, 100%) 100%)`,
+                    backgroundImage: 'linear-gradient(180deg, var(--jam-color-primary-default) 0%, var(--jam-color-primary-default) 100%)',
                     backgroundClip: 'text',
-                    fontSize: '1.2rem',
+                    fontSize: 'l',
                     position: 'absolute',
                     top: '0.2rem',
                     left: '50%',
@@ -90,8 +90,8 @@ jaml.register('systemRunningCardNode', {
             cursor: 'pointer',
             width: '100%',
             display: 'flex',
-            padding: '0.4rem',
-            background: `linear-gradient(180deg, ${jam.ac({ a: 0.8 })} 0%, ${jam.ac({ a: 0.4 })} 100%)`
+            padding: 'xs',
+            background: 'var(--jam-color-primary-default)'
         })
     ],
     components: [
@@ -101,7 +101,7 @@ jaml.register('systemRunningCardNode', {
                 Styles.css({
                     display: 'block',
                     width: '45%',
-                    marginRight: '0.5rem'
+                    marginRight: 's'
                 })
             ],
             components: [
@@ -140,13 +140,13 @@ jaml.register('systemRunningCardNode', {
                             width: '100%',
                             height: '1.8rem',
                             paddingLeft: '0',
-                            fontSize: '1rem',
-                            color: jam.ac(1, 0, jam.acLumiO(13)),
+                            fontSize: 'm',
+                            color: 'primary',
                             // backgroundImage: 'url(../assets/images/systemRunningManagement/bg_title_nob.png)',
                             // backgroundSize: '100% 50%',
                             // backgroundRepeat: 'no-repeat',
                             // backgroundPosition: '0 100%',
-                            marginBottom: '0.3rem'
+                            marginBottom: 'xs'
                         }),
                         Styles.label.icon.css({
                             backgroundSize: '80% 80%',
@@ -209,7 +209,7 @@ jaml.register('systemRunningCardNode', {
                     display: 'block',
                     height: '100%',
                     width: '55%',
-                    background: `linear-gradient(180deg,  ${jam.ac({ a: 0.8 })} 0%,  ${jam.ac({ a: 0.4 })} 100%)`
+                    background: 'var(--jam-color-primary-subtle)'
                 })
             ],
             components: [
@@ -222,9 +222,9 @@ jaml.register('systemRunningCardNode', {
                             width: '100%',
                             display: 'flex',
                             justifyContent: 'center',
-                            marginTop: '0.2rem',
+                            marginTop: 'xxs',
                             padding: 0,
-                            fontSize: '1rem'
+                            fontSize: 'm'
                             // background: 'hsl(210, 40.3%, 28.2%)',
                         })
                     ]
@@ -240,7 +240,7 @@ jaml.register('systemRunningCardNode', {
                             justifyContent: 'center'
                         })
                     ],
-                    labelStyles: [Styles.css({ padding: '0 0.1rem', fontSize: '1rem' })],
+                    labelStyles: [Styles.css({ padding: '0 xxs', fontSize: 'm' })],
                     components: [
                         {
                             type: 'label',
@@ -261,7 +261,7 @@ jaml.register('systemRunningCardNode', {
                             cap: '{{subData.total}}',
                             styles: [
                                 Styles.css({
-                                    fontSize: '0.8rem'
+                                    fontSize: 'xs'
                                 })
                             ]
                         }
@@ -297,11 +297,11 @@ jaml.register('systemRunningCardLeft', {
         Styles.css({
             width: '45%',
             display: 'block',
-            padding: '0.2rem'
+            padding: 'xs'
         }),
         Styles.stylesheet({
             ':scope .systemRunningCardNode:not(:first-child)': {
-                marginTop: '0.5rem'
+                marginTop: 's'
             }
         })
     ],
@@ -344,8 +344,8 @@ jaml.register('systemRunningCardRight', {
         Styles.css({
             width: 'calc(55% - 0.2rem)',
             display: 'block',
-            padding: '0.2rem',
-            marginLeft: '0.2rem'
+            padding: 'xs',
+            marginLeft: 'xxs'
         })
     ],
     components: [
@@ -363,19 +363,19 @@ jaml.register('systemRunningCardRight', {
                     },
                     ':scope .jam-option': {
                         height: '1.4rem',
-                        padding: '0.2rem 0.4rem',
+                        padding: 'xs xs',
                         borderRadius: '0',
                         transition: 'all 0.3s ',
                         border: 'none',
                         margin: '0',
-                        border: `1px solid ${jam.ac({ a: 0.8 })}`,
-                        color: `hsl(201.6, 33.3%, 64.1%)`,
-                        backgroundImage: `linear-gradient(-2.64deg, hsla(208.8, 35.9%, 59%, 0) 0%, ${jam.ac({ a: 0.8 })} 100%)`
+                        border: 's solid var(--jam-color-primary-default)',
+                        color: 'muted',
+                        backgroundImage: 'linear-gradient(-2.64deg, transparent 0%, var(--jam-color-primary-film) 100%)'
                     },
                     ':scope .jam-option.jam-checked': {
-                        border: `1px solid ${jam.ac()}`,
-                        color: 'hsl(199.4, 100%, 93.9%)',
-                        backgroundImage: `linear-gradient(-5.96deg, ${jam.ac({ a: 0.6 })} 0%, ${jam.ac()} 100%)`
+                        border: 's solid var(--jam-color-primary-default)',
+                        color: 'onprimary',
+                        backgroundImage: 'linear-gradient(-5.96deg, var(--jam-color-primary-subtle) 0%, var(--jam-color-primary-default) 100%)'
                     }
                 }),
                 Styles.css({

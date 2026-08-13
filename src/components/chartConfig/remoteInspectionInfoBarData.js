@@ -82,7 +82,7 @@ export function remoteInspectionInfoBarOptions(barData, leftColor, rightColor, t
                 show: true,
                 lineStyle: {
                     width: 1,
-                    color: '#134e6a'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisTick: {
@@ -90,7 +90,7 @@ export function remoteInspectionInfoBarOptions(barData, leftColor, rightColor, t
             },
             axisLabel: {
                 fontSize: 12,
-                color: '#8abae2',
+                color: Tokens.color.fg.muted,
                 interval: 0
             }
         },
@@ -100,14 +100,14 @@ export function remoteInspectionInfoBarOptions(barData, leftColor, rightColor, t
                 show: true,
                 lineStyle: {
                     width: 1,
-                    color: '#134e6a'
+                    color: Tokens.color.outline.subtle
                 }
             },
             splitLine: {
                 show: true,
                 lineStyle: {
                     type: 'dashed', //线的类型 虚线0
-                    color: '#0e3d57'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisTick: {
@@ -115,7 +115,7 @@ export function remoteInspectionInfoBarOptions(barData, leftColor, rightColor, t
             },
             axisLabel: {
                 fontSize: 12,
-                color: '#8abae2'
+                color: Tokens.color.fg.muted
             }
         },
         series: [
@@ -137,20 +137,7 @@ export function remoteInspectionInfoBarOptions(barData, leftColor, rightColor, t
                                     xAxisPoint: api.coord([api.value(0), 0])
                                 },
                                 style: {
-                                    fill: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                                        {
-                                            offset: 0,
-                                            color: leftColor[0]
-                                        },
-                                        {
-                                            offset: 0.6,
-                                            color: leftColor[1]
-                                        },
-                                        {
-                                            offset: 1,
-                                            color: leftColor[2]
-                                        }
-                                    ])
+                                    fill: jam.toEchartsGradient(90, leftColor[0], [leftColor[1], 0.6], leftColor[2])
                                 }
                             },
                             {
@@ -164,20 +151,7 @@ export function remoteInspectionInfoBarOptions(barData, leftColor, rightColor, t
                                     xAxisPoint: api.coord([api.value(0), 0])
                                 },
                                 style: {
-                                    fill: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                                        {
-                                            offset: 0,
-                                            color: rightColor[0]
-                                        },
-                                        {
-                                            offset: 0.6,
-                                            color: rightColor[1]
-                                        },
-                                        {
-                                            offset: 1,
-                                            color: rightColor[2]
-                                        }
-                                    ])
+                                    fill: jam.toEchartsGradient(90, rightColor[0], [rightColor[1], 0.6], rightColor[2])
                                 }
                             },
                             {
@@ -202,14 +176,14 @@ export function remoteInspectionInfoBarOptions(barData, leftColor, rightColor, t
             {
                 type: 'bar',
                 itemStyle: {
-                    color: 'transparent'
+                    color: Tokens.color.transparent
                 },
                 label: {
                     normal: {
                         show: true,
                         position: 'top',
                         fontSize: 14,
-                        color: '#feffff',
+                        color: Tokens.color.fg.default,
                         fontWeight: 'bold',
                         offset: [0, -5]
                     }

@@ -27,18 +27,18 @@ export default {
                 width: '100%',
                 height: 'calc(100% - 3.5rem)',
                 flexWrap: 'wrap',
-                gap: '1rem',
+                gap: 'm',
                 '.info-item': {
                     width: 'calc((100% - 1rem)/2)',
                     height: 'calc((100% - 1rem)/2)',
-                    background: jam.ac(1, 0.85, jam.lumiO(45), 0.8),
-                    padding: '1rem',
+                    background: 'accent',
+                    padding: 'm',
                     boxSizing: 'border-box',
-                    borderRadius: '0.25rem',
+                    borderRadius: 's',
                     '[slot=icon] .jam-icon': {
                         '--size': '1.5rem',
                         borderRadius: '50%',
-                        fontSize: '1rem'
+                        fontSize: 'm'
                     }
                 }
             }

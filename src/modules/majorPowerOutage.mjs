@@ -4,7 +4,6 @@ import { getRegionList } from '../utils/commonList.js';
 import { VOLTAGE_COLOR_STATE_BG } from '../utils/Constants.js';
 import powerAssuranceWindow from '../components/modal/powerAssuranceWindow.js';
 import diffImportantDevTable from '../components/diffImportantDevTable.js';
-import { hslaToJamAc } from '../utils/Constants.js';
 import '../components/sceneList.js';
 
 let SCENE_LIST, ACTIVE_SCENE_ID;
@@ -23,16 +22,16 @@ export default {
                 alignItems: 'center',
                 flexDirection: 'column',
                 flexWrap: 'nowrap',
-                gap: '1rem',
+                gap: 'm',
                 fontFamily: 'Source Han Sans CN'
             },
             '.major-box': {
-                border: `1px solid ${jam.ac(1.05, 0.3, 0.46)}`,
+                border: 's solid var(--jam-color-primary-subtle)',
                 backdropFilter: ' blur(24px)'
             },
             '.major-top': {
                 width: '100%',
-                padding: '0.5rem 1rem',
+                padding: 's m',
                 flex: 'none',
                 zIndex: 2,
                 '.major-form-box': {
@@ -52,10 +51,10 @@ export default {
                     },
 
                     '.scene-regionName,.scene-type': {
-                        padding: '.2rem .75rem',
+                        padding: 's m',
                         // color: jam.lumiText(1),
                         color: 'hsl(195.27 100% 56.08%)',
-                        background: ` linear-gradient(180deg, ${hslaToJamAc('hsla(206, 83.1%, 55.9%, 0)')} 19%, ${hslaToJamAc('hsla(206, 83.1%, 55.9%, 0.19)')} 100%)`,
+                        background: 'linear-gradient(180deg, transparent 19%, var(--jam-color-primary-film) 100%)',
                         'font-family': 'Source Han Sans CN'
                     },
 
@@ -67,7 +66,7 @@ export default {
                 '.major-card-wrapper': {
                     display: 'flex',
                     flexWrap: 'wrap',
-                    gap: '2rem',
+                    gap: 'l',
                     maxHeight: '18rem',
                     overflowY: 'auto',
                     marginBottom: '1rem'
@@ -75,10 +74,10 @@ export default {
                 '.major-card-box': {
                     height: '12rem',
                     width: '11.5rem',
-                    borderRadius: '0.3rem',
-                    background: ` linear-gradient(180deg, ${hslaToJamAc('hsla(206, 83.1%, 55.9%, 0)')} 19%, ${hslaToJamAc('hsla(206, 83.1%, 55.9%, 0.16)')} 100%)`,
-                    border: `1px solid ${hslaToJamAc('hsla(217.5, 20%, 39.2%, 0.8)')}`,
-                    padding: '0.3rem 0.4rem',
+                    borderRadius: 's',
+                    background: 'linear-gradient(180deg, transparent 19%, var(--jam-color-primary-film) 100%)',
+                    border: 's solid var(--jam-color-primary-subtle)',
+                    padding: 's',
                     display: 'flex',
                     flexDirection: 'column',
                     cursor: 'pointer'
@@ -86,7 +85,7 @@ export default {
                 '.major-card-top': {
                     height: '2rem',
                     width: '100%',
-                    borderBottom: `1px solid ${jam.ac(1.06, 0.3, 0.47, 0.8)}`,
+                    borderBottom: 's solid var(--jam-color-primary-default)',
                     justifyContent: 'space-between',
                     alignItems: 'center',
                     position: 'relative'
@@ -105,14 +104,14 @@ export default {
                     marginRight: '-0.1rem'
                 },
                 '.major-title-voltage': {
-                    fontSize: '0.875rem',
-                    borderRadius: '0.2rem 0 0 0'
+                    fontSize: 's',
+                    borderRadius: 's 0 0 0'
                 },
 
                 '.major-card-title': {
-                    color: jam.lumiText(1),
+                    color: 'var(--jam-color-fg-default)',
                     fontWeight: 'bold',
-                    fontSize: '1rem',
+                    fontSize: 'm',
 
                     '.major-title-state': {
                         width: 0,
@@ -141,13 +140,13 @@ export default {
                         justifyContent: 'space-between'
                     },
                     '.major-card-cap': {
-                        fontSize: '0.9rem',
-                        color: jam.lumiText(1),
+                        fontSize: 's',
+                        color: 'var(--jam-color-fg-default)',
                         fontFamily: 'Source Han Sans CN',
                         padding: 0
                     },
                     '.major-card-value': {
-                        fontSize: '1rem',
+                        fontSize: 'm',
                         color: 'hsl(195.3, 100%, 56%)',
                         fontFamily: 'DINPro',
                         fontWeight: 'bold',
@@ -287,14 +286,14 @@ export default {
                                 active: {
                                     styles: [
                                         Styles.css({
-                                            background: `linear-gradient(179.98deg, ${hslaToJamAc('hsl(204, 100%, 20%)')} 20%, ${hslaToJamAc('hsla(204, 100%, 50%, 0) ')} 100%)`
+                                            background: 'linear-gradient(179.98deg, var(--jam-color-primary-default) 20%, transparent 100%)'
                                         })
                                     ]
                                 },
                                 normal: {
                                     styles: [
                                         Styles.css({
-                                            background: `linear-gradient(180deg, ${jam.ac(1, 0.83, 0.83, 0)} 19%,  ${jam.ac(1, 0.83, 0.83, 0.16)} 100%)`
+                                            background: 'linear-gradient(180deg, transparent 19%, var(--jam-color-primary-film) 100%)'
                                         })
                                     ]
                                 }

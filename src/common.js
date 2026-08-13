@@ -744,8 +744,8 @@ export function formatterJameTime(time) {
               type: 'badge',
               styles: [
                   Styles.css({
-                      borderRadius: '0.2rem',
-                      fontSize: '0.9rem'
+                      borderRadius: 's',
+                      fontSize: 's'
                   })
               ],
               cap: jam.formatTime(time, 'yyyy-MM-dd'),
@@ -771,7 +771,7 @@ export function formatterJameLevel(typeName, type) {
               cap: typeName,
               styles: [
                   Styles.css({
-                      fontSize: '0.875rem',
+                      fontSize: 's',
                       color: _color
                   })
               ]
@@ -780,21 +780,19 @@ export function formatterJameLevel(typeName, type) {
 }
 
 export function formatterStateType(typeName, type) {
-    const _bgColor = jam.getColor(type).css();
-    const _color = jam.acLumiText(50);
-
     return typeName && typeName !== '--' && typeName !== 'null'
         ? jame({
               type: 'label',
               class: 'type-label',
               cap: typeName,
+              color: type,
               styles: [
+                  'with.accent',
+                  'on.accent',
                   Styles.css({
-                      fontSize: '0.875rem',
-                      padding: '0.125rem 0.375rem',
-                      borderRadius: '0.25rem',
-                      backgroundColor: _bgColor,
-                      color: _color
+                      fontSize: 's',
+                      padding: 's',
+                      borderRadius: 's'
                   })
               ]
           })
@@ -851,43 +849,35 @@ export function formatterJameBvNew(bvName) {
 export function formatterJameStatus(status) {
     let _color, statusName;
     if (status == 0) {
-        _color = jam.getColor('success');
+        _color = 'success';
         statusName = '已发送';
     } else if (status == 1) {
-        _color = jam.getColor('error');
+        _color = 'error';
         statusName = '发送失败';
     } else if (status == 2) {
-        _color = jam.getColor('info');
+        _color = 'info';
         statusName = '未发送';
     }
 
-    return status && status !== '--' && status !== 'null'
+    return statusName
         ? jame({
               type: 'label',
               class: 'status-label',
-              icon: `<div style="width:0.5rem;min-width:0.5rem;height:0.5rem;border-radius:50%;background:${_color}"><div>`,
+              color: _color,
+              icon: `<div style="width:0.5rem;min-width:0.5rem;height:0.5rem;border-radius:50%;background:${jam.getColor(_color).hex()}"><div>`,
               cap: statusName,
               styles: [
+                  'with.tint',
+                  'border.subtle',
+                  'border.s',
                   Styles.css({
-                      fontSize: '0.875rem',
-                      color: _color.css(),
-                      border: `1px solid ${addRgba(_color, 0.3)}`,
-                      borderRadius: '1rem',
-                      backgroundColor: addRgba(_color, 0.2),
-                      padding: '0.15rem 0.5rem'
+                      fontSize: 's',
+                      borderRadius: 'l',
+                      padding: 's'
                   })
               ]
           })
         : '--';
-}
-
-//转换rgb
-function addRgba(color, opacity) {
-    const rgbArr = color._rgb;
-    const r = Number(rgbArr[0]).toFixed(0);
-    const g = Number(rgbArr[1]).toFixed(0);
-    const b = Number(rgbArr[2]).toFixed(0);
-    return `rgba(${r},${g},${b},${opacity})`;
 }
 
 const typeColorMap = new Map();
@@ -898,16 +888,12 @@ const typeColorMap = new Map();
  * @returns
  */
 export function formatterJameType(typeName, num = 10) {
-    let _bgColor = null;
-    let _color = null;
     let _colorIdx = 0;
     if (typeColorMap.has(typeName)) {
-        [_bgColor, _color] = typeColorMap.get(typeName);
+        _colorIdx = typeColorMap.get(typeName);
     } else {
         _colorIdx = typeColorMap.size % num;
-        _bgColor = jam.colorSet[_colorIdx].css();
-        _color = jam.acLumiText[_colorIdx]();
-        typeColorMap.set(typeName, [_bgColor, _color]);
+        typeColorMap.set(typeName, _colorIdx);
     }
 
     return typeName && typeName !== '--' && typeName !== 'null'
@@ -915,13 +901,13 @@ export function formatterJameType(typeName, num = 10) {
               type: 'label',
               class: 'type-label',
               cap: typeName,
+              color: jam.colorSet[_colorIdx],
               styles: [
+                  'with.tint',
                   Styles.css({
-                      fontSize: '0.875rem',
-                      padding: '0.125rem 0.375rem',
-                      borderRadius: '0.25rem',
-                      backgroundColor: _bgColor,
-                      color: _color
+                      fontSize: 's',
+                      padding: 's',
+                      borderRadius: 's'
                   })
               ]
           })
@@ -936,23 +922,18 @@ const stateColorMap = new Map();
  * @returns
  */
 export function formatterJameState(stateName, num = 10) {
-    let _bgColor = 'transparent';
-    let _color = 'inherit';
+    let _color;
     let _colorIdx = 0;
 
     // 如果没有特定的状态色，从颜色集里拿相关的颜色
     if (stateName.toLowerCase() in jam.customColors) {
-        _bgColor = jam.getColor(stateName.toLowerCase()).css();
-        _color = jam.getAcLumiText(_bgColor);
+        _color = stateName.toLowerCase();
+    } else if (stateColorMap.has(stateName)) {
+        _color = stateColorMap.get(stateName);
     } else {
-        if (stateColorMap.has(stateName)) {
-            [_bgColor, _color] = stateColorMap.get(stateName);
-        } else {
-            _colorIdx = stateColorMap.size % num;
-            _bgColor = jam.colorSet[_colorIdx].css();
-            _color = jam.acLumiText[_colorIdx]();
-            stateColorMap.set(stateName, [_bgColor, _color]);
-        }
+        _colorIdx = stateColorMap.size % num;
+        _color = jam.colorSet[_colorIdx];
+        stateColorMap.set(stateName, _color);
     }
 
     return stateName && stateName !== '--' && stateName !== 'null'
@@ -960,13 +941,13 @@ export function formatterJameState(stateName, num = 10) {
               type: 'label',
               class: 'state-label',
               cap: stateName,
+              color: _color,
               styles: [
+                  'with.tint',
                   Styles.css({
-                      fontSize: '0.875rem',
-                      padding: '0.125rem 0.375rem',
-                      borderRadius: '0.25rem',
-                      backgroundColor: _bgColor,
-                      color: _color
+                      fontSize: 's',
+                      padding: 's',
+                      borderRadius: 's'
                   })
               ]
           })

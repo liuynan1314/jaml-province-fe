@@ -264,7 +264,7 @@ const window = (params) => {
                         styles: [
                             Styles.css({
                                 height: '1.8rem',
-                                backgroundColor: jam.ac(1, 1, 1)
+                                backgroundColor: 'var(--jam-color-primary-default)'
                             })
                         ],
                         cap: '详情',

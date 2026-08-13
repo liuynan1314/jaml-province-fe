@@ -61,7 +61,7 @@ export default {
                     display: 'block',
                     minWidth: '13.2rem',
                     height: '2.25rem',
-                    color: jam.lumiText(1),
+                    color: 'var(--jam-color-fg-default)',
                     backgroundImage: 'url(./../assets/images/new/title_level.png)',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'bottom .625rem left',
@@ -74,7 +74,7 @@ export default {
                 height: 'calc(100% - 1rem)',
                 display: 'flex',
                 'flex-wrap': 'wrap',
-                border: `1px solid ${jam.ac(0.99, 0.95, 0.6, jam.acLumiO(30))}`,
+                border: 's solid var(--jam-color-outline-muted)',
                 position: 'relative'
             },
             '.pieCharts-box': {

@@ -1,4 +1,3 @@
-import { hslaToJamAc } from '../../utils/Constants.js';
 import { ajaxCall, exportExcel, getDetailConf } from './../../common';
 import { createWindow } from './../createWindow';
 
@@ -20,14 +19,14 @@ export default function (props, isForTrip, title) {
         components: [
             {
                 type: 'wrapper',
-                styles: ['size.fullsize', 'padding(1.25rem)', 'flex(direction:column)', 'layout(overflow:hidden;position:relative;)'],
+                styles: ['size.fullsize', 'padding(l)', 'flex(direction:column)', 'layout(overflow:hidden;position:relative;)'],
                 descStyles: {
-                    input: ['input.agent.border(radius:.25rem)', 'css(cursor:auto)'],
+                    input: ['input.agent.border(radius:s)', 'css(cursor:auto)'],
                     '.title': [
                         //
-                        'padding(left:.625rem)',
+                        'padding(left:s)',
                         'background(image:url(./assets/images/title-bg.png);repeat:no-repeat;size:auto .45rem;position:left bottom;)',
-                        `cap.text(weight:bold;color:${jam.lumiText(1)})`
+                        'cap.color.on.primary', 'cap.text(weight:bold)'
                     ]
                 },
                 buttonStyles: [Styles.searchBtnsStyles],
@@ -36,7 +35,7 @@ export default function (props, isForTrip, title) {
                         type: 'button',
                         cap: '导出详情',
                         class: 'jam-cta',
-                        styles: ['layout(position:absolute;)', 'css(top:.625rem;right:1.25rem;)'],
+                        styles: ['layout(position:absolute;)', 'css(top:s;right:l)'],
                         icon: 'cloud-download',
                         onclick: function () {
                             const eventMap = {
@@ -77,7 +76,7 @@ export default function (props, isForTrip, title) {
                             },
                             {
                                 type: 'wrapper',
-                                styles: ['flex(wrap:wrap)', 'margin(top:.625rem )', 'layout(gap:.625rem 1.25rem ;)'],
+                                styles: ['flex(wrap:wrap)', 'margin(top:s)', 'layout(gap:s l)'],
                                 descStyles: { input: ['size(width:calc(calc(100% - 1.25rem) / 2))'] },
                                 components: [
                                     {
@@ -159,7 +158,7 @@ export default function (props, isForTrip, title) {
                             },
                             {
                                 type: 'wrapper',
-                                styles: ['margin(top:.625rem)', 'flex(direction:column;)', isForTrip ? '' : 'size.fullsize', isForTrip ? '' : 'layout(overflow:hidden)'],
+                                styles: ['margin(top:s)', 'flex(direction:column;)', isForTrip ? '' : 'size.fullsize', isForTrip ? '' : 'layout(overflow:hidden)'],
                                 components: [
                                     {
                                         type: 'wrapper',
@@ -175,7 +174,7 @@ export default function (props, isForTrip, title) {
                                                 type: 'input',
                                                 placeholder: '关键字查询',
                                                 styles: [Styles.input.regularStyle, 'layout(position:relative)', 'icon.css(position:absolute;right: 1rem;)'],
-                                                // styles: ['input.agent.border(radius:.25rem)', 'layout(position:relative)', 'size(width:12rem)', 'icon.css(position:absolute;right: .1rem;)'],
+                                                // styles: ['input.agent.border(radius:s)', 'layout(position:relative)', 'size(width:12rem)', 'icon.css(position:absolute;right: .1rem;)'],
                                                 value: '{{searchText}}',
                                                 components: [
                                                     {
@@ -192,12 +191,12 @@ export default function (props, isForTrip, title) {
                                         type: 'wrapper',
                                         styles: [
                                             isForTrip ? '' : 'size.fullsize',
-                                            'padding(.625rem 1.25rem)',
-                                            'margin(top:.625rem )',
+                                            'padding(s l)',
+                                            'margin(top:s)',
                                             'layout(overflow:auto)',
                                             `flex(direction:column;)`,
                                             `size(minHeight:4rem;maxHeight:${isForTrip ? '8rem' : 'unset'};)`,
-                                            `border(radius:.25rem;color:${hslaToJamAc('hsl(205,56.6%,29.8%)')};style:solid;width:.0625rem)`,
+                                            'border(radius:s;color:var(--jam-color-outline-muted);style:solid;width:xs)',
                                             Styles.stylesheet({
                                                 'jam-label': {
                                                     '&::before': {
@@ -205,7 +204,7 @@ export default function (props, isForTrip, title) {
                                                         width: '.45rem',
                                                         height: '.45rem',
                                                         borderRadius: '50%',
-                                                        marginRight: '.5rem',
+                                                        marginRight: 's',
                                                         backgroundImage: 'linear-gradient(135deg, #02b1f1, black)'
                                                     }
                                                 }
@@ -235,7 +234,7 @@ export default function (props, isForTrip, title) {
                     isForTrip
                         ? {
                               type: 'wrapper',
-                              styles: ['flex(direction:column)', 'layout(overflow:hidden;)', 'margin(top:.625rem)'],
+                              styles: ['flex(direction:column)', 'layout(overflow:hidden;)', 'margin(top:s)'],
                               components: [
                                   {
                                       type: 'wrapper',
@@ -250,11 +249,11 @@ export default function (props, isForTrip, title) {
                                           {
                                               type: 'wrapper',
                                               styles: ['css(alignItems:center)'],
-                                              descStyles: { button: ['icon.duotone', 'margin(left:.625rem)', 'size(height:1.875rem)'] },
+                                              descStyles: { button: ['icon.duotone', 'margin(left:s)', 'size(height:1.875rem)'] },
                                               components: [
                                                   {
                                                       type: 'select',
-                                                      styles: ['select.agent.border(radius:.25rem)', 'size(maxWidth:12rem)'],
+                                                      styles: ['select.agent.border(radius:s)', 'size(maxWidth:12rem)'],
                                                       value: '{{selectedFile}}',
                                                       data: '{{fileList}}',
                                                       onvaluechange(val) {
@@ -276,7 +275,7 @@ export default function (props, isForTrip, title) {
                                                               showBtn: false,
                                                               body: {
                                                                   type: 'vanilla-iframe',
-                                                                  styles: ['size.fullsize', 'padding(top:1.25rem)', 'css(color-scheme:auto;border:none) '],
+                                                                  styles: ['size.fullsize', 'padding(top:l)', 'css(color-scheme:auto;border:none) '],
                                                                   src: getDetailConf('recordWaveCurveUrl') + '?' + encodeURIComponent(`&file_path=${_model.selectedFile}&file_name=${fileListMap.get(_model.selectedFile)?.fileName}`)
                                                               }
                                                           });
@@ -311,12 +310,12 @@ export default function (props, isForTrip, title) {
                                   },
                                   {
                                       type: 'wrapper',
-                                      styles: ['layout.flex(justifyContent:space-between;alignItems:center;)', 'margin(top:.625rem)'],
+                                      styles: ['layout.flex(justifyContent:space-between;alignItems:center;)', 'margin(top:s)'],
                                       components: [
                                           {
                                               type: 'buttongroup-radio',
                                               value: '{{tabIndex}}',
-                                              styles: [Styles.tabButtonStyles, 'buttongroup.button.size(minWidth:5.5rem;width:auto;)', 'buttongroup.button.padding(0.5rem 0.875rem 0.25rem 0.875rem)'],
+                                              styles: [Styles.tabButtonStyles, 'buttongroup.button.size(minWidth:5.5rem;width:auto;)', 'buttongroup.button.padding(s m xs m)'],
                                               data: [
                                                   {
                                                       name: '故障信息',
@@ -338,7 +337,7 @@ export default function (props, isForTrip, title) {
                                                       type: 'button',
                                                       cap: '保存',
                                                       showIf: '{{isEdit}}',
-                                                      styles: [`background(color:${jam.ac({ l: 0.6, s: 0.8 })})`, 'icon.duotone'],
+                                                      styles: ['with.accent', 'icon.duotone'],
                                                       icon: 'save',
                                                       onclick: () => {
                                                           const inputElements = jam.findChildren(jam.findElement('jam-wrapper.faultInfo-wrapper'), `jam-input`);
@@ -364,7 +363,7 @@ export default function (props, isForTrip, title) {
                                                       type: 'button',
                                                       cap: '取消',
                                                       showIf: '{{isEdit}}',
-                                                      styles: ['icon.duotone', 'margin(left:.625rem)'],
+                                                      styles: ['icon.duotone', 'margin(left:s)'],
                                                       icon: 'close',
                                                       onclick: () => {
                                                           _model.isEdit = false;
@@ -391,7 +390,7 @@ export default function (props, isForTrip, title) {
                                                   {
                                                       type: 'button',
                                                       cap: '新增',
-                                                      styles: [`background(color:${jam.ac()})`, 'icon.duotone'],
+                                                      styles: ['with.accent', 'icon.duotone'],
                                                       icon: 'plus',
                                                       onclick: () => {
                                                           if (!_model.tripInfo) return;
@@ -425,7 +424,7 @@ export default function (props, isForTrip, title) {
                                               type: 'wrapper',
                                               styles: [
                                                   'flex(wrap:wrap)',
-                                                  'layout(gap:.625rem 1.25rem ;)',
+                                                  'layout(gap:s l)',
                                                   Styles.stylesheet({
                                                       'jam-input': {
                                                           width: 'calc(calc(100% - 1.25rem) / 2)'
@@ -487,11 +486,11 @@ export default function (props, isForTrip, title) {
                                                   Styles.tableStyles,
                                                   'size.fullsize',
                                                   'layout(overflow:auto)',
-                                                  'margin(top:.625rem )',
+                                                  'margin(top:s)',
                                                   Styles.stylesheet({
                                                       'jam-input': {
                                                           input: {
-                                                              borderRadius: '.25rem'
+                                                              borderRadius: 's'
                                                           }
                                                       }
                                                   })

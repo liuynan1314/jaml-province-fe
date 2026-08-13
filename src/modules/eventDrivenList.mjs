@@ -36,9 +36,9 @@ export default {
                     type: 'basicTable',
                     class: 'basic-table',
                     styles: [
+                        'basicTable.basic',
                         'size.fullsize',
                         'padding(0)',
-                        'tableWithPage.basic',
                         'cap.hide',
                         'icon.hide',
                         Styles.table.fixedrowheight({

@@ -12,14 +12,14 @@ export default {
                 height: '100%',
                 display: 'flex',
                 flexDirection: 'column',
-                padding: '1rem 2rem',
-                gap: '2rem'
+                padding: 'm l',
+                gap: 'l'
             },
 
             '.remote-type': {
                 // gridArea: '1 / 1 / 16 / 5',
                 flex: 5,
-                gap: '2rem',
+                gap: 'l',
                 flexWrap: 'wrap',
                 minHeight: 0,
                 '.remote-type-item': {
@@ -27,7 +27,7 @@ export default {
                     display: 'flex',
                     background: 'url(../../assets/images/remote-card.png) no-repeat',
                     backgroundSize: '100% 100%',
-                    border: `1px solid ${jam.ac(1.02, 0.34, 0.4)}`,
+                    border: 's solid var(--jam-color-primary-subtle)',
                     marginRight: '2rem',
                     '&:nth-child(2n)': {
                         marginRight: 0
@@ -35,7 +35,7 @@ export default {
 
                     '.remote-type-item-icon': {
                         flex: 1,
-                        background: `linear-gradient(180deg, ${jam.ac(1.02, 0.5, 0.41, 0.5)} 0%, ${jam.ac(1.02, 0.5, 0.41, 0.3)} 100%)`,
+                        background: 'linear-gradient(180deg, var(--jam-color-primary-subtle) 0%, var(--jam-color-primary-film) 100%)',
                         opacity: '0.9',
                         display: 'flex',
                         alignItems: 'center',
@@ -53,7 +53,7 @@ export default {
 
                         '.remote-type-item-name': {
                             flex: 1,
-                            fontSize: '2rem',
+                            fontSize: 'l',
                             justifyContent: 'center',
                             alignItems: 'center'
                         },
@@ -64,7 +64,7 @@ export default {
                             marginTop: '-3rem',
 
                             '& > span[slot="value"]': {
-                                fontSize: '3rem',
+                                fontSize: 'l',
                                 margin: 0,
                                 color: '#1FC6FF',
                                 fontFamily: 'DINPro',
@@ -72,7 +72,7 @@ export default {
                             },
                             '& > span[slot="unit"]': {
                                 background: 'transparent',
-                                fontSize: '1.5rem',
+                                fontSize: 'l',
                                 color: '#85acc2',
                                 opacity: 0.8999999761581421,
                                 fontFamily: 'DINPro',
@@ -96,17 +96,17 @@ export default {
                         position: 'absolute',
                         top: '1.5rem',
                         right: '1.5rem',
-                        padding: '0 0.6rem',
+                        padding: '0 s',
                         '& > span[slot="cap"]': {
                             color: '#85acc2',
                             fontFamily: 'DINPro',
-                            fontSize: '1.6rem',
+                            fontSize: 'l',
                             alignItems: 'center'
                         },
                         '& > span[slot="value"]': {
                             color: '#00D1D1',
                             fontFamily: 'DINPro',
-                            fontSize: '2rem',
+                            fontSize: 'l',
                             alignItems: 'center',
                             justifyContent: 'flex-end'
                         }
@@ -119,27 +119,27 @@ export default {
                 flex: 4,
                 minHeight: 0,
                 display: 'flex',
-                gap: '4rem',
+                gap: 'l',
                 '.chart-container': {
                     width: 'calc(50%  - 1.5rem)',
                     // hsl(209.23deg 49.37% 15.49%)
                     // hsl(209.23deg 52% 14.71%)
-                    background: `linear-gradient(to right, ${jam.ac(1.01, 0.5, 0.2)}, ${jam.ac(1.01, 0.52, 0.19)})`,
-                    padding: '1rem',
+                    background: 'linear-gradient(to right, var(--jam-color-primary-default), var(--jam-color-primary-strong))',
+                    padding: 'm',
                     display: 'flex',
                     flexDirection: 'column',
                     position: 'relative',
                     '.chart-title': {
-                        fontSize: '2rem',
+                        fontSize: 'l',
                         color: '#fff'
                     },
                     '.chart-state': {
                         width: '5rem',
                         height: '2.4rem',
                         lineHeight: '2.4rem',
-                        fontSize: '1.2rem',
+                        fontSize: 'm',
                         justifyContent: 'center',
-                        borderRadius: '.5rem',
+                        borderRadius: 'm',
                         position: 'absolute',
                         top: '1.5rem',
                         right: '1.5rem'
@@ -154,12 +154,12 @@ export default {
                         left: '50%',
                         transform: 'translate(-50%, -50%)',
                         color: '#fff',
-                        fontSize: '2.5rem',
+                        fontSize: 'l',
                         fontWeight: 'bold',
                         display: 'flex',
                         '& > span[slot="unit"]': {
                             backgroundColor: 'transparent',
-                            fontSize: '1.5rem',
+                            fontSize: 'l',
                             fontFamily: 'DINPro',
                             fontWeight: 'normal',
                             color: '#fff'
@@ -251,7 +251,7 @@ export default {
                                 正常: {
                                     styles: [
                                         Styles.label.css({
-                                            border: '1px solid #00C853',
+                                            border: 's solid #00C853',
                                             color: '#00C853'
                                         })
                                     ]
@@ -259,7 +259,7 @@ export default {
                                 异常: {
                                     styles: [
                                         Styles.label.css({
-                                            border: '1px solid #ffab00',
+                                            border: 's solid #ffab00',
                                             color: '#ffab00'
                                         })
                                     ]
@@ -274,7 +274,7 @@ export default {
                                 {
                                     type: 'chart-pie',
                                     id: '{{item.name}}',
-                                    colorset: '{{item.name}} === "站点覆盖率" ? ["#1d9ed0","#1c3040"] : ["#FFAB00","#1c3040", ]',
+                                    colorset: '{{item.name}} === "站点覆盖率" ? ["primary"] : ["warn"]',
                                     // ['hsl(45, 69.6%, 63.9%)', 'hsl(213, 49%, 20%)', 'hsl(217, 24%, 43%)'],
                                     styles: [
                                         Styles.size.fullsize,
@@ -286,35 +286,10 @@ export default {
 
                                         Styles.efuncs((el, args) => {
                                             let _option = el.chartOption;
-                                            const colorStops1 = [
-                                                {
-                                                    offset: 0,
-                                                    color: '#1FC6FF00'
-                                                },
-                                                {
-                                                    offset: 1,
-                                                    color: '#1FC6FF  '
-                                                }
-                                            ];
-                                            const colorStops2 = [
-                                                {
-                                                    offset: 0,
-                                                    color: '#99670000'
-                                                },
-                                                {
-                                                    offset: 1,
-                                                    color: '#FFAB00  '
-                                                }
-                                            ];
-
-                                            _option.color[0] = {
-                                                type: 'linear',
-                                                x: 0,
-                                                y: 0,
-                                                x2: 0,
-                                                y2: 1,
-                                                colorStops: el.id === '站点覆盖率' ? colorStops1 : colorStops2
-                                            };
+                                            const endColor =
+                                                el.id === '站点覆盖率' ? Tokens.color.primary.default : jam.acToken[1]();
+                                            _option.color[0] = jam.toEchartsGradient(90, Tokens.color.transparent, endColor);
+                                            _option.color[1] = Tokens.color.primary.strong;
                                         })
                                     ],
                                     data: '{{item.chartData}}'

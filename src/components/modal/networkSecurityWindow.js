@@ -11,7 +11,7 @@ export default function (props) {
                 //
                 'padding(left:.625rem)',
                 'background(image:url(./assets/images/title-bg.png);repeat:no-repeat;size:auto .45rem;position:left bottom;)',
-                `cap.text(weight:bold;color:${jam.lumiText(1)})`
+                `cap.text(weight:bold;color:var(--jam-color-fg-default))`
             ]
         },
         components: [

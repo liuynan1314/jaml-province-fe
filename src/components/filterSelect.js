@@ -8,7 +8,7 @@ jaml.register('filterSelect', {
             value: '{{search}}',
             defaultValue: '{{defaultValue}}',
             placeholder: '{{placeholder}}',
-            styles: [Styles.css({ '--jam-element-color-l4': jam.lumiText(7) }), Styles.icon.duotone],
+            styles: [Styles.css({ '--jam-element-color-l4': 'var(--jam-color-fg-muted)' }), Styles.icon.duotone],
             onclick(e) {
                 // this.value = '';
                 const input = this;

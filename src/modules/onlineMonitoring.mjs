@@ -1,4 +1,3 @@
-import { hslaToJamAc, COLOR_SET } from '../utils/Constants.js';
 import { ajaxCall, exportExcel, formatterJameTime } from '../common.js';
 import { getRegionList } from '../utils/commonList.js';
 import { urlConfig } from '../global.js';
@@ -9,7 +8,7 @@ const pagerKey = jam.genUUID();
 
 export default {
     type: 'wrapper',
-    styles: ['css(--gap:.75rem)', 'padding(var(--gap))', 'flex(direction: column)', `background(color:${COLOR_SET.modulebgclr})`, 'padding(bottom:0)', 'layout(overflow:hidden auto)', 'size.fullsize'],
+    styles: ['css(--gap:var(--jam-space-m))', 'padding(var(--gap))', 'flex(direction: column)', 'with.elevation', 'padding(bottom:0)', 'layout(overflow:hidden auto)', 'size.fullsize'],
     components: [
         {
             type: 'wrapper',
@@ -164,7 +163,7 @@ export default {
                                 return jame({
                                     type: 'label',
                                     cap: '查看',
-                                    styles: [`color(${hslaToJamAc('hsl(199.3, 100%, 59.2%)')})`, 'css(cursor: pointer;text-underline-offset:.2rem;transition:all .2s ease-in-out; )', 'hover(textDecoration: underline;)'],
+                                    styles: ['color(var(--jam-color-primary-default))', 'css(cursor: pointer;text-underline-offset:.2rem;transition:all .2s ease-in-out; )', 'hover(textDecoration: underline;)'],
                                     onclick: (e) => {
                                         let target;
                                         if (e.target.classList.contains('jam-td')) {

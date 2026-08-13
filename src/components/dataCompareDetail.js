@@ -513,7 +513,8 @@ const window = (row) => {
                         width: '100%',
                         flexGrow: 1,
                         display: 'flex',
-                        flexDirection: 'column'
+                        flexDirection: 'column',
+                        position: 'relative'
                     })
                 ],
                 components: [
@@ -571,6 +572,7 @@ const window = (row) => {
                     },
                     {
                         type: 'loading',
+                        styles: ['loading.basic', 'size(width:100% !important;height:100% !important)'],
                         props: {
                             isLoading: '{{loading}}'
                         }

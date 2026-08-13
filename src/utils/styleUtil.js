@@ -54,21 +54,21 @@ export const topLegendStyle = [
         paddingBottom: '0'
     }),
     Styles.indicator.value.css({
-        fontSize: '1.125rem',
-        color: jam.ac(1, 1, jam.lumiO(22)),
+        fontSize: 'l',
+        color: 'primary',
         fontWeight: 'bold',
         fontFamily: 'DINPro',
         cursor: 'pointer'
     }),
     Styles.indicator.unit.css({
-        fontSize: '1rem',
+        fontSize: 'm',
         lineHeight: '1rem',
         backgroundColor: 'transparent',
         fontWeight: 'normal',
         border: 'none',
         boxShadow: 'none',
         color: 'var(--jam-element-color)',
-        padding: '0 0.25rem'
+        padding: '0 s'
     })
 ];
 
@@ -81,11 +81,10 @@ export function getMenuColor() {
                 res.data.forEach((item) => {
                     if (item.menuColorList) {
                         item.menuColorList.forEach((color) => {
-                            let _color = Number(color.color);
-                            _color = jam.getAdjustedColor('#' + (_color >>> 0).toString(16).slice(-6)).css();
+                            const hex = '#' + (Number(color.color) >>> 0).toString(16).slice(-6);
                             menuColor = {
                                 ...menuColor,
-                                [`${item.menuType}_${color.id}`]: jam.toHSLString(_color, { a: 1 })
+                                [`${item.menuType}_${color.id}`]: jam.toHSLString(hex, { a: 1 })
                             };
                         });
                     }

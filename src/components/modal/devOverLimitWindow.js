@@ -1,6 +1,5 @@
 import { buildTable } from '../../components/componentBuilder.js';
 import { mockPath, urlConfig } from '../../global.js';
-import { COLOR_SET } from '../../utils/Constants.js';
 import { COMM_PATH } from '../../utils/Constants.js';
 import { formatterJameBv } from '../../common.js';
 export default function (_params) {
@@ -15,7 +14,7 @@ export default function (_params) {
         cap: '电压越限详情',
         broker: 'devOverLimitWindow',
         styles: [
-            `background(color:${COLOR_SET.modulebgclr})`,
+            'with.elevation',
             Styles.card.floating({
                 width: '70vw',
                 height: '60vh'

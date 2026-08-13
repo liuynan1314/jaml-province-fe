@@ -1,6 +1,5 @@
 import { homeRouter, homeSceneRouter } from '../common';
 import { destroyScene, initScene } from '../utils/EngineUtils';
-import { getAcColor, getAcParams } from '../utils/acColorParams.js';
 
 export function tsHeader() {
     const config = mango.get('config');
@@ -21,6 +20,7 @@ export function tsHeader() {
     };
     return {
         type: 'wrapper',
+        stylize: 'header',
         class: jaml.var(`${rambutan.pathWatcher}@mango`, (path) => `tsHeader${homeSceneRouter.includes(path) ? ' tsHeader-scene' : ''}`),
         styles: [
             Styles.stylesheet({
@@ -31,8 +31,8 @@ export function tsHeader() {
                     backgroundPosition: 'center left'
                 },
                 '.jam-main-cap': {
-                    fontSize: '1.75rem !important',
-                    background: `linear-gradient(180deg, ${jam.ac({ l: jam.lumiO(0) })}, ${jam.ac({ l: jam.lumiO(20) })})`,
+                    fontSize: 'xxl !important',
+                    background: 'linear-gradient(180deg, var(--jam-color-primary-default), var(--jam-color-primary-default))',
                     'background-clip': 'text',
                     '-webkit-background-clip': 'text !important',
                     color: 'transparent !important',
@@ -41,21 +41,21 @@ export function tsHeader() {
                     fontfamily: 'DINPro'
                 },
                 '.menus': {
-                    background: `${jam.ac({ ...getAcParams('rgb(104, 153, 245)').object, a: 0 })}`,
+                    background: 'transparent',
                     'backdrop-filter': 'blur(5px)',
                     '.menuItem': {
                         width: 'calc(100%/6)',
-                        color: jam.lumiText()
+                        color: 'onprimary'
                     },
                     '.menuItem[state="checked"]': {
-                        background: `linear-gradient(to bottom,${jam.ac({ l: jam.lumiO(15) })},${jam.ac({ l: jam.lumiO(15) })},${jam.ac({ l: jam.lumiO(30) })})`,
+                        background: 'linear-gradient(to bottom, var(--jam-color-primary-default), var(--jam-color-primary-default))',
                         backgroundClip: 'text',
                         color: 'transparent !important',
                         '-webkit-background-clip': 'text !important',
                         fontWeight: 'bold'
                     },
                     '.menuItem[state="hovered"]': {
-                        background: `linear-gradient(to bottom,${jam.ac({ l: jam.lumiO(15) })},${jam.ac({ l: jam.lumiO(15) })},${jam.ac({ l: jam.lumiO(25) })})`,
+                        background: 'linear-gradient(to bottom, var(--jam-color-primary-subtle), var(--jam-color-primary-default))',
                         backgroundClip: 'text',
                         '-webkit-background-clip': 'text !important',
                         color: 'transparent !important'
@@ -83,7 +83,7 @@ export function tsHeader() {
             {
                 type: 'wrapper',
                 slot: 'layer',
-                styles: ['css(alignItems:center;marginRight:1rem)'],
+                styles: ['css(alignItems:center;marginRight:l)'],
                 descStyles: {
                     button: ['icon.solid']
                 },
@@ -107,7 +107,7 @@ export function tsHeader() {
                         styles: [
                             Styles.icon.duotone,
                             Styles.icon.withborder,
-                            'css(--jam-icon-size:1.8rem;margin:0 0.25rem)',
+                            'css(--jam-icon-size:1.8rem;margin:0 xs)',
                             Styles.stylesheet({
                                 'i.jam-icon.withborder': {
                                     '--size': '1.8rem'
@@ -119,7 +119,7 @@ export function tsHeader() {
                         onmouseenter: function (e) {
                             jam.popup(e.target, {
                                 type: 'wrapper',
-                                styles: ['css(width:9rem;display:flex;flexDirection:column;alignItems:center;gap:0.5rem)'],
+                                styles: ['css(width:9rem;display:flex;flexDirection:column;alignItems:center;gap:s)'],
                                 childStyles: ['css(width:8rem)'],
                                 descStyles: {
                                     label: ['icon.duotone']

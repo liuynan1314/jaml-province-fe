@@ -13,14 +13,15 @@ const mapContent = (params) => {
                 type: 'ccMap',
                 class: 'map3D',
                 styles: [
+                    'ccMap.basic',
                     Styles.size.fullsize,
                     Styles.echarts.map.fake3D({
-                        color: jam.ac(1, '100%', jam.lumiO(45), 0.87),
-                        colorEmphasis: jam.ac(1, 1.5, 1, 0.5),
+                        color: Tokens.color.primary.film,
+                        colorEmphasis: Tokens.color.primary.subtle,
                         borderWidth: 1,
-                        borderColor: jam.ac(),
-                        colorMid: jam.ac(),
-                        colorBottom: jam.ac()
+                        borderColor: Tokens.color.primary.default,
+                        colorMid: Tokens.color.primary.default,
+                        colorBottom: Tokens.color.primary.default
                     })
                 ]
             }

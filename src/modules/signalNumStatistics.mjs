@@ -1,4 +1,3 @@
-import { COLOR_SET } from '../utils/Constants.js';
 import { ajaxCall, exportExcel } from '../common.js';
 import { getRegionList, getBvList, getSubstationList } from '../utils/commonList.js';
 import { urlConfig } from '../global.js';
@@ -8,7 +7,7 @@ const pagerKey = jam.genUUID();
 
 export default {
     type: 'wrapper',
-    styles: ['css(--gap:.75rem)', 'padding(var(--gap))', 'flex(direction: column)', `background(color:${COLOR_SET.modulebgclr})`, 'padding(bottom:0)', 'layout(overflow:hidden auto)', 'size.fullsize'],
+    styles: ['css(--gap:var(--jam-space-m))', 'padding(var(--gap))', 'flex(direction: column)', 'with.elevation', 'padding(bottom:0)', 'layout(overflow:hidden auto)', 'size.fullsize'],
     components: [
         {
             type: 'wrapper',
@@ -54,7 +53,7 @@ export default {
                                 {
                                     type: 'filterSelect',
                                     styles: ['size(maxWidth:18rem;height:1.8rem;)', 'padding(top:0;bottom:0)'],
-                                    childStyles: [Styles.input.regularStyle, 'size(minWidth:18rem;)', 'input.agent.border(radius:.25rem)', 'input.labelslot.margin(0)', 'padding(0)'],
+                                    childStyles: [Styles.input.regularStyle, 'size(minWidth:18rem;)', 'input.agent.border(radius:s)', 'input.labelslot.margin(0)', 'padding(0)'],
                                     valueKey: 'stId',
                                     props: { cap: '变电站：', placeholder: '请选择', data: '{{stList}}', icon: 'transformer-bolt', search: '{{name}}', select: '{{stId}}' },
                                     watchers: [
@@ -98,7 +97,7 @@ export default {
                         // 图表
                         {
                             type: 'wrapper',
-                            styles: ['size.fullsize', 'layout(overflow: hidden)', `border(width:.0625rem;style:solid;color: ${jam.ac(0.99, 0.95, 0.6, jam.acLumiO(30))})`],
+                            styles: ['size.fullsize', 'layout(overflow: hidden)', 'border.subtle', 'border.s'],
                             components: [
                                 {
                                     type: 'wrapper',
@@ -106,13 +105,13 @@ export default {
                                     components: [
                                         {
                                             type: 'wrapper',
-                                            styles: ['padding(0 1rem)', 'layout.flex(justifyContent:space-between;alignItems:center)'],
+                                            styles: ['padding(0 m)', 'layout.flex(justifyContent:space-between;alignItems:center)'],
                                             descStyles: {
                                                 label: [
-                                                    'text(size:.875rem;)',
+                                                    'text(size:s)',
                                                     Styles.stylesheet({
                                                         '.title-color': {
-                                                            color: jam.ac(0.95, 1, jam.lumiL(40))
+                                                            color: 'primary'
                                                         },
                                                         '.fail-color': {
                                                             color: 'hsl(0, 100%, 66.1%)'
@@ -421,18 +420,7 @@ export function operationStOptions(xData, yData) {
                     }
                 },
                 itemStyle: {
-                    color: function (params) {
-                        return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                            {
-                                offset: 0,
-                                color: `rgba(0, 113, 194, 1)`
-                            },
-                            {
-                                offset: 1,
-                                color: `rgba(0, 113, 194, 0)`
-                            }
-                        ]);
-                    }
+                    color: jam.toEchartsGradient(90, Tokens.color.primary.default, Tokens.color.transparent)
                 }
             },
             // 最上面线

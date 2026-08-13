@@ -6,14 +6,14 @@ export function powerOutageEchartsOption(resData) {
         };
     });
 
-    const colorList = ['#F57A7B', '#CEADA1', '#58A0DE', '#8EB6D3', '#1DEAEA', '#FEC327', '#5AF3BB', '#D5AEF9', '#21AB37', '#D83D6C', '#487299', '#FF6B00', '#80FF00', '#FFB600', '#00BFFF', '#FF00FF', '#00FF00', '#FFFF00', '#0000FF', '#FF0000', '#00FFFF', '#FFFFFF'];
+    const colorList = Array.from({ length: 22 }, (_, i) => jam.acToken[i % 10]());
     const sum = chartData.reduce((sum, cur) => sum + cur.value, 0);
     const pieData1 = [];
     const pieData2 = [];
     const gapData = {
         value: sum ? (sum / 100) * 0.5 : -1,
         itemStyle: {
-            color: 'transparent'
+            color: Tokens.color.transparent
         }
     };
     const lefts = ['50%', '50%', '50%', '50%', '50%', '50%', '50%', '75%', '75%', '75%', '75%', '75%', '75%', '75%'];
@@ -40,24 +40,12 @@ export function powerOutageEchartsOption(resData) {
             itemStyle: {
                 color: colorList[i]
             },
-            backgroundColor: new echarts.graphic.LinearGradient(
-                0,
-                0,
-                0,
-                1,
-                [
-                    {
-                        offset: 0,
-                        color: 'rgba(91, 190, 239, 0.3)'
-                    },
-                    {
-                        offset: 1,
-                        color: 'rgba(91, 190, 239, 0.1)'
-                    }
-                ],
-                false
+            backgroundColor: jam.toEchartsGradient(
+                90,
+                jam.acToken[0](1, 1, 1, 0.3),
+                jam.acToken[0](1, 1, 1, 0.1)
             ),
-            borderColor: 'rgba(91, 190, 239, 1)',
+            borderColor: jam.acToken[0](),
             borderWidth: 1,
             borderRadius: 4,
             width: '100px',
@@ -69,7 +57,7 @@ export function powerOutageEchartsOption(resData) {
                 fontFamily: 'SourceHanSansCN-Medium',
                 rich: {
                     aa: {
-                        color: '#ffffff'
+                        color: Tokens.color.fg.default
                     },
                     bb: {
                         color: colorList[i],
@@ -87,7 +75,7 @@ export function powerOutageEchartsOption(resData) {
             show: true,
             backgroundColor: 'rgba(0, 0, 0,.8)',
             textStyle: {
-                color: '#fff'
+                color: Tokens.color.fg.default
             }
         },
         legend: legendData,
@@ -109,18 +97,18 @@ export function powerOutageEchartsOption(resData) {
                     normal: {
                         show: true,
                         position: 'center',
-                        color: '#fff',
+                        color: Tokens.color.fg.default,
                         fontSize: 20,
                         formatter: '{total|' + sum + '}' + '\n\r' + '{active|母线失电设备总数}',
                         rich: {
                             total: {
                                 fontSize: 24,
                                 fontWeight: 600,
-                                color: '#fff'
+                                color: Tokens.color.fg.default
                             },
                             active: {
                                 fontSize: 14,
-                                color: '#9cc1db'
+                                color: Tokens.color.fg.muted
                             }
                         }
                     }
@@ -138,7 +126,7 @@ export function powerOutageEchartsOption(resData) {
                 label: {
                     show: true,
                     position: 'inside',
-                    color: '#A7D2F5',
+                    color: Tokens.color.fg.muted,
                     opacity: 1
                 },
                 labelLine: {

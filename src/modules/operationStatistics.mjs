@@ -25,7 +25,7 @@ export const optTypeList = [
 ];
 export default {
     type: 'wrapper',
-    styles: ['css(--gap:.75rem)', 'padding(var(--gap))', 'flex(direction: column)', 'padding(bottom:0)', 'layout(overflow:hidden auto)', 'size.fullsize'],
+    styles: ['css(--gap:var(--jam-space-m))', 'padding(var(--gap))', 'flex(direction: column)', 'padding(bottom:0)', 'layout(overflow:hidden auto)', 'size.fullsize'],
     components: [
         {
             type: 'wrapper',
@@ -362,7 +362,7 @@ export default {
                         // 图表
                         {
                             type: 'wrapper',
-                            styles: ['size.fullsize', 'layout(overflow: hidden)', `border(width:.0625rem;style:solid;color: ${jam.ac(0.99, 0.95, 0.6, jam.acLumiO(30))})`],
+                            styles: ['size.fullsize', 'layout(overflow: hidden)', 'border.subtle', 'border.s'],
                             components: [
                                 {
                                     type: 'wrapper',
@@ -370,13 +370,13 @@ export default {
                                     components: [
                                         {
                                             type: 'wrapper',
-                                            styles: ['padding(0 1rem)', 'layout.flex(justifyContent:space-between;alignItems:center)'],
+                                            styles: ['padding(0 m)', 'layout.flex(justifyContent:space-between;alignItems:center)'],
                                             descStyles: {
                                                 label: [
-                                                    'text(size:.875rem;)',
+                                                    'text(size:s)',
                                                     Styles.stylesheet({
                                                         '.title-color': {
-                                                            color: jam.ac(0.95, 1, jam.lumiL(40))
+                                                            color: 'primary'
                                                         },
                                                         '.fail-color': {
                                                             color: 'hsl(0, 100%, 66.1%)'
@@ -402,7 +402,7 @@ export default {
                                             props: {
                                                 unit: '',
                                                 barWith: '20%',
-                                                fontSize: '0.6rem',
+                                                fontSize: 's',
                                                 dataType: 'analog',
                                                 valueType: 'number',
                                                 decimalPos: 2,
@@ -458,7 +458,7 @@ export default {
             components: [
                 {
                     type: 'tableWithPage',
-                    styles: ['flex(1)', Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.table.fixedrowheight({ height: '2.5rem' }), ' css(width:100%)', Styles.css({ padding: 0 })],
+                    styles: ['tableWithPage.basic', 'flex(1)', Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.table.fixedrowheight({ height: '2.5rem' }), ' css(width:100%)', Styles.css({ padding: 0 })],
                     props: {
                         cpageHide: {
                             pageSize: false

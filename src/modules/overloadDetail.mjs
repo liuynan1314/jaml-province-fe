@@ -30,10 +30,10 @@ export default {
             '.viewButtons': {
                 'jam-button': {
                     '--jam-button-bg-deg': '180deg',
-                    background: `linear-gradient(var(--jam-button-bg-deg),${jam.ac({ l: 0.9 })}, ${jam.ac({ l: 0.7 })})`,
-                    color: jam.lumiText(1),
+                    background: 'linear-gradient(var(--jam-button-bg-deg), var(--jam-color-primary-subtle), var(--jam-color-primary-default))',
+                    color: 'onprimary',
                     '&:hover': {
-                        background: `linear-gradient(var(--jam-button-bg-deg),${jam.ac({ l: 1 })}, ${jam.ac({ l: 0.8 })})`
+                        background: 'linear-gradient(var(--jam-button-bg-deg), var(--jam-color-primary-default), var(--jam-color-primary-strong))'
                     },
                     '&:active': {
                         '--jam-button-bg-deg': '0deg'
@@ -58,7 +58,7 @@ export default {
                         {
                             type: 'button',
                             class: 'bdztj-btn',
-                            styles: ['props({ backgroundColor: jam.ac() })'],
+                            styles: ['with.accent'],
                             showIf: '{{isTest}}',
                             cap: '变电站统计',
                             onclick: function () {
@@ -75,7 +75,7 @@ export default {
                         {
                             type: 'button',
                             class: 'history-btn',
-                            styles: ['props({ backgroundColor: jam.ac() })'],
+                            styles: ['with.accent'],
                             cap: '历史重过载',
                             onclick: function () {
                                 jam.renderModal('#main', alarmSearchTable());

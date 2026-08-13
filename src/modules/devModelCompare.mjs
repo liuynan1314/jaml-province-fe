@@ -312,7 +312,8 @@ export default {
                     width: '100%',
                     flexGrow: 1,
                     display: 'flex',
-                    flexDirection: 'column'
+                    flexDirection: 'column',
+                    position: 'relative'
                 })
             ],
             components: [
@@ -379,6 +380,7 @@ export default {
                 },
                 {
                     type: 'loading',
+                    styles: ['loading.basic', 'size(width:100% !important;height:100% !important)'],
                     props: {
                         isLoading: '{{loading}}'
                     }

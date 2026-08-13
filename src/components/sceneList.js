@@ -1,5 +1,3 @@
-import { hslaToJamAc } from '../utils/Constants.js';
-
 let _model, _msgr;
 
 jaml.register('sceneList', {
@@ -14,28 +12,28 @@ jaml.register('sceneList', {
                 top: '2.3rem',
                 left: '3.65rem',
                 zIndex: 9999,
-                background: hslaToJamAc('hsla(213.5, 65%, 15.7%, 0.9)'),
-                border: `1px solid ${hslaToJamAc('hsl(196.5, 54.4%, 35.3%)')}`,
-                boxShadow: `0px 4px 12px 0px ${hslaToJamAc('hsla(218, 80.3%, 12%, 0.5)')}`,
-                padding: '0.3rem 0.5rem'
+                background: 'elevation',
+                border: 's solid var(--jam-color-outline-muted)',
+                boxShadow: 'l',
+                padding: 's m'
             },
             '.scene-list-title': {
                 height: '2.2rem',
                 display: 'flex',
                 justifyContent: 'space-between',
                 alignItems: 'center',
-                borderBottom: `1px solid ${hslaToJamAc('hsl(208.2, 25%, 26.7%)')}`
+                borderBottom: 's solid var(--jam-color-outline-muted)'
             },
             '.scene-line': {
                 position: 'relative',
-                color: hslaToJamAc('hsl(199.4, 100%, 93.9%)'),
+                color: 'var(--jam-color-fg-default)',
                 fontFamily: 'Source Han Sans CN',
                 '&::before, &::after': {
                     display: 'block',
                     content: '',
                     height: '1px',
                     width: '1rem',
-                    background: hslaToJamAc('hsl(180, 100%, 41%)'),
+                    background: 'var(--jam-color-primary-default)',
                     position: 'absolute',
                     bottom: 0
                 },

@@ -1,64 +1,12 @@
 .power-outage-statistics {
     display: flex;
     flex-direction: column;
-    padding: 1.2rem;
+    padding: var(--jam-space-m);
     box-sizing: border-box;
-    // background: #141313;
+
     .form-box {
         display: flex;
         flex-direction: column;
-        .form-item {
-            // jam-buttongroup {
-            //     display: block;
-
-            //     position: relative;
-            //     > span[slot="cap"] {
-            //         height: 2.5rem;
-            //         width: 100%;
-            //         position: absolute;
-            //         top: -0.5rem;
-            //         background: url("../../assets/images/title-bg.png") no-repeat;
-            //         background-position: 0 50%;
-            //         color: #fff;
-            //         font-size: 1rem;
-            //         // padding-left: 1rem;
-            //         font-family: "YousheBiaoTiHei";
-            //     }
-            //     jam-button {
-            //         height: 2rem;
-            //         padding: 0 1rem;
-            //         font-size: 1rem;
-            //         align-items: center;
-            //         margin-right: 1rem;
-            //         margin-bottom: 0.9375rem;
-            //         color: #9cc1db;
-            //         border-radius: 0px;
-            //         background: url("../../assets/images/select-box.png") no-repeat;
-            //         background-size: 100% 100%;
-            //         &.jam-checked {
-            //             background: url("../../assets/images/select-box-active.png") no-repeat;
-            //             background-size: 100% 100%;
-            //             color: #fff;
-            //             font-weight: 700;
-            //         }
-            //     }
-            // }
-
-            // .btn {
-            //     width: 60px;
-            //     height: 32px;
-            //     padding: 0 1rem;
-            //     border-radius: 0;
-            //     &.query-btn {
-            //         background: url("../../assets/images/button-search.png") no-repeat;
-            //         background-size: 100% 100%;
-            //     }
-            //     &.export-btn {
-            //         background: url("../../assets/images/button-export.png") no-repeat;
-            //         background-size: 100% 100%;
-            //     }
-            // }
-        }
     }
 
     .chart-box {
@@ -68,7 +16,7 @@
         .chart-pie {
             width: 100%;
             height: calc(100% - 2.5rem);
-            margin-top: 1.5rem;
+            margin-top: var(--jam-space-l);
         }
     }
 

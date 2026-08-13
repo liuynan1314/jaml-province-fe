@@ -9,6 +9,8 @@ export function sysDefectOptions(xData, yData) {
         }
         return arr;
     };
+    const accent = jam.acToken[0]();
+    const accentSoft = jam.acToken[1]();
     return {
         grid: {
             top: '15%',
@@ -25,7 +27,7 @@ export function sysDefectOptions(xData, yData) {
             data: xData,
             axisLine: {
                 lineStyle: {
-                    color: 'hsla(217.5, 20%, 39.2%, 0.8)'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisTick: {
@@ -35,12 +37,12 @@ export function sysDefectOptions(xData, yData) {
                 show: true,
                 lineStyle: {
                     type: 'dotted',
-                    color: 'hsl(0deg 0% 85.1%,0.15)'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisLabel: {
                 interval: 0,
-                color: 'hsl(201.6, 33.3%, 64.1%)'
+                color: Tokens.color.fg.muted
             }
         },
         yAxis: {
@@ -48,22 +50,22 @@ export function sysDefectOptions(xData, yData) {
             minInterval: 1,
             name: '个',
             nameTextStyle: {
-                color: 'hsl(201.6, 33.3%, 64.1%)'
+                color: Tokens.color.fg.muted
             },
             axisLine: {
                 show: true,
                 lineStyle: {
-                    color: 'hsla(217.5, 20%, 39.2%, 0.8)'
+                    color: Tokens.color.outline.subtle
                 }
             },
             splitLine: {
                 lineStyle: {
                     type: 'dotted',
-                    color: 'hsl(0deg 0% 85.1%,0.15)'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisLabel: {
-                color: 'hsl(201.6, 33.3%, 64.1%)'
+                color: Tokens.color.fg.muted
             }
         },
         series: [
@@ -81,17 +83,8 @@ export function sysDefectOptions(xData, yData) {
                     show: false
                 },
                 itemStyle: {
-                    color: function (params) {
-                        return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                            {
-                                offset: 0,
-                                color: '#28a9f7'
-                            },
-                            {
-                                offset: 1,
-                                color: `rgba(23,94,140, 0)`
-                            }
-                        ]);
+                    color: function () {
+                        return jam.toEchartsGradient(90, accent, Tokens.color.transparent);
                     }
                 },
                 z: 99
@@ -109,23 +102,14 @@ export function sysDefectOptions(xData, yData) {
                     distance: 12,
                     fontFamily: 'DINPro',
                     textStyle: {
-                        color: '#1EC2FC',
+                        color: accent,
                         fontWeight: 'bolder',
                         fontSize: 16
                     }
                 },
                 itemStyle: {
-                    color: function (params) {
-                        return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                            {
-                                offset: 0,
-                                color: `rgba(23,94,140, 1)`
-                            },
-                            {
-                                offset: 1,
-                                color: `rgba(23,94,140, 0)`
-                            }
-                        ]);
+                    color: function () {
+                        return jam.toEchartsGradient(90, Tokens.color.primary.default, Tokens.color.transparent);
                     }
                 }
             },
@@ -144,17 +128,8 @@ export function sysDefectOptions(xData, yData) {
                     show: false
                 },
                 itemStyle: {
-                    color: function (params) {
-                        return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                            {
-                                offset: 0,
-                                color: '#28a9f7'
-                            },
-                            {
-                                offset: 1,
-                                color: `rgba(23,94,140, 0)`
-                            }
-                        ]);
+                    color: function () {
+                        return jam.toEchartsGradient(90, accent, Tokens.color.transparent);
                     }
                 },
                 barGap: 0
@@ -168,8 +143,8 @@ export function sysDefectOptions(xData, yData) {
                 symbolOffset: [0, -1],
                 z: 12,
                 itemStyle: {
-                    color: function (params) {
-                        return `#28a9f7`;
+                    color: function () {
+                        return accent;
                     }
                 },
                 tooltip: {
@@ -187,9 +162,9 @@ export function sysDefectOptions(xData, yData) {
                 z: 12,
                 itemStyle: {
                     color: function (params) {
-                        return `${params.value ? '#1ec1fa' : 'rgba(0,0,0,0'}`;
+                        return params.value ? accent : Tokens.color.transparent;
                     },
-                    shadowColor: '#1ec1fa',
+                    shadowColor: accent,
                     shadowBlur: 4
                 },
                 tooltip: {
@@ -206,9 +181,9 @@ export function sysDefectOptions(xData, yData) {
                 z: 12,
                 itemStyle: {
                     color: function (params) {
-                        return `${params.value ? '#ece0b5' : 'rgba(0,0,0,0'}`;
+                        return params.value ? accentSoft : Tokens.color.transparent;
                     },
-                    shadowColor: '#ece0b5',
+                    shadowColor: accentSoft,
                     shadowBlur: 4
                 },
                 tooltip: {
@@ -225,9 +200,9 @@ export function sysDefectOptions(xData, yData) {
                 z: 12,
                 itemStyle: {
                     color: function (params) {
-                        return `${params.value ? '#1ec1fa' : 'rgba(0,0,0,0'}`;
+                        return params.value ? accent : Tokens.color.transparent;
                     },
-                    shadowColor: '#1ec1fa',
+                    shadowColor: accent,
                     shadowBlur: 4
                 },
                 tooltip: {
@@ -240,7 +215,7 @@ export function sysDefectOptions(xData, yData) {
                 type: 'pictorialBar',
                 name: '缺陷次数',
                 itemStyle: {
-                    color: 'rgba(255,255,255,0.15)'
+                    color: Tokens.color.neutral.veil
                 },
                 tooltip: {
                     show: false

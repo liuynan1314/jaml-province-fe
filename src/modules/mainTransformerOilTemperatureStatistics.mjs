@@ -3,7 +3,6 @@ import { urlConfig, mockPath } from '../global.js';
 // import { createWindow } from '../components/createWindow.js';
 import oilTemperatureAnalysisWindow from '../components/modal/oilTemperatureAnalysisWindow.js';
 import searchBtns from './registerCards/buttons/searchBtns.mjs';
-import { COLOR_SET } from '../utils/Constants.js';
 import { openDiffHistoryChart } from '../components/diffImportantDevTable.js';
 let _msgr, _this;
 let regionId,
@@ -16,7 +15,7 @@ export default {
     type: 'wrapper',
     class: 'main-transformer-oilTemperature-statistics',
     styles: [
-        'css(--gap:.75rem)',
+        'css(--gap:var(--jam-space-m))',
         'padding(bottom:0)',
         'layout(overflow:hidden auto)',
         'size.fullsize',
@@ -29,7 +28,7 @@ export default {
                     alignItems: 'center'
                 },
                 '.btn-box': {
-                    marginLeft: '1rem',
+                    marginLeft: 'm',
                     'jam-button': {
                         marginRight: '1rem'
                     }
@@ -45,7 +44,7 @@ export default {
                     width: 'calc((100% - 2rem)/3)',
                     flexDirection: 'column',
                     position: 'relative',
-                    background: 'radial-gradient(circle, transparent, hsla(var(--jam-ac-h), var(--jam-ac-s), var(--jam-ac-l), 0.1)) !important',
+                    background: 'radial-gradient(circle, transparent, var(--jam-color-primary-film)) !important',
                     '.icon-download': {
                         position: 'absolute',
                         right: 0,
@@ -109,7 +108,7 @@ export default {
                         {
                             type: 'filterSelect',
                             styles: ['padding(top:0;bottom:0)', Styles.input.regularStyle],
-                            childStyles: ['input.agent.border(radius:.25rem)', 'input.labelslot.margin(0)', 'padding(0)'],
+                            childStyles: ['input.agent.border(radius:s)', 'input.labelslot.margin(0)', 'padding(0)'],
                             valueKey: 'stId',
                             props: { cap: '变电站：', placeholder: '请选择', data: '{{stList}}', icon: 'transformer-bolt', search: '{{name}}', select: '{{stId}}' },
                             watchers: [
@@ -168,7 +167,7 @@ export default {
                                     icon: 'share-nodes',
                                     class: 'icon-duotone ml-5',
                                     showIf: '{{isTest}}',
-                                    styles: [`background(${jam.ac()})`],
+                                    styles: ['with.accent'],
                                     onclick: function () {
                                         jam.renderModal('#main', oilTemperatureAnalysisWindow());
                                         // createWindow({
@@ -386,7 +385,7 @@ export default {
                                 Styles.icon.solid,
                                 Styles.stylesheet({
                                     'jam-indicator[data-id="4"] [slot=value]': {
-                                        color: `${jam.getColor('error').css()} !important`
+                                        color: 'error !important'
                                     }
                                 })
                             ]
@@ -429,7 +428,7 @@ export default {
                         //                         ]
                         //                     }
                         //                 },
-                        //                 styles: ['indicatorWithBar.basic', Styles.value.css({ color: _color, cursor: 'pointer', fontSize: '2rem', textDecoration: 'underline' })],
+                        //                 styles: ['indicatorWithBar.basic', Styles.value.css({ color: _color, cursor: 'pointer', fontSize: 'l', textDecoration: 'underline' })],
                         //                 onclick(e) {
                         //                     if (clickIndex == this.id) {
                         //                         _msgr.pub('statisticsIndex', null);

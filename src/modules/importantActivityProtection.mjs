@@ -1,6 +1,5 @@
 import diffImportantDevTable from '../components/diffImportantDevTable.js';
 import powerAssuranceWindow from '../components/modal/powerAssuranceWindow.js';
-import { COLOR_SET } from '../utils/Constants.js';
 import { ajaxCall, formatterJameTime } from './../common.js';
 // import { createWindow } from './../components/createWindow.js';
 import { getRegionList } from './../utils/commonList.js';
@@ -34,7 +33,7 @@ export default {
         Styles.stylesheet({
             '.bg-bdr': {
                 // background: COLOR_SET.modulebgclr,
-                border: `.0625rem solid ${COLOR_SET.secondaryborderclr}`
+                border: 's solid var(--jam-color-primary-subtle)'
                 // 'backdrop-filter': 'blur(1.5rem)'
             }
         })
@@ -44,7 +43,7 @@ export default {
         {
             type: 'wrapper',
             class: 'bg-bdr',
-            styles: ['flex(flex:1;direction:column)', 'padding(0 1.25rem 1.25rem)'],
+            styles: ['flex(flex:1;direction:column)', 'padding(0 l l)'],
             components: [
                 {
                     type: 'wrapper',
@@ -68,7 +67,7 @@ export default {
                                     cap: '日期：',
                                     icon: 'calendar',
                                     value: '{{date}}',
-                                    styles: ['input.agent.border(radius:.25rem)', 'input.labelslot.margin(0)'],
+                                    styles: ['input.agent.border(radius:s)', 'input.labelslot.margin(0)'],
                                     onchange: function () {
                                         if (isFirstChange) return;
                                         initCalendar();
@@ -119,7 +118,7 @@ export default {
                 },
                 {
                     type: 'wrapper',
-                    styles: ['size.fullsize', 'flex(flex:1;direction:column)', 'padding(top:1.25rem)'],
+                    styles: ['size.fullsize', 'flex(flex:1;direction:column)', 'padding(top:l)'],
                     components: [
                         {
                             type: 'wrapper',
@@ -130,7 +129,7 @@ export default {
                                         height: '3.8rem',
                                         alignItems: 'center',
                                         justifyContent: 'space-between',
-                                        background: `linear-gradient(180deg, ${COLOR_SET.gradientbgclr_deep} 0%, ${COLOR_SET.gradientbgclr_light} 100%)`,
+                                        background: 'linear-gradient(180deg, var(--jam-color-primary-default) 0%, var(--jam-color-primary-film) 100%)',
                                         border: 0,
                                         borderRadius: 0,
                                         fontWeight: 'bold'
@@ -150,22 +149,22 @@ export default {
                                     unit: '月',
                                     styles: [
                                         //
-                                        `indicator.unit.css(backgroundColor:transparent;fontSize:1.5rem;color:${COLOR_SET.firsttextclr};padding:0)`,
-                                        `value.text(size:1.625rem;color:${COLOR_SET.firsttextclr})`
+                                        'indicator.unit.css(backgroundColor:transparent;fontSize:l;color:var(--jam-color-fg-default);padding:0)',
+                                        'value.text(size:l;color:var(--jam-color-fg-default))'
                                     ],
                                     formatter: (date) => jam.formatTime(date, 'M')
                                 },
                                 {
                                     type: 'indicator-time',
                                     value: '{{date}}',
-                                    styles: [`value.text(size:1.875rem;color:${COLOR_SET.secondarytextclr};family:DINPro)`],
+                                    styles: ['value.text(size:l;color:muted;family:DINPro)'],
                                     formatter: (date) => jam.formatTime(date, 'yyyy')
                                 }
                             ]
                         },
                         {
                             type: 'wrapper',
-                            childStyles: ['size(width:calc(100% / 7);height:3.8rem)', 'css(justifyContent:flex-end;)', `text(size:1.25rem;color:${COLOR_SET.secondarytextclr})`],
+                            childStyles: ['size(width:calc(100% / 7);height:3.8rem)', 'css(justifyContent:flex-end;)', 'text(size:l;color:muted)'],
                             components: [
                                 {
                                     buildFor: 'item in weekdays',
@@ -183,14 +182,13 @@ export default {
                                 Styles.stylesheet({
                                     ':scope': {
                                         'jam-wrapper:nth-child(7n-1):not([iscurrmon=false]),jam-wrapper:nth-child(7n):not([iscurrmon=false])': {
-                                            background: jam.ac({ a: 0.3 })
-                                            // borderColor: jam.ac()
+                                            background: 'tint'
                                         },
                                         'jam-wrapper': {
                                             flexDirection: 'column',
                                             overflow: 'hidden',
                                             '&:not(.calendar-content)': {
-                                                border: `.0625rem solid ${COLOR_SET.secondaryborderclr}`
+                                                border: 's solid var(--jam-color-primary-subtle)'
                                             },
                                             '&:not(:nth-child(7n))': {
                                                 borderRightWidth: 0
@@ -220,11 +218,11 @@ export default {
                                         {
                                             type: 'indicator-number',
                                             value: '{{item.day}}',
-                                            styles: ['indicator.tweening.dial', 'value.text(size:1.875rem;family:DINPro)', 'padding(right:1rem)', 'css(justifyContent:flex-end)'],
+                                            styles: ['indicator.tweening.dial', 'value.text(size:1.875rem;family:DINPro)', 'padding(right:m)', 'css(justifyContent:flex-end)'],
                                             state: '{{item.isCurrentMonth}}?"isCurrMon":"isNotCurrMon"',
                                             states: {
-                                                isCurrMon: { styles: [`value.text(color:${jam.lumiText(0)})`] },
-                                                isNotCurrMon: { styles: [`value.text(color:${jam.lumiText(25)})`] }
+                                                isCurrMon: { styles: ['value.text(color:var(--jam-color-fg-default))'] },
+                                                isNotCurrMon: { styles: ['value.text(color:muted)'] }
                                             }
                                         },
                                         {
@@ -258,7 +256,7 @@ export default {
                                                                             cursor: 'grab',
                                                                             paddingLeft: '1.25rem',
                                                                             alignSelf: 'flex-start !important',
-                                                                            color: COLOR_SET.auxtextclr
+                                                                            color: 'muted'
                                                                         }
                                                                     })
                                                                 ],
@@ -270,7 +268,7 @@ export default {
                                                                         jame({
                                                                             type: 'wrapper',
                                                                             labelStyles: ['cap.css(padding:.25rem .45rem;borderRadius:1.25rem;backgroundColor:var(--bg-clr);color:var(--txt-clr);)'],
-                                                                            styles: ['size(width:max-content;)', 'border(width:0)', 'layout(overflow:hidden)', 'layout.flex(direction:column;wrap:nowrap;)', `background(color:${COLOR_SET.modulebgclr_deep})`],
+                                                                            styles: ['size(width:max-content;)', 'border(width:0)', 'layout(overflow:hidden)', 'layout.flex(direction:column;wrap:nowrap;)', 'with.elevation'],
                                                                             components: calendarDataMap[key].map((aItem) => ({
                                                                                 type: 'label',
                                                                                 states: levelStates,
@@ -327,7 +325,7 @@ export default {
                         {
                             type: 'wrapper',
                             class: 'bg-bdr',
-                            styles: ['flex(1)', 'padding(1.25rem)'],
+                            styles: ['flex(1)', 'padding(l)'],
                             components: [
                                 buildBasicTable({
                                     cap: '保供电时间-表格',
@@ -437,7 +435,7 @@ export default {
                         {
                             type: 'wrapper',
                             class: 'bg-bdr',
-                            styles: ['size(width:100%;height:calc(100% - 2.5rem))', 'css(overflow:hidden)', 'padding(1.25rem)'],
+                            styles: ['size(width:100%;height:calc(100% - 2.5rem))', 'css(overflow:hidden)', 'padding(l)'],
                             components: [diffImportantDevTable('small')]
                         }
                     ]

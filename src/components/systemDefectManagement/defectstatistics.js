@@ -20,7 +20,7 @@ const defectstatistics = (pageIndex = 0) => {
                     '.chart-bar-box': {
                         width: '100%',
                         height: '100%',
-                        border: `1px solid ${jam.ac(0.99, 0.95, 0.6, jam.acLumiO(30))}`,
+                        border: 's solid var(--jam-color-outline-muted)',
                         'flex-direction': 'column'
                     }
                 }

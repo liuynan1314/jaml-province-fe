@@ -192,7 +192,7 @@ export default {
                             minWidth: '13.2rem',
                             height: '2.25rem',
                             lineHeight: '1.25rem',
-                            color: jam.lumiText(1),
+                            color: 'onprimary',
                             paddingLeft: '1.5rem',
                             backgroundImage: 'url(assets/images/title_third.png)',
                             backgroundRepeat: 'no-repeat',
@@ -202,9 +202,9 @@ export default {
                     },
                     '.keyWords-list': {
                         height: '1.8rem',
-                        borderRadius: '0.25rem',
+                        borderRadius: 's',
                         minWidth: '12rem',
-                        border: `1px solid hsl(204.49 , 92.45%, 41.57%)`,
+                        border: `s solid hsl(204.49 , 92.45%, 41.57%)`,
                         alignItems: 'center',
                         position: 'relative',
                         maxWidth: '50%',
@@ -212,7 +212,7 @@ export default {
                         '.button-style': {
                             height: '1.5rem',
                             background: 'rgba(0,0,0,0)',
-                            border: `1px solid ${jam.ac(0.98, 0.3, 0.82)} `
+                            border: 's solid var(--jam-color-primary-subtle)'
                         },
                         '.add-button': {
                             position: 'absolute',
@@ -250,7 +250,7 @@ export default {
                 marginTop: '1rem',
                 'jam-button': {
                     marginRight: '1rem',
-                    backgroundColor: jam.ac()
+                    backgroundColor: 'var(--jam-color-primary-default)'
                 }
             }
         })

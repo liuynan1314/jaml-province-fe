@@ -220,9 +220,9 @@ export default {
                                     styles: [
                                         Styles.label.css({
                                             height: '1.5rem',
-                                            color: jam.ac(1.02, 1, jam.lumiO(25)),
+                                            color: 'primary',
                                             textDecoration: 'underline',
-                                            borderRadius: '0.2rem',
+                                            borderRadius: 's',
                                             cursor: 'pointer'
                                         })
                                     ],

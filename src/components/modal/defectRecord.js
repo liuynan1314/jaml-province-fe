@@ -70,7 +70,7 @@ const defectRecord = () => {
                         click2Check: true,
                         valueIndex: 0,
                         value: '{{selectRows}}',
-                        styles: [Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.table.css({ height: 'calc(100% - 5rem)' }), Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
+                        styles: ['tableWithPage.basic', Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.table.css({ height: 'calc(100% - 5rem)' }), Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
                         descStyles: {
                             '.item-content': ['css(overflow:hidden;white-space:nowrap;text-overflow:ellipsis)']
                         },

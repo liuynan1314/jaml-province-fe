@@ -7,7 +7,7 @@ jaml.register('pager', {
     id: 'pager',
     type: 'wrapper',
     broker: 'pager',
-    buttonStyles: [Styles.margin({ margin: '0 0.3rem' })],
+    buttonStyles: [Styles.margin({ margin: '0 s' })],
     styles: [
         Styles.props({
             display: 'block',
@@ -21,7 +21,7 @@ jaml.register('pager', {
             //     borderRadius: 0
             // },
             '.pager-number': {
-                padding: '4px 10px'
+                padding: 's'
                 // borderRadius: 0
                 // background: 'transparent'
             },
@@ -29,7 +29,7 @@ jaml.register('pager', {
                 // backgroundImage: 'url(../../../assets/images/page-action.png) !important',
                 // backgroundRepeat: 'no-repeat  !important',
                 // backgroundSize: '100% 100%  !important',
-                backgroundColor: jam.ac({ l: jam.acLumiO(30) })
+                backgroundColor: 'var(--jam-color-primary-subtle)'
                 // borderRadius: '0  !important'
             }
         })
@@ -90,9 +90,9 @@ let totalPageNumber;
 let states = {
     select: {
         styles: [
-            Styles.button.text({ color: jam.ac({ l: jam.acLumiO(1) }) }),
-            Styles.button.background({ color: jam.ac({ l: jam.acLumiO(30) }) }),
-            Styles.hover({ color: jam.ac({ l: jam.acLumiO(30) }) })
+            Styles.button.text({ color: 'var(--jam-color-on-primary)' }),
+            Styles.button.background({ color: 'var(--jam-color-primary-subtle)' }),
+            Styles.hover({ color: 'var(--jam-color-primary-subtle)' })
             // Styles.button.text({ color: '#fff' }),
             // Styles.button.background({
             //     image: 'url(../../../assets/images/page-action.png)',

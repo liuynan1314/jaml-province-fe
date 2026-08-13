@@ -51,7 +51,7 @@ const dataDef = [
             return jame({
                 type: 'tag',
                 class: 'jam-cc-tag',
-                styles: ['padding(0.2rem 0.5rem !important)'],
+                styles: ['padding(s m !important)'],
                 cap: value
             });
         }
@@ -74,7 +74,7 @@ const dataDef = [
             return jame({
                 type: 'tag',
                 class: 'jam-cc-tag',
-                styles: ['padding(0.2rem 0.5rem !important)'],
+                styles: ['padding(s m !important)'],
                 cap: value
             });
         }
@@ -105,8 +105,8 @@ const dataDef = [
                       type: 'badge',
                       styles: [
                           Styles.css({
-                              borderRadius: '0.2rem',
-                              fontSize: '0.9rem'
+                              borderRadius: 's',
+                              fontSize: 's'
                           })
                       ],
                       cap: jam.formatTime(value, 'yyyy-MM-dd'),
@@ -192,7 +192,7 @@ const defectdetail = (pageIndex = 0) => {
     return {
         type: 'wrapper',
         class: '',
-        styles: ['size.fullsize', 'css(--gap:.75rem)', 'padding(var(--gap))', 'flex(direction: column)'],
+        styles: ['size.fullsize', 'css(--gap:var(--jam-space-m))', 'padding(var(--gap))', 'flex(direction: column)'],
         plugins: ['popup.helper', 'popup.tip(subTip:true)', "-shortcut.search({selector:'.jam-option'})"],
         components: [
             {
@@ -434,7 +434,7 @@ const defectdetail = (pageIndex = 0) => {
                     {
                         type: 'tableWithPage',
                         ref: 'defectTableWithPage',
-                        styles: ['flex(1)', Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.table.fixedrowheight({ height: '2.5rem' }), 'size.fullsize', Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
+                        styles: ['tableWithPage.basic', 'flex(1)', Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.table.fixedrowheight({ height: '2.5rem' }), 'size.fullsize', Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
                         descStyles: {
                             '.item-time': [Styles.badge.cap.css({ width: '5em' }), Styles.badge.content.css({ width: '5em' })],
                             '.item-tag': ['indicator.cap.hide()'],

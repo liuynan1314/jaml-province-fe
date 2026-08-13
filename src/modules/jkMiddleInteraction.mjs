@@ -1,4 +1,3 @@
-import { COLOR_SET } from '../utils/Constants.js';
 import { ajaxCall, exportExcel, loadConf, formatterJameTime } from '../common.js';
 import { getBvList, getRegionList, getSubstationList } from '../utils/commonList.js';
 import { urlConfig, userInfo } from '../global.js';
@@ -12,10 +11,10 @@ let _model,
 export default {
     type: 'wrapper',
     styles: [
-        'css(--gap:.75rem)',
+        'css(--gap:var(--jam-space-m))',
         'padding(var(--gap))',
         'flex(direction: column)',
-        `background(color:${COLOR_SET.modulebgclr})`,
+        'with.elevation',
         'padding(bottom:0)',
         'layout(overflow:hidden auto)',
         'size.fullsize',
@@ -128,7 +127,7 @@ export default {
                                 {
                                     type: 'filterSelect',
                                     styles: ['size(maxWidth:11.5rem)', 'padding(top:0;bottom:0)'],
-                                    childStyles: ['size(minWidth:11.5rem)', 'input.agent.border(radius:.25rem)', 'input.labelslot.margin(0)'],
+                                    childStyles: ['size(minWidth:11.5rem)', 'input.agent.border(radius:s)', 'input.labelslot.margin(0)'],
                                     valueKey: 'stId',
                                     disabled: '{{isDisabled}}',
                                     props: { cap: '变电站：', placeholder: '请选择', data: '{{stList}}', search: '{{name}}', select: '{{stId}}', icon: 'transformer-bolt' },
@@ -215,7 +214,7 @@ export default {
                         // 图表
                         {
                             type: 'wrapper',
-                            styles: ['size.fullsize', 'layout(overflow: hidden)', `border(width:.0625rem;style:solid;color: ${jam.ac(0.99, 0.95, 0.6, jam.acLumiO(30))})`],
+                            styles: ['size.fullsize', 'layout(overflow: hidden)', 'border.subtle', 'border.s'],
                             components: [
                                 {
                                     type: 'wrapper',
@@ -223,13 +222,13 @@ export default {
                                     components: [
                                         {
                                             type: 'wrapper',
-                                            styles: ['padding(0 1rem)', 'layout.flex(justifyContent:space-between;alignItems:center)'],
+                                            styles: ['padding(0 m)', 'layout.flex(justifyContent:space-between;alignItems:center)'],
                                             descStyles: {
                                                 label: [
-                                                    'text(size:.875rem;)',
+                                                    'text(size:s)',
                                                     Styles.stylesheet({
                                                         '.title-color': {
-                                                            color: jam.ac(0.95, 1, jam.lumiL(40))
+                                                            color: 'primary'
                                                         },
                                                         '.fail-color': {
                                                             color: 'hsl(0, 100%, 66.1%)'

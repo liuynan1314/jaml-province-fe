@@ -1,4 +1,3 @@
-import { hslaToJamAc, COLOR_SET } from '../../utils/Constants.js';
 import { ajaxCall } from './../../common';
 import './../../components/treeSelect';
 // todo 遥信 遥测 radio
@@ -132,9 +131,9 @@ export default function (props) {
             {
                 type: 'wrapper',
                 // broker: 'generalDetail',
-                styles: ['size.fullsize', 'padding(.625rem 1.25rem 1.25rem)', 'flex(direction:column)'],
+                styles: ['size.fullsize', 'padding(s l l)', 'flex(direction:column)'],
                 descStyles: {
-                    '.main-wrapper': ['size.fullsize', 'margin(top:.625rem)', 'layout(overflow:hidden)'],
+                    '.main-wrapper': ['size.fullsize', 'margin(top:s)', 'layout(overflow:hidden)'],
                     '.flex-column': ['flex(direction:column)'],
                     '.icon-duotone': ['icon.duotone']
                 },
@@ -156,7 +155,7 @@ export default function (props) {
                     },
                     {
                         type: 'divider',
-                        styles: ['size(height:.0625rem)', `background(color:${hslaToJamAc('hsl(214,32.9%,28%)')})`]
+                        styles: ['size(height:.0625rem)', 'background(color:var(--jam-color-outline-muted))']
                     },
                     {
                         type: 'wrapper',
@@ -188,7 +187,7 @@ export default function (props) {
                                         placeholder: '测点名称过滤',
                                         icon: 'search',
                                         class: 'icon-duotone',
-                                        styles: ['input.agent.border(radius:.25rem)', 'layout(position:relative)', 'size(width:12rem)', 'icon.css(position:absolute;right: .25rem;)'],
+                                        styles: ['input.agent.border(radius:s)', 'layout(position:relative)', 'size(width:12rem)', 'icon.css(position:absolute;right:xs)'],
                                         value: '{{searchText}}'
                                     }
                                 ]
@@ -196,14 +195,14 @@ export default function (props) {
                             {
                                 type: 'wrapper',
                                 styles: [
-                                    'flex(direction:column;gap:.5rem)',
+                                    'flex(direction:column;gap:s)',
                                     'size.fullsize',
-                                    'margin(top:.625rem) ',
+                                    'margin(top:s)',
                                     'layout(overflow:auto)',
                                     Styles.stylesheet({
                                         '.title': {
-                                            background: `linear-gradient(180deg, ${COLOR_SET.gradientbgclr_deep} 0%, ${COLOR_SET.gradientbgclr_light} 100%)`,
-                                            borderBottom: `.0625rem solid ${hslaToJamAc('hsl(214,32.9%,28%)')}`,
+                                            background: 'linear-gradient(180deg, var(--jam-color-primary-subtle) 0%, var(--jam-color-primary-film) 100%)',
+                                            borderBottom: 'xs solid var(--jam-color-outline-muted)',
                                             cursor: 'pointer',
                                             position: 'relative',
                                             '&::after': {
@@ -213,8 +212,8 @@ export default function (props) {
                                                 transform: 'var(--arrow-rotate)',
                                                 transition: 'transform .25s ease',
                                                 fontFamily: 'cursive',
-                                                fontSize: '1.25rem',
-                                                color: COLOR_SET.secondarytextclr,
+                                                fontSize: 'l',
+                                                color: 'var(--jam-color-fg-muted)',
                                                 letterSpacing: '-1rem'
                                             },
                                             'span[slot=icon]': {
@@ -231,8 +230,8 @@ export default function (props) {
                                         styles: ['flex(direction:column)'],
                                         state: '{{item.status}}',
                                         states: {
-                                            hide: { styles: ['css(--arrow-rotate:rotate(0deg);--content-overflow:hidden;--content-max-height:0;--content-min-height:0;--content-padding:0 1.25rem;)'] },
-                                            show: { styles: ['css(--arrow-rotate:rotate(-90deg);--content-overflow:visible;--content-max-height:36rem;--content-min-height:10rem;--content-padding:1.25rem)'] }
+                                            hide: { styles: ['css(--arrow-rotate:rotate(0deg);--content-overflow:hidden;--content-max-height:0;--content-min-height:0;--content-padding:0 var(--jam-space-l);)'] },
+                                            show: { styles: ['css(--arrow-rotate:rotate(-90deg);--content-overflow:visible;--content-max-height:36rem;--content-min-height:10rem;--content-padding:var(--jam-space-l))'] }
                                         },
                                         components: [
                                             {
@@ -244,12 +243,12 @@ export default function (props) {
                                                     parent.state = parent.state === 'show' ? 'hide' : 'show';
                                                 },
                                                 icon: ` <div >
-                                                    <div style="width:.4rem;height:.4rem;background-image:linear-gradient(45deg,${hslaToJamAc('hsl(196,96.1%,59.8%)')},${hslaToJamAc('hsl(195,39.2%,80%)')});transform:rotate(45deg);box-shadow:2px 1px 1rem 2px${hslaToJamAc('hsl(195,39.2%,80%)')}"></div>
+                                                    <div style="width:.4rem;height:.4rem;background-image:linear-gradient(45deg,var(--jam-color-primary-default),var(--jam-color-primary-subtle));transform:rotate(45deg);box-shadow:2px 1px 1rem 2px var(--jam-color-primary-film)"></div>
                                                 </div>`
                                             },
                                             {
                                                 type: 'wrapper',
-                                                styles: ['layout(overflow:var(--content-overflow);gap:var(--gap);)', 'layout.grid(cols:6)', 'padding(var(--content-padding))', 'size(maxHeight:var(--content-max-height);minHeight:var(--content-min-height))', 'css(--gap:1.25rem;gridTemplateColumns:repeat(6,calc(calc(100% - (5 * var(--gap))) / 6));transition:all .35s ease-in-out;)'],
+                                                styles: ['layout(overflow:var(--content-overflow);gap:var(--gap);)', 'layout.grid(cols:6)', 'padding(var(--content-padding))', 'size(maxHeight:var(--content-max-height);minHeight:var(--content-min-height))', 'css(--gap:var(--jam-space-l);gridTemplateColumns:repeat(6,calc(calc(100% - (5 * var(--gap))) / 6));transition:all .35s ease-in-out;)'],
                                                 components: [
                                                     {
                                                         type: 'wrapper',
@@ -262,22 +261,22 @@ export default function (props) {
                                                         styles: [
                                                             //
                                                             'size.fullwidth',
-                                                            'padding(padding:0.625rem;top:.25rem)',
+                                                            'padding(padding:s;top:xs)',
                                                             `border(style:solid;width:.0625rem;color:var(--bdr-clr);radius:.25rem )`,
                                                             `css(aspectRatio:1/.618;background:linear-gradient(180deg,rgba(from var(--bg-clr) r g b / 0.1) 0%, rgba(from var(--bg-clr) r g b / 0) 100% ),rgba(255, 255, 255, 0.10);)`,
                                                             'layout(position:relative;)',
                                                             'hover.crosshair',
                                                             'flex(direction:column;)'
-                                                            // `hover(borderColor:${hslaToJamAc('hsl(199,74.4%,32.2%)')}!important;boxShadow:0 0 .5rem  ${hslaToJamAc('hsl(199,94.4%,62.2%)')};-transform:translateY(-.5rem) scale(1.05);transition:all .25s ease-in-out; )`
+                                                            // hover outline: var(--jam-color-primary-default) / shadow.s
                                                         ],
                                                         components: [
                                                             {
                                                                 type: 'label',
                                                                 cap: '{{col.colName}}',
                                                                 descStyles: {
-                                                                    '&.jam-icon-bar::part(iconslot)': ['size(width:.625rem;height:1.25rem)', 'border(radius:.125rem)', 'background(var(--bg-clr))']
+                                                                    '&.jam-icon-bar::part(iconslot)': ['size(width:.625rem;height:1.25rem)', 'border(radius:xxs)', 'background(var(--bg-clr))']
                                                                 },
-                                                                styles: ['text(size:1.125rem;)', 'icon.bar']
+                                                                styles: ['text(size:l)', 'icon.bar']
                                                             },
                                                             {
                                                                 type: 'wrapper',
@@ -342,7 +341,7 @@ export default function (props) {
                                                                                                     Styles.stylesheet({
                                                                                                         ':scope': {
                                                                                                             cursor: 'grab',
-                                                                                                            color: COLOR_SET.auxtextclr
+                                                                                                            color: 'var(--jam-color-fg-muted)'
                                                                                                         }
                                                                                                     })
                                                                                                 ],
@@ -353,7 +352,7 @@ export default function (props) {
                                                                                                         e.target,
                                                                                                         jame({
                                                                                                             type: 'wrapper',
-                                                                                                            styles: ['size(width:max-content;)', 'border(width:0)', 'layout(overflow:hidden)', 'layout.flex(direction:column;wrap:nowrap;)', `background(color:${COLOR_SET.modulebgclr_deep})`],
+                                                                                                            styles: ['size(width:max-content;)', 'border(width:0)', 'layout(overflow:hidden)', 'layout.flex(direction:column;wrap:nowrap;)', 'with.elevation'],
                                                                                                             components: codes.map((code) => ({
                                                                                                                 type: 'label',
                                                                                                                 styles: codeStyles(code, true),
@@ -391,10 +390,10 @@ export default function (props) {
                                                                 cap: jaml.var('col.type', (type) => ['遥信', '遥测'][type]),
                                                                 state: '{{col.type}}',
                                                                 states: {
-                                                                    0: { styles: [Styles.background({ color: hslaToJamAc('hsl(198,75.6%,35.3%)') })] },
-                                                                    1: { styles: [Styles.background({ image: `linear-gradient(to bottom, ${hslaToJamAc('hsl(171,45.1%,30%)')}, rgba(0,0,0,0.4))` })] }
+                                                                    0: { styles: [Styles.background({ color: 'var(--jam-color-primary-default)' })] },
+                                                                    1: { styles: [Styles.background({ image: 'linear-gradient(to bottom, var(--jam-color-primary-subtle), transparent)' })] }
                                                                 },
-                                                                styles: ['layout(position:absolute;)', 'css(right:-.0625rem;top:-.0625rem;writing-mode:tb;)', `text(size:.875rem;color:${COLOR_SET.secondarytextclr};)`]
+                                                                styles: ['layout(position:absolute;)', 'css(right:-.0625rem;top:-.0625rem;writing-mode:tb;)', 'text(size:s;color:muted)']
                                                             }
                                                         ]
                                                     }
@@ -419,14 +418,14 @@ export default function (props) {
                             {
                                 type: 'wrapper',
                                 class: 'flex-column',
-                                styles: ['size.fullsize', 'padding(left:.625rem)'],
+                                styles: ['size.fullsize', 'padding(left:s)'],
                                 descStyles: {},
                                 components: [
                                     {
                                         type: 'wrapper',
                                         descStyles: {
                                             datepicker: [
-                                                'datepicker.agent.border(radius:.25rem)',
+                                                'datepicker.agent.border(radius:s)',
                                                 'datepicker.agent.css(minWidth:7rem;maxWidth:7rem)'
                                                 // Styles.stylesheet({
                                                 //     'input[agent="true"]': {
@@ -434,8 +433,8 @@ export default function (props) {
                                                 //     }
                                                 // })
                                             ],
-                                            timepicker: ['size(minWidth:7.25rem;maxWidth:7.25rem)', 'timepicker.agent.border(radius:.25rem)', 'padding(left:0;right:0)'],
-                                            '.ml-5': ['margin(left:.5rem)'],
+                                            timepicker: ['size(minWidth:7.25rem;maxWidth:7.25rem)', 'timepicker.agent.border(radius:s)', 'padding(left:0;right:0)'],
+                                            '.ml-5': ['margin(left:s)'],
                                             button: [Styles.searchBtnsStyles]
                                         },
                                         components: [
@@ -467,7 +466,7 @@ export default function (props) {
                                             {
                                                 type: 'radio',
                                                 class: 'ml-5',
-                                                styles: ['options.optionslot.layout(gap:.25rem;)'],
+                                                styles: ['options.optionslot.layout(gap:xs)'],
                                                 data: [
                                                     { name: '昨日', value: 1 },
                                                     { name: '今日', value: 0 },
@@ -504,7 +503,7 @@ export default function (props) {
                                     {
                                         type: 'chart-line',
                                         class: 'historySampleChartLine',
-                                        colorSet: [' #3B86FF', '#4BC796', '#5C7090'],
+                                        colorSet: ['primary', 'success', 'muted'],
                                         styles: [
                                             Styles.size.fullsize,
                                             Styles.echarts.legend({
@@ -646,6 +645,6 @@ export default function (props) {
         });
     }
     function codeStyles(code, isPopup) {
-        return ['text(size:.875rem)', `color(${codesColorMap[code]})`, `background(${codesColorMap[code]?.replace(')', ' ,0.3)')})`, 'border(radius:.25rem)', `margin(${isPopup ? 'top' : 'right'}:.5rem)`];
+        return ['text(size:s)', `color(${codesColorMap[code]})`, `background(${codesColorMap[code]?.replace(')', ' ,0.3)')})`, 'border(radius:s)', `margin(${isPopup ? 'top' : 'right'}:s)`];
     }
 }

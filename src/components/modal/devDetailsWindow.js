@@ -21,7 +21,7 @@ const devDetailsWindow = (params) => {
                     'size(width:100%;height:calc(100% - 1rem))',
                     Styles.stylesheet({
                         ':scope': {
-                            padding: '0.8rem'
+                            padding: 'm'
                         },
                         '.form_wrapper': {
                             width: '100%',
@@ -33,15 +33,15 @@ const devDetailsWindow = (params) => {
                                 justifyContent: 'flex-start'
                             },
                             '.form_item': {
-                                marginLeft: '1rem',
-                                marginBottom: '0.625rem',
+                                marginLeft: 'm',
+                                marginBottom: 's',
                                 '--jam-agent-width': '11.25rem',
                                 '.jam-option': {
                                     backgroundColor: '#000'
                                 }
                             },
                             'jam-button': {
-                                marginLeft: '1rem'
+                                marginLeft: 'm'
                             }
                         },
                         '.tableContent': {
@@ -70,9 +70,9 @@ const devDetailsWindow = (params) => {
                             //     styles: [
                             //         Styles.input.regularStyleDiff,
                             //         Styles.input.agent.css({
-                            //             borderColor: jam.ac(1, 0.25, 0.61),
+                            //             borderColor: 'var(--jam-color-outline-muted)',
                             //             width: '11.25rem',
-                            //             background: jam.ac(1.01, 0.598, 0.52, jam.lumiO(30))
+                            //             background: tint
                             //         })
                             //     ],
                             //     props: { cap: '所属厂站:', data: '{{stList}}', search: '{{stName}}', select: '{{stId}}' },
@@ -88,7 +88,7 @@ const devDetailsWindow = (params) => {
                                 styles: [
                                     Styles.input.regularStyleDiff,
                                     Styles.input.agent.css({
-                                        borderColor: jam.ac(1, 0.25, 0.61)
+                                        borderColor: 'var(--jam-color-outline-muted)'
                                     })
                                 ],
                                 cap: '设备名称：',
@@ -114,7 +114,7 @@ const devDetailsWindow = (params) => {
                                 type: 'button',
                                 class: 'jam-cta',
                                 cap: '查询',
-                                styles: [Styles.icon.duotone, 'margin(bottom:0.625rem)'],
+                                styles: [Styles.icon.duotone, 'margin(bottom:s)'],
                                 icon: 'magnifying-glass',
                                 onclick: function () {
                                     querySceneImportantDev();

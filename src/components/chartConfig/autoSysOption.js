@@ -26,7 +26,7 @@ export function autoSyschartsOption(resData) {
                 show: true,
                 lineStyle: {
                     type: 'solid',
-                    color: '#233e4c',
+                    color: Tokens.color.outline.subtle,
                     width: 2
                 }
             },
@@ -38,7 +38,7 @@ export function autoSyschartsOption(resData) {
             },
             axisLabel: {
                 fontSize: 14,
-                color: '#aec5e8',
+                color: Tokens.color.fg.muted,
                 interval: 0
             },
             data: xAisData
@@ -47,7 +47,7 @@ export function autoSyschartsOption(resData) {
             show: true,
             nameTextStyle: {
                 fontSize: 14,
-                color: '#A5BCDE'
+                color: Tokens.color.fg.muted
             },
             axisLine: {
                 show: false
@@ -56,11 +56,11 @@ export function autoSyschartsOption(resData) {
                 show: true,
                 lineStyle: {
                     type: 'dashed',
-                    color: '#6997ad'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisLabel: {
-                color: '#A5BCDE',
+                color: Tokens.color.fg.muted,
                 fontSize: 14
             }
         },
@@ -70,33 +70,18 @@ export function autoSyschartsOption(resData) {
                 barWidth: '16',
                 itemStyle: {
                     normal: {
-                        color: {
-                            type: 'linear',
-                            x: 1,
-                            x2: 0,
-                            y: 0,
-                            y2: 1,
-                            colorStops: [
-                                {
-                                    offset: 0,
-                                    color: 'rgba(239,216,91,1)'
-                                },
-                                {
-                                    offset: 0.5,
-                                    color: 'rgba(239,216,91,.5)'
-                                },
-                                {
-                                    offset: 1,
-                                    color: 'rgba(239,216,91,.1)'
-                                }
-                            ]
-                        }
+                        color: jam.toEchartsGradient(
+                            135,
+                            jam.acToken[1](),
+                            [jam.acToken[1](1, 1, 1, 0.5), 0.5],
+                            jam.acToken[1](1, 1, 1, 0.1)
+                        )
                     }
                 },
                 label: {
                     show: true,
                     position: 'top',
-                    color: '#cbe3fe',
+                    color: Tokens.color.fg.muted,
                     fontSize: 16,
                     fontStyle: 'bold',
                     fontFamily: 'DIN-Medium',
@@ -112,9 +97,9 @@ export function autoSyschartsOption(resData) {
                 symbol: 'rect',
                 symbolSize: [20, 5],
                 itemStyle: {
-                    shadowColor: '#fff',
+                    shadowColor: Tokens.color.fg.default,
                     shadowBlur: 10,
-                    color: '#fff'
+                    color: Tokens.color.fg.default
                 },
                 data: seriesData
             }

@@ -1,4 +1,3 @@
-import { COLOR_SET, hslaToJamAc } from '../utils/Constants.js';
 import { ajaxCall, getDetailConf, findCol, formatterJameTime, exportExcel } from '../common.js';
 import { getRegionList, getBvList, getSubstationList } from '../utils/commonList.js';
 import { urlConfig } from '../global.js';
@@ -26,7 +25,7 @@ let accuracyList = [
 export default {
     type: 'wrapper',
     styles: [
-        'css(--gap:.75rem)',
+        'css(--gap:var(--jam-space-m))',
         'padding(var(--gap))',
         'flex(direction: column)',
         'padding(bottom:0)',
@@ -144,14 +143,14 @@ export default {
                                     }
                                 })
                             ],
-                            childStyles: ['datepicker.agent.border(radius:.25rem)'],
+                            childStyles: ['datepicker.agent.border(radius:s)'],
                             datepickerStyles: ['padding(top:0;bottom:0)', 'datepicker.labelslot.margin(0)'],
                             buttonStyles: [Styles.searchBtnsStyles],
                             components: [
                                 {
                                     type: 'filterSelect',
                                     styles: ['size(maxWidth:11.5rem)', 'padding(top:0;bottom:0)'],
-                                    childStyles: ['size(minWidth:11.5rem)', 'input.agent.border(radius:.25rem)', 'input.labelslot.margin(0)', 'padding(0)'],
+                                    childStyles: ['size(minWidth:11.5rem)', 'input.agent.border(radius:s)', 'input.labelslot.margin(0)', 'padding(0)'],
                                     valueKey: 'stId',
                                     props: { cap: '变电站：', placeholder: '请选择', data: '{{stList}}', icon: 'transformer-bolt', search: '{{name}}', select: '{{stId}}' },
                                     watchers: [
@@ -219,7 +218,7 @@ export default {
                                                 display: 'block',
                                                 minWidth: '13.2rem',
                                                 height: '2.25rem',
-                                                color: jam.lumiText(16),
+                                                color: 'muted',
                                                 paddingLeft: '1.5rem',
                                                 backgroundImage: 'url(./../assets/images/title_third.png)',
                                                 backgroundRepeat: 'no-repeat',
@@ -234,7 +233,7 @@ export default {
                                     type: 'buttongroup-radio',
                                     value: '{{analyticsType}}',
                                     styles: [
-                                        'padding(left:.25rem)',
+                                        'padding(left:s)',
                                         'layout.flex(justifyContent:center;)',
                                         Styles.stylesheet({
                                             ':scope': {
@@ -244,10 +243,10 @@ export default {
                                                     height: '1.875rem',
                                                     border: 0,
                                                     borderRadius: 0,
-                                                    color: jam.lumiText(0),
+                                                    color: 'var(--jam-color-fg-default)',
                                                     fontWeight: '500',
-                                                    fontSize: '.875rem',
-                                                    padding: '.2rem .75rem',
+                                                    fontSize: 's',
+                                                    padding: 's m',
                                                     backgroundImage: 'url(./assets/images/new/tab_default2.png)',
                                                     backgroundSize: '100% 100%',
                                                     backgroundRepeat: 'no-repeat',
@@ -262,13 +261,13 @@ export default {
                                                     }
                                                 },
                                                 'jam-button.jam-checked': {
-                                                    color: jam.lumiText(25),
-                                                    fontSize: '1rem',
+                                                    color: 'muted',
+                                                    fontSize: 'm',
                                                     fontWeight: 'bold',
                                                     backgroundImage: 'url(./assets/images/new/tab_hover2.png)',
 
                                                     '&>[slot=cap]': {
-                                                        backgroundImage: `linear-gradient(-180deg, ${hslaToJamAc('hsl(0,0%,100%)')} 0%, ${hslaToJamAc('hsl(204,100%,81.2%)')} 100%)`,
+                                                        backgroundImage: 'linear-gradient(-180deg, var(--jam-color-on-primary) 0%, var(--jam-color-primary-subtle) 100%)',
                                                         '-webkit-background-clip': 'text',
                                                         backgroundClip: 'text'
                                                     }
@@ -320,7 +319,7 @@ export default {
                         // 图表
                         {
                             type: 'wrapper',
-                            styles: ['size.fullsize', 'layout(overflow: hidden)', `border(width:.0625rem;style:solid;color: ${jam.ac(0.99, 0.95, 0.6, jam.acLumiO(30))})`],
+                            styles: ['size.fullsize', 'layout(overflow: hidden)', 'border.subtle', 'border.s'],
                             components: [
                                 {
                                     type: 'wrapper',
@@ -329,13 +328,13 @@ export default {
                                     components: [
                                         {
                                             type: 'wrapper',
-                                            styles: ['padding(0 1rem)', 'layout.flex(justifyContent:space-between;alignItems:center)'],
+                                            styles: ['padding(0 m)', 'layout.flex(justifyContent:space-between;alignItems:center)'],
                                             descStyles: {
                                                 label: [
-                                                    'text(size:.875rem;)',
+                                                    'text(size:s)',
                                                     Styles.stylesheet({
                                                         '.title-color': {
-                                                            color: jam.ac(1, 1, jam.lumiO(18))
+                                                            color: 'primary'
                                                         }
                                                     })
                                                 ]
@@ -495,7 +494,7 @@ export default {
                 {
                     type: 'tableWithPage',
                     // ref: 'eventTableWithPage',
-                    styles: ['flex(1)', Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.table.fixedrowheight({ height: '2.5rem' }), 'size.fullsize', Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
+                    styles: ['tableWithPage.basic', 'flex(1)', Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.table.fixedrowheight({ height: '2.5rem' }), 'size.fullsize', Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
                     descStyles: {
                         '.item-time': [Styles.badge.cap.css({ width: '5em' }), Styles.badge.content.css({ width: '5em' })],
                         '.item-tag': ['indicator.cap.hide()'],
@@ -609,7 +608,7 @@ export default {
                                 return jame({
                                     type: 'label',
                                     cap: '详情',
-                                    styles: [`color(${jam.ac()})`, 'css(cursor: pointer;text-underline-offset:.2rem;transition:all .2s ease-in-out; )', 'hover(textDecoration: underline;)'],
+                                    styles: ['color.primary', 'css(cursor: pointer;text-underline-offset:.2rem;transition:all .2s ease-in-out; )', 'hover(textDecoration: underline;)'],
                                     onclick: () => {
                                         jam.renderModal('#main', tripDetailWindow(rowData, isForTrip, rowData['confTypeName'] + '详情'));
 

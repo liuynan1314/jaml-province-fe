@@ -4,7 +4,7 @@ jaml.register('treeSelect', {
     // broker: 'generalDetail',
     styles: [
         Styles.css({
-            boxShadow: '0 0 1.5rem ' + `hsla(0,0%,0%,${jam.lumiA(20)})`,
+            boxShadow: 'l',
             transition: 'width 400ms',
             maxWidth: '12rem',
             minWidth: '0px',
@@ -18,7 +18,7 @@ jaml.register('treeSelect', {
                 '.tree-name': {
                     position: 'relative',
                     '&:hover': {
-                        background: jam.ac(1, 0.1, 1, 0.5)
+                        background: 'var(--jam-color-primary-film)'
                     }
                 }
             }

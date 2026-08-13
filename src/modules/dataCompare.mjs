@@ -671,7 +671,8 @@ export default {
                             minHeight: '0%',
                             width: '100%',
                             flexGrow: 1,
-                            display: 'flex'
+                            display: 'flex',
+                            position: 'relative'
                         })
                     ],
                     components: [
@@ -718,6 +719,7 @@ export default {
                         },
                         {
                             type: 'loading',
+                            styles: ['loading.basic', 'size(width:100% !important;height:100% !important)'],
                             props: {
                                 isLoading: '{{loading}}'
                             }
@@ -766,7 +768,8 @@ export default {
                             minHeight: '0%',
                             width: '100%',
                             flexGrow: 1,
-                            display: 'flex'
+                            display: 'flex',
+                            position: 'relative'
                         })
                     ],
                     components: [
@@ -819,6 +822,7 @@ export default {
                         },
                         {
                             type: 'loading',
+                            styles: ['loading.basic', 'size(width:100% !important;height:100% !important)'],
                             props: {
                                 isLoading: '{{loading2}}'
                             }

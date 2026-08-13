@@ -1,4 +1,3 @@
-import { hslaToJamAc } from '../utils/Constants.js';
 import { ajaxCall } from '../common.js';
 let _model,
     _msgr = null;
@@ -23,7 +22,7 @@ export default {
                 'css(padding:0.5rem;)',
                 Styles.stylesheet({
                     ':scope .legend:hover': {
-                        backgroundColor: `${jam.ac(0, 0, jam.lumiO(42))} !important`
+                        backgroundColor: 'var(--jam-color-primary-subtle) !important'
                     },
                     ':scope': {
                         // cursor: 'pointer'

@@ -4,7 +4,7 @@ jaml.register('treeFilterSelect', {
     cap: '{{cap}}',
     icon: '{{icon}}',
     value: '{{search}}',
-    styles: [Styles.css({ '--jam-element-color-l4': jam.lumiText(7) })],
+    styles: [Styles.css({ '--jam-element-color-l4': 'var(--jam-color-fg-muted)' })],
     placeholder: jaml.res(function () {
         return this.cmpt.search || '--请选择--';
     }),
@@ -104,7 +104,7 @@ jaml.register('treeFilterSelect', {
             components: [
                 {
                     type: 'lazyTree',
-                    styles: [Styles.css({ width: '100%' })],
+                    styles: ['lazyTree.basic', Styles.css({ width: '100%' })],
                     props: {
                         filterable: false,
                         multiSelect: false,

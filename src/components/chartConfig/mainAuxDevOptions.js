@@ -20,7 +20,7 @@ export function getLineChartOptions(data) {
             itemWidth: 10,
             itemHeight: 10,
             textStyle: {
-                color: '#77ABC4'
+                color: Tokens.color.fg.muted
             }
         },
         tooltip: {
@@ -36,11 +36,11 @@ export function getLineChartOptions(data) {
                     show: true,
                     lineStyle: {
                         type: 'dashed',
-                        color: 'rgb(30, 61, 74)'
+                        color: Tokens.color.outline.subtle
                     }
                 },
                 axisLabel: {
-                    color: '#77ABC4',
+                    color: Tokens.color.fg.muted,
                     fontSize: 14,
                     fontFamily: 'SourceHanSansCN-Regular'
                 },
@@ -53,15 +53,15 @@ export function getLineChartOptions(data) {
                 splitLine: {
                     lineStyle: {
                         type: 'dashed',
-                        color: 'rgb(30, 61, 74)'
+                        color: Tokens.color.outline.subtle
                     }
                 },
                 max: max,
                 nameTextStyle: {
-                    color: '#fff'
+                    color: Tokens.color.fg.default
                 },
                 axisLabel: {
-                    color: '#77ABC4',
+                    color: Tokens.color.fg.muted,
                     fontSize: 14,
                     fontFamily: 'SourceHanSansCN-Regular'
                 }
@@ -74,14 +74,14 @@ export function getLineChartOptions(data) {
                 symbol: 'circle',
                 symbolSize: 6,
                 itemStyle: {
-                    color: '#fff',
-                    borderColor: 'rgba(88,107,197,0.4)',
+                    color: Tokens.color.fg.default,
+                    borderColor: jam.acToken[0](1, 1, 1, 0.4),
                     borderWidth: 12
                 },
                 smooth: true,
                 showSymbol: true,
                 lineStyle: {
-                    color: '#5B6FCC'
+                    color: jam.acToken[0]()
                 },
 
                 data: lastYearList
@@ -92,13 +92,13 @@ export function getLineChartOptions(data) {
                 symbol: 'circle',
                 symbolSize: 6,
                 itemStyle: {
-                    color: '#fff',
-                    borderColor: 'rgba(245,205,102,0.4)',
+                    color: Tokens.color.fg.default,
+                    borderColor: jam.acToken[1](1, 1, 1, 0.4),
                     borderWidth: 12
                 },
                 smooth: true,
                 lineStyle: {
-                    color: '#DBB462'
+                    color: jam.acToken[1]()
                 },
 
                 data: thisYearList
@@ -128,7 +128,7 @@ export function getBarChartOptions(thisYearList = [], xAisList) {
             itemWidth: 10,
             itemHeight: 10,
             textStyle: {
-                color: '#77ABC4'
+                color: Tokens.color.fg.muted
             }
         },
         xAxis: {
@@ -136,14 +136,14 @@ export function getBarChartOptions(thisYearList = [], xAisList) {
             axisLine: {
                 show: true,
                 lineStyle: {
-                    color: '#0F3D4E',
+                    color: Tokens.color.outline.subtle,
                     width: 2
                 }
             },
             splitLine: {
                 show: true,
                 lineStyle: {
-                    color: '#0F3D4E'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisTick: {
@@ -151,7 +151,7 @@ export function getBarChartOptions(thisYearList = [], xAisList) {
             },
             axisLabel: {
                 fontSize: 14,
-                color: '#77ABC4',
+                color: Tokens.color.fg.muted,
                 interval: 0
             },
             data: xAisList
@@ -164,11 +164,11 @@ export function getBarChartOptions(thisYearList = [], xAisList) {
             splitLine: {
                 show: true,
                 lineStyle: {
-                    color: '#0F3D4E'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisLabel: {
-                color: '#77ABC4',
+                color: Tokens.color.fg.muted,
                 fontSize: 14
             }
         },
@@ -179,27 +179,12 @@ export function getBarChartOptions(thisYearList = [], xAisList) {
                 barWidth: '15',
                 itemStyle: {
                     normal: {
-                        color: {
-                            type: 'linear',
-                            x: 1,
-                            x2: 0,
-                            y: 0,
-                            y2: 1,
-                            colorStops: [
-                                {
-                                    offset: 0,
-                                    color: '#85ACF4'
-                                },
-                                {
-                                    offset: 0.5,
-                                    color: '#5388D8'
-                                },
-                                {
-                                    offset: 1,
-                                    color: '#2564B9'
-                                }
-                            ]
-                        },
+                        color: jam.toEchartsGradient(
+                            135,
+                            Tokens.color.primary.subtle,
+                            Tokens.color.primary.default,
+                            Tokens.color.primary.strong
+                        ),
                         borderRadius: [10, 10, 0, 0]
                     }
                 },

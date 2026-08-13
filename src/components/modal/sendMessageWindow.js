@@ -1,4 +1,3 @@
-import { hslaToJamAc, COLOR_SET } from '../../utils/Constants.js';
 import { ajaxCall } from './../../common';
 
 export default function (props, _msgr) {
@@ -21,7 +20,7 @@ export default function (props, _msgr) {
                 styles: [
                     'size.fullsize',
                     'flex(direction:column)',
-                    'padding(.625rem 1rem 1rem 0 )',
+                    'padding(m m m 0)',
                     Styles.stylesheet({
                         ':scope': {
                             '--jam-input-agent-border-radius': '0.25rem'
@@ -34,7 +33,7 @@ export default function (props, _msgr) {
                         }
                     })
                 ],
-                inputStyles: [`capslot.text(size:.875rem;color:${COLOR_SET.secondarytextclr})`],
+                inputStyles: [`capslot.text(size:s;color:var(--jam-color-fg-muted))`],
                 components: [
                     {
                         type: 'textarea',
@@ -47,12 +46,12 @@ export default function (props, _msgr) {
                     {
                         type: 'wrapper',
                         styles: ['size(height:2rem)', 'padding(top:.625rem)'],
-                        inputStyles: ['size(height:2rem)', `capslot.text(size:.875rem;color:${COLOR_SET.secondarytextclr})`],
+                        inputStyles: ['size(height:2rem)', `capslot.text(size:s;color:var(--jam-color-fg-muted))`],
                         components: [
                             {
                                 type: 'filterSelect',
                                 styles: ['size(maxWidth:13rem)', 'padding(top:0;bottom:0)'],
-                                inputStyles: ['size(height:1.875rem)', 'cap.size(width:3.5rem)', `capslot.text(size:.875rem;color:${COLOR_SET.secondarytextclr};align:right)`],
+                                inputStyles: ['size(height:1.875rem)', 'cap.size(width:3.5rem)', `capslot.text(size:s;color:var(--jam-color-fg-muted);align:right)`],
                                 childStyles: [],
                                 valueKey: 'personnelId',
                                 props: { cap: '收信人:', placeholder: '请选择', data: '{{recipientList}}', search: '{{name}}', select: '{{personnelId}}' },

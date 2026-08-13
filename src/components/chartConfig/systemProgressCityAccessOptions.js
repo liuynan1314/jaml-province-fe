@@ -26,6 +26,8 @@ export function systemProgressCityAccessOptions(newBarData) {
         }
         return arr;
     };
+    const series0 = jam.acToken[0]();
+    const series1 = jam.acToken[1]();
     return {
         grid: {
             top: '20%',
@@ -47,20 +49,20 @@ export function systemProgressCityAccessOptions(newBarData) {
             itemWidth: 8,
             itemHeight: 8,
             textStyle: {
-                color: 'hsl(201.6, 33.3%, 64.1%)'
+                color: Tokens.color.fg.muted
             },
             data: [
                 {
                     name: '变电站接入率',
                     itemStyle: {
-                        color: 'hsl(195.3, 100%, 56.1%)'
+                        color: series0
                     }
                 },
                 {
                     // name: '双通道接入率',
                     name: '通道故障率',
                     itemStyle: {
-                        color: 'hsl(45, 69.6%, 63.9%)'
+                        color: series1
                     }
                 }
             ]
@@ -70,18 +72,18 @@ export function systemProgressCityAccessOptions(newBarData) {
             data: xData,
             axisLine: {
                 lineStyle: {
-                    color: '#2e3e54'
+                    color: Tokens.color.outline.subtle
                 }
             },
             splitLine: {
                 show: true,
                 lineStyle: {
                     type: 'dotted',
-                    color: '#2e3e54'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisLabel: {
-                color: 'hsl(201.6, 33.3%, 64.1%)'
+                color: Tokens.color.fg.muted
             }
         },
         yAxis: {
@@ -89,27 +91,27 @@ export function systemProgressCityAccessOptions(newBarData) {
             type: 'value',
             name: '%',
             nameTextStyle: {
-                color: 'hsl(201.6, 33.3%, 64.1%)',
+                color: Tokens.color.fg.muted,
                 padding: [0, 0, 0, -30]
             },
             axisLine: {
                 show: true,
                 lineStyle: {
-                    color: '#2e3e54'
+                    color: Tokens.color.outline.subtle
                 }
             },
             splitLine: {
                 lineStyle: {
                     type: 'dotted',
-                    color: '#2e3e54'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisLabel: {
                 color: function (value) {
                     if (value === '80') {
-                        return 'hsl(12.7, 58.4%, 55.7%)';
+                        return jam.getColor('error').css();
                     } else {
-                        return 'hsl(201.6, 33.3%, 64.1%)';
+                        return Tokens.color.fg.muted;
                     }
                 }
             }
@@ -129,7 +131,7 @@ export function systemProgressCityAccessOptions(newBarData) {
                     distance: 12,
                     fontFamily: 'DINPro',
                     textStyle: {
-                        color: '#28a9f7',
+                        color: series0,
                         fontWeight: 'bolder',
                         fontSize: 12
                     }
@@ -141,7 +143,7 @@ export function systemProgressCityAccessOptions(newBarData) {
                         show: false
                     },
                     lineStyle: {
-                        color: 'hsl(12.7, 58.4%, 55.7%)'
+                        color: jam.getColor('error').css()
                     },
                     data: [
                         {
@@ -150,17 +152,8 @@ export function systemProgressCityAccessOptions(newBarData) {
                     ]
                 },
                 itemStyle: {
-                    color: function (params) {
-                        return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                            {
-                                offset: 0,
-                                color: `hsl(202.9, 92.8%, 56.3%) `
-                            },
-                            {
-                                offset: 1,
-                                color: `hsla(202.9, 92.8%, 56.3%, 0)`
-                            }
-                        ]);
+                    color: function () {
+                        return jam.toEchartsGradient(90, series0, Tokens.color.transparent);
                     }
                 }
             },
@@ -174,9 +167,9 @@ export function systemProgressCityAccessOptions(newBarData) {
                 z: 12,
                 itemStyle: {
                     color: function (params) {
-                        return `${params.value ? '#1ec1fa' : 'rgba(0,0,0,0'}`;
+                        return params.value ? series0 : Tokens.color.transparent;
                     },
-                    shadowColor: '#1ec1fa',
+                    shadowColor: series0,
                     shadowBlur: 4
                 },
                 tooltip: {
@@ -193,9 +186,9 @@ export function systemProgressCityAccessOptions(newBarData) {
                 z: 12,
                 itemStyle: {
                     color: function (params) {
-                        return `${params.value ? '#1ec1fa' : 'rgba(0,0,0,0'}`;
+                        return params.value ? series0 : Tokens.color.transparent;
                     },
-                    shadowColor: '#1ec1fa',
+                    shadowColor: series0,
                     shadowBlur: 4
                 },
                 tooltip: {
@@ -212,9 +205,9 @@ export function systemProgressCityAccessOptions(newBarData) {
                 z: 12,
                 itemStyle: {
                     color: function (params) {
-                        return `${params.value ? '#1ec1fa' : 'rgba(0,0,0,0'}`;
+                        return params.value ? series0 : Tokens.color.transparent;
                     },
-                    shadowColor: '#1ec1fa',
+                    shadowColor: series0,
                     shadowBlur: 4
                 },
                 tooltip: {
@@ -226,7 +219,7 @@ export function systemProgressCityAccessOptions(newBarData) {
             {
                 type: 'pictorialBar',
                 itemStyle: {
-                    color: 'rgba(255,255,255,0.15)'
+                    color: Tokens.color.neutral.veil
                 },
                 tooltip: {
                     show: false
@@ -257,23 +250,14 @@ export function systemProgressCityAccessOptions(newBarData) {
                     distance: 12,
                     fontFamily: 'DINPro',
                     textStyle: {
-                        color: 'hsl(45, 69.6%, 63.9%) ',
+                        color: series1,
                         fontWeight: 'bolder',
                         fontSize: 12
                     }
                 },
                 itemStyle: {
-                    color: function (params) {
-                        return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                            {
-                                offset: 0,
-                                color: `hsl(45, 69.6%, 63.9%)`
-                            },
-                            {
-                                offset: 1,
-                                color: `hsla(45, 69.6%, 63.9%, 0)`
-                            }
-                        ]);
+                    color: function () {
+                        return jam.toEchartsGradient(90, series1, Tokens.color.transparent);
                     }
                 }
             },
@@ -286,9 +270,9 @@ export function systemProgressCityAccessOptions(newBarData) {
                 z: 12,
                 itemStyle: {
                     color: function (params) {
-                        return `${params.value ? 'hsla(45, 69.6%, 63.9%)' : 'rgba(0,0,0,0'}`;
+                        return params.value ? series1 : Tokens.color.transparent;
                     },
-                    shadowColor: 'hsla(45, 69.6%, 63.9%)',
+                    shadowColor: series1,
                     shadowBlur: 4
                 },
                 tooltip: {
@@ -304,9 +288,9 @@ export function systemProgressCityAccessOptions(newBarData) {
                 z: 12,
                 itemStyle: {
                     color: function (params) {
-                        return `${params.value ? 'hsla(45, 69.6%, 63.9%)' : 'rgba(0,0,0,0'}`;
+                        return params.value ? series1 : Tokens.color.transparent;
                     },
-                    shadowColor: 'hsla(45, 69.6%, 63.9%)',
+                    shadowColor: series1,
                     shadowBlur: 4
                 },
                 tooltip: {
@@ -322,9 +306,9 @@ export function systemProgressCityAccessOptions(newBarData) {
                 z: 12,
                 itemStyle: {
                     color: function (params) {
-                        return `${params.value ? 'hsla(45, 69.6%, 63.9%)' : 'rgba(0,0,0,0'}`;
+                        return params.value ? series1 : Tokens.color.transparent;
                     },
-                    shadowColor: 'hsla(45, 69.6%, 63.9%)',
+                    shadowColor: series1,
                     shadowBlur: 4
                 },
                 tooltip: {
@@ -336,7 +320,7 @@ export function systemProgressCityAccessOptions(newBarData) {
             {
                 type: 'pictorialBar',
                 itemStyle: {
-                    color: 'rgba(255,255,255,0.15)'
+                    color: Tokens.color.neutral.veil
                 },
                 tooltip: {
                     show: false

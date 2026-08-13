@@ -117,6 +117,7 @@
             type: 'wrapper',
             styles: [
                 Styles.interact.movable,
+                'shadow.s',
                 Styles.css({
                     position: 'fixed',
                     right: convertScale('2rem'),
@@ -126,8 +127,7 @@
                     transition: '0.5s all',
                     opacity: 0.3,
                     borderRadius: '50%',
-                    backgroundColor: jam.ac(1, 1, 1, 0.7),
-                    boxShadow: `0 ${convertScale('0.2rem')} ${convertScale('0.4rem')} ${convertScale('-0.1rem')} hsla(0, 0%, 0%,${jam.lumiA(30)}`
+                    backgroundColor: 'var(--jam-color-primary-default)'
                 }),
                 Styles.stylesheet({
                     ':scope': {

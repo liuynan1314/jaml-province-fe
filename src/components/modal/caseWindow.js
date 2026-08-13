@@ -1,4 +1,3 @@
-import { hslaToJamAc, COLOR_SET } from '../../utils/Constants.js';
 import { ajaxCall } from '../../common.js';
 
 export default function (params, _msgr) {
@@ -38,9 +37,9 @@ export default function (params, _msgr) {
                     })
                 ],
                 inputStyles: [
-                    `capslot.text(size:.875rem;color:${COLOR_SET.secondarytextclr})`,
+                    'capslot.text(size:s;color:var(--jam-color-fg-muted))',
                     Styles.input.agent.css({
-                        borderColor: jam.ac(1, 0.25, 0.61),
+                        borderColor: 'var(--jam-color-outline-muted)',
                         width: '18rem'
                     }),
                     Styles.input.cap.css({

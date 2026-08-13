@@ -24,8 +24,8 @@ export default {
         'size.fullsize',
         Styles.stylesheet({
             ':scope': {
-                '--gap': '0.75rem',
-                '--gap-sm': '0.35rem'
+                '--gap': 'var(--jam-space-m)',
+                '--gap-sm': 'var(--jam-space-s)'
             },
             '.main-wrapper': {
                 flex: 1,
@@ -36,18 +36,18 @@ export default {
                 overflow: 'hidden auto'
             },
             '.indicatorChannel-bg': {
-                background: ` ${jam.ac({ l: jam.lumiO(42), a: 0.5 })}`,
-                borderRadius: 'var(--jam-sys-border-radius-primary)',
-                padding: '.5rem',
-                border: `var(--jam-sys-border-radius-primary) solid ${jam.ac({ s: '2%', l: jam.lumiO(25), a: 0.2 })}`,
+                background: 'tint',
+                borderRadius: 'm',
+                padding: 's',
+                border: 's solid var(--jam-color-primary-film)',
                 display: 'flex',
                 alignItems: 'center',
-                gap: '0.35rem',
+                gap: 's',
                 width: '13.6rem',
                 boxSizing: 'border-box',
                 cursor: 'pointer',
                 '&:hover': {
-                    background: ` ${jam.ac({ l: jam.lumiO(42), a: 0.8 })}`
+                    background: 'var(--jam-color-primary-default)'
                 }
             },
             '.station-card-icon': {
@@ -56,9 +56,9 @@ export default {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                backgroundColor: jam.lumiText(40),
-                color: jam.ac(1, 1, jam.lumiO(20)),
-                fontSize: '0.875rem',
+                background: 'elevation',
+                color: 'primary',
+                fontSize: 's',
                 flexShrink: 0
             },
             '.station-card-title': {
@@ -68,14 +68,14 @@ export default {
                 overflow: 'hidden',
                 whiteSpace: 'nowrap',
                 textOverflow: 'ellipsis',
-                color: jam.ac(0, 0, jam.lumiO(10))
+                color: 'var(--jam-color-fg-default)'
             },
             '.station-card-sub': {
                 marginLeft: 'auto',
-                padding: '0.125rem 0.5rem',
-                backgroundColor: jam.lumiText(40),
-                color: jam.ac(1, 1, jam.lumiO(20)),
-                fontSize: '0.75rem',
+                padding: 's',
+                background: 'elevation',
+                color: 'primary',
+                fontSize: 's',
                 flexShrink: 0,
                 maxWidth: '4rem',
                 overflow: 'hidden',
@@ -83,8 +83,8 @@ export default {
                 textOverflow: 'ellipsis'
             },
             '.header-class': {
-                borderBottom: `1px solid ${jam.ac({ l: jam.lumiO(30), a: 0.6 })}`,
-                paddingBottom: '0.5rem'
+                borderBottom: 's solid var(--jam-color-primary-default)',
+                paddingBottom: 's'
             },
             '.r-st': {
                 minWidth: '7.5rem !important'
@@ -114,7 +114,7 @@ export default {
                                 Styles.buttonGroupStylesWithBgCap,
                                 city === 'jiangsu'
                                     ? Styles.css({
-                                          fontSize: '1.25rem'
+                                          fontSize: 'l'
                                       })
                                     : ''
                             ],
@@ -133,7 +133,7 @@ export default {
                                         Styles.buttonGroupStylesWithBgCap,
                                         city === 'jiangsu'
                                             ? Styles.css({
-                                                  fontSize: '1.25rem'
+                                                  fontSize: 'l'
                                               })
                                             : ''
                                     ],
@@ -162,10 +162,10 @@ export default {
                                     ],
                                     childStyles: [
                                         'margin(top:var(--gap))',
-                                        'datepicker.agent.border(radius:.25rem)',
+                                        'datepicker.agent.border(radius:s)',
                                         city === 'jiangsu'
                                             ? Styles.css({
-                                                  fontSize: '1.25rem'
+                                                  fontSize: 'l'
                                               })
                                             : ''
                                     ],
@@ -176,8 +176,8 @@ export default {
                                     components: [
                                         {
                                             type: 'filterSelect',
-                                            styles: ['padding(top:0;bottom:0.3125rem)', Styles.input.regularStyle],
-                                            childStyles: ['input.agent.border(radius:.25rem)', 'input.labelslot.margin(0)', 'padding(0)'],
+                                            styles: ['padding(top:0;bottom:s)', Styles.input.regularStyle],
+                                            childStyles: ['input.agent.border(radius:s)', 'input.labelslot.margin(0)', 'padding(0)'],
                                             valueKey: 'stId',
                                             props: { cap: '变电站：', placeholder: '请选择', data: '{{stList}}', search: '{{name}}', select: '{{stId}}', icon: 'transformer-bolt' },
                                             watchers: {
@@ -192,7 +192,7 @@ export default {
                                                   type: 'select',
                                                   cap: '监控范围：',
                                                   icon: 'sigma',
-                                                  styles: ['icon.duotone', 'size(minWidth:8.5rem)', 'select.agent.border(radius:.25rem)'],
+                                                  styles: ['icon.duotone', 'size(minWidth:8.5rem)', 'select.agent.border(radius:s)'],
                                                   placeholder: '请选择集控范围',
                                                   value: '{{jkStation}}',
                                                   data: [
@@ -243,7 +243,7 @@ export default {
                                 display: 'flex',
                                 width: '12rem',
                                 height: '2.2rem',
-                                fontSize: '1rem',
+                                fontSize: 'm',
                                 textAlign: 'center',
                                 lineHeight: '2rem',
                                 backgroundImage: 'url(./../../assets/images/bvlevel-bg.png)',
@@ -255,8 +255,8 @@ export default {
                                 }
                             },
                             '.item-wrapper': {
-                                gap: '1rem',
-                                padding: '1rem 0',
+                                gap: 'm',
+                                padding: 'm 0',
                                 borderTop: 'none',
                                 display: 'flex',
                                 flexWrap: 'wrap',
@@ -266,16 +266,16 @@ export default {
                             '.item-content-wrapper': {
                                 height: '3rem',
                                 width: '15.6rem',
-                                padding: '.25rem .5rem',
+                                padding: 's',
                                 margin: '0 1.4rem 1rem 0',
-                                borderRadius: '.25rem',
+                                borderRadius: 's',
                                 backgroundImage: 'url(./../../assets/images/border-bg.png)',
                                 backgroundSize: '100% 100%',
                                 backgroundRepeat: 'no-repeat',
                                 cursor: 'pointer',
                                 display: 'flex',
                                 justifyContent: 'space-between',
-                                fontSize: '1.2rem',
+                                fontSize: 'm',
                                 lineHeight: '2em',
                                 '.first-word': {
                                     width: '2rem',
@@ -311,7 +311,7 @@ export default {
                                             icon: 'bolt',
                                             type: 'label',
                                             class: 'jam-cc',
-                                            styles: ['css(font-size:1.2rem;)', Styles.label.cap.css({ minWidth: '9rem' }), Styles.label.cap.with('textcolor'), Styles.icon.solid],
+                                            styles: ['css(font-size:m;)', Styles.label.cap.css({ minWidth: '9rem' }), 'cap.color.primary', Styles.icon.solid],
                                             cap: '"变电站 · "+{{bvItem.name}}',
                                             color: '{{bvItem.name}}',
                                             props: {

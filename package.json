@@ -21,13 +21,6 @@
     "devDependencies": {
         "@babel/core": "^7.26.10",
         "@babel/preset-env": "^7.26.9",
-        "@jam/advanced-styles": "^1.0.0",
-        "@jam/advanced-themes": "^1.0.0",
-        "@jam/jam-cc": "^1.0.0",
-        "@jam/jam-map-util": "^1.0.0",
-        "@jam/jam-ui": "^1.0.0",
-        "@jam/nusp": "^1.0.0",
-        "@jam/render-util": "^1.0.0",
         "autoprefixer": "^10.4.21",
         "babel-loader": "^10.0.0",
         "clean-webpack-plugin": "^4.0.0",

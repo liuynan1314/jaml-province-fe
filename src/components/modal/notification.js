@@ -30,7 +30,7 @@ const notification = () => {
                     {
                         type: 'label',
                         cap: '全部已读',
-                        styles: [`text(color:${jam.ac()})`, 'css(cursor:pointer;)']
+                        styles: ['color.primary', 'css(cursor:pointer;)']
                     }
                 ]
             },
@@ -64,8 +64,8 @@ const notification = () => {
                                       type: 'badge',
                                       styles: [
                                           Styles.css({
-                                              borderRadius: '0.2rem',
-                                              fontSize: '0.9rem'
+                                              borderRadius: 'xs',
+                                              fontSize: 's'
                                           })
                                       ],
                                       cap: jam.formatTime(value, 'yyyy-MM-dd'),

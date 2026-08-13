@@ -31,7 +31,7 @@ const systemProgressCityAccessWindow = (params = {}) => {
                             direction: 'column',
                             'flex-wrap': 'nowrap',
                             'flex-direction': 'column',
-                            gap: '1rem'
+                            gap: 'm'
                         },
                         '.search-wrapper': {
                             width: '100%',
@@ -41,10 +41,10 @@ const systemProgressCityAccessWindow = (params = {}) => {
                         '.viewButtons': {
                             'jam-button': {
                                 '--jam-button-bg-deg': '180deg',
-                                background: `linear-gradient(var(--jam-button-bg-deg),${jam.ac({ l: 0.9 })}, ${jam.ac({ l: 0.7 })})`,
-                                color: jam.lumiText(1),
+                                background: 'var(--jam-color-primary-default)',
+                                color: 'onprimary',
                                 '&:hover': {
-                                    background: `linear-gradient(var(--jam-button-bg-deg),${jam.ac({ l: 1 })}, ${jam.ac({ l: 0.8 })})`
+                                    background: 'var(--jam-color-primary-strong)'
                                 },
                                 '&:active': {
                                     '--jam-button-bg-deg': '0deg'
@@ -127,7 +127,7 @@ const systemProgressCityAccessWindow = (params = {}) => {
                                 type: 'filterSelect',
                                 buildIf: '{{menuId}}===3',
                                 styles: ['size(maxWidth:11.5rem)', 'padding(top:0;bottom:0)'],
-                                childStyles: ['size(minWidth:11.5rem)', 'input.agent.border(radius:.25rem)', 'input.labelslot.margin(0)', 'padding(0)'],
+                                childStyles: ['size(minWidth:11.5rem)', 'input.agent.border(radius:s)', 'input.labelslot.margin(0)', 'padding(0)'],
                                 valueKey: 'stId',
                                 props: { cap: '变电站：', placeholder: '请选择', data: '{{stList}}', icon: 'transformer-bolt', search: '{{name}}', select: '{{stId}}' },
                                 watchers: [
@@ -147,7 +147,7 @@ const systemProgressCityAccessWindow = (params = {}) => {
                                 styles: [
                                     Styles.input.regularStyleDiff,
                                     Styles.input.agent.css({
-                                        borderColor: jam.ac(1, 0.25, 0.61),
+                                        borderColor: 'var(--jam-color-outline-muted)',
                                         width: '11.25rem'
                                     })
                                 ],
@@ -467,7 +467,7 @@ function getDataDefData(value) {
                         type: 'wrapper',
                         styles: [Styles.layout.flex({ alignItems: 'center', justifyContent: 'center' })],
                         descStyles: {
-                            label: ['margin(left:0.5rem)']
+                            label: ['margin(left:s)']
                         },
                         components: [
                             {

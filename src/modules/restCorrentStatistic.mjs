@@ -150,7 +150,7 @@ export default {
                             key: 'normalAvgRate',
                             type: 'indicator',
                             class: 'item-indicator item-clickable',
-                            styles: [`indicator.value.css(color:${jam.ac({ l: '60%' })}!important)`],
+                            styles: ['indicator.value.css(color:var(--jam-color-primary-default)!important)'],
                             unit: '%',
                             sortable: false,
                             onclick(e) {
@@ -231,7 +231,7 @@ export default {
                         }
                         data.push([item.regionName, item.totalCnt - item.normalCnt, item.normalCnt]);
                     });
-                    _this.ref('title-desc').cap = `全省共统计<span style='color:${jam.ac({ l: '60%' })}'>${total}</span>座变电站, 其中<span style='color:${jam.ac({ l: '60%' })}'>${region}</span>地区最多`;
+                    _this.ref('title-desc').cap = `全省共统计<span style='color:var(--jam-color-primary-default)'>${total}</span>座变电站, 其中<span style='color:var(--jam-color-primary-default)'>${region}</span>地区最多`;
                     _this.ref('statisticBar').vars.data.chartData = data;
                     setTimeout(() => {
                         _this.chartClickWatcher();

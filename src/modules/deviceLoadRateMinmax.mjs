@@ -12,21 +12,21 @@ export default {
         'size.fullsize',
         Styles.stylesheet({
             ':scope': {
-                padding: '0.8rem',
+                padding: 'm',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '0.8rem'
+                gap: 'm'
             },
             '.form-wrapper': {
                 height: '8rem',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '0.8rem'
+                gap: 'm'
             },
             '.form-row-wrapper': {
                 display: 'flex',
                 alignItems: 'center',
-                gap: '0.5rem',
+                gap: 's',
                 flex: 1,
                 width: '100%'
             },
@@ -35,11 +35,11 @@ export default {
                 display: 'flex',
                 alignItems: 'center',
                 minWidth: 0,
-                padding: '0 0.2rem'
+                padding: '0 s'
             },
             '.form-row-wrapper:nth-child(2)': {
                 width: '95%',
-                gap: '0.3rem'
+                gap: 's'
             },
             '.table-wrapper': {
                 height: 'calc(100% - 7rem)',
@@ -55,7 +55,7 @@ export default {
                 '--jam-timepicker-agent-height': '1.8rem',
                 '--jam-agent-border-radius': 0,
                 '--jam-timepicker-agent-background-color': 'tansparent',
-                '--jam-timepicker-agent-border-color': 'hsla(calc(var(--jam-ac-h) * 0.99), calc(var(--jam-ac-s) * 0.95), calc(var(--jam-ac-l) * 0.6), var(--jam-ac-lumi-o-30))'
+                '--jam-timepicker-agent-border-color': 'var(--jam-color-primary-subtle)'
             }
         })
     ],
@@ -342,8 +342,8 @@ export default {
                                               type: 'badge',
                                               styles: [
                                                   Styles.css({
-                                                      borderRadius: '0.2rem',
-                                                      fontSize: '0.9rem'
+                                                      borderRadius: 's',
+                                                      fontSize: 's'
                                                   })
                                               ],
                                               cap: jam.formatTime(value, 'yyyy-MM-dd HH:mm:ss')
@@ -373,8 +373,8 @@ export default {
                                               type: 'badge',
                                               styles: [
                                                   Styles.css({
-                                                      borderRadius: '0.2rem',
-                                                      fontSize: '0.9rem'
+                                                      borderRadius: 's',
+                                                      fontSize: 's'
                                                   })
                                               ],
                                               cap: jam.formatTime(value, 'yyyy-MM-dd HH:mm:ss')
@@ -403,8 +403,8 @@ export default {
                                         Styles.label.css({
                                             height: '1.5rem',
                                             // color: jam.ac(0.95, 0.93, 0.8, jam.acLumiO(50)),
-                                            backgroundColor: jam.ac(0.95, 0.93, 0.8, jam.acLumiO(50)),
-                                            borderRadius: '0.2rem',
+                                            backgroundColor: 'var(--jam-color-primary-subtle)',
+                                            borderRadius: 's',
                                             cursor: 'pointer'
                                         })
                                     ],
@@ -444,8 +444,8 @@ export default {
                                             Styles.label.css({
                                                 height: '1.5rem',
                                                 // color: jam.ac(0.95, 0.93, 0.8, jam.acLumiO(50)),
-                                                backgroundColor: jam.ac(0.95, 0.93, 0.8, jam.acLumiO(50)),
-                                                borderRadius: '0.2rem',
+                                                backgroundColor: 'var(--jam-color-primary-subtle)',
+                                                borderRadius: 's',
                                                 cursor: 'pointer'
                                             })
                                         ],
@@ -476,8 +476,8 @@ export default {
                                             Styles.label.css({
                                                 height: '1.5rem',
                                                 // color: jam.ac(0.95, 0.93, 0.8, jam.acLumiO(50)),
-                                                backgroundColor: jam.ac(0.95, 0.93, 0.8, jam.acLumiO(50)),
-                                                borderRadius: '0.2rem',
+                                                backgroundColor: 'var(--jam-color-primary-subtle)',
+                                                borderRadius: 's',
                                                 cursor: 'pointer'
                                             })
                                         ],

@@ -1,4 +1,3 @@
-import { COLOR_SET } from '../../utils/Constants.js';
 // 三种类型都有的公共字段
 const COMMON_FIELD_MAP = {
     id: 'ID',
@@ -109,7 +108,7 @@ export default function (title, _params, devType) {
         type: 'card',
         cap: title + '详情',
         styles: [
-            `background(color:${COLOR_SET.modulebgclr_deep})`,
+            'with.elevation',
             Styles.card.floating({
                 width: '40vw',
                 height: '80vh'

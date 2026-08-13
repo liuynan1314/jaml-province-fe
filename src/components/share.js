@@ -6,19 +6,20 @@ jaml.register('share', {
                 '--jam-icon-size': '2.8rem',
                 '--corner-size': '1rem',
                 '--corder-pct': '80%',
-                '--corner-bg': `radial-gradient(transparent var(--corder-pct), ${jam.ac()} var(--corder-pct))`,
+                // 已降级: radial corner needs theme primary in gradient
+                '--corner-bg': 'radial-gradient(transparent var(--corder-pct), var(--jam-color-primary-default) var(--corder-pct))',
                 display: 'flex',
                 position: 'absolute',
                 right: 0,
                 top: '30%',
                 width: 0,
-                background: jam.ac(),
-                padding: '0rem',
+                background: 'var(--jam-color-primary-default)',
+                padding: 0,
                 transition: 'all ease-in-out 250ms',
                 borderRadius: '1rem 0 0 1rem',
                 zIndex: 9999,
                 '&:hover': {
-                    padding: '0.2rem',
+                    padding: 'xs',
                     // width: '18rem',
                     width: '12rem',
                     filter: 'drop-shadow(0em 0.8em 1em hsla(0, 0%, 0%, 0.3))'
@@ -31,19 +32,19 @@ jaml.register('share', {
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'space-between',
-                    padding: '0.2rem',
-                    borderRadius: '0.8rem',
-                    background: jam.ac({ l: jam.lumiO(45) }),
+                    padding: 'xs',
+                    borderRadius: 'm',
+                    background: 'var(--jam-color-primary-subtle)',
                     '.share-item': {
                         width: '5.5rem',
                         height: '5.5rem',
-                        borderRadius: '0.7rem',
+                        borderRadius: 'm',
                         'grid-template-areas': "'i i i i' 'c c c c'",
-                        'grid-gap': '0.5rem',
+                        'grid-gap': 's',
                         cursor: 'pointer',
                         '&:hover': {
-                            background: jam.ac({ l: jam.lumiO(50) }),
-                            'box-shadow': '0em 0.5em 0.7em hsla(0, 0%, 0%, 0.08)'
+                            background: 'var(--jam-color-primary-subtle)',
+                            'box-shadow': 's'
                         },
                         '&>span[slot=cap]': {
                             width: '100%',
@@ -60,9 +61,8 @@ jaml.register('share', {
                     height: '3.4rem',
                     width: '1.2rem',
                     display: 'flex',
-                    background: `linear-gradient(90deg, ${jam.ac({
-                        l: jam.lumiO(35)
-                    })}, transparent) ${jam.ac()}`,
+                    // 已降级: linear-gradient needs theme primary stops
+                    background: 'linear-gradient(90deg, var(--jam-color-primary-subtle), transparent) var(--jam-color-primary-default)',
                     alignItems: 'center',
                     justifyContent: 'center',
 

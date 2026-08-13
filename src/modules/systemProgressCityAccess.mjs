@@ -1,5 +1,4 @@
 import { ajaxCall, findCol, getDetailConf, loadConf } from '../common.js';
-import { hslaToJamAc } from '../utils/Constants.js';
 import { createWindow } from '../components/createWindow.js';
 import systemProgressCityAccessWindow from '../components/modal/systemProgressCityAccessWindow.js';
 import systemProgressCityAccessNumWindow from '../components/modal/systemProgressCityAccessNumWindow.js';
@@ -38,13 +37,13 @@ export default {
                 flexDirection: 'column',
                 padding: 'var(--gap)',
                 height: '100%',
-                backgroundColor: `${hslaToJamAc('hsla(220, 100%, 81.2%, 0.03)')}`,
-                boxShadow: `0px 30px 73px 0px ${hslaToJamAc('hsla(223.6, 47.8%, 4.5%, 0.15)')}`
+                background: 'tint',
+                boxShadow: 'l'
             },
             '.chart-title': {
                 background: 'url(../../assets/images/new/title_level.png) no-repeat left bottom',
-                color: jam.lumiText(1),
-                fontSize: '1rem',
+                color: 'var(--jam-color-fg-default)',
+                fontSize: 'm',
                 height: '2rem',
                 minWidth: '16rem'
             },
@@ -59,14 +58,14 @@ export default {
             '.table-container': {
                 padding: 'var(--gap)',
                 marginTop: 'var(--gap)',
-                border: `.0625rem solid ${hslaToJamAc('hsla(212.6, 42.9%, 26.1%, .86)')}`,
-                backgroundColor: `${hslaToJamAc('hsla(220, 100%, 81.2%, 0.03)')}`,
-                boxShadow: `0px 30px 73px 0px ${hslaToJamAc('hsla(223.6, 47.8%, 4.5%, 0.15)')}`,
+                border: 's solid var(--jam-color-primary-subtle)',
+                background: 'tint',
+                boxShadow: 'l',
                 overflow: 'hidden auto'
             },
             '.fa-clock,.fa-user,.fa-calendar,.fa-bars,.fa-list': {
-                '--color': `${jam.ac(0.99, 0.95, 0.6, jam.acLumiO(30))} !important`,
-                '--stroke-color': `${jam.ac(0.99, 0.95, 0.6, jam.acLumiO(30))} !important`,
+                '--color': 'var(--jam-color-primary-subtle) !important',
+                '--stroke-color': 'var(--jam-color-primary-subtle) !important',
                 '--color2': `rgba(0,0,0,0) !important`
             }
         })
@@ -132,7 +131,7 @@ export default {
                                     components: [
                                         {
                                             type: 'label',
-                                            styles: [Styles.label.cap.css({ marginLeft: '1rem', fontSize: '1rem' })],
+                                            styles: [Styles.label.cap.css({ marginLeft: 'm', fontSize: 'm' })],
                                             class: 'chart-title',
                                             cap: '各地市接入率统计'
                                         },
@@ -167,7 +166,7 @@ export default {
                                     components: [
                                         {
                                             type: 'label',
-                                            styles: [Styles.label.cap.css({ marginLeft: '1rem', fontSize: '1rem' })],
+                                            styles: [Styles.label.cap.css({ marginLeft: 'm', fontSize: 'm' })],
                                             class: 'chart-title',
                                             cap: '主要设备数量统计'
                                         },
@@ -228,7 +227,7 @@ export default {
                                                             styles: [
                                                                 Styles.css({
                                                                     fontFamily: 'DIN',
-                                                                    fontSize: '0.875rem'
+                                                                    fontSize: 's'
                                                                 })
                                                             ]
                                                         };
@@ -245,7 +244,7 @@ export default {
                                                                         Styles.css({
                                                                             color: 'hsl(196.8, 74.9%, 67.3%)',
                                                                             fontFamily: 'DIN',
-                                                                            fontSize: '0.875rem',
+                                                                            fontSize: 's',
                                                                             cursor: 'pointer',
                                                                             textDecoration: 'underline'
                                                                         })
@@ -306,7 +305,7 @@ export default {
                                                 Styles.css({
                                                     color: 'hsl(180, 100%, 41%)',
                                                     fontFamily: 'DIN',
-                                                    fontSize: '0.875rem',
+                                                    fontSize: 's',
                                                     cursor: 'pointer',
                                                     textDecoration: 'underline'
                                                 })
@@ -337,7 +336,7 @@ export default {
                                                 Styles.css({
                                                     color: 'hsl(180, 100%, 41%)',
                                                     fontFamily: 'DIN',
-                                                    fontSize: '0.875rem',
+                                                    fontSize: 's',
                                                     cursor: 'pointer',
                                                     textDecoration: 'underline'
                                                 })
@@ -368,7 +367,7 @@ export default {
                                                 Styles.css({
                                                     color: 'hsl(180, 100%, 41%)',
                                                     fontFamily: 'DIN',
-                                                    fontSize: '0.875rem',
+                                                    fontSize: 's',
                                                     cursor: 'pointer',
                                                     textDecoration: 'underline'
                                                 })
@@ -399,7 +398,7 @@ export default {
                                                 Styles.css({
                                                     color: 'hsl(156.3, 52.5%, 53.7%)',
                                                     fontFamily: 'DIN',
-                                                    fontSize: '0.875rem',
+                                                    fontSize: 's',
                                                     cursor: 'pointer',
                                                     textDecoration: 'underline'
                                                 })
@@ -430,7 +429,7 @@ export default {
                                                 Styles.css({
                                                     color: 'hsl(196.8, 74.9%, 67.3%)',
                                                     fontFamily: 'DIN',
-                                                    fontSize: '0.875rem',
+                                                    fontSize: 's',
                                                     cursor: 'pointer',
                                                     textDecoration: 'underline'
                                                 })
@@ -461,7 +460,7 @@ export default {
                                                 Styles.css({
                                                     color: 'hsl(156.3, 52.5%, 53.7%)',
                                                     fontFamily: 'DIN',
-                                                    fontSize: '0.875rem',
+                                                    fontSize: 's',
                                                     cursor: 'pointer',
                                                     textDecoration: 'underline'
                                                 })
@@ -492,7 +491,7 @@ export default {
                                                 Styles.css({
                                                     color: 'hsl(156.3, 52.5%, 53.7%)',
                                                     fontFamily: 'DIN',
-                                                    fontSize: '0.875rem',
+                                                    fontSize: 's',
                                                     cursor: 'pointer',
                                                     textDecoration: 'underline'
                                                 })
@@ -523,7 +522,7 @@ export default {
                                                 Styles.css({
                                                     color: 'hsl(196.8, 74.9%, 67.3%)',
                                                     fontFamily: 'DIN',
-                                                    fontSize: '0.875rem',
+                                                    fontSize: 's',
                                                     cursor: 'pointer',
                                                     textDecoration: 'underline'
                                                 })
@@ -554,7 +553,7 @@ export default {
                                                 Styles.css({
                                                     color: 'hsl(196.8, 74.9%, 67.3%)',
                                                     fontFamily: 'DIN',
-                                                    fontSize: '0.875rem',
+                                                    fontSize: 's',
                                                     cursor: 'pointer',
                                                     textDecoration: 'underline'
                                                 })
@@ -581,7 +580,7 @@ export default {
                                                 Styles.css({
                                                     color: 'hsl(196.8, 74.9%, 67.3%)',
                                                     fontFamily: 'DIN',
-                                                    fontSize: '0.875rem'
+                                                    fontSize: 's'
                                                 })
                                             ]
                                         });

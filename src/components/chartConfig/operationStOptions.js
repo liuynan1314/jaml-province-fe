@@ -35,6 +35,8 @@ export function operationStOptions(data, sortFlag) {
         }
         return arr;
     };
+    const successColor = jam.acToken[0]();
+    const failColor = jam.getColor('error').css();
     const barOptions = {
         grid: {
             top: '20%',
@@ -68,19 +70,19 @@ export function operationStOptions(data, sortFlag) {
             itemWidth: 8,
             itemHeight: 8,
             textStyle: {
-                color: 'hsl(201.6, 33.3%, 64.1%)'
+                color: Tokens.color.fg.muted
             },
             data: [
                 {
                     name: '成功',
                     itemStyle: {
-                        color: 'rgba(0, 113, 194, 1)'
+                        color: successColor
                     }
                 },
                 {
                     name: '失败',
                     itemStyle: {
-                        color: 'hsl(0, 100%, 66.1%)'
+                        color: failColor
                     }
                 }
             ]
@@ -90,20 +92,20 @@ export function operationStOptions(data, sortFlag) {
             data: xData,
             axisLine: {
                 lineStyle: {
-                    color: 'hsl(201.6, 33.3%, 64.1%)'
+                    color: Tokens.color.fg.muted
                 }
             },
             splitLine: {
                 show: false
             },
             axisLabel: {
-                color: 'hsl(201.6, 33.3%, 64.1%)'
+                color: Tokens.color.fg.muted
             }
         },
         yAxis: {
             type: 'value',
             nameTextStyle: {
-                color: 'hsl(201.6, 33.3%, 64.1%)',
+                color: Tokens.color.fg.muted,
                 padding: [0, 0, 0, -30]
             },
             axisLine: {
@@ -113,11 +115,11 @@ export function operationStOptions(data, sortFlag) {
             splitLine: {
                 lineStyle: {
                     type: 'dashed',
-                    color: 'hsl(201.6, 33.3%, 64.1%)'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisLabel: {
-                color: 'hsl(201.6, 33.3%, 64.1%)'
+                color: Tokens.color.fg.muted
             }
         },
         series: [
@@ -135,23 +137,14 @@ export function operationStOptions(data, sortFlag) {
                     distance: 12,
                     fontFamily: 'DINPro',
                     textStyle: {
-                        color: 'rgba(0, 113, 194, 1)',
+                        color: successColor,
                         fontWeight: 'bolder',
                         fontSize: 12
                     }
                 },
                 itemStyle: {
-                    color: function (params) {
-                        return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                            {
-                                offset: 0,
-                                color: `rgba(0, 113, 194, 1)`
-                            },
-                            {
-                                offset: 1,
-                                color: `rgba(0, 113, 194, 0)`
-                            }
-                        ]);
+                    color: function () {
+                        return jam.toEchartsGradient(90, successColor, Tokens.color.transparent);
                     }
                 }
             },
@@ -165,9 +158,9 @@ export function operationStOptions(data, sortFlag) {
                 z: 12,
                 itemStyle: {
                     color: function (params) {
-                        return `${params.value ? 'rgba(0, 113, 194, 1)' : 'rgba(0,0,0,0'}`;
+                        return params.value ? successColor : Tokens.color.transparent;
                     },
-                    shadowColor: 'rgba(0, 113, 194, 1)',
+                    shadowColor: successColor,
                     shadowBlur: 4
                 },
                 tooltip: {
@@ -184,9 +177,9 @@ export function operationStOptions(data, sortFlag) {
                 z: 12,
                 itemStyle: {
                     color: function (params) {
-                        return `${params.value ? 'rgba(0, 113, 194, 1)' : 'rgba(0,0,0,0'}`;
+                        return params.value ? successColor : Tokens.color.transparent;
                     },
-                    shadowColor: 'rgba(0, 113, 194, 1)',
+                    shadowColor: successColor,
                     shadowBlur: 4
                 },
                 tooltip: {
@@ -199,7 +192,7 @@ export function operationStOptions(data, sortFlag) {
                 type: 'pictorialBar',
                 name: '成功',
                 itemStyle: {
-                    color: 'rgba(255,255,255,0.15)'
+                    color: Tokens.color.neutral.veil
                 },
                 tooltip: {
                     show: false
@@ -228,23 +221,14 @@ export function operationStOptions(data, sortFlag) {
                     distance: 12,
                     fontFamily: 'DINPro',
                     textStyle: {
-                        color: 'hsl(0, 100%, 66.1%) ',
+                        color: failColor,
                         fontWeight: 'bolder',
                         fontSize: 12
                     }
                 },
                 itemStyle: {
-                    color: function (params) {
-                        return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                            {
-                                offset: 0,
-                                color: `hsl(0, 100%, 66.1%)`
-                            },
-                            {
-                                offset: 1,
-                                color: `hsla(0, 100%, 66.1%,0)`
-                            }
-                        ]);
+                    color: function () {
+                        return jam.toEchartsGradient(90, failColor, Tokens.color.transparent);
                     }
                 }
             },
@@ -258,9 +242,9 @@ export function operationStOptions(data, sortFlag) {
                 z: 12,
                 itemStyle: {
                     color: function (params) {
-                        return `${params.value ? 'hsl(0, 100%, 66.1%)' : 'rgba(0,0,0,0'}`;
+                        return params.value ? failColor : Tokens.color.transparent;
                     },
-                    shadowColor: 'hsl(0, 100%, 66.1%)',
+                    shadowColor: failColor,
                     shadowBlur: 4
                 },
                 tooltip: {
@@ -277,9 +261,9 @@ export function operationStOptions(data, sortFlag) {
                 z: 12,
                 itemStyle: {
                     color: function (params) {
-                        return `${params.value ? 'hsl(0, 100%, 66.1%)' : 'rgba(0,0,0,0'}`;
+                        return params.value ? failColor : Tokens.color.transparent;
                     },
-                    shadowColor: 'hsl(0, 100%, 66.1%)',
+                    shadowColor: failColor,
                     shadowBlur: 4
                 },
                 tooltip: {
@@ -292,7 +276,7 @@ export function operationStOptions(data, sortFlag) {
                 type: 'pictorialBar',
                 name: '失败',
                 itemStyle: {
-                    color: 'rgba(255,255,255,0.15)'
+                    color: Tokens.color.neutral.veil
                 },
                 tooltip: {
                     show: false

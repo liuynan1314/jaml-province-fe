@@ -10,11 +10,11 @@ export function remoteInspectionOptions(data) {
             },
             backgroundColor: 'rgba(50,50,50,0.7)',
             textStyle: {
-                color: '#fff'
+                color: Tokens.color.fg.default
             },
-            borderColor: 'rgba(0,0,0,0)',
+            borderColor: Tokens.color.transparent,
             formatter: function (param) {
-                var marker = `<span style="display:inline-block;margin-right:4px;border-radius:10px;width:10px;height:10px;background-color:rgb(20,172,255,1);"></span>`;
+                var marker = `<span style="display:inline-block;margin-right:4px;border-radius:10px;width:10px;height:10px;background-color:${Tokens.color.primary.default};"></span>`;
                 const { value, name } = param[0];
                 return `${marker}标题：远程智能巡航 <br/> ${marker}地区：${name} <br/> ${marker}数量：${value}`;
             }
@@ -48,10 +48,10 @@ export function remoteInspectionOptions(data) {
                     margin: 140,
                     fontSize: 16,
                     align: 'left',
-                    color: '#ffffff',
+                    color: Tokens.color.fg.default,
                     rich: {
                         a1: {
-                            color: '#fff',
+                            color: Tokens.color.fg.default,
                             backgroundColor: {
                                 image: '../../../assets/images/icon_wurenji.png'
                             },
@@ -60,7 +60,7 @@ export function remoteInspectionOptions(data) {
                             align: 'center'
                         },
                         a2: {
-                            color: '#fff',
+                            color: Tokens.color.fg.default,
                             backgroundColor: {
                                 image: '../../../assets/images/icon_shipin.png'
                             },
@@ -69,7 +69,7 @@ export function remoteInspectionOptions(data) {
                             align: 'center'
                         },
                         a3: {
-                            color: '#fff',
+                            color: Tokens.color.fg.default,
                             backgroundColor: {
                                 image: '../../../assets/images/icon_jiqiren.png'
                             },
@@ -78,7 +78,7 @@ export function remoteInspectionOptions(data) {
                             align: 'center'
                         },
                         a4: {
-                            color: '#fff',
+                            color: Tokens.color.fg.default,
                             backgroundColor: {
                                 image: '../../../assets/images/icon_shexiangtou.png'
                             },
@@ -106,7 +106,7 @@ export function remoteInspectionOptions(data) {
                 axisLabel: {
                     show: true,
                     fontSize: 24,
-                    color: '#ffffff',
+                    color: Tokens.color.fg.default,
                     formatter: '{value}',
                     fontFamily: 'DIN MEDIUM'
                 }
@@ -122,23 +122,14 @@ export function remoteInspectionOptions(data) {
                 itemStyle: {
                     normal: {
                         borderRadius: 30,
-                        color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
-                            {
-                                offset: 0,
-                                color: 'rgb(25,43,95,1)'
-                            },
-                            {
-                                offset: 1,
-                                color: 'rgb(20,172,255,1)'
-                            }
-                        ])
+                        color: jam.toEchartsGradient(0, Tokens.color.primary.strong, Tokens.color.primary.default)
                     }
                 },
                 data: data.map((item) => item.value),
                 label: {
                     show: false,
                     position: 'right',
-                    color: '#333333',
+                    color: Tokens.color.fg.muted,
                     fontSize: 14,
                     offset: [10, 0]
                 }

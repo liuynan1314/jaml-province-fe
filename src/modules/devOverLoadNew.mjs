@@ -1,4 +1,3 @@
-import { hslaToJamAc } from '../utils/Constants.js';
 import { ajaxCall } from '../common.js';
 import { urlConfig, mockPath } from '../global.js';
 import heavyOverloadEquipInfoWindow from '../components/modal/heavyOverloadEquipInfoWindow.mjs';

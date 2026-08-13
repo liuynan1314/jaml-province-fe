@@ -1,6 +1,5 @@
 import { urlConfig } from '../global.js';
 import { ajaxCall } from '../common.js';
-import { hslaToJamAc } from '../utils/Constants.js';
 let _model,
     _msgr = null;
 const colorStops = {
@@ -65,11 +64,11 @@ export default {
                         height: '2.18rem',
                         lineHeight: '2.18rem',
                         background: 'linear-gradient(180deg, hsla(206, 83.1%, 55.9%, 0) 19%, hsla(206, 83.1%, 55.9%, 0.16) 100%)',
-                        border: '1px solid hsla(216.5, 45.9%, 21.8%, 0.8)',
-                        fontSize: '0.875rem',
+                        border: 's solid hsla(216.5, 45.9%, 21.8%, 0.8)',
+                        fontSize: 's',
                         color: 'hsl(200.8, 56.3%, 82.9%)',
                         'jam-label': {
-                            fontSize: '0.875rem',
+                            fontSize: 's',
                             padding: '0 0 0 .5rem',
                             lineHeight: '2.18rem'
                         },
@@ -96,13 +95,13 @@ export default {
                             '&>[slot=value]': {
                                 color: 'hsl(199.4, 100%, 93.9%)',
                                 fontWeight: 'bold',
-                                fontSize: '1rem',
+                                fontSize: 'm',
                                 fontFamily: 'DINPro'
                             },
                             '&>[slot=unit]': {
                                 color: 'hsl(201.6, 33.3%, 64.1%)',
                                 boxShadow: 'none',
-                                fontSize: '.75rem',
+                                fontSize: 's',
                                 background: 'transparent'
                             }
                         },
@@ -263,7 +262,7 @@ function onRenderPieChart() {
                 });
                 const maxPer = sum == 0 ? 0 : Number((maxNum / sum) * 100).toFixed(0) + '%';
                 const minPer = sum == 0 ? 0 : Number((minNum / sum) * 100).toFixed(0) + '%';
-                const _defectTitle = `<span style="fontSize:0.875rem;color:${hslaToJamAc('hsl(200.8, 56.3%, 82.9%)')}">${maxNumName}缺陷占比较大<span style="color:${hslaToJamAc(colorStops[maxNumName][0].color)}">${maxPer}</span>，${minNumName}缺陷占比<span style="color:${hslaToJamAc(colorStops[minNumName][0].color)}">${minPer}</span></span>`;
+                const _defectTitle = `<span style="font-size:var(--jam-font-size-s);color:var(--jam-color-fg-muted)">${maxNumName}缺陷占比较大<span style="color:${colorStops[maxNumName][0].color}">${maxPer}</span>，${minNumName}缺陷占比<span style="color:${colorStops[minNumName][0].color}">${minPer}</span></span>`;
                 _msgr.pub('_defectTitle', _defectTitle);
 
                 const pieEchart = echarts.init(document.querySelector('.defect-bar'));

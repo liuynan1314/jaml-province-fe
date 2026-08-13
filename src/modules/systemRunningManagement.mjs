@@ -21,7 +21,7 @@ export default {
         Styles.css({
             display: 'flex',
             flexDirection: 'column',
-            fontSize: '1.1rem',
+            fontSize: 'm',
             overflowY: 'auto'
             // backgroundImage: 'url(../../common/img/dataQualityManagement/bg_right.png)',
             // backgroundSize: '100% 100%',
@@ -45,7 +45,7 @@ export default {
                 Styles.css({
                     display: 'flex',
                     height: 'initial',
-                    gap: '0.1rem',
+                    gap: 's',
                     alignItems: 'flex-start'
                 })
             ],
@@ -72,8 +72,8 @@ export default {
                                 }),
                                 Styles.buttongroup.labelslot.css({
                                     alignSelf: 'flex-start',
-                                    fontSize: '1.1rem',
-                                    margin: '0.5rem 0.25rem'
+                                    fontSize: 'm',
+                                    margin: 's s'
                                 })
                             ]
                         }
@@ -114,8 +114,8 @@ export default {
                                 Styles.buttonGroupStylesWithBgCap,
                                 Styles.buttongroup.labelslot.css({
                                     alignSelf: 'flex-start',
-                                    fontSize: '1.1rem',
-                                    margin: '0.5rem 0.25rem'
+                                    fontSize: 'm',
+                                    margin: 's s'
                                 })
                             ]
                         }
@@ -134,7 +134,7 @@ export default {
                     display: 'flex',
                     alignContent: 'flex-start',
                     overflowX: 'auto',
-                    margin: '0.5rem 0',
+                    margin: 's 0',
                     minHeight: '21.6rem'
                 })
             ],
@@ -169,11 +169,11 @@ export default {
                         Styles.css({
                             display: 'flex',
                             width: '100%',
-                            gap: '0.1rem',
+                            gap: 's',
                             alignItems: 'center',
                             justifyContent: 'flex-start',
-                            paddingBottom: '0.5rem',
-                            paddingTop: '0.5rem',
+                            paddingBottom: 's',
+                            paddingTop: 's',
                             flexWrap: 'wrap'
                         })
                     ],
@@ -202,7 +202,7 @@ export default {
                                 Styles.buttonGroupStyles,
                                 Styles.css({
                                     alignSelf: 'flex-start',
-                                    fontSize: '1rem',
+                                    fontSize: 'm',
                                     paddingLeft: 0
                                 })
                             ],

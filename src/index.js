@@ -76,14 +76,8 @@ jam.NutmegNotify.config({
 });
 
 window.addEventListener('load', async () => {
-    if (NODE_ENV === 'development') {
-        // 开发模式同步cc列表
-        // await registerCmpts();
-        await cc.registerCC();
-    } else {
-        await cc.registerCC();
-    }
-    buildStyleStack();
+    await cc.registerCC(null);
+    // buildStyleStack();
     jam.logLevel = 3; // 日志等级
     // Styles.color.accent(acColor).applyTo(document.body); // 主题色
     // document.documentElement.style.setProperty('--jam-ui-color-accent', acColor);
@@ -147,6 +141,7 @@ async function init(config) {
     jaml(document.body, {
         id: 'main',
         type: 'container',
+        stylize: 'app',
         styles: [!(mode === 'fullscreen' && process.env.NODE_ENV === 'production') ? Styles.background.tint : Styles.background({ color: 'transparent' }), Styles.background.tint],
         // descStyles: [Styles.icon.duotone],
         descCardStyles: [
@@ -163,6 +158,7 @@ async function init(config) {
                           class: 'demo-content',
                           type: 'container',
                           ref: 'main-content',
+                          stylize: 'main',
                           plugins: [Plugins.composable.composable({ config: sidebar })],
                           styles: [
                               Styles.css({
@@ -210,10 +206,10 @@ async function init(config) {
                                       }),
                                       Styles.stylesheet({
                                           '.sidebar-name:hover': {
-                                              backgroundColor: 'var(--jam-sys-background-color-decorate-secondary, #80808099) !important'
+                                              backgroundColor: 'var(--jam-color-primary-film) !important'
                                           },
                                           '.sidebar-name.jam-checked': {
-                                              backgroundColor: jam.ac() + '!important'
+                                              backgroundColor: 'var(--jam-color-primary-default) !important'
                                           }
                                       })
                                   ],
@@ -221,6 +217,7 @@ async function init(config) {
                                       return [
                                           {
                                               type: 'sidebar',
+                                              stylize: 'sidebar',
                                               vars: {
                                                   sidebarData: value
                                               },
@@ -236,6 +233,7 @@ async function init(config) {
                                   class: 'demo-content',
                                   type: 'container',
                                   ref: 'main-content',
+                                  stylize: 'main',
                                   plugins: [
                                       Plugins.composable.composable({ config: sidebar }),
                                       Plugins.shortcut.popGraph([

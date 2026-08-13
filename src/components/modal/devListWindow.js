@@ -27,7 +27,7 @@ const devListWindow = (params) => {
                         '.form_wrapper': {
                             width: '100%',
                             display: 'flex',
-                            marginBottom: '0.625rem',
+                            marginBottom: 's',
                             alignItems: 'center',
                             '.add_btn': {
                                 width: '4rem !important',
@@ -46,31 +46,31 @@ const devListWindow = (params) => {
                             height: '4rem',
                             display: 'flex',
                             flexWrap: 'wrap',
-                            borderRadius: '0.4rem',
-                            border: '1px solid',
-                            borderColor: jam.ac(1, 0.25, 0.61),
-                            padding: '0.625rem',
-                            marginBottom: '0.2rem',
+                            borderRadius: 's',
+                            border: 's solid',
+                            borderColor: 'var(--jam-color-outline-muted)',
+                            padding: 's',
+                            marginBottom: 'xxs',
                             flexWrap: 'wrap',
                             'jam-button': {
                                 marginLeft: 0
                             },
                             'jam-label': {
-                                padding: '1rem',
+                                padding: 'm',
                                 borderRadius: 0,
-                                border: '1px solid',
+                                border: 's solid',
                                 height: '2rem',
-                                marginRight: '.625rem',
-                                fontSize: '0.875rem',
-                                marginBottom: '0.625rem',
-                                borderColor: jam.ac(1, 1, 1),
+                                marginRight: 's',
+                                fontSize: 's',
+                                marginBottom: 's',
+                                borderColor: 'var(--jam-color-outline-subtle)',
                                 background: 'transparent'
                             }
                         },
                         '#select-all-record': {
                             width: '1.1rem',
                             height: '1.1rem',
-                            marginLeft: '0.3rem'
+                            marginLeft: 'xs'
                         },
                         '.tableContent': {
                             height: 'calc(100% - 10rem)',
@@ -89,7 +89,7 @@ const devListWindow = (params) => {
                                 styles: [
                                     Styles.input.regularStyleDiff,
                                     Styles.input.agent.css({
-                                        borderColor: jam.ac(1, 0.25, 0.61),
+                                        borderColor: 'var(--jam-color-outline-muted)',
                                         width: '11.25rem'
                                     })
                                 ],
@@ -106,7 +106,7 @@ const devListWindow = (params) => {
                                 styles: [
                                     Styles.input.regularStyleDiff,
                                     Styles.input.agent.css({
-                                        borderColor: jam.ac(1, 0.25, 0.61),
+                                        borderColor: 'var(--jam-color-outline-muted)',
                                         width: '11.25rem'
                                     })
                                 ],
@@ -173,7 +173,7 @@ const devListWindow = (params) => {
                                 click2Check: true,
                                 valueIndex: 0,
                                 value: '{{checkedList}}',
-                                styles: [Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.size.fullsize, Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
+                                styles: ['basicTable.basic', Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.size.fullsize, Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
                                 descStyles: {
                                     '.item-content': ['css(overflow:hidden;white-space:nowrap;text-overflow:ellipsis)']
                                 },

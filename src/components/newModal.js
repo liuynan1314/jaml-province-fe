@@ -1,5 +1,3 @@
-import { hslaToJamAc, COLOR_SET } from '../utils/Constants.js';
-
 export default function newModal({ title = '', body, width = '40vw', height = '65vh', showBtn = false, deleteFun = () => {}, onConfirm = () => false, onCancel = () => {}, ...props }) {
     const handleCancel = () => {
         onCancel();
@@ -11,7 +9,7 @@ export default function newModal({ title = '', body, width = '40vw', height = '6
         id: 'modal',
         styles: [
             Styles.size.fullsize,
-            Styles.background({ color: hslaToJamAc('hsla(0, 0%, 0%, 0.3)') }),
+            Styles.background({ color: 'var(--jam-color-primary-film)' }),
             Styles.css({
                 position: 'fixed',
                 left: 0,
@@ -43,7 +41,7 @@ export default function newModal({ title = '', body, width = '40vw', height = '6
                     Styles.hover.brighter,
                     Styles.card.titleslot.text({ size: '.875rem' }),
                     Styles.card.titleslot.size({ width: '100%' }),
-                    Styles.card.titleslot.css({ justifyContent: 'flex-start', boxSizing: 'border-box', backgroundClip: 'border', borderRadius: 0, borderBottom: `1px solid ${hslaToJamAc('hsl(208.2, 25%, 26.7%)')}` }),
+                    Styles.card.titleslot.css({ justifyContent: 'flex-start', boxSizing: 'border-box', backgroundClip: 'border', borderRadius: 0, borderBottom: 's solid var(--jam-color-outline-muted)' }),
                     Styles.card.bodyslot.size({ width: '100%', height: 'calc(100% - var(--jam-card-title-height,auto))' }),
                     Styles.card.bodyslot.padding(0),
                     Styles.css({
@@ -62,12 +60,12 @@ export default function newModal({ title = '', body, width = '40vw', height = '6
                         alignItems: 'center',
                         borderRadius: 0,
                         backdropFilter: 'blur(4rem)',
-                        border: `1px solid ${COLOR_SET.modalborderclr}`,
-                        backgroundColor: COLOR_SET.modalbgclr
+                        border: 's solid var(--jam-color-outline-muted)',
+                        backgroundColor: 'elevation'
                     }),
                     Styles.stylesheet({
                         '&>[slot=cap]': {
-                            fontSize: '1.125rem'
+                            fontSize: 'l'
                         },
                         '.card-body': {
                             '--top-line-width': '1.2rem',
@@ -81,7 +79,7 @@ export default function newModal({ title = '', body, width = '40vw', height = '6
                             top: 0,
                             width: '2.7rem',
                             height: '0.06rem',
-                            backgroundImage: `linear-gradient(to right,${hslaToJamAc('hsl(180, 100%, 41%)')} 0,${hslaToJamAc('hsl(180, 100%, 41%)')} 1.2rem,transparent 1.2rem,transparent 1.5rem, ${COLOR_SET.primarytextclr} 1.5rem, ${COLOR_SET.primarytextclr} 2.7rem)`
+                            backgroundImage: 'linear-gradient(to right, var(--jam-color-primary-default) 0, var(--jam-color-primary-default) 1.2rem, transparent 1.2rem, transparent 1.5rem, var(--jam-color-primary-default) 1.5rem, var(--jam-color-primary-default) 2.7rem)'
                         },
                         '.card-body::after': {
                             right: 0
@@ -96,12 +94,12 @@ export default function newModal({ title = '', body, width = '40vw', height = '6
                             position: 'absolute',
                             borderStyle: 'solid',
                             borderWidth: 0,
-                            borderColor: hslaToJamAc('hsl(206.4, 62.1%, 49.6%)')
+                            borderColor: 'var(--jam-color-primary-default)'
                         },
-                        '.conner-tl': { borderTopWidth: '1px', borderLeftWidth: '1px', top: 0, left: 0 },
-                        '.conner-tr': { borderTopWidth: '1px', borderRightWidth: '1px', top: 0, right: 0 },
-                        '.conner-bl': { borderBottomWidth: '1px', borderLeftWidth: '1px', bottom: 0, left: 0 },
-                        '.conner-br': { borderBottomWidth: '1px', borderRightWidth: '1px', bottom: 0, right: 0 }
+                        '.conner-tl': { borderTopWidth: 's', borderLeftWidth: 's', top: 0, left: 0 },
+                        '.conner-tr': { borderTopWidth: 's', borderRightWidth: 's', top: 0, right: 0 },
+                        '.conner-bl': { borderBottomWidth: 's', borderLeftWidth: 's', bottom: 0, left: 0 },
+                        '.conner-br': { borderBottomWidth: 's', borderRightWidth: 's', bottom: 0, right: 0 }
                     })
                 ],
                 components: [
@@ -127,7 +125,7 @@ export default function newModal({ title = '', body, width = '40vw', height = '6
                                   {
                                       type: 'button',
                                       cap: '确认',
-                                      styles: ['props({ backgroundColor: jam.ac() })'],
+                                      styles: ['with.accent', 'on.accent'],
                                       onclick: () => {
                                           if (!onConfirm()) {
                                               handleCancel();

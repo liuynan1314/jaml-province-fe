@@ -1,22 +1,23 @@
 jaml.register('sidebar-self', {
     type: 'container',
     styles: [
+        'shadow.m',
+        'border.subtle',
+        'border.s',
         Styles.css({
-            boxShadow: '0 0 1.5rem ' + `hsla(0,0%,0%,${jam.lumiA(20)})`,
             transition: 'width 400ms',
             width: '13rem',
             minWidth: '0px',
             flex: '1 1 0%',
             overflow: 'auto',
-            whiteSpace: 'nowrap',
-            border: '1px solid jam.ac(1, 1, 0.15, 0.5)'
+            whiteSpace: 'nowrap'
         }),
         Styles.stylesheet({
             '.pages-wrapper': {
                 '.sidebar-name': {
                     position: 'relative',
                     '&:hover': {
-                        background: jam.ac(1, 0.1, 1, 0.5)
+                        background: 'var(--jam-color-primary-subtle)'
                     }
                 }
             }
@@ -43,7 +44,7 @@ function buildSidebar(sidebar) {
         if (_isLeaf) {
             Object.assign(_labelName, {
                 state: 0,
-                states: [{}, { styles: [Styles.css({ background: jam.ac({ l: 0.5 }), color: jam.lumiText(1) })] }],
+                states: [{}, { styles: ['with.accent', 'on.accent'] }],
                 onmount() {
                     const me = this;
                     rambutan.routerMsgr.sub(rambutan.pathWatcher, function (path) {

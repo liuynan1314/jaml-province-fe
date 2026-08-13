@@ -6,7 +6,6 @@ import realHistoryDetail from './../components/modal/generalRealHistoryDetail.js
 import mainAndAuxAlarmWindow from './../components/modal/mainAndAuxAlarmWindow.js';
 import sendMessageWindow from './../components/modal/sendMessageWindow.js';
 import caseWindow from './../components/modal/caseWindow.js';
-import { COLOR_SET, hslaToJamAc } from '../utils/Constants.js';
 import { urlConfig, userInfo } from './../global.js';
 let _model, _msgr, _this;
 const pagerKey = jam.genUUID();
@@ -66,13 +65,13 @@ export default {
             styles: [
                 'size(height:100%;width:var(--menu-width);maxWidth:28rem;minWidth:16rem)',
                 'flex(direction:column)',
-                `border(border:.0625rem solid ${COLOR_SET.secondaryborderclr})`,
+                'border.subtle', 'border.s',
                 'layout(overflow:hidden auto)',
                 'card.bodyslot.css(placeItems:unset!important;)',
                 Styles.stylesheet({
                     ':scope': {
                         '--menu-width': '20rem',
-                        padding: '0.625rem'
+                        padding: 'm'
                         // '&.jam-with-cap': { 'padding-top': '0' }
                         // '&.jam-with-cap>[slot=cap]': {
                         //     position: 'sticky',
@@ -121,7 +120,7 @@ export default {
                                     '.fmltype-wrapper': {
                                         display: 'flex',
                                         flexDirection: 'column',
-                                        borderRadius: '0.3rem',
+                                        borderRadius: 's',
                                         cursor: 'pointer',
                                         '&.has-child': {
                                             '.parent-name': {
@@ -132,15 +131,15 @@ export default {
                                             },
                                             '.childcount': {
                                                 fontFamily: 'DINPro',
-                                                fontSize: '0.9rem',
-                                                color: 'hsl(var(--jam-ac-h), var(--jam-ac-s), var(--jam-ac-l))'
+                                                fontSize: 's',
+                                                color: 'primary'
                                             }
                                         },
 
                                         '.children-wrapper': {
                                             display: 'flex',
                                             flexDirection: 'column',
-                                            paddingLeft: '2rem',
+                                            paddingLeft: 'l',
                                             maxHeight: 0,
                                             display: 'flex',
                                             transition: 'max-height 0.5s',
@@ -153,28 +152,28 @@ export default {
                                         '.fml-item': {
                                             'jam-indicator': {
                                                 "[slot='cap']": {
-                                                    color: 'hsl(0, 0%, var(--jam-lumi-o-18))'
+                                                    color: 'muted'
                                                 }
                                             },
                                             'jam-badge': {
-                                                fontSize: '0.9rem'
+                                                fontSize: 's'
                                             },
                                             '&:nth-child(odd)': {
                                                 background: 'hsl(0, 0%, 50%, 0.1)',
-                                                borderRadius: '0.5rem'
+                                                borderRadius: 'm'
                                             },
                                             '.name': {
                                                 "[slot='icon']": {
-                                                    borderRadius: '0.5rem',
+                                                    borderRadius: 'm',
                                                     border: '0.1rem solid red',
                                                     backgroundImage: 'linear-gradient(180deg, hsla(0, 0%, 100%, 0.25), rgba(0, 0, 0, 0.075))',
-                                                    boxShadow: '0 0.2em 0.3em hsla(0, 0%, 0%, var(--jam-lumi-a-15))',
+                                                    boxShadow: 's',
                                                     transform: 'scale(0.8)',
-                                                    margin: '0 0.5rem'
+                                                    margin: '0 s'
                                                 },
                                                 "[slot='cap']": {
                                                     fontWeight: 'bold',
-                                                    color: 'hsl(0, 0%, var(--jam-lumi-o-15))'
+                                                    color: 'var(--jam-color-fg-default)'
                                                 }
                                             }
                                         },
@@ -184,8 +183,8 @@ export default {
                                         '.fml-wrapper': {
                                             display: 'flex',
                                             flexDirection: 'column',
-                                            paddingLeft: '1.5rem',
-                                            marginRight: '0.5rem',
+                                            paddingLeft: 'l',
+                                            marginRight: 's',
 
                                             '.label-icon': {
                                                 margin: '0 0.1rem 0 1rem',
@@ -193,9 +192,9 @@ export default {
                                                 display: 'flex',
                                                 alignItems: 'center',
                                                 justifyContent: 'center',
-                                                borderRadius: '0.5rem',
+                                                borderRadius: 'm',
                                                 // border: '0.0625rem solid hsl(0, var(--jam-ac-s), var(--jam-ac-l), 0.1)',
-                                                background: 'hsl(var(--jam-ac-h), var(--jam-ac-s), var(--jam-ac-l), 0.1)',
+                                                background: 'tint',
                                                 boxShadow: '0 0 0.1rem hsla(0, 0%, 0%, 0.2)'
                                             }
                                         }
@@ -268,11 +267,11 @@ export default {
                                         'layout.flex(alignItems:center;justifyContent:flex-start)',
                                         Styles.stylesheet({
                                             '.ml-_625rem': {
-                                                marginLeft: '.625rem'
+                                                marginLeft: 'm'
                                             }
                                         })
                                     ],
-                                    childStyles: ['margin(top:var(--gap))', 'datepicker.agent.border(radius:.25rem)'],
+                                    childStyles: ['margin(top:var(--gap))', 'datepicker.agent.border(radius:s)'],
                                     descStyles: {
                                         datepicker: ['padding(top:0;bottom:0)', 'datepicker.labelslot.margin(0)'],
                                         button: [Styles.searchBtnsStyles]
@@ -281,7 +280,7 @@ export default {
                                         {
                                             type: 'filterSelect',
                                             styles: ['size(maxWidth:11.5rem)', 'padding(top:0;bottom:0)'],
-                                            childStyles: ['size(minWidth:11.5rem)', 'input.agent.border(radius:.25rem)', 'input.labelslot.margin(0)'],
+                                            childStyles: ['size(minWidth:11.5rem)', 'input.agent.border(radius:s)', 'input.labelslot.margin(0)'],
                                             valueKey: 'stId',
                                             props: { cap: '变电站：', placeholder: '请选择', data: '{{stList}}', search: '{{name}}', select: '{{stId}}', icon: 'transformer-bolt' },
                                             watchers: {
@@ -375,7 +374,7 @@ export default {
                                         'size(height:8.125rem;width:var(--title-width))',
                                         `cap.css(width:1.6rem;height:max-content;padding:1 .4rem;fontWeight:bold;line-height:1.2;top:1rem;)`,
                                         'margin(left:1rem)',
-                                        `css(background-color:${jam.ac({ a: 0.2 })};padding:4.5rem 0;)`,
+                                        'with.tint', 'css(padding:xl 0;)',
                                         Styles.stylesheet({
                                             ':scope': {
                                                 '&>[slot=cap]': {
@@ -538,6 +537,7 @@ export default {
                         {
                             type: 'tableWithPage',
                             styles: [
+                                'tableWithPage.basic',
                                 'flex(1)',
                                 Styles.hover.toShowAll({
                                     selector: '.hover'
@@ -580,7 +580,7 @@ export default {
                                     width: userInfo.unicode != null ? '14rem' : '12rem',
                                     type: 'buttongroup',
                                     class: 'viewButtons',
-                                    styles: [`css(--jam-optionslot-justify-content:center;--sms-txt-clr:${hslaToJamAc('hsl(156.3, 52.5%, 53.7%)')};--detail-txt-clr:${hslaToJamAc('hsl(199.3, 100%, 59.2%)')})`, 'button.capslot.text(white-space:nowrap)', 'button.border(border:0;radius:0)', 'button.background(image:none;color:transparent)'],
+                                    styles: ['css(--jam-optionslot-justify-content:center;--sms-txt-clr:var(--jam-color-primary-default);--detail-txt-clr:var(--jam-color-primary-subtle))', 'button.capslot.text(white-space:nowrap)', 'button.border(border:0;radius:0)', 'button.background(image:none;color:transparent)'],
                                     data: [
                                         {
                                             name: '曲线',
@@ -889,7 +889,7 @@ function getTreeCmpt(data) {
         if (!_hasChild) {
             const _state = item.actualValue == 0 ? 'active' : 'normal';
             Object.assign(_label, {
-                styles: [Styles.icon.duotone, Styles.label.cap.css({ height: '2.5rem', lineHeight: '2.5rem', marginLeft: '0.2rem' }), Styles.css({ height: '2.5rem', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis' }), Styles.hover.toShowAll({ selector: '[slot=cap]' })],
+                styles: [Styles.icon.duotone, Styles.label.cap.css({ height: '2.5rem', lineHeight: '2.5rem', marginLeft: 's' }), Styles.css({ height: '2.5rem', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis' }), Styles.hover.toShowAll({ selector: '[slot=cap]' })],
                 class: 'childNode',
                 icon: '<img src="./assets/images/18-early-warning/' + item.actualValue + '.png" style="width:1rem"/>',
                 state: _state,
@@ -899,9 +899,11 @@ function getTreeCmpt(data) {
                     },
                     active: {
                         styles: [
-                            //
-                            `css(--cnt-bg-clr:${hslaToJamAc('hsla(180, 100%, 41%, 0.15)')})`,
-                            `label.css(background:hsla(var(--jam-ac-h), var(--jam-ac-s), var(--jam-ac-l), 0.12);border-radius:0.5rem!important;border: 1px solid hsl(var(--jam-ac-h), calc(var(--jam-ac-s) * 1.4), calc(var(--jam-ac-l) * 0.9));`
+                            'css(--cnt-bg-clr:var(--jam-color-primary-film))',
+                            'with.tint',
+                            'border.subtle',
+                            'border.s',
+                            'css(border-radius:m!important)'
                         ]
                     }
                 },

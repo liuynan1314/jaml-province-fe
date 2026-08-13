@@ -3,8 +3,6 @@ import { getDetailConf, homeRouter } from '../common';
 import { confPath } from '../global';
 import { destroyScene, initScene } from '../utils/EngineUtils';
 import { getUserLayout, saveUserLayout } from '../utils/pageEditorUtil';
-import { getAcColor } from '../utils/acColorParams.js';
-import { color } from 'echarts';
 
 import { config } from '../index';
 let _model = null;
@@ -12,6 +10,7 @@ export function commonHeader() {
     return {
         type: 'wrapper',
         class: 'header',
+        stylize: 'header',
         showIf: jaml.var(`${rambutan.pathWatcher}@mango`, (path) => {
             if (homeRouter.includes(path)) {
                 return !path.includes('home_zj');
@@ -22,7 +21,7 @@ export function commonHeader() {
         components: [
             {
                 type: 'projectHeader',
-                styles: ['css(height:100%;display:flex;alignItems:center;gap:1rem)'],
+                styles: ['projectHeader.basic', 'css(height:100%;display:flex;alignItems:center;gap:l)'],
                 props: {
                     projectTitle: config.sysTitle,
                     logoPath: 'assets/images/NARI_logo.svg'
@@ -31,7 +30,7 @@ export function commonHeader() {
             {
                 type: 'wrapper',
                 slot: 'layer',
-                styles: ['css(alignItems:center;marginRight:1rem)'],
+                styles: ['css(alignItems:center;marginRight:l)'],
                 descStyles: {
                     button: ['icon.duotone']
                 },
@@ -122,7 +121,7 @@ export function commonHeader() {
                                     location.reload();
                                 },
                                 () => {},
-                                [Styles.click.toFront, 'css(position:absolute;top:30%;left:50%;transform:translate(-50%,-50%);backgroundColor:var(--jam-sys-background-color-deep-primary);boxShadow:0 1rem 1.5rem hsla(0,0%,0%,0.6);padding:1.5rem;font-size:1.125rem;border:2px solid var(--jam-sys-border-color-primary,#80808099);gap:1.5rem)', 'css(selector:.prompt;font-size:1.5rem)']
+                                [Styles.click.toFront, 'with.elevation', 'css(position:absolute;top:30%;left:50%;transform:translate(-50%,-50%);boxShadow:l;padding:xl;font-size:l;border:2px solid var(--jam-color-primary-default);gap:xl)', 'css(selector:.prompt;font-size:xl)']
                             );
                         }
                     },
@@ -176,7 +175,7 @@ export function commonHeader() {
                         styles: [
                             Styles.icon.duotone,
                             Styles.icon.withborder,
-                            'css(--jam-icon-size:1.8rem;margin:0 0.25rem)',
+                            'css(--jam-icon-size:1.8rem;margin:0 xs)',
                             Styles.stylesheet({
                                 'i.jam-icon.withborder': {
                                     '--size': '1.8rem'
@@ -188,7 +187,7 @@ export function commonHeader() {
                         onmouseenter: function (e) {
                             jam.popup(e.target, {
                                 type: 'wrapper',
-                                styles: ['css(width:9rem;display:flex;flexDirection:column;alignItems:center;gap:0.5rem)'],
+                                styles: ['css(width:9rem;display:flex;flexDirection:column;alignItems:center;gap:s)'],
                                 childStyles: ['css(width:8rem)'],
                                 descStyles: {
                                     label: ['icon.duotone']

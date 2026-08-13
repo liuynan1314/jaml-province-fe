@@ -8,12 +8,12 @@ export default function (props, isForTrip) {
         type: 'wrapper',
         styles: ['size.fullsize', 'padding(1.25rem)', 'flex(direction:column)', 'layout(overflow:hidden;position:relative;)'],
         descStyles: {
-            input: ['input.agent.border(radius:.25rem)', 'css(cursor:auto)'],
+            input: ['input.agent.border(radius:s)', 'css(cursor:auto)'],
             '.title': [
                 //
-                'padding(left:.625rem)',
+                'padding(left:m)',
                 'background(image:url(./assets/images/title-bg.png);repeat:no-repeat;size:auto .45rem;position:left bottom;)',
-                `cap.text(weight:bold;color:${jam.lumiText(1)})`
+                'cap.text(weight:bold;color:var(--jam-color-fg-default))'
             ]
         },
         components: [

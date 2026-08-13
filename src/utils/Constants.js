@@ -11,7 +11,7 @@ export const VOLTAGE_COLOR_STATE_BG = (elem, styleName = 'color') => {
             styles: [eleName.css({ [styleName]: 'hsl(2.7, 51.7%, 65.9%)' })]
         },
         '35kV': {
-            styles: [eleName.css({ color: jam.ac(1, 0.3, 0.5, jam.acLumiO(50)), [styleName]: 'hsl(60, 91.7%, 76.5%)' })]
+            styles: [eleName.css({ [styleName]: 'hsl(60, 91.7%, 76.5%)' })]
         },
         '66kV': {
             styles: [eleName.css({ [styleName]: 'hsl(48, 100%, 50%)' })]
@@ -43,36 +43,28 @@ export const VOLTAGE_COLOR_STATE_BG = (elem, styleName = 'color') => {
         }
     };
 };
+
+/** Legacy accent sample (index.js comment / historical apply); not for styles fills. */
 export const acColor = 'hsl(210, 59%, 28%)';
-export function hslaToJamAc(hsla = acColor) {
-    const colorMap = new Map();
-    const [_H, _S, _L] = acColor.split('(')[1].split(')')[0].split(',');
-    if (!colorMap.has(hsla)) {
-        const [h, s, l, a = 1] = hsla.split('(')[1].split(')')[0].split(',');
-        const _h = Number((h / _H).toFixed(2));
-        const _s = Number(Number(parseFloat(s) / parseFloat(_S)).toFixed(2)) ?? 1;
-        const _l = Number(Number(parseFloat(l) / parseFloat(_L)).toFixed(2)) ?? 1;
-        colorMap.set(hsla, jam.ac(_h, _s, _l, a));
-    }
-    return colorMap.get(hsla);
-}
+
+/** Theme chrome tokens as single-layer CSS vars (styles-safe; no jam.ac). */
 export const COLOR_SET = {
-    purewhite: hslaToJamAc('hsl(0,0%,100%)'),
-    primarytextclr: hslaToJamAc('hsl(195.3, 100%, 56.1%)'),
-    auxtextclr: hslaToJamAc('hsl(201.6, 33.3%, 64.1%)'),
-    firsttextclr: hslaToJamAc('hsl(199.4, 100%, 93.9%)'),
-    secondarytextclr: hslaToJamAc('hsl(200.8, 56.3%, 82.9%)'),
-    modalbgclr: hslaToJamAc('hsla(213.5, 65%, 15.7%, 0.7)'),
-    modalborderclr: hslaToJamAc('hsl(196.5, 54.4%, 35.3%)'),
-    modulebgclr: hslaToJamAc('hsla(210, 66.7%, 10.6%, 0.6)'),
-    modulebgclr_deep: hslaToJamAc('hsla(210, 66.7%, 10.6%, 0.8)'),
-    secondaryborderclr: hslaToJamAc('hsla(216.3, 30%, 31.4%, 0.8)'),
-    garytextclr: hslaToJamAc('hsl(0, 0%, 60%)'),
-    thirdborderclr: hslaToJamAc('hsla(216.5, 45.9%, 21.8%, 0.8)'),
-    gradientbgclr_deep: hslaToJamAc('hsla(210.4, 51%, 28.8%, 0.8)'),
-    gradientbgclr_light: hslaToJamAc('hsla(210.4, 51%, 28.8%, 0.4)'),
-    gradientbgclr_lighter: hslaToJamAc('hsla(210.4, 51%, 28.8%, 0.2)'),
-    thbrclr: hslaToJamAc('hsl(210,40.3%,28.2%,1)')
+    purewhite: 'var(--jam-color-on-primary)',
+    primarytextclr: 'var(--jam-color-primary-default)',
+    auxtextclr: 'var(--jam-color-fg-muted)',
+    firsttextclr: 'var(--jam-color-fg-default)',
+    secondarytextclr: 'var(--jam-color-fg-muted)',
+    modalbgclr: 'elevation',
+    modalborderclr: 'var(--jam-color-outline-muted)',
+    modulebgclr: 'elevation',
+    modulebgclr_deep: 'var(--jam-color-primary-subtle)',
+    secondaryborderclr: 'var(--jam-color-outline-muted)',
+    garytextclr: 'var(--jam-color-fg-subtle)',
+    thirdborderclr: 'var(--jam-color-outline-subtle)',
+    gradientbgclr_deep: 'var(--jam-color-primary-subtle)',
+    gradientbgclr_light: 'var(--jam-color-primary-film)',
+    gradientbgclr_lighter: 'var(--jam-color-primary-film)',
+    thbrclr: 'var(--jam-color-primary-subtle)'
 };
 
 export const MenuType = {

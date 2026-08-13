@@ -121,7 +121,7 @@ const maintenancePersonnel = (page = 0) => {
                         click2Check: true,
                         valueIndex: 0,
                         value: '{{selectedRows}}',
-                        styles: [Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.size.fullsize, Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
+                        styles: ['tableWithPage.basic', Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.size.fullsize, Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
                         descStyles: {
                             '.item-content': ['css(overflow:hidden;white-space:nowrap;text-overflow:ellipsis)']
                         },

@@ -7,10 +7,10 @@ jaml.register('dateDisplay', {
                 flexSelf: 'flex-end'
             },
             '.time-item': {
-                padding: '0 0.5rem'
+                padding: '0 s'
             },
             '.header-time, .header-date': {
-                borderRight: `1px dashed ${jam.ac()}`
+                borderRight: 's dashed var(--jam-color-outline-subtle)'
             }
         })
     ],

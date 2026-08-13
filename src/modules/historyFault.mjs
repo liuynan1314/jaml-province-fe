@@ -52,7 +52,7 @@ export default {
         Styles.css({
             display: 'flex',
             flexDirection: 'column',
-            gap: '0.5rem'
+            gap: 's'
         })
     ],
     components: [
@@ -66,7 +66,7 @@ export default {
             components: [
                 {
                     type: 'wrapper',
-                    styles: ['flex(flex:1;direction:column;gap:0.5rem)'],
+                    styles: ['flex(flex:1;direction:column;gap:s)'],
                     components: [
                         {
                             type: 'buttongroup-radio',
@@ -130,7 +130,7 @@ export default {
                                         'props(marginLeft:2rem;)',
                                         Styles.input.regularStyleDiff,
                                         Styles.input.agent.css({
-                                            borderColor: jam.ac(1, 0.25, 0.61)
+                                            borderColor: 'var(--jam-color-primary-subtle)' 
                                         })
                                     ],
                                     cap: '内容：',
@@ -204,6 +204,7 @@ export default {
                 {
                     type: 'tableWithPage',
                     styles: [
+                        'tableWithPage.basic',
                         Styles.hover.toShowAll({ selector: '.hover' }),
                         Styles.tableStylesFixedRowGeight,
                         Styles.numberAlign,
@@ -211,7 +212,7 @@ export default {
                             width: '100%',
                             height: 'calc(100% - 3rem)',
                             padding: 0,
-                            margin: '0.6rem auto'
+                            margin: 's auto'
                         }),
                         Styles.stylesheet({
                             '.underline': {

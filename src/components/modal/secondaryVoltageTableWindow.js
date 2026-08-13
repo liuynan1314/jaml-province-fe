@@ -1,4 +1,3 @@
-import { hslaToJamAc } from '../../utils/Constants.js';
 import { ajaxCall } from '../../common.js';
 
 export default function (props) {
@@ -16,7 +15,7 @@ export default function (props) {
                     height: '1.6875rem',
                     paddingLeft: '1.375rem',
                     color: 'transparent',
-                    backgroundImage: `linear-gradient(180deg, ${hslaToJamAc('hsl(220, 60%, 99%)')} 10%,${hslaToJamAc(' hsl(204.1, 40.6%, 60.4%)')} 90%,${hslaToJamAc(' hsl(204.1, 40.6%, 60.4%)')} 100%)`,
+                    backgroundImage: 'linear-gradient(180deg, var(--jam-color-on-primary) 10%, var(--jam-color-primary-default) 90%, var(--jam-color-primary-default) 100%)',
                     '-webkit-background-clip': 'text',
                     backgroundClip: 'text',
                     position: 'relative',

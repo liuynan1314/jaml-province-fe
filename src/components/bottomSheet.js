@@ -30,7 +30,7 @@ jaml.register('bottomSheet', {
                 '&::before': {
                     content: '',
                     position: 'absolute',
-                    backgroundColor: jam.ac(),
+                    backgroundColor: 'var(--jam-color-primary-default)',
                     boxShadow: `0 0 2rem 0.2rem transparent`,
                     width: '100%',
                     height: '3px',
@@ -43,7 +43,7 @@ jaml.register('bottomSheet', {
                     backgroundColor: 'transparent'
                 },
                 '&.glow::before': {
-                    boxShadow: `0 0 2rem 0.2rem ${jam.ac(1, 1, 1, 0.9)},0 0 4rem 0.6rem ${jam.ac(1, 1, 1, 0.45)},0 0 6rem 1rem ${jam.ac(1, 1, 1, 0.15)}`
+                    boxShadow: '0 0 2rem 0.2rem var(--jam-color-primary-default),0 0 4rem 0.6rem var(--jam-color-primary-film),0 0 6rem 1rem var(--jam-color-primary-film)'
                 }
             },
             'part(bodyslot)': {

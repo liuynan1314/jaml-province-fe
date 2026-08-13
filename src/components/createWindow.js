@@ -49,6 +49,7 @@ export function createWindow({ title = '', body, width = '40vw', height = '65vh'
                     //     repeat: 'no-repeat'
                     // }),
 
+                    'with.tint',
                     Styles.css({
                         width,
                         height,
@@ -56,11 +57,10 @@ export function createWindow({ title = '', body, width = '40vw', height = '65vh'
                         left: props.left ?? '50%',
                         top: props.top ?? '50%',
                         transform: 'translate(-50%, -50%)',
-                        zIndex: 9999,
+                        zIndex: 9999
                         // display: 'flex',
                         // flexDirection: 'column',
                         // alignItems: 'center',
-                        backgroundColor: jam.ac(1, 0.1, jam.lumiO(50))
                     })
                 ],
                 components: [
@@ -90,7 +90,7 @@ export function createWindow({ title = '', body, width = '40vw', height = '65vh'
                                   {
                                       type: 'button',
                                       cap: '确认',
-                                      styles: ['props({ backgroundColor: jam.ac() })'],
+                                      styles: ['with.accent', 'on.accent'],
                                       onclick: () => {
                                           if (!onConfirm()) {
                                               handleCancel();
@@ -113,7 +113,7 @@ export function createWindow({ title = '', body, width = '40vw', height = '65vh'
                         icon: 'close',
                         styles: [
                             'icon.regular',
-                            Styles.label.icon.css({ fontSize: '1.5rem' }),
+                            Styles.label.icon.css({ fontSize: 'xl' }),
                             Styles.props({
                                 width: '1rem',
                                 height: '1rem',

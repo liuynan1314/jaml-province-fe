@@ -26,7 +26,7 @@ jaml.register('mainAndAuxAlarmCard', {
     components: [
         {
             type: 'label',
-            styles: [`label.capslot.text(size:.875rem;color:${jam.lumiText(8)})`],
+            styles: ['label.capslot.text(size:s;color:var(--jam-color-fg-muted))'],
             cap: '{{item.typeName}}'
         },
         {
@@ -68,7 +68,7 @@ jaml.register('mainAndAuxAlarmCard', {
 
         {
             type: 'label',
-            styles: ['css(cursor:pointer;padding:0)', `label.capslot.text(size:.875rem;color:${jam.lumiText(20)})`],
+            styles: ['css(cursor:pointer;padding:0)', 'label.capslot.text(size:s;color:var(--jam-color-fg-subtle))'],
             attrs: {
                 'data-devType': '{{item.devType}}',
                 'data-alarmType': '{{item.alarmType}}'

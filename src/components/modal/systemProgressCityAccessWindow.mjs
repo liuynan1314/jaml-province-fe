@@ -119,10 +119,10 @@ const systemProgressCityAccessWindow = (params = {}) => {
                 '.viewButtons': {
                     'jam-button': {
                         '--jam-button-bg-deg': '180deg',
-                        background: `linear-gradient(var(--jam-button-bg-deg),${jam.ac({ l: 0.9 })}, ${jam.ac({ l: 0.7 })})`,
-                        color: jam.lumiText(1),
+                        background: 'var(--jam-color-primary-default)',
+                        color: 'onprimary',
                         '&:hover': {
-                            background: `linear-gradient(var(--jam-button-bg-deg),${jam.ac({ l: 1 })}, ${jam.ac({ l: 0.8 })})`
+                            background: 'var(--jam-color-primary-strong)'
                         },
                         '&:active': {
                             '--jam-button-bg-deg': '0deg'
@@ -131,7 +131,7 @@ const systemProgressCityAccessWindow = (params = {}) => {
                 },
                 '.space-filter-select': {
                     "[slot='cap']": {
-                        marginRight: '1rem'
+                        marginRight: 'm'
                     }
                 }
             })
@@ -150,7 +150,7 @@ const systemProgressCityAccessWindow = (params = {}) => {
                                 display: 'grid',
                                 gridTemplateColumns: 'repeat(auto-fill,minmax(14rem,1fr))',
                                 gridAutoRows: 'minmax(1fr,max-content)',
-                                gap: '0.5rem',
+                                gap: 's',
                                 flexShrink: 0
                             })
                         ],
@@ -304,10 +304,10 @@ const systemProgressCityAccessWindow = (params = {}) => {
                             return [
                                 {
                                     type: 'tableWithPage',
-                                    styles: [Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.table.fixedrowheight({ height: '2.5rem' }), ' css(width:100%)', Styles.css({ padding: 0 })],
+                                    styles: ['tableWithPage.basic', Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.table.fixedrowheight({ height: '2.5rem' }), ' css(width:100%)', Styles.css({ padding: 0 })],
                                     descStyles: {
                                         '.item-time': [Styles.badge.cap.css({ width: '5em' }), Styles.badge.content.css({ width: '5em' })],
-                                        '.item-tag': [Styles.cap.css({ border: '1px solid var(--jam-sys-border-color-secondary,#80808099)', padding: '0.125rem 0.5rem' })],
+                                        '.item-tag': [Styles.cap.css({ border: 's solid var(--jam-color-outline-muted)', padding: 'xxs s' })],
                                         '.item-content': ['css(overflow:hidden;white-space:nowrap;text-overflow:ellipsis)'],
                                         '.item-indicator': ['indicator.cap.hide()', 'indicator.value.css(width:2rem;justify-content:flex-end)']
                                     },

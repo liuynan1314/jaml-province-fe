@@ -1,5 +1,4 @@
 import { mockPath, urlConfig, ALARM_TYPE } from '../../global.js';
-import { COLOR_SET } from '../../utils/Constants.js';
 let _model, _msgr;
 
 export default function (_params) {
@@ -9,7 +8,7 @@ export default function (_params) {
         broker: 'signalDetailsWindow',
         cap: '开关动作次数详情',
         styles: [
-            `background(color:${COLOR_SET.modulebgclr})`,
+            'with.elevation',
 
             Styles.card.floating({
                 width: '70vw',
@@ -23,7 +22,7 @@ export default function (_params) {
                 components: [
                     {
                         type: 'tableWithPage',
-                        styles: [Styles.tableStyles, Styles.iconslot.css({ display: 'none' }), Styles.capslot.css({ display: 'none' }), 'size.fullsize', 'padding(0)'],
+                        styles: ['tableWithPage.basic', Styles.tableStyles, Styles.iconslot.css({ display: 'none' }), Styles.capslot.css({ display: 'none' }), 'size.fullsize', 'padding(0)'],
                         props: {
                             cpageHide: {
                                 pageSize: true

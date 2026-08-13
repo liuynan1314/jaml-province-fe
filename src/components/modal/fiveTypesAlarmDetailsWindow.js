@@ -1,5 +1,4 @@
 import { mockPath, urlConfig, ALARM_TYPE } from '../../global.js';
-import { COLOR_SET } from '../../utils/Constants.js';
 let _model, _msgr;
 import { buildTable } from '../../components/componentBuilder.js';
 import { formatterJameTime, formatterJameBv } from '../../common.js';
@@ -12,7 +11,7 @@ export default function (_params) {
         broker: 'fiveTypesAlarmDetailsWindow',
         cap: _params.customizedGroup === 'total' ? '告警总计数据' : `${ALARM_TYPE[_params.customizedGroup + 1]}详情数据`,
         styles: [
-            `background(color:${COLOR_SET.modulebgclr})`,
+            'with.elevation',
 
             Styles.card.floating({
                 width: '70vw',
@@ -242,7 +241,7 @@ function renderEventTable(_params) {
                 }
             ]
         },
-        styles: [Styles.tableStyles, Styles.iconslot.css({ display: 'none' }), Styles.capslot.css({ display: 'none' }), 'size.fullsize', 'padding(0)'],
+        styles: ['basicTable.basic', Styles.tableStyles, Styles.iconslot.css({ display: 'none' }), Styles.capslot.css({ display: 'none' }), 'size.fullsize', 'padding(0)'],
         onafterrender: async function (dom) {
             await jam.ajaxCall({
                 method: 'post',

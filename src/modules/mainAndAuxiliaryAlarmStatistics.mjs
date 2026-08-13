@@ -73,51 +73,51 @@ export default {
                 flexDirection: 'column'
             },
             '.jam-main-value': {
-                fontSize: '1.4rem !important;',
+                fontSize: 'l !important;',
                 fontFamily: 'DINPro'
             },
             '.jam-sub-value': {
-                marginLeft: '0.5rem !important;',
-                fontSize: '1rem !important;',
+                marginLeft: 's !important;',
+                fontSize: 'm !important;',
                 textDecoration: 'underline !important;',
-                color: jam.lumiText(0),
-                marginBottom: '0.2rem'
+                color: 'var(--jam-color-fg-default)',
+                marginBottom: 's'
             },
             '.unit-top': {
                 position: 'absolute',
                 top: '0.4rem',
                 right: '0.4rem',
-                fontSize: '0.75rem',
-                color: jam.lumiText(15)
+                fontSize: 's',
+                color: 'muted'
             },
             '.date-indicator': {
                 display: 'flex',
                 justifyContent: 'flex-end',
                 alignItems: 'center',
-                fontSize: '0.8rem',
+                fontSize: 's',
                 position: 'absolute',
                 top: 0,
                 right: '0rem',
                 '& span[slot=cap]': {
-                    fontSize: '0.75rem'
+                    fontSize: 's'
                 },
                 '& span[slot=value]': {
                     marginLeft: '0.2rem',
-                    fontSize: '1rem',
+                    fontSize: 'm',
                     fontWeight: 'bold',
                     fontFamily: 'DINPro',
-                    color: jam.ac({ l: jam.acLumiO(25) })
+                    color: 'primary'
                 }
             },
             '.type-label': {
-                padding: '0.5rem 1rem 0.5rem 1.5rem',
+                padding: 's m s l',
                 position: 'relative',
                 '&::before': {
                     display: 'inline-block',
                     content: '',
                     width: '8px',
                     height: '12px',
-                    background: `linear-gradient(180deg, ${jam.accolor.css()} 0%, hsla(0, 0%, 100%, 0.1) 100%)`,
+                    background: 'linear-gradient(180deg, var(--jam-color-primary-default) 0%, hsla(0, 0%, 100%, 0.1) 100%)',
                     clipPath: 'polygon(30% 0, 100% 0, 70% 100%, 0% 100%)',
                     position: 'absolute',
                     top: '50%',

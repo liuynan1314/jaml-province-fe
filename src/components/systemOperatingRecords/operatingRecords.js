@@ -26,28 +26,28 @@ const operatingRecords = (page = 0) => {
                     'flex-direction': 'column'
                 }
             }),
-            Styles.layout.grid({ cols: 16, rows: 10, gap: `0.5rem` })
+            Styles.layout.grid({ cols: 16, rows: 10, gap: 's' })
         ],
         components: [
             {
                 type: 'wrapper',
-                styles: [Styles.layout.gridpos(1, 1, 16, 1), 'props(justify-content:space-between;margin-bottom:0.5rem)'],
+                styles: [Styles.layout.gridpos(1, 1, 16, 1), 'props(justify-content:space-between;margin-bottom:s)'],
                 indicatorStyles: [
                     'icon.regular',
                     Styles.css({
-                        border: `1px solid ${jam.ac(1, 0.92, 0.61)} !important`,
-                        boxShadow: '0 2px 8px rgba(5, 68, 114, 0.7)', // 轻微阴影效果
-                        borderRadius: '5px',
+                        border: 's solid var(--jam-color-outline-muted) !important',
+                        boxShadow: 's',
+                        borderRadius: 's',
                         cursor: 'pointer',
                         width: '15%',
-                        padding: '0.5rem 0'
+                        padding: 's 0'
                     }),
                     Styles.stylesheet({
                         '.jam-main-cap': {
-                            fontSize: '1.1rem'
+                            fontSize: 'm'
                         },
                         '.jam-main-value': {
-                            fontSize: '1.25rem'
+                            fontSize: 'l'
                         }
                     })
                 ],
@@ -88,13 +88,13 @@ const operatingRecords = (page = 0) => {
                 components: [
                     {
                         type: 'wrapper',
-                        childStyles: ['icon.regular', 'padding(0 0.25rem 0 0)'],
+                        childStyles: ['icon.regular', 'padding(0 xs 0 0)'],
                         descStyles: {
-                            button: [Styles.searchBtnsStyles, 'margin(right:0.625rem)'],
+                            button: [Styles.searchBtnsStyles, 'margin(right:s)'],
                             datepicker: [Styles.datepicker.regularStyle, 'datepicker.labelslot.margin(0)', Styles.css({ minWidth: '19.2rem' })],
                             select: [Styles.select.regularStyle, 'select.labelslot.margin(0)', Styles.css({ minWidth: '19.2rem' })]
                         },
-                        styles: ['css(flexWrap:wrap;margin-bottom:0.5rem;alignItems:center)'],
+                        styles: ['css(flexWrap:wrap;margin-bottom:s;alignItems:center)'],
                         components: [
                             {
                                 type: 'input',
@@ -342,7 +342,7 @@ const operatingRecords = (page = 0) => {
                                         'css(cursor:pointer)',
                                         Styles.stylesheet({
                                             '[slot=icon]': {
-                                                margin: '0.25rem'
+                                                margin: 'xs'
                                             }
                                         })
                                     ]

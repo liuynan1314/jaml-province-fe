@@ -296,16 +296,7 @@ function getEchartsOption(resData, xAxisData) {
                                 color = ' hsl(216.9, 22%, 46.3%)';
                                 color1 = 'hsla(216.9, 22%, 46.3%, 0.1)';
                             }
-                            return new echarts.graphic.LinearGradient(0, 0, 1, 0, [
-                                {
-                                    offset: 0,
-                                    color: color1
-                                },
-                                {
-                                    offset: 1,
-                                    color: color
-                                }
-                            ]);
+                            return jam.toEchartsGradient(0, color1, color);
                         }
                     }
                 },

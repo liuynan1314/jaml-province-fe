@@ -1,4 +1,3 @@
-import { hslaToJamAc } from '../utils/Constants.js';
 import { ajaxCall } from '../common.js';
 let _model,
     _msgr = null;
@@ -100,31 +99,13 @@ function highlightBarByIndex(index, type, name) {
                 if (params.dataIndex === index) {
                     return `hsl(0, 94.13%, 49.97%)`;
                 } else {
-                    return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                        {
-                            offset: 0,
-                            color: `hsl(0,100%,66.1%)`
-                        },
-                        {
-                            offset: 1,
-                            color: `hsla(0,100%,66.1%,0)`
-                        }
-                    ]);
+                    return jam.toEchartsGradient(90, `hsl(0,100%,66.1%)`, Tokens.color.transparent);
                 }
             }
         };
         barOptions.series[4].itemStyle = {
             color: function (params) {
-                return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                    {
-                        offset: 0,
-                        color: `hsl(45,69.6%,63.9%)`
-                    },
-                    {
-                        offset: 1,
-                        color: `hsla(45,69.6%,63.9%,0)`
-                    }
-                ]);
+                return jam.toEchartsGradient(90, `hsl(45,69.6%,63.9%)`, Tokens.color.transparent);
             }
         };
     } else {
@@ -133,31 +114,13 @@ function highlightBarByIndex(index, type, name) {
                 if (params.dataIndex === index) {
                     return `hsl(45,97.13% ,48.92%)`;
                 } else {
-                    return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                        {
-                            offset: 0,
-                            color: `hsl(45,69.6%,63.9%)`
-                        },
-                        {
-                            offset: 1,
-                            color: `hsla(45,69.6%,63.9%,0)`
-                        }
-                    ]);
+                    return jam.toEchartsGradient(90, `hsl(45,69.6%,63.9%)`, Tokens.color.transparent);
                 }
             }
         };
         barOptions.series[0].itemStyle = {
             color: function (params) {
-                return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                    {
-                        offset: 0,
-                        color: `hsl(0,100%,66.1%)`
-                    },
-                    {
-                        offset: 1,
-                        color: `hsla(0,100%,66.1%,0)`
-                    }
-                ]);
+                return jam.toEchartsGradient(90, `hsl(0,100%,66.1%)`, Tokens.color.transparent);
             }
         };
     }
@@ -406,18 +369,7 @@ function setDevOverloadEcharts(newBarData) {
                     ]
                 },
                 itemStyle: {
-                    color: function (params) {
-                        return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                            {
-                                offset: 0,
-                                color: `hsl(0,100%,66.1%)`
-                            },
-                            {
-                                offset: 1,
-                                color: `hsla(0,100%,66.1%,0)`
-                            }
-                        ]);
-                    }
+                    color: jam.toEchartsGradient(90, `hsl(0,100%,66.1%)`, Tokens.color.transparent)
                 }
             },
             // 最上面线
@@ -499,18 +451,7 @@ function setDevOverloadEcharts(newBarData) {
                     }
                 },
                 itemStyle: {
-                    color: function (params) {
-                        return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                            {
-                                offset: 0,
-                                color: `hsl(45,69.6%,63.9%)`
-                            },
-                            {
-                                offset: 1,
-                                color: `hsla(45,69.6%,63.9%,0)`
-                            }
-                        ]);
-                    }
+                    color: jam.toEchartsGradient(90, `hsl(45,69.6%,63.9%)`, Tokens.color.transparent)
                 }
             },
             // 最上面线
@@ -582,32 +523,10 @@ function setDevOverloadEcharts(newBarData) {
  */
 function renderStartStatus() {
     barOptions.series[0].itemStyle = {
-        color: function (params) {
-            return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                {
-                    offset: 0,
-                    color: `hsl(0,100%,66.1%)`
-                },
-                {
-                    offset: 1,
-                    color: `hsla(0,100%,66.1%,0)`
-                }
-            ]);
-        }
+        color: jam.toEchartsGradient(90, `hsl(0,100%,66.1%)`, Tokens.color.transparent)
     };
     barOptions.series[4].itemStyle = {
-        color: function (params) {
-            return new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                {
-                    offset: 0,
-                    color: `hsl(45,69.6%,63.9%)`
-                },
-                {
-                    offset: 1,
-                    color: `hsla(45,69.6%,63.9%,0)`
-                }
-            ]);
-        }
+        color: jam.toEchartsGradient(90, `hsl(45,69.6%,63.9%)`, Tokens.color.transparent)
     };
     barOptions.xAxis.axisLabel = {
         color: 'hsl(201.6, 33.3%, 64.1%)',
@@ -624,7 +543,5 @@ window.addEventListener('resize', () => {
 });
 
 function getCssVariable(name) {
-    console.log(8, jam.colorSet);
-    console.log(2222, getComputedStyle(document.documentElement).getPropertyValue('--jam-ac-h').trim());
     return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 }

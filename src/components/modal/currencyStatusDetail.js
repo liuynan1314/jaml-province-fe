@@ -1,11 +1,10 @@
 import { formatterJameTime } from '../../common.js';
 import { buildBasicTable } from '../componentBuilder.js';
-import { COLOR_SET } from '../../utils/Constants.js';
 
-const PANEL_BORDER = COLOR_SET.secondaryborderclr;
-const PANEL_BG = jam.ac(1, 0.85, jam.lumiO(45), 0.32);
-const PANEL_BG_LIGHT = jam.ac(1, 0.85, jam.lumiO(45), 0.16);
-const PANEL_INNER_BG = jam.ac(1, 0.85, jam.lumiO(45), 0.1);
+const PANEL_BORDER = 'var(--jam-color-outline-muted)';
+const PANEL_BG = 'var(--jam-color-primary-subtle)';
+const PANEL_BG_LIGHT = 'var(--jam-color-primary-film)';
+const PANEL_INNER_BG = 'tint';
 
 const BROKER = 'rcStatusDetailModal';
 const TITLE_MAP = {
@@ -63,13 +62,13 @@ export default function currencyStatusDetail(statusType, keys) {
                 width: '88vw',
                 height: '75vh'
             }),
-            'card.bodyslot.css(display:flex;flexDirection:column;overflow:hidden;padding:0.75rem)',
+            'card.bodyslot.css(display:flex;flexDirection:column;overflow:hidden;padding:m)',
             Styles.stylesheet({
                 '.status-detail-body': {
                     flex: 1,
                     minHeight: 0,
                     display: 'flex',
-                    gap: '0.75rem',
+                    gap: 'm',
                     overflow: 'hidden',
                     boxSizing: 'border-box'
                 },
@@ -82,16 +81,16 @@ export default function currencyStatusDetail(statusType, keys) {
                     minHeight: 0,
                     padding: 0,
                     boxSizing: 'border-box',
-                    borderRadius: '0.375rem',
-                    border: `1px solid ${PANEL_BORDER}`,
+                    borderRadius: 's',
+                    border: `s solid ${PANEL_BORDER}`,
                     background: PANEL_BG,
                     overflow: 'hidden'
                 },
                 '.status-detail-left-filters': {
                     display: 'flex',
                     flexDirection: 'column',
-                    gap: '0.375rem',
-                    padding: '0.5rem 0.625rem',
+                    gap: 'xs',
+                    padding: 's',
                     boxSizing: 'border-box',
                     background: PANEL_BG_LIGHT
                 },
@@ -105,13 +104,13 @@ export default function currencyStatusDetail(statusType, keys) {
                     flex: 1,
                     minHeight: 0,
                     display: 'flex',
-                    padding: '0 .5rem',
+                    padding: '0 s',
                     flexDirection: 'column',
                     boxSizing: 'border-box',
                     background: PANEL_INNER_BG,
                     overflow: 'hidden',
                     '.br-items': {
-                        gap: '0.5rem'
+                        gap: 's'
                     }
                 },
                 '.status-detail-right': {
@@ -119,7 +118,7 @@ export default function currencyStatusDetail(statusType, keys) {
                     minWidth: 0,
                     display: 'flex',
                     flexDirection: 'column',
-                    gap: '0.75rem',
+                    gap: 'm',
                     minHeight: 0
                 },
                 '.status-detail-chart-panel': {
@@ -127,11 +126,11 @@ export default function currencyStatusDetail(statusType, keys) {
                     minHeight: '9rem',
                     display: 'flex',
                     flexDirection: 'column',
-                    gap: '0.375rem',
-                    padding: '0.5rem',
+                    gap: 'xs',
+                    padding: 's',
                     boxSizing: 'border-box',
-                    borderRadius: '0.375rem',
-                    border: `1px solid ${PANEL_BORDER}`,
+                    borderRadius: 's',
+                    border: `s solid ${PANEL_BORDER}`,
                     background: PANEL_BG,
                     overflow: 'hidden'
                 },
@@ -140,10 +139,10 @@ export default function currencyStatusDetail(statusType, keys) {
                     flexWrap: 'wrap',
                     alignItems: 'center',
                     justifyContent: 'space-between',
-                    gap: '0.375rem',
-                    padding: '0.375rem 0.5rem',
+                    gap: 'xs',
+                    padding: 'xs s',
                     boxSizing: 'border-box',
-                    borderRadius: '0.25rem',
+                    borderRadius: 'xs',
                     background: PANEL_BG_LIGHT
                 },
                 '.status-detail-chart-content': {
@@ -151,9 +150,9 @@ export default function currencyStatusDetail(statusType, keys) {
                     minHeight: 0,
                     display: 'flex',
                     flexDirection: 'column',
-                    padding: '0.25rem',
+                    padding: 'xs',
                     boxSizing: 'border-box',
-                    borderRadius: '0.25rem',
+                    borderRadius: 'xs',
                     background: PANEL_INNER_BG
                 },
                 '.status-detail-table-panel': {
@@ -165,8 +164,8 @@ export default function currencyStatusDetail(statusType, keys) {
                     overflow: 'hidden',
                     padding: 0,
                     boxSizing: 'border-box',
-                    borderRadius: '0.375rem',
-                    border: `1px solid ${PANEL_BORDER}`,
+                    borderRadius: 's',
+                    border: `s solid ${PANEL_BORDER}`,
                     background: PANEL_BG
                 },
                 '.status-detail-table-body': {
@@ -228,7 +227,7 @@ export default function currencyStatusDetail(statusType, keys) {
                                                 cap: '查询',
                                                 icon: 'search',
                                                 class: 'jam-cta',
-                                                styles: [Styles.searchBtnsStyles, 'css(flex:none;margin:0 0 0 0.375rem)'],
+                                                styles: [Styles.searchBtnsStyles, 'css(flex:none;margin:0 0 0 xs)'],
                                                 onclick() {
                                                     _modal.loadBranchList();
                                                 }

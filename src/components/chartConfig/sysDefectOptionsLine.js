@@ -1,13 +1,13 @@
 export function sysDefectOptionsLine(xData, yData) {
     return {
-        color: ['#3B85FE'],
+        color: [jam.acToken[0]()],
         tooltip: {
             trigger: 'axis',
             backgroundColor: 'rgba(15, 32, 50,0.8)',
-            borderColor: '#2e3e54',
+            borderColor: Tokens.color.outline.subtle,
             axisPointer: {
                 lineStyle: {
-                    color: '#2e3e54',
+                    color: Tokens.color.outline.subtle,
                     type: 'solid',
                     width: 2
                 },
@@ -17,11 +17,11 @@ export function sysDefectOptionsLine(xData, yData) {
                 let str = '';
                 params.forEach((item, index) => {
                     if (index === 0) {
-                        str += `<div style="color:#fff">${item.axisValueLabel}</div>`;
+                        str += `<div style="color:${Tokens.color.fg.default}">${item.axisValueLabel}</div>`;
                     }
                     str += `<div style="display:flex;align-items:center">
                   <div style="height:3px;width:10px;background-color:${item.color}"></div>
-                  <div style="margin-left:5px;width:65px;color:#799eb4">${item.seriesName}</div>
+                  <div style="margin-left:5px;width:65px;color:${Tokens.color.fg.muted}">${item.seriesName}</div>
                   <span style="color:${item.color};font-weight:bold;font-size:18px">${item.value}</span>
               </div>`;
                 });
@@ -40,7 +40,7 @@ export function sysDefectOptionsLine(xData, yData) {
             data: xData,
             axisLine: {
                 lineStyle: {
-                    color: 'hsla(217.5, 20%, 39.2%, 0.8)'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisTick: {
@@ -50,11 +50,11 @@ export function sysDefectOptionsLine(xData, yData) {
                 show: true,
                 lineStyle: {
                     type: 'dotted',
-                    color: 'hsl(0deg 0% 85.1%,0.15)'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisLabel: {
-                color: 'hsl(201.6, 33.3%, 64.1%)'
+                color: Tokens.color.fg.muted
             }
         },
         yAxis: {
@@ -62,22 +62,22 @@ export function sysDefectOptionsLine(xData, yData) {
             name: '个',
             minInterval: 1,
             nameTextStyle: {
-                color: 'hsl(201.6, 33.3%, 64.1%)'
+                color: Tokens.color.fg.muted
             },
             axisLine: {
                 show: true,
                 lineStyle: {
-                    color: 'hsla(217.5, 20%, 39.2%, 0.8)'
+                    color: Tokens.color.outline.subtle
                 }
             },
             splitLine: {
                 lineStyle: {
                     type: 'dotted',
-                    color: 'hsl(0deg 0% 85.1%,0.15)'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisLabel: {
-                color: 'hsl(201.6, 33.3%, 64.1%)'
+                color: Tokens.color.fg.muted
             }
         },
         series: [

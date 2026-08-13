@@ -24,7 +24,7 @@ export default {
                 height: 'calc(100% - 1rem)',
                 display: 'flex',
                 'flex-wrap': 'wrap',
-                border: `1px solid ${jam.ac(0.99, 0.95, 0.6, jam.acLumiO(30))}`
+                border: 's solid var(--jam-color-primary-subtle)' 
             },
             '.staicesItem': {
                 width: '50%',

@@ -38,7 +38,7 @@ const powerAssuranceWindow = (params) => {
                                 justifyContent: 'flex-start'
                             },
                             '.form_item': {
-                                marginBottom: '0.625rem',
+                                marginBottom: 's',
                                 '--jam-agent-width': '11.25rem',
                                 display: 'flex'
                             },
@@ -50,7 +50,7 @@ const powerAssuranceWindow = (params) => {
                             alignItems: 'flex-start'
                         },
                         '.editIcon': {
-                            marginLeft: '1rem',
+                            marginLeft: 'm',
                             cursor: 'pointer',
                             color: 'transparent'
                         },
@@ -60,24 +60,24 @@ const powerAssuranceWindow = (params) => {
                             overflowY: 'auto',
                             justifyContent: 'space-between',
                             flexWrap: 'wrap',
-                            borderRadius: '0.4rem',
-                            border: '1px solid',
-                            borderColor: jam.ac(1, 0.25, 0.61),
+                            borderRadius: 's',
+                            border: 's solid',
+                            borderColor: 'var(--jam-color-outline-muted)',
                             minHeight: '4.8rem',
                             maxHeight: '10rem',
-                            padding: '0.625rem',
+                            padding: 's',
                             'jam-button': {
                                 marginLeft: 0
                             },
                             'jam-label': {
-                                padding: '1rem',
+                                padding: 'm',
                                 borderRadius: 0,
-                                border: '1px solid',
+                                border: 's solid',
                                 height: '2rem',
-                                marginRight: '.625rem',
-                                fontSize: '0.875rem',
-                                marginBottom: '0.625rem',
-                                borderColor: jam.ac(1, 1, 1),
+                                marginRight: 's',
+                                fontSize: 's',
+                                marginBottom: 's',
+                                borderColor: 'var(--jam-color-outline-subtle)',
                                 background: 'transparent'
                             },
                             '.wrapper slot[name=tag]': {
@@ -97,7 +97,7 @@ const powerAssuranceWindow = (params) => {
                                 styles: [
                                     Styles.input.regularStyleDiff,
                                     Styles.input.agent.css({
-                                        borderColor: jam.ac(1, 0.25, 0.61),
+                                        borderColor: 'var(--jam-color-outline-muted)',
                                         width: '11.25rem'
                                     })
                                 ],
@@ -115,7 +115,7 @@ const powerAssuranceWindow = (params) => {
                             //     styles: [
                             //         Styles.select.regularStyleDiff,
                             //         Styles.select.agent.css({
-                            //             background: jam.ac(1.01, 0.598, 0.52, jam.lumiO(30))
+                            //             background: tint
                             //         })
                             //     ],
                             //     cap: '保电类型:',
@@ -135,7 +135,7 @@ const powerAssuranceWindow = (params) => {
                                     Styles.input.regularStyleDiff,
                                     Styles.input.agent.css({
                                         width: '11.25rem',
-                                        borderColor: jam.ac(1, 0.25, 0.61)
+                                        borderColor: 'var(--jam-color-outline-muted)'
                                     })
                                 ],
                                 cap: '用户名称：',
@@ -154,7 +154,7 @@ const powerAssuranceWindow = (params) => {
                                     Styles.input.regularStyleDiff,
                                     Styles.input.agent.css({
                                         width: '11.25rem',
-                                        borderColor: jam.ac(1, 0.25, 0.61)
+                                        borderColor: 'var(--jam-color-outline-muted)'
                                     })
                                 ],
                                 cap: '活动名称：',
@@ -325,7 +325,7 @@ const powerAssuranceWindow = (params) => {
                                         styles: [
                                             Styles.input.regularStyleDiff,
                                             Styles.input.agent.css({
-                                                borderColor: jam.ac(1, 0.25, 0.61),
+                                                borderColor: 'var(--jam-color-outline-muted)',
                                                 width: '100%'
                                             })
                                         ],
@@ -340,10 +340,10 @@ const powerAssuranceWindow = (params) => {
                                         type: 'filterSelect',
                                         id: '"brk" + {{item.id}}',
                                         styles: [
-                                            'props(marginLeft:1rem)',
+                                            'props(marginLeft:m)',
                                             Styles.input.regularStyleDiff,
                                             Styles.input.agent.css({
-                                                borderColor: jam.ac(1, 0.25, 0.61),
+                                                borderColor: 'var(--jam-color-outline-muted)',
                                                 width: '100%'
                                             })
                                         ],

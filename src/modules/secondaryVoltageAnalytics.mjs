@@ -1,4 +1,3 @@
-import { COLOR_SET, hslaToJamAc } from '../utils/Constants.js';
 import { ajaxCall, getDetailConf, findCol, formatterJameTime, exportExcel } from '../common.js';
 import { getSubAreaListData, getBvList, getSubstationList } from '../utils/commonList.js';
 import newModal from './../components/newModal.js';
@@ -22,17 +21,17 @@ const voltageMap = {
 export default {
     type: 'wrapper',
     styles: [
-        'css(--gap:.75rem)',
+        'css(--gap:var(--jam-space-m))',
         'padding(var(--gap))',
         'flex(direction: column)',
-        `background(color:${COLOR_SET.modulebgclr})`,
+        'with.elevation',
         'padding(bottom:0)',
         'layout(overflow:hidden auto)',
         'size.fullsize',
         Styles.stylesheet({
             '.text-value': {
                 justifyContent: 'flex-end',
-                fontSize: '0.875rem',
+                fontSize: 's',
                 fontWeight: 'bold',
                 fontFamily: 'DINPro',
                 color: 'hsl(195.3, 100%, 56.1%)'
@@ -112,11 +111,11 @@ export default {
                                 Styles.stylesheet({
                                     ':scope': {},
                                     '.ml-_625rem': {
-                                        marginLeft: '.625rem'
+                                        marginLeft: 'm'
                                     }
                                 })
                             ],
-                            childStyles: ['datepicker.agent.border(radius:.25rem)'],
+                            childStyles: ['datepicker.agent.border(radius:s)'],
                             datepickerStyles: ['padding(top:0;bottom:0)', 'datepicker.labelslot.margin(0)'],
                             buttonStyles: [Styles.searchBtnsStyles],
                             components: [
@@ -132,7 +131,7 @@ export default {
                                 {
                                     type: 'filterSelect',
                                     styles: ['size(maxWidth:11.5rem)', 'padding(top:0;bottom:0)'],
-                                    childStyles: ['size(minWidth:11.5rem)', 'input.agent.border(radius:.25rem)', 'input.labelslot.margin(0)', 'padding(0)'],
+                                    childStyles: ['size(minWidth:11.5rem)', 'input.agent.border(radius:s)', 'input.labelslot.margin(0)', 'padding(0)'],
                                     valueKey: 'stId',
                                     props: { cap: '变电站：', placeholder: '请选择', data: '{{stList}}', icon: 'transformer-bolt', search: '{{name}}', select: '{{stId}}' },
                                     watchers: [
@@ -174,7 +173,7 @@ export default {
                         'size(width:55%;height:100%)',
                         'layout(overflow:hidden;position:relative;)',
                         'layout.flex(alignItems:center;justifyContent:flex-start;alignContent:center)',
-                        `background(image:linear-gradient(180deg, ${COLOR_SET.gradientbgclr_deep} 0%, ${COLOR_SET.gradientbgclr_light} 100%))`,
+                        'background(image:linear-gradient(180deg, var(--jam-color-primary-subtle) 0%, var(--jam-color-primary-film) 100%))',
                         'margin(left:var(--gap))',
                         Styles.stylesheet({
                             ':scope': {
@@ -190,8 +189,8 @@ export default {
                             cap: '各市告警状态详情',
                             styles: [
                                 'size(height:11.125rem;width:var(--title-width))',
-                                `cap.css(width:1.6rem;height:max-content;padding:0 .4rem;fontWeight:bold;line-height:1.2;top:1rem;background-color:transparent;background-image:linear-gradient(-90deg, ${hslaToJamAc('hsl(204, 100%, 50%)')} 0%, ${hslaToJamAc('hsl(0,0%,100%)')} 100%);color:transparent;backgroundClip:text;)`,
-                                'margin(left:1rem)',
+                                'cap.css(width:1.6rem;height:max-content;padding:0 s;fontWeight:bold;line-height:1.2;top:1rem;background-color:transparent;background-image:linear-gradient(-90deg, var(--jam-color-primary-default) 0%, var(--jam-color-on-primary) 100%);color:transparent;backgroundClip:text;)',
+                                'margin(left:m)',
                                 'background(image:url(./assets/images/chart_title.png);size:100% 100%)',
                                 Styles.stylesheet({
                                     ':scope': {
@@ -213,10 +212,10 @@ export default {
                                     components: [
                                         {
                                             type: 'wrapper',
-                                            styles: ['padding(0 1rem)', 'css(marginTop:1rem)', 'layout.flex(justifyContent:space-between;alignItems:center)'],
+                                            styles: ['padding(0 m)', 'css(marginTop:m)', 'layout.flex(justifyContent:space-between;alignItems:center)'],
                                             descStyles: {
                                                 label: [
-                                                    'text(size:.875rem;)',
+                                                    'text(size:s;)',
                                                     Styles.stylesheet({
                                                         '.title-color': {
                                                             // color: jam.ac(0.95, 1, jam.lumiL(40))
@@ -511,7 +510,7 @@ export default {
                                                             styles: [
                                                                 Styles.label.css({
                                                                     color: 'hsl(200.8, 56.3%, 82.9%)',
-                                                                    fontSize: '0.875rem',
+                                                                    fontSize: 's',
                                                                     fontFamily: 'SourceHanSansCN'
                                                                 })
                                                             ],
@@ -528,7 +527,7 @@ export default {
                                                             styles: [
                                                                 Styles.label.css({
                                                                     color: 'hsl(200.8, 56.3%, 82.9%)',
-                                                                    fontSize: '0.75rem',
+                                                                    fontSize: 's',
                                                                     fontFamily: 'SourceHanSansCN'
                                                                 })
                                                             ]
@@ -542,7 +541,7 @@ export default {
                                                 jame({
                                                     type: 'wrapper',
                                                     // labelStyles: ['cap.css(padding:.25rem .45rem;borderRadius:1.25rem;backgroundColor:var(--bg-clr);color:var(--txt-clr);)'],
-                                                    styles: ['layout.flex(direction:column;wrap:nowrap;)', 'css(width:10rem;background: hsla(203.4, 57.1%, 22%, 0.85);border: 1px solid hsla(195.3, 100%, 56.1%, 0.5);backdropFilter: blur(5px);boxShadow: 2px 2px 4px 0px hsla(204.4, 100%, 11.6%, 0.3);)'],
+                                                    styles: ['layout.flex(direction:column;wrap:nowrap;)', 'css(width:10rem;background: hsla(203.4, 57.1%, 22%, 0.85);border: s solid hsla(195.3, 100%, 56.1%, 0.5);backdropFilter: blur(5px);boxShadow: 2px 2px 4px 0px hsla(204.4, 100%, 11.6%, 0.3);)'],
                                                     components: [
                                                         {
                                                             type: 'label',
@@ -551,11 +550,11 @@ export default {
                                                                 Styles.css({
                                                                     width: '100%',
                                                                     justifyContent: 'center',
-                                                                    borderBottom: '1px solid hsl(203,39%,27%)'
+                                                                    borderBottom: 's solid hsl(203,39%,27%)'
                                                                 }),
                                                                 Styles.label.css({
                                                                     color: 'hsl(200.8, 56.3%, 82.9%)',
-                                                                    fontSize: '0.875rem',
+                                                                    fontSize: 's',
                                                                     fontWeight: 'bold',
                                                                     fontFamily: 'SourceHanSansCN'
                                                                 })
@@ -624,7 +623,7 @@ export default {
                                                             styles: [
                                                                 Styles.label.css({
                                                                     color: 'hsl(200.8, 56.3%, 82.9%)',
-                                                                    fontSize: '0.875rem',
+                                                                    fontSize: 's',
                                                                     fontFamily: 'SourceHanSansCN'
                                                                 })
                                                             ],
@@ -641,7 +640,7 @@ export default {
                                                             styles: [
                                                                 Styles.label.css({
                                                                     color: 'hsl(200.8, 56.3%, 82.9%)',
-                                                                    fontSize: '0.75rem',
+                                                                    fontSize: 's',
                                                                     fontFamily: 'SourceHanSansCN'
                                                                 })
                                                             ]
@@ -655,7 +654,7 @@ export default {
                                                 jame({
                                                     type: 'wrapper',
                                                     // labelStyles: ['cap.css(padding:.25rem .45rem;borderRadius:1.25rem;backgroundColor:var(--bg-clr);color:var(--txt-clr);)'],
-                                                    styles: ['layout.flex(direction:column;wrap:nowrap;)', 'css(width:10rem;background: hsla(203.4, 57.1%, 22%, 0.85);border: 1px solid hsla(195.3, 100%, 56.1%, 0.5);backdropFilter: blur(5px);boxShadow: 2px 2px 4px 0px hsla(204.4, 100%, 11.6%, 0.3);)'],
+                                                    styles: ['layout.flex(direction:column;wrap:nowrap;)', 'css(width:10rem;background: hsla(203.4, 57.1%, 22%, 0.85);border: s solid hsla(195.3, 100%, 56.1%, 0.5);backdropFilter: blur(5px);boxShadow: 2px 2px 4px 0px hsla(204.4, 100%, 11.6%, 0.3);)'],
                                                     components: [
                                                         {
                                                             type: 'label',
@@ -664,11 +663,11 @@ export default {
                                                                 Styles.css({
                                                                     width: '100%',
                                                                     justifyContent: 'center',
-                                                                    borderBottom: '1px solid hsl(203,39%,27%)'
+                                                                    borderBottom: 's solid hsl(203,39%,27%)'
                                                                 }),
                                                                 Styles.label.css({
                                                                     color: 'hsl(200.8, 56.3%, 82.9%)',
-                                                                    fontSize: '0.875rem',
+                                                                    fontSize: 's',
                                                                     fontWeight: 'bold',
                                                                     fontFamily: 'SourceHanSansCN'
                                                                 })

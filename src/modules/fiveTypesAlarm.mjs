@@ -1,4 +1,3 @@
-import { COLOR_SET } from '../utils/Constants.js';
 import { formatterJameTime, loadConf } from '../common.js';
 import { urlConfig, mockPath } from '../global.js';
 let _model, _msgr;

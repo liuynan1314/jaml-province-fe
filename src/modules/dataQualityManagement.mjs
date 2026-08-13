@@ -20,7 +20,7 @@ export default {
         Styles.css({
             display: 'flex',
             flexDirection: 'column',
-            fontSize: '1.1rem',
+            fontSize: 'm',
             overflowY: 'auto'
             // backgroundImage: 'url(../../common/img/dataQualityManagement/bg_right.png)',
             // backgroundSize: '100% 100%',
@@ -45,7 +45,7 @@ export default {
                 Styles.css({
                     display: 'flex',
                     height: 'initial',
-                    gap: '0.1rem',
+                    gap: 's',
                     alignItems: 'flex-start'
                 })
             ],
@@ -73,8 +73,8 @@ export default {
                                 }),
                                 Styles.buttongroup.labelslot.css({
                                     alignSelf: 'flex-start',
-                                    fontSize: '1rem',
-                                    margin: '0.5rem 0.25rem'
+                                    fontSize: 'm',
+                                    margin: 's s'
                                 })
                             ]
                         }
@@ -107,7 +107,7 @@ export default {
                                     styles: [
                                         Styles.capStyle,
                                         Styles.datepicker.cap.css({
-                                            fontSize: '1rem'
+                                            fontSize: 'm'
                                         }),
                                         Styles.connectLine,
                                         Styles.css({
@@ -267,7 +267,7 @@ export default {
                     display: 'flex',
                     alignContent: 'flex-start',
                     overflowX: 'auto',
-                    margin: '0.5rem 0',
+                    margin: 's 0',
                     minHeight: '20.21rem'
                 })
             ]

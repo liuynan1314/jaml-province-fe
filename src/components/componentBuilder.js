@@ -39,8 +39,8 @@ const topLegendStyle = [
         paddingBottom: '0'
     }),
     Styles.indicator.value.css({
-        fontSize: '1.125rem',
-        color: jam.ac(1, 1, jam.lumiO(22)),
+        fontSize: 'l',
+        color: 'var(--jam-color-primary-default)',
         fontWeight: 'bold',
         fontFamily: 'DINPro',
         cursor: 'pointer'
@@ -161,21 +161,22 @@ export function buildTable({ cap, icon, dataDef, dataKey = 'data', getReqParams,
         type: 'wrapper',
         cap: cap,
         icon: icon,
-        styles: [Styles.tableStyles, Styles.iconslot.css({ display: 'none' }), Styles.capslot.css({ display: 'none' }), 'size.fullsize', 'padding(0)'],
+        styles: [Styles.tableStyles, Styles.iconslot.css({ display: 'none' }), Styles.capslot.css({ display: 'none' }), 'size.fullsize', 'padding(0)', Styles.css({ position: 'relative' })],
         components: [
             {
-                type: 'loading'
+                type: 'loading',
+                styles: ['loading.basic', 'size(width:100% !important;height:100% !important)']
             },
             {
                 type: 'tableWithPage',
                 ...args,
-                styles: [...tableStyles, Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.size.fullsize, Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
+                styles: ['tableWithPage.basic', ...tableStyles, Styles.hover.toShowAll({ selector: '.jam-td' }), Styles.size.fullsize, Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
                 descStyles: {
                     '.item-time': [Styles.badge.cap.css({ width: '5em' }), Styles.badge.content.css({ width: '5em' })],
                     '.item-tag': ['indicator.cap.hide()'],
                     '.item-content': ['css(overflow:hidden;white-space:nowrap;text-overflow:ellipsis)'],
                     '.item-indicator': ['indicator.cap.hide()', 'indicator.value.css(justify-content:flex-end)'],
-                    '.item-clickable': [`css(color:${jam.ac({ l: '60%' })};textDecoration:underline;cursor:pointer)`]
+                    '.item-clickable': ['css(color:var(--jam-color-primary-default);textDecoration:underline;cursor:pointer)']
                 },
                 props: {
                     cpageHide: {
@@ -256,12 +257,19 @@ export function buildBasicTable({ cap, icon, dataDef, dataKey = 'data', getReqPa
         type: 'wrapper',
         cap: cap,
         icon: icon,
-        styles: [Styles.tableStyles, Styles.iconslot.css({ display: 'none' }), Styles.capslot.css({ display: 'none' }), 'size.fullsize', 'padding(0)'],
+        styles: [Styles.tableStyles, Styles.iconslot.css({ display: 'none' }), Styles.capslot.css({ display: 'none' }), 'size.fullsize', 'padding(0)', Styles.css({ position: 'relative' })],
         components: [
-            ...(hasRequest ? [{ type: 'loading' }] : []),
+            ...(hasRequest
+                ? [
+                      {
+                          type: 'loading',
+                          styles: ['loading.basic', 'size(width:100% !important;height:100% !important)']
+                      }
+                  ]
+                : []),
             {
                 type: 'basicTable',
-                styles: [Styles.hover.toShowAll({ selector: '.jam-td:not(.viewButtons)' }), ..._scorllStyle, Styles.size.fullsize, Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
+                styles: ['basicTable.basic', Styles.hover.toShowAll({ selector: '.jam-td:not(.viewButtons)' }), ..._scorllStyle, Styles.size.fullsize, Styles.css({ padding: 0 }), 'table.th.css(whiteSpace:nowrap;minHeight:2.5rem;)'],
                 descStyles: {
                     '.item-time': [Styles.badge.cap.css({ width: '5em' }), Styles.badge.content.css({ width: '5em' })],
                     '.item-tag': ['indicator.cap.hide()'],
@@ -390,7 +398,7 @@ export function buildBarChartWithTabs({ cap, icon, tabs, unit, urlKey }) {
                         components: [
                             {
                                 type: 'stripyBarChart',
-                                styles: [Styles.size.fullsize],
+                                styles: ['stripyBarChart.basic', Styles.size.fullsize],
                                 props: {
                                     unit: unit
                                 },

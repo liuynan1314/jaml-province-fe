@@ -3,7 +3,6 @@ import bvListSelect from './registerCards/select/bvListSelect.mjs';
 import dateRangePicker from './registerCards/dateRange/dateRangePicker.mjs';
 import stationSelect from './registerCards/select/stationSelect.mjs';
 import searchBtns from './registerCards/buttons/searchBtns.mjs';
-import { COLOR_SET, hslaToJamAc } from '../utils/Constants.js';
 import { formatterJameBv, getDetailConf } from '../common.js';
 import { buildTable } from '../components/componentBuilder.js';
 import { urlConfig, mockPath } from '../global.js';

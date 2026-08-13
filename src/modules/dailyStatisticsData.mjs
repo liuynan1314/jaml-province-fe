@@ -1,4 +1,3 @@
-import { COLOR_SET } from '../utils/Constants.js';
 import { ajaxCall, findCol, formatterJameTime, formatterJameBv } from '../common.js';
 import { getRegionList, getBvList, getSubstationList } from '../utils/commonList.js';
 import dailyStatisticsDetailWindow from '../components/modal/dailyStatisticsDetailWindow.js';
@@ -95,22 +94,20 @@ const dataDefs = [
             sortable: false,
             key: 'devType',
             formatter(value) {
-                let _color = jam.getColor('primary').css();
+                let _color = 'primary';
                 let _name = '并联电容';
                 if (value == 2) {
-                    _color = jam.getColor('warn').css();
+                    _color = 'warn';
                     _name = '并联电抗';
                 }
                 return jame({
                     type: 'label',
                     cap: _name,
+                    color: _color,
                     styles: [
-                        Styles.css({
-                            backgroundColor: jam.adjustColor(_color, { a: 0.2 }),
-                            border: `1px solid ${_color}`
-                        }),
+                        'with.tint',
+                        'border.s',
                         Styles.label.cap.css({
-                            color: _color,
                             textAlign: 'left'
                         })
                     ]
@@ -121,7 +118,7 @@ const dataDefs = [
             cap: '使用率',
             type: 'progress',
             key: 'usageRate',
-            styles: [Styles.progress.agent.css({ cursor: 'pointer' }), `color.stateMap(high:${jam.getColor('info')};mid:${jam.getColor('warn')};low:${jam.getColor('error')};)`],
+            styles: [Styles.progress.agent.css({ cursor: 'pointer' }), 'color.stateMap(high:info;mid:warn;low:error)'],
             valueStates: {
                 high: 'value>=0.8',
                 mid: 'value>0.4',
@@ -317,28 +314,28 @@ const dataDefs = [
             key: 'limitType',
             width: '9%',
             formatter(value) {
-                let _color = jam.getColor('primary').css();
+                let _color = 'primary';
                 let _name = '越上限';
                 if (value == 0) {
-                    _color = jam.getColor('danger').css();
+                    _color = 'danger';
                     _name = '双向越限';
                 } else if (value == 2) {
-                    _color = jam.getColor('warn').css();
+                    _color = 'warn';
                     _name = '越下限';
                 }
                 return jame({
                     type: 'label',
                     cap: _name,
-                    icon: `<div style="width:0.625rem;min-width:0.625rem;height:0.625rem;min-height:0.625rem;border-radius:50%;background:${_color}"><div>`,
+                    color: _color,
+                    icon: `<div style="width:0.625rem;min-width:0.625rem;height:0.625rem;min-height:0.625rem;border-radius:50%;background:${jam.getColor(_color).hex()}"><div>`,
                     styles: [
                         Styles.icon.duotone,
+                        'with.tint',
                         Styles.css({
-                            padding: '0.2rem 0.5rem',
-                            backgroundColor: jam.adjustColor(_color, { a: 0.2 }),
-                            borderRadius: '1rem'
+                            padding: 's',
+                            borderRadius: 'l'
                         }),
                         Styles.label.cap.css({
-                            color: _color,
                             textAlign: 'left'
                         })
                     ]
@@ -369,7 +366,7 @@ dataDefs.forEach((item) => {
         width: '8rem',
         formatter(uuid) {
             const _id = this.col(1);
-            const _styles = [`color(${jam.ac({ l: 2 })})`, `css(marginLeft:.625rem;padding:0 .625rem;backgroundColor:${jam.ac({ l: 0.5 })};border:1px solid ${jam.ac({ l: 1 })};cursor: pointer;text-underline-offset:.2rem;transition:all .2s ease-in-out; )`, `hover(color:${jam.lumiText(1)}!important;)`];
+            const _styles = ['color.primary', 'with.tint', 'border.subtle', 'border.s', 'css(marginLeft:m;padding:0 s;cursor: pointer;text-underline-offset:.2rem;transition:all .2s ease-in-out; )', 'hover(color:var(--jam-color-fg-default)!important;)'];
             return jame({
                 type: 'container',
                 components: [
@@ -416,7 +413,7 @@ export default {
             width: '100%',
             height: '100%',
             flexDirection: 'column',
-            backgroundColor: `${COLOR_SET.modulebgclr}`,
+            background: 'elevation',
             overflow: 'hidden'
         }),
         Styles.stylesheet({
@@ -473,14 +470,14 @@ export default {
                 {
                     type: 'wrapper',
                     class: 'btnContent',
-                    childStyles: ['datepicker.agent.border(radius:.25rem)'],
+                    childStyles: ['datepicker.agent.border(radius:s)'],
                     datepickerStyles: ['padding(top:0;bottom:0)', 'datepicker.labelslot.margin(0)'],
                     buttonStyles: [Styles.searchBtnsStyles],
                     components: [
                         {
                             type: 'filterSelect',
                             styles: ['size(maxWidth:14.5rem)', 'padding(top:0;bottom:0)'],
-                            childStyles: ['size(minWidth:14.5rem)', 'input.agent.border(radius:.25rem)', 'input.labelslot.margin(0)', 'padding(0)'],
+                            childStyles: ['size(minWidth:14.5rem)', 'input.agent.border(radius:s)', 'input.labelslot.margin(0)', 'padding(0)'],
                             valueKey: 'stId',
                             props: { cap: '变电站：', placeholder: '请选择', data: '{{stList}}', icon: 'transformer-bolt', search: '{{name}}', select: '{{stId}}' },
                             watchers: [
@@ -724,35 +721,33 @@ function packageParams() {
 }
 
 function uploadFormatter(value) {
-    let _bgColor = jam.getColor('warn').css();
+    let _color = 'warn';
     let _icon = 'triangle-exclamation';
     let title = uploadStatusList[value]?.name;
     if (value == 1) {
-        _bgColor = jam.getColor('success').css();
+        _color = 'success';
         _icon = 'octagon-check';
     } else if (value == 2) {
-        _bgColor = jam.getColor('error').css();
+        _color = 'error';
         _icon = 'circle-xmark';
     }
     return jame({
         type: 'label',
         icon: _icon,
         cap: title ?? '--',
+        color: _color,
         styles: [
             Styles.css({
-                fontSize: '0.875rem',
-                padding: '0.125rem 0.375rem',
-                borderRadius: '0.25rem',
+                fontSize: 's',
+                padding: 's',
+                borderRadius: 's',
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: 'center',
-                // backgroundColor: _bgColor,
-                color: _bgColor
+                justifyContent: 'center'
             }),
-            Styles.vars({ '--icon-color': _bgColor }),
             Styles.stylesheet({
                 '[slot=icon] i': {
-                    '--stroke-color': 'var(--icon-color) !important'
+                    '--stroke-color': 'var(--jam-element-color) !important'
                 }
             })
         ]

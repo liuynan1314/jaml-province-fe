@@ -39,7 +39,7 @@ export default {
         Styles.css({
             display: 'flex',
             flexDirection: 'column',
-            fontSize: '1.1rem',
+            fontSize: 'm',
             minHeight: '0',
             paddingRight: '1rem'
         })
@@ -63,7 +63,7 @@ export default {
                         Styles.css({
                             display: 'flex',
                             height: 'initial',
-                            gap: '0.1rem',
+                            gap: 's',
                             alignItems: 'flex-start',
                             width: '100%',
                             alignItems: 'flex-start',
@@ -83,8 +83,8 @@ export default {
                                 }),
                                 Styles.buttongroup.labelslot.css({
                                     alignSelf: 'flex-start',
-                                    fontSize: '1.1rem',
-                                    margin: '0.5rem 0.25rem'
+                                    fontSize: 'm',
+                                    margin: 's'
                                 })
                             ],
                             value: null
@@ -94,7 +94,7 @@ export default {
                 {
                     type: 'filterSelect',
                     styles: ['size(maxWidth:19.5rem)', 'padding(top:0;bottom:0)'],
-                    childStyles: ['size(minWidth:19.5rem)', 'input.agent.border(radius:.25rem)', 'input.agent.css(height:1.8rem)', 'input.labelslot.margin(0)'],
+                    childStyles: ['size(minWidth:19.5rem)', 'input.agent.border(radius:s)', 'input.agent.css(height:1.8rem)', 'input.labelslot.margin(0)'],
                     valueKey: 'stId',
                     props: { cap: '变电站：', placeholder: '请选择', data: '{{stList}}', search: '{{stName}}', select: '{{stId}}', icon: 'transformer-bolt' },
                     watchers: {
@@ -110,7 +110,7 @@ export default {
                     styles: [
                         Styles.select.regularStyle,
                         Styles.select.cap.css({
-                            fontSize: '1.1rem'
+                            fontSize: 'm'
                         })
                     ],
                     icon: 'list',
@@ -123,7 +123,7 @@ export default {
                     styles: [
                         Styles.input.regularStyle,
                         Styles.input.cap.css({
-                            fontSize: '1.1rem'
+                            fontSize: 'm'
                         })
                     ],
                     icon: 'mobile-button',
@@ -180,7 +180,7 @@ export default {
                             width: '100%',
                             height: 'calc(100% - 3rem)',
                             padding: 0,
-                            margin: '0.6rem auto'
+                            margin: 's auto'
                         })
                     ],
                     dataDef: [
@@ -302,7 +302,7 @@ export default {
                             alignItems: 'center',
                             width: '100%',
                             height: '100%',
-                            backgroundColor: jam.ac(1, 1, 1, 0.1),
+                            backgroundColor: 'var(--jam-color-primary-film)',
                             position: 'absolute',
                             left: 0,
                             right: 0,
@@ -315,7 +315,7 @@ export default {
                             cap: '数据加载中...',
                             styles: [
                                 Styles.css({
-                                    fontSize: '2.5rem'
+                                    fontSize: 'l'
                                 })
                             ],
                             components: [
@@ -331,8 +331,8 @@ export default {
                                             dropShadow: true,
                                             cometFrom: 180,
                                             cometLength: 90,
-                                            tailColor: jam.ac('+ 30', 2, jam.lumiO(35), 0.5),
-                                            headColor: jam.ac(1, 1, jam.lumiO(25)),
+                                            tailColor: 'var(--jam-color-primary-subtle)',
+                                            headColor: 'var(--jam-color-primary-default)',
                                             roundHead: true,
                                             roundTail: true,
                                             outer: 100,

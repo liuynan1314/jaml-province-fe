@@ -1,5 +1,4 @@
 import { ajaxCall } from '../common.js';
-import { hslaToJamAc } from '../utils/Constants.js';
 let _model,
     _msgr = null;
 const beginTime = moment().format('YYYY-MM-01 00:00:00');
@@ -72,7 +71,7 @@ function onRenderBarChart() {
                     value__.push(v.num || 0);
                 });
                 console.log(maxNum, maxNumName);
-                const _eventTitle = `<div style="padding-left:0.8rem;">事件化跳闸告警以<span style="color:${hslaToJamAc('hsl(195.3, 100%, 56.1%)')}">${maxNumName}</span>数量最多，<span style="color:${hslaToJamAc('hsl(195.3, 100%, 56.1%)')}">${minNumName}</span>数量最少</div>`;
+                const _eventTitle = `<div style="padding-left:var(--jam-space-m);">事件化跳闸告警以<span style="color:var(--jam-color-primary-default)">${maxNumName}</span>数量最多，<span style="color:var(--jam-color-primary-default)">${minNumName}</span>数量最少</div>`;
                 _msgr.pub('_eventTitle', _eventTitle);
                 const barEchart = echarts.init(document.querySelector('.event-trip-alarm-box'));
                 barEchart.setOption(setBusVolageLimitBarEcharts(name__, value__));
@@ -126,29 +125,13 @@ function setBusVolageLimitBarEcharts(xAxisData, data) {
                 distance: 12,
                 fontFamily: 'DINPro',
                 textStyle: {
-                    color: '#fff',
+                    color: Tokens.color.fg.default,
                     fontSize: 12
                 }
             },
             itemStyle: {
                 normal: {
-                    color: {
-                        type: 'linear',
-                        x: 0,
-                        x2: 0,
-                        y: 0,
-                        y2: 1,
-                        colorStops: [
-                            {
-                                offset: 0,
-                                color: 'hsl(203.4, 99.2%, 51.4%)'
-                            },
-                            {
-                                offset: 1,
-                                color: 'hsla(203.4, 99.2%, 51.4%, 0)'
-                            }
-                        ]
-                    }
+                    color: jam.toEchartsGradient(90, Tokens.color.primary.default, Tokens.color.transparent)
                 }
             }
         },
@@ -159,8 +142,8 @@ function setBusVolageLimitBarEcharts(xAxisData, data) {
             symbolOffset: [0, -2],
             z: 12,
             itemStyle: {
-                color: '#fff',
-                shadowColor: 'rgba(139,242,191,1)',
+                color: Tokens.color.fg.default,
+                shadowColor: jam.acToken[0](),
                 shadowBlur: 4
             },
             data: getSymbolData(data)
@@ -187,7 +170,7 @@ function setBusVolageLimitBarEcharts(xAxisData, data) {
             data: xAxisData,
             axisLine: {
                 lineStyle: {
-                    color: 'hsl(201.6, 33.3%, 64.1%)'
+                    color: Tokens.color.fg.muted
                 }
             },
             splitLine: {
@@ -197,7 +180,7 @@ function setBusVolageLimitBarEcharts(xAxisData, data) {
                 show: false
             },
             axisLabel: {
-                color: 'hsl(201.6, 33.3%, 64.1%)'
+                color: Tokens.color.fg.muted
             }
         },
         yAxis: {
@@ -206,7 +189,7 @@ function setBusVolageLimitBarEcharts(xAxisData, data) {
             nameTextStyle: {
                 align: 'left',
                 fontSize: 14,
-                color: 'hsl(201.6, 33.3%, 64.1%)',
+                color: Tokens.color.fg.muted,
                 padding: [0, 0, 0, -20]
             },
             axisLine: {
@@ -217,14 +200,14 @@ function setBusVolageLimitBarEcharts(xAxisData, data) {
                 show: true,
                 lineStyle: {
                     type: 'dashed',
-                    color: 'hsl(201.6, 33.3%, 64.1%)'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisLabel: {
                 formatter: function (value, index) {
                     return Number.isSafeInteger(value) ? value : '';
                 },
-                color: 'hsl(201.6, 33.3%, 64.1%)',
+                color: Tokens.color.fg.muted,
                 fontSize: 14
             }
         },

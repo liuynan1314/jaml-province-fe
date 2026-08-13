@@ -25,8 +25,8 @@ export default {
                     'flex-wrap': 'wrap',
                     marginTop: 'var(--gap)',
                     '.fa-clock': {
-                        '--color': `${jam.ac(0.99, 0.95, 0.6, jam.acLumiO(30))} !important`,
-                        '--stroke-color': `${jam.ac(0.99, 0.95, 0.6, jam.acLumiO(30))} !important`,
+                        '--color': 'var(--jam-color-primary-subtle) !important',
+                        '--stroke-color': 'var(--jam-color-primary-subtle) !important',
                         '--color2': `rgba(0,0,0,0) !important`,
                         marginTop: '0.2rem'
                     }
@@ -44,8 +44,8 @@ export default {
                             display: 'block',
                             minWidth: '13.2rem',
                             height: '2.25rem',
-                            color: jam.lumiText(0),
-                            fontSize: '0.875rem',
+                            color: 'var(--jam-color-fg-default)',
+                            fontSize: 's',
                             backgroundImage: 'url(./../assets/images/new/title_level.png)',
                             backgroundRepeat: 'no-repeat',
                             backgroundPosition: 'bottom var(--gap) left',
@@ -58,7 +58,7 @@ export default {
                         cursor: 'pointer',
                         'justify-content': 'center',
                         background: 'url(../../../../assets/images/new/tab_default2.png) no-repeat',
-                        color: jam.lumiText(25),
+                        color: 'muted',
                         backgroundSize: '100% 100%'
                     },
                     '.right-tab-item:hover': {
@@ -66,7 +66,7 @@ export default {
                         backgroundSize: '100% 100%'
                     },
                     '.right-tab-item.active': {
-                        color: jam.lumiText(0),
+                        color: 'var(--jam-color-fg-default)',
                         fontWeight: 'bold',
                         background: 'url(../../../../assets/images/new/tab_hover2.png) no-repeat',
                         backgroundSize: '100% 100%'
@@ -75,16 +75,16 @@ export default {
                 '.chart-bar-box': {
                     width: '100%',
                     height: '100%',
-                    border: `1px solid ${jam.ac(0.99, 0.95, 0.6, jam.acLumiO(30))}`,
+                    border: 's solid var(--jam-color-primary-subtle)',
                     'flex-direction': 'column',
                     '.chart-title': {
                         marginLeft: '3%',
                         marginRight: '5%',
                         justifyContent: 'space-between',
-                        color: jam.lumiText(1),
-                        fontSize: '0.875em',
+                        color: 'var(--jam-color-fg-default)',
+                        fontSize: 's',
                         '.title-color': {
-                            color: jam.ac(1, 1, jam.lumiO(18))
+                            color: 'primary'
                         }
                     },
                     '.chart-bar': {
@@ -99,11 +99,11 @@ export default {
                 'margin-top': '1rem',
                 '.detail-btn': {
                     cursor: 'pointer',
-                    color: jam.ac(0.95, 0.93, 0.81)
+                    color: 'primary' 
                 }
             }
         }),
-        'css(--gap:.75rem)',
+        'css(--gap:var(--jam-space-m))',
         // 'padding(var(--gap))',
         'flex(direction: column)'
     ],

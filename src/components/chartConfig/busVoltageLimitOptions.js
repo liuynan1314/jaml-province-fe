@@ -8,27 +8,12 @@ export function setBusVolageLimitBarEcharts(xAxisData, data) {
             symbolClip: true,
             itemStyle: {
                 normal: {
-                    color: {
-                        type: 'linear',
-                        x: 0,
-                        x2: 0,
-                        y: 0,
-                        y2: 1,
-                        colorStops: [
-                            {
-                                offset: 0,
-                                color: '#E7B198'
-                            },
-                            {
-                                offset: 0.5,
-                                color: '#AE5D30'
-                            },
-                            {
-                                offset: 1,
-                                color: '#9F4716'
-                            }
-                        ]
-                    }
+                    color: jam.toEchartsGradient(
+                        90,
+                        Tokens.color.primary.subtle,
+                        Tokens.color.primary.default,
+                        Tokens.color.primary.strong
+                    )
                 }
             }
         },
@@ -39,7 +24,7 @@ export function setBusVolageLimitBarEcharts(xAxisData, data) {
             symbolOffset: [0, -2],
             z: 12,
             itemStyle: {
-                color: '#EAB59D'
+                color: Tokens.color.primary.subtle
             },
             data: getSymbolData(data)
         }
@@ -56,7 +41,7 @@ export function setBusVolageLimitBarEcharts(xAxisData, data) {
         legend: {
             top: 20,
             textStyle: {
-                color: '#fff'
+                color: Tokens.color.fg.default
             },
             itemWidth: 10,
             itemHeight: 10,
@@ -76,7 +61,7 @@ export function setBusVolageLimitBarEcharts(xAxisData, data) {
                 show: true,
                 lineStyle: {
                     type: 'solid',
-                    color: '#72A4C0',
+                    color: Tokens.color.outline.subtle,
                     width: 2
                 }
             },
@@ -90,14 +75,14 @@ export function setBusVolageLimitBarEcharts(xAxisData, data) {
                 rotate: 45, // 文字倾斜角度，正值为顺时针
                 interval: 0,
                 fontSize: 14,
-                color: '#aec5e8'
+                color: Tokens.color.fg.muted
             }
         },
         yAxis: {
             show: true,
             nameTextStyle: {
                 fontSize: 14,
-                color: '#A5BCDE'
+                color: Tokens.color.fg.muted
             },
             axisLine: {
                 show: false
@@ -106,14 +91,14 @@ export function setBusVolageLimitBarEcharts(xAxisData, data) {
                 show: true,
                 lineStyle: {
                     type: 'dashed',
-                    color: '#6997ad'
+                    color: Tokens.color.outline.subtle
                 }
             },
             axisLabel: {
                 formatter: function (value, index) {
                     return Number.isSafeInteger(value) ? value : '';
                 },
-                color: '#A5BCDE',
+                color: Tokens.color.fg.muted,
                 fontSize: 14
             }
         },
@@ -133,16 +118,15 @@ function getSymbolData(datas) {
 }
 
 export function setPieEchartsData(chartData) {
-    // const colorList = ['rgb(96, 127, 229)', 'rgb(255, 0, 0)', 'rgb(72, 194, 255)', 'rgb(90, 146, 70)', '#19e5dd', '#f6c81e'];
     let colorList = [];
     const colorItem = {
-        '500kV': 'rgb(96, 127, 229)',
-        '1000kV': '#fd7783',
-        '220kV': 'rgb(255, 0, 0)',
-        '110kV': 'rgb(72, 194, 255)',
-        '35kV': 'rgb(90, 146, 70)',
-        '20kV': '#D57F7B',
-        '10kV': '#f6c81e'
+        '500kV': jam.acToken[0](),
+        '1000kV': jam.acToken[1](),
+        '220kV': jam.acToken[2](),
+        '110kV': jam.acToken[3](),
+        '35kV': jam.acToken[4](),
+        '20kV': jam.acToken[5](),
+        '10kV': jam.acToken[6]()
     };
     const sum = chartData.reduce((per, cur) => per + cur.value, 0);
     const pieData1 = [];
@@ -151,7 +135,7 @@ export function setPieEchartsData(chartData) {
         name: '',
         value: (sum / 100) * 0.5,
         itemStyle: {
-            color: 'transparent'
+            color: Tokens.color.transparent
         }
     };
     console.log('chartData', chartData);
@@ -179,13 +163,13 @@ export function setPieEchartsData(chartData) {
             y: '35%',
             itemGap: 15,
             textStyle: {
-                color: '#fff',
+                color: Tokens.color.fg.default,
                 fontSize: 36,
                 fontWeight: 'bold',
                 fontFamily: 'DOUYU-Font'
             },
             subtextStyle: {
-                color: '#f5f5f5',
+                color: Tokens.color.fg.muted,
                 fontSize: 16,
                 lineHeight: 22,
                 fontFamily: 'SourceHanSansCN-Regular'
@@ -196,7 +180,7 @@ export function setPieEchartsData(chartData) {
             show: true,
             backgroundColor: 'rgba(0, 0, 0,.8)',
             textStyle: {
-                color: '#fff'
+                color: Tokens.color.fg.default
             }
         },
         color: colorList,
@@ -223,7 +207,7 @@ export function setPieEchartsData(chartData) {
                 label: {
                     show: true,
                     position: 'inside',
-                    color: '#A7D2F5',
+                    color: Tokens.color.fg.muted,
                     opacity: 1
                 },
                 labelLine: {

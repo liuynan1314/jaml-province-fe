@@ -1,6 +1,4 @@
 export function importantUserNumChartsOptions(data) {
-    const colors = ['#94BFFF', '#165DFF', '#14C9C9'];
-
     const barData = [];
     const lineData = [];
     const xdata = [];
@@ -29,14 +27,14 @@ export function importantUserNumChartsOptions(data) {
                 },
                 axisLine: {
                     lineStyle: {
-                        color: '#1c1f23'
+                        color: Tokens.color.outline.subtle
                     }
                 },
                 axisLabel: {
                     interval: 0,
                     lineHeight: 14,
                     fontSize: 12,
-                    color: '#fff',
+                    color: Tokens.color.fg.default,
                     margin: 10
                 }
             },
@@ -48,7 +46,7 @@ export function importantUserNumChartsOptions(data) {
                 },
                 axisLine: {
                     lineStyle: {
-                        color: '#1c1f23'
+                        color: Tokens.color.outline.subtle
                     }
                 },
                 position: 'top'
@@ -59,16 +57,16 @@ export function importantUserNumChartsOptions(data) {
                 type: 'value',
                 axisLabel: {
                     formatter: '{value}',
-                    color: '#fff'
+                    color: Tokens.color.fg.default
                 },
                 axisLine: {
                     lineStyle: {
-                        color: '#1c1f23'
+                        color: Tokens.color.outline.subtle
                     }
                 },
                 splitLine: {
                     lineStyle: {
-                        color: '#e6e8ea',
+                        color: Tokens.color.outline.subtle,
                         type: 'dashed'
                     }
                 }
@@ -82,34 +80,19 @@ export function importantUserNumChartsOptions(data) {
                 data: barData,
                 itemStyle: {
                     normal: {
-                        color: {
-                            type: 'linear',
-                            x: 0,
-                            x2: 0,
-                            y: 0,
-                            y2: 1,
-                            colorStops: [
-                                {
-                                    offset: 0,
-                                    color: '#E7B198'
-                                },
-                                {
-                                    offset: 0.5,
-                                    color: '#AE5D30'
-                                },
-                                {
-                                    offset: 1,
-                                    color: '#9F4716'
-                                }
-                            ]
-                        }
+                        color: jam.toEchartsGradient(
+                            90,
+                            Tokens.color.primary.subtle,
+                            Tokens.color.primary.default,
+                            Tokens.color.primary.strong
+                        )
                     }
                 }
             },
             {
                 data: lineData,
                 type: 'line',
-                color: '#6997ad'
+                color: jam.acToken[0]()
             }
         ]
     };
