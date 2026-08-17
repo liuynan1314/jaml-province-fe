@@ -144,3 +144,20 @@ body {
 [id*="iframeCard_"] {
     border: none;
 }
+
+.single-widgets {
+    [slot='body'] {
+        display: grid;
+        place-items: stretch;
+        place-content: stretch;
+    }
+
+    .widgets-group,
+    .jam-cc {
+        width: 100% !important;
+        height: 100% !important;
+        min-width: 0;
+        min-height: 0;
+        border: none !important;
+    }
+}

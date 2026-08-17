@@ -30,7 +30,10 @@ raspberry.optionBuilder = (o) => {
     let useMock = jam.getUrlParam('useMock', false) === 'true' || o.useMock;
     url = 'urlKey' in o ? urlConfig[o.urlKey].url : 'url' in o ? o.url : '';
     mock = 'urlKey' in o ? urlConfig[o.urlKey].mock : 'mock' in o ? o.mock : '';
-    if (mock && !mock.includes(mockPath)) {
+    if (mock && typeof mock === 'object') {
+        const blob = new Blob([JSON.stringify(mock)], { type: 'application/json' });
+        mock = URL.createObjectURL(blob);
+    } else if (mock && typeof mock === 'string' && !mock.includes(mockPath)) {
         mock = `${mockPath}${mock}`;
     }
     if (useMock) {
@@ -131,9 +134,11 @@ async function init(config) {
     const ospMenu = ospMenuCheck ? await getOspMenu() : [];
     sidebar = ospMenuCheck ? markHiddenMenus(sidebar, ospMenu) : sidebar;
     const { mode = '' } = jam.getUrlParams();
-    const menuColor = await getMenuColor();
+    // const menuColor = await getMenuColor();
     const userInfo = await getUserInfo();
-    mango.pub('menuColor', menuColor);
+    console.log('userInfo', userInfo);
+    
+    // mango.pub('menuColor', menuColor);
     mango.pub('sidebar', sidebar);
     mango.pub('userInfo', userInfo);
     mango.pub('config', conf);
@@ -172,7 +177,10 @@ async function init(config) {
                                   flex: '0 0 auto'
                               })
                           ],
-                          descStyles: { '*:not(label):not(jam-indicator)': [Styles.icon.duotone], card: ['card.bodyslot.css(display:grid;placeContent:stretch;placeItems:center)'] }
+                          descStyles: {
+                              '*:not(label):not(jam-indicator)': [Styles.icon.duotone],
+                              card: ['card.bodyslot.css(display:grid;placeContent:stretch;placeItems:center)']
+                          }
                       }
                   ]
                 : [
@@ -237,7 +245,10 @@ async function init(config) {
                                   plugins: [
                                       Plugins.composable.composable({ config: sidebar }),
                                       Plugins.shortcut.popGraph([
-                                          { target: '.r-transparentStation', shortcuts: ['stGraph', 'transparentStation'] },
+                                          {
+                                              target: '.r-transparentStation',
+                                              shortcuts: ['stGraph', 'transparentStation']
+                                          },
                                           { target: '.r-st', shortcuts: ['stGraph'] },
                                           { target: '.r-device', shortcuts: ['devInfo'] }
                                       ])
@@ -519,6 +530,7 @@ function getUserInfo() {
                     r(res);
                 },
                 error(err) {
+                    console.log('getUserInfo err', err);
                     j({});
                 },
                 useMock: false,

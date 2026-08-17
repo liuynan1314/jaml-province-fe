@@ -1,6 +1,7 @@
 import { DATA_PATH, ICON_PATH } from '../utils/Constants.js';
-import { resolveModuleById } from '../utils/pageEditorUtil.js';
+import { putResolvedModuleInCanvas, resolveModuleById } from '../utils/pageEditorUtil.js';
 
+const cellSize = [3.5, 2.5] // 单元格宽高3.5rem * 2.5rem;
 // 配置获取设备类型的清单
 export const DEVICE_TYPE = [
     { value: '1', name: '电网', icon: '电网.svg' },
@@ -45,8 +46,8 @@ export default {
                 width: '80%',
                 left: 0,
                 margin: '0 10%',
-                boxShadow: '0.15rem 0rem 0.25rem hsla(0, 0%, 0%, 0.2)',
-                backgroundColor: 'elevation'
+                boxShadow: 's',
+                backgroundColor: 'var(--jam-color-surface-highest)'
             },
             '#devSidebar': {
                 '.dev-group': {
@@ -55,12 +56,16 @@ export default {
                 '.dev-name': {
                     cursor: 'pointer',
                     padding: 's',
-                    img: { filter: 'drop-shadow(0px 0.04rem 0.1rem var(--jam-color-primary-default))', transform: 'scale(0.8)', '--jam-icon-size': '1.2rem' },
+                    img: {
+                        filter: 'drop-shadow(0px 0.04rem 0.1rem var(--jam-color-primary-default))',
+                        transform: 'scale(0.8)',
+                        '--jam-icon-size': '1.2rem'
+                    },
                     '[slot="value"]': {
                         'font-family': 'DINpro',
                         'font-weight': 'bold',
                         color: 'primary',
-                        'text-shadow': '0 0.1rem 0.2rem hsla(0,0%,47%,0.4)',
+                        'text-shadow': 's',
                         'margin-right': 's'
                     }
                 },
@@ -77,8 +82,10 @@ export default {
             },
             '.widgets-wrapper': {
                 overflow: 'auto',
-                display: 'grid',
-                gridTemplateColumns: 'repeat(3, minmax(8rem, 1fr))',
+                display: 'flex',
+                justifyContent: 'flex-start',
+                flexWrapper: 'wrap',
+                alignItems: 'center',
                 gap: 'm',
                 // 'flex-wrap': 'wrap',
                 '.widget-wrapper': {
@@ -86,18 +93,12 @@ export default {
                     justifyContent: 'center',
                     alignItems: 'center',
                     position: 'relative',
-                    width: '100%',
-                    height: '100%',
-                    backgroundImage: `linear-gradient(180deg,hsla(0,0%,100%,0.01) 50%,hsla(0,0,0,0.03))`,
-                    backgroundColor: 'elevation',
+                    height: 'fit-content',
+                    backgroundColor: 'elevated',
                     borderRadius: 's',
                     cursor: 'pointer'
                 },
                 '.jam-cc': {
-                    aspectRatio: 'var(--w) / var(--h)',
-                    // padding: 'var(--gap-padding)',
-                    // margin: 'm',
-                    // cursor: 'pointer',
                     transition: 'box-shadow 0.4s ease-in-out',
                     position: 'relative',
                     '.fa-circle-plus': {
@@ -155,7 +156,13 @@ export default {
                 {
                     type: 'container',
                     id: 'devSidebar',
-                    styles: [Styles.css({ 'overflow-y': 'auto', display: 'flex', flexDirection: 'column' })],
+                    styles: [
+                        Styles.css({
+                            'overflow-y': 'auto',
+                            display: 'flex',
+                            flexDirection: 'column'
+                        })
+                    ],
                     components: [
                         {
                             type: 'wrapper',
@@ -191,10 +198,20 @@ export default {
                                             state: '{{group.id}} === {{selected.id}} ? "selected":"default"',
                                             states: {
                                                 default: {
-                                                    styles: [Styles.css({ background: 'transparent', color: 'var(--jam-color-fg-default)' })]
+                                                    styles: [
+                                                        Styles.css({
+                                                            background: 'transparent',
+                                                            color: 'var(--jam-color-fg-default)'
+                                                        })
+                                                    ]
                                                 },
                                                 selected: {
-                                                    styles: [Styles.css({ background: 'accent', color: 'onprimary' })]
+                                                    styles: [
+                                                        Styles.css({
+                                                            background: 'accent',
+                                                            color: 'onprimary'
+                                                        })
+                                                    ]
                                                 }
                                             },
                                             onclick() {
@@ -215,77 +232,75 @@ export default {
                             return [];
                         }
                         const _res = await jam.ajaxCall(`${DATA_PATH}/devType${selected.devType}/${selected.id}.json`);
+                        console.log('_res', _res);
+
                         return [
-                            ..._res.widgets.map((item) => ({
-                                type: 'wrapper',
-                                class: 'widget-wrapper',
-                                title: '添加到页面',
-                                components: [
-                                    {
-                                        type: item.type,
-                                        props: item.props,
-                                        styles: [...item.styles, Styles.vars({ '--w': item.size[0], '--h': item.size[1] }), Styles.size.fullsize, Styles.css({ pointerEvents: 'none' })]
-                                    }
-                                ],
-                                vars: item.vars,
-                                varsUrl: item.varsUrl,
-                                onclick: async () => {
-                                    const _id = `${this.model.vars.newModuleType}@@${_res.id}@@${item.id}`;
-                                    // const _id = `${this.model.vars.newModuleType}@@${_res.id}@@undefined`;
-                                    let _card = document.querySelector(`[data-id="${item.id}"]`);
-                                    // let _card = document.querySelector(`[data-id=undefined]`);
-                                    if (_card) {
-                                        jam.notify('当前页面中已存在该模块', 'info');
-                                        jam.locate(_card, { color: 'var(--jam-color-primary-default)' });
-                                        return;
-                                    }
-                                    jam.currantComposable.putNewCardInCanvas(await resolveModuleById(_id));
-                                    // const icon = selected?.icon || ALL_COMPONENTS.find((item) => item.cap === selected.name)?.icon || 'border-all';
-                                    // 配置新卡片
-                                    // jam.currantComposable.putNewCardInCanvas({
-                                    //     id: _id,
-                                    //     type: 'card',
-                                    //     cap: selected.name,
-                                    //     icon: icon,
-                                    //     size: item.size,
-                                    //     class: 'single-widgets'
-                                    // });
-                                },
-                                onmouseenter() {
-                                    // const el = jame({
-                                    //     type: 'label',
-                                    //     id: `label-${item.key}`,
-                                    //     icon: 'circle-plus',
-                                    //     styles: ['icon.solid', 'css(position:absolute;bottom:0.5rem;right:0.5rem;display:flex)']
-                                    // });
-                                    const el1 = jame({
-                                        type: 'label',
-                                        id: `size-${item.key}`,
-                                        cap: `${item.size[0]} x ${item.size[1]}`,
-                                        styles: [`css(display:flex;justifyContent:center;position:absolute;bottom:s;right:s;padding:s;border-radius:var(--jam-border-radius-s);backdrop-filter:blur(2px);background:var(--jam-color-primary-film);width: 6rem;height: 1.5rem;)`]
-                                    });
-                                    // jam.appendChild(this, el);
-                                    jam.appendChild(this, el1);
-                                },
-                                onmouseleave() {
-                                    // const el = jam.findElement(`#label-${item.key}`);
-                                    const el1 = jam.findElement(`#size-${item.key}`);
-                                    // jam.removeSelf(el);
-                                    jam.removeSelf(el1);
-                                },
-                                onmount() {
-                                    const [width, _] = item.size;
-                                    if (width >= 2.5) {
-                                        jam.applyStyle(this, {
-                                            width: `100%`
+                            ..._res.widgets.map((item) => {
+                                const _item = jam.pick(item, 'type', 'props', item.varsUrl ? 'varsUrl' : 'vars', 'styles', 'class', 'components', 'color');
+                                return {
+                                    type: 'wrapper',
+                                    class: 'widget-wrapper',
+                                    title: '添加到页面',
+                                    components: [
+                                        {
+                                            ..._item,
+                                            styles: [
+                                                ...item.styles,
+                                                Styles.vars({
+                                                    '--w': item.size[0],
+                                                    '--h': item.size[1]
+                                                }),
+                                                Styles.size.fullsize,
+                                                Styles.css({ pointerEvents: 'none' })
+                                            ]
+                                        }
+                                    ],
+                                    onclick: async () => {
+                                        const _id = `${this.model.vars.newModuleType}@@${_res.id}@@${item.id}`;
+                                        // const _id = `${this.model.vars.newModuleType}@@${_res.id}@@undefined`;
+                                        let _card = document.querySelector(`[data-id="${item.id}"]`);
+                                        // let _card = document.querySelector(`[data-id=undefined]`);
+                                        if (_card) {
+                                            jam.notify('当前页面中已存在该模块', 'info');
+                                            jam.locate(_card, {
+                                                color: 'var(--jam-color-primary-default)'
+                                            });
+                                            return;
+                                        }
+                                        await putResolvedModuleInCanvas(await resolveModuleById(_id));
+                                    },
+                                    onmouseenter() {
+                                        // const el = jame({
+                                        //     type: 'label',
+                                        //     id: `label-${item.key}`,
+                                        //     icon: 'circle-plus',
+                                        //     styles: ['icon.solid', 'css(position:absolute;bottom:0.5rem;right:0.5rem;display:flex)']
+                                        // });
+                                        const el = jame({
+                                            type: 'label',
+                                            id: `size-${item.key}`,
+                                            cap: `${item.size[0]} x ${item.size[1]}`,
+                                            styles: [`css(display:flex;justifyContent:center;position:absolute;bottom:1rem;right:1REM;padding:s;border-radius:var(--jam-border-radius-s);backdrop-filter:blur(2px);background:var(--jam-color-primary-film);width: 6rem;height: 1.5rem;)`]
                                         });
-                                    } else {
-                                        jam.applyStyle(this, {
-                                            width: `calc(${width * 8}rem + 2rem)`
-                                        });
+                                        // jam.appendChild(this, el);
+                                        jam.appendChild(this, el);
+                                    },
+                                    onmouseleave() {
+                                        // const el = jam.findElement(`#label-${item.key}`);
+                                        const el1 = jam.findElement(`#size-${item.key}`);
+                                        // jam.removeSelf(el);
+                                        jam.removeSelf(el1);
+                                    },
+                                    onmount() {
+                                        const [width, height] = item.size;
+                                        const [cw, ch] = cellSize;
+                                            jam.applyStyle(this, {
+                                                width: `${width * cw}rem`,
+                                                height: `${height * ch}rem`
+                                            });
                                     }
-                                }
-                            }))
+                                };
+                            })
                         ];
                     })
                 },

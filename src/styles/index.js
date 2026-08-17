@@ -1088,7 +1088,7 @@ export function buildStyleStack() {
                 top: '-0.5rem',
                 background: 'url(../../assets/images/title-bg.png) no-repeat',
                 backgroundPosition: '0 50%',
-                color: COLOR_SET.purewhite,
+                color: 'onprimary',
                 fontSize: 'm',
                 fontFamily: 'YousheBiaoTiHei',
                 paddingLeft: 'm'

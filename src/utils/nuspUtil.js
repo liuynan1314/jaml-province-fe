@@ -1,4 +1,4 @@
-import { COMM_IP } from './Constants';
+import { COMM_PATH } from './Constants';
 export async function prepareNusp() {
     // 新一代需要调整用chttp请求
     raspberry.use('chttp');
@@ -69,7 +69,7 @@ export function setHandlers() {
 
 export async function registerCmpts() {
     let _resp = await raspberry.request({
-        url: `${COMM_IP}/jamlutil/getAllUtilsInfo`,
+        url: `${COMM_PATH}jamlutil/getAllUtilsInfo`,
         method: 'get',
         data: { repo: 'CC' }
     });
@@ -78,7 +78,7 @@ export async function registerCmpts() {
             if (!_cc.name.startsWith('cc')) {
                 continue;
             }
-            await cc.addCCSource(`${COMM_IP}cc${_cc.url}`, false);
+            await cc.addCCSource(`${COMM_PATH}cc${_cc.url}`, false);
         }
     }
 }

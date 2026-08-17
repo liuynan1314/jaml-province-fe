@@ -1,7 +1,7 @@
 export const confPath = 'assets/conf/';
 export const OPT_CONF = {};
-export const COMM_IP = 'http://172.40.193.7:8007/jaml/';
-export const ip = `${COMM_IP}/moduleRegistry/moduleRegistry`;
+export const COMM_PATH = NODE_ENV === 'development' ? 'http://172.40.193.7:8007/jaml/' : 'jaml/';
+export const ip = `${COMM_PATH}moduleRegistry/moduleRegistry`;
 export const DATA_PATH = `${ip}/assets`;
 export const ICON_PATH = `${ip}/codes/icon`;
 export const VOLTAGE_COLOR_STATE_BG = (elem, styleName = 'color') => {

@@ -1,3 +1,4 @@
+import { CurrantComposable } from '@jam/jam-ui';
 import { ajaxCall, getDetailConf, loadConf } from '../common.js';
 import { confPath } from '../global.js';
 import { COMM_PATH, DATA_PATH } from './Constants.js';
@@ -68,22 +69,22 @@ export async function getUserLayout(info) {
     let layoutConfig;
     let userInfo = info || mango.get('userInfo');
 
-    if (NODE_ENV !== 'development' && NODE_ENV !== 'test') {
-        // 有用户信息，读取用户配置
-        if (userInfo) {
-            const key = `userLayout.${userInfo.userId}.${userInfo.userName}`;
-            try {
-                layoutConfig = await jam.ajaxCall(`${COMM_PATH}/monitor/common/getCustomizedConfig?key=${key}`);
-                layoutConfig = JSON.parse(layoutConfig.data[key]);
-            } catch (e) {
-                layoutConfig = null;
-            }
+    // if (NODE_ENV !== 'development' && NODE_ENV !== 'test') {
+    // 有用户信息，读取用户配置
+    if (userInfo) {
+        const key = `userLayout.${userInfo.userId}.${userInfo.userName}`;
+        try {
+            layoutConfig = await jam.ajaxCall(`${COMM_PATH}monitor/common/getCustomizedConfig?key=${key}`);
+            layoutConfig = JSON.parse(layoutConfig.data[key]);
+        } catch (e) {
+            layoutConfig = null;
         }
     }
+    // }
 
     // 没有本地缓存，读取默认布局
     if (!layoutConfig) {
-        layoutConfig = await raspberry.request({ url: `${confPath}nav.json` });
+        layoutConfig = await raspberry.request({ url: `${confPath}sidebar.json` });
     }
     // 如果需要读取osp菜单权限
     if (getDetailConf('useOspMenuAuth', false)) {
@@ -98,13 +99,13 @@ export async function getUserLayout(info) {
  * @param {*} userLayout
  */
 export async function saveUserLayout(userLayout) {
-    debugger
+    debugger;
     if (NODE_ENV !== 'development' && NODE_ENV !== 'test') {
         if (userLayout.userInfo) {
             removeModuleInConfig(userLayout.layoutConfig);
             await jam.ajaxCall({
                 method: 'POST',
-                url: `${COMM_PATH}/monitor/common/saveCustomizedConfig`,
+                url: `${COMM_PATH}monitor/common/saveCustomizedConfig`,
                 data: {
                     key: `userLayout.${userLayout.userInfo.userId}.${userLayout.userInfo.userName}`,
                     value: JSON.stringify(userLayout.layoutConfig)
@@ -144,16 +145,94 @@ export async function resolveModuleById(cardId) {
         },
         type: _moduleType,
         cap: _widgets.name,
+        icon: 'border-all',
+        stylize: 'tile',
         class: 'single-widgets', // single-widgets类样式在main.scss中
         size: _module?.size ?? [1, 1],
-        components: _module ? [_module] : []
-    }
+        components: _module ? [normalizeRegistryInner(_module)] : []
+    };
     return _moduleWrapper;
+}
+
+function pickDesignedRem(inner) {
+    const text = (inner?.styles || []).filter((s) => typeof s === 'string').join(';');
+    const w = text.match(/width\s*:\s*([\d.]+)rem/);
+    const h = text.match(/height\s*:\s*([\d.]+)rem/);
+    if (w && h) {
+        return { w: Number(w[1]), h: Number(h[1]) };
+    }
+    const [sw, sh] = inner?.size || [];
+    if (sw && sh) {
+        return { w: sw * 4 - 0.5, h: sh * 3 - 0.5 };
+    }
+    return null;
+}
+
+function sizeForCanvas(moduleWrapper, inner) {
+    const composable = jam.currantComposable;
+    const multiple = composable?.multiple || 2;
+    const [w, h] = moduleWrapper.size || [1, 1];
+    const designed = pickDesignedRem(inner);
+    const cell = composable?.cellSize;
+    if (designed && cell?.[0] > 0 && cell?.[1] > 0) {
+        const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+        const titlePx = moduleWrapper.type === 'card' ? 2.5 * rem : 0;
+        const cols = Math.max(1, Math.ceil((designed.w * rem) / cell[0]));
+        const rows = Math.max(1, Math.ceil((designed.h * rem + titlePx) / cell[1]));
+        return [cols / multiple, rows / multiple];
+    }
+    return [w, moduleWrapper.type === 'card' ? h + 1.5 : h];
+}
+
+function normalizeRegistryInner(inner) {
+    const _inner = jam.cloneDeep(inner);
+    _inner.styles = [
+        ...(_inner.styles || []),
+        Styles.size.fullsize,
+        Styles.css({
+            width: '100%',
+            height: '100%',
+            minWidth: 0,
+            minHeight: 0,
+            boxSizing: 'border-box'
+        })
+    ];
+    return _inner;
+}
+
+/**
+ * putNewCardInCanvas 对 object 资源会用 localStorage 里的 props 覆盖 components。
+ * 注册中心模块必须先把内层 widget 写入 props，再只传卡片壳。
+ */
+export async function putResolvedModuleInCanvas(moduleWrapper) {
+    if (!moduleWrapper?.id) {
+        return;
+    }
+    const inner = moduleWrapper.components?.[0];
+    const raw = jam.getFromStorage(CurrantComposable.propsStorageName);
+    const oldConfig = raw ? JSON.parse(raw) : {};
+    jam.save2Storage(
+        CurrantComposable.propsStorageName,
+        JSON.stringify({
+            ...oldConfig,
+            [moduleWrapper.id]: inner
+        })
+    );
+    const shell = jam.assign(jam.omit(moduleWrapper, 'components'), {
+        size: sizeForCanvas(moduleWrapper, inner)
+    });
+    await jam.currantComposable.putNewCardInCanvas(shell);
+    const el = jam.findElement(moduleWrapper.id);
+    if (el && moduleWrapper.type === 'card' && Styles.card?.regularCard) {
+        if (typeof Styles.card.regularCard.applyTo === 'function') {
+            Styles.card.regularCard.applyTo(el);
+        }
+    }
 }
 
 /**
  * 解析config中的注册中心模块ID
- * @param {*} layoutConfig 
+ * @param {*} layoutConfig
  */
 async function resolveModuleInConfig(layoutConfig) {
     for (let page of layoutConfig) {
@@ -179,14 +258,13 @@ async function resolveModuleInConfig(layoutConfig) {
                 _card.resource = _moduleWrapper;
             }
         });
-
     }
 }
 
 /**
  * 移除config中的注册中心模块内容
  * 内容随注册中心变化而变化,保存其没有意义
- * @param {*} layoutConfig 
+ * @param {*} layoutConfig
  */
 function removeModuleInConfig(layoutConfig) {
     for (let page of layoutConfig) {
